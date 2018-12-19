@@ -1,0 +1,12 @@
+{
+   "completed_at" : "20180918T173838Z",
+   "completed_status" : "Success",
+   "created_at" : "20180918T173754Z",
+   "current_step" : 0,
+   "hash" : "6EBB1A31",
+   "seed_file" : "in.osm",
+   "started_at" : "20180918T173802Z",
+   "steps" : [],
+   "updated_at" : "20180918T173838Z",
+   "weather_file" : "in.epw"
+}

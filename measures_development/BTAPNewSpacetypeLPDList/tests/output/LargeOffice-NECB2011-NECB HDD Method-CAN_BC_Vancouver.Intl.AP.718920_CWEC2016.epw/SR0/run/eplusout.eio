@@ -1,0 +1,426 @@
+Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2018.09.14 14:09
+! <Version>, Version ID
+ Version, 8.9
+! <Timesteps per Hour>, #TimeSteps, Minutes per TimeStep {minutes}
+ Timesteps per Hour,  6, 10
+! <System Convergence Limits>, Minimum System TimeStep {minutes}, Max HVAC Iterations, Minimum Plant Iterations, Maximum Plant Iterations
+ System Convergence Limits, 1, 20, 2, 8
+! <Simulation Control>, Do Zone Sizing, Do System Sizing, Do Plant Sizing, Do Design Days, Do Weather Simulation, Do HVAC Sizing Simulation
+ Simulation Control, Yes, No, No, Yes, No, No
+! <Output Reporting Tolerances>, Tolerance for Time Heating Setpoint Not Met, Tolerance for Zone Cooling Setpoint Not Met Time
+ Output Reporting Tolerances, 0.200, 0.200, 
+! <Site:GroundTemperature:BuildingSurface>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:BuildingSurface,  19.53,  19.50,  19.54,  19.60,  20.00,  21.64,  22.23,  22.38,  21.45,  20.12,  19.80,  19.63
+! <Site:GroundTemperature:FCfactorMethod>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:FCfactorMethod,   4.64,   4.08,   5.08,   6.66,  10.79,  13.98,  16.13,  16.78,  15.67,  13.19,   9.89,   6.82
+! <Site:GroundTemperature:Shallow>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:Shallow,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00,  13.00
+! <Site:GroundTemperature:Deep>,Jan{C},Feb{C},Mar{C},Apr{C},May{C},Jun{C},Jul{C},Aug{C},Sep{C},Oct{C},Nov{C},Dec{C}
+ Site:GroundTemperature:Deep,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00,  16.00
+! <Site:GroundReflectance>,Jan{dimensionless},Feb{dimensionless},Mar{dimensionless},Apr{dimensionless},May{dimensionless},Jun{dimensionless},Jul{dimensionless},Aug{dimensionless},Sep{dimensionless},Oct{dimensionless},Nov{dimensionless},Dec{dimensionless}
+ Site:GroundReflectance,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20
+! <Site:GroundReflectance:SnowModifier>, Normal, Daylighting {dimensionless}
+ Site:GroundReflectance:SnowModifier,   1.000,   1.000
+! <Site:GroundReflectance:Snow>,Jan{dimensionless},Feb{dimensionless},Mar{dimensionless},Apr{dimensionless},May{dimensionless},Jun{dimensionless},Jul{dimensionless},Aug{dimensionless},Sep{dimensionless},Oct{dimensionless},Nov{dimensionless},Dec{dimensionless}
+ Site:GroundReflectance:Snow,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20
+! <Site:GroundReflectance:Snow:Daylighting>,Jan{dimensionless},Feb{dimensionless},Mar{dimensionless},Apr{dimensionless},May{dimensionless},Jun{dimensionless},Jul{dimensionless},Aug{dimensionless},Sep{dimensionless},Oct{dimensionless},Nov{dimensionless},Dec{dimensionless}
+ Site:GroundReflectance:Snow:Daylighting,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20,  0.20
+! <Environment:Weather Station>,Wind Sensor Height Above Ground {m},Wind Speed Profile Exponent {},Wind Speed Profile Boundary Layer Thickness {m},Air Temperature Sensor Height Above Ground {m},Wind Speed Modifier Coefficient-Internal,Temperature Modifier Coefficient-Internal
+Environment:Weather Station,10.000,0.140,270.000,1.500,1.586,9.750E-003
+! <Site:Location>, Location Name, Latitude {N+/S- Deg}, Longitude {E+/W- Deg},  Time Zone Number {GMT+/-}, Elevation {m},  Standard Pressure at Elevation {Pa}, Standard RhoAir at Elevation
+Site:Location,Vancouver Intl AP BC CAN CWEC2016 WMO#=718920,49.20,-123.18,-8.00,4.30,101273,1.2037
+! <Building Information>, Building Name,North Axis {deg},Terrain,  Loads Convergence Tolerance Value,Temperature Convergence Tolerance Value,  Solar Distribution,Maximum Number of Warmup Days,Minimum Number of Warmup Days
+ Building Information,LargeOffice-CAN_BC_Vancouver.Intl.AP.718920_CWEC2016.epw created: 2018-09-14 14:09:40 +0000,0.000,Suburbs,4.00000E-002,0.20000,FullInteriorAndExterior,25,6
+! <Inside Convection Algorithm>, Algorithm {Simple | TARP | CeilingDiffuser | AdaptiveConvectionAlgorithm}
+Inside Convection Algorithm,TARP
+! <Outside Convection Algorithm>, Algorithm {SimpleCombined | TARP | MoWitt | DOE-2 | AdaptiveConvectionAlgorithm}
+Outside Convection Algorithm,TARP
+! <Sky Radiance Distribution>, Value {Anisotropic}
+Sky Radiance Distribution,Anisotropic
+! <Zone Air Solution Algorithm>, Value {ThirdOrderBackwardDifference | AnalyticalSolution | EulerMethod}
+ Zone Air Solution Algorithm, ThirdOrderBackwardDifference
+! <Zone Air Carbon Dioxide Balance Simulation>, Simulation {Yes/No}, Carbon Dioxide Concentration
+ Zone Air Carbon Dioxide Balance Simulation, No,N/A
+! <Zone Air Generic Contaminant Balance Simulation>, Simulation {Yes/No}, Generic Contaminant Concentration
+ Zone Air Generic Contaminant Balance Simulation, No,N/A
+! <Zone Air Mass Flow Balance Simulation>, Enforce Mass Balance, Adjust Zone Mixing, Adjust Zone Infiltration {AddInfiltration | AdjustInfiltration | None}, Infiltration Zones {MixingSourceZonesOnly | AllZones}
+ Zone Air Mass Flow Balance Simulation, No,N/A,N/A,N/A
+! <HVACSystemRootFindingAlgorithm>, Value {RegulaFalsi | Bisection | BisectionThenRegulaFalsi | RegulaFalsiThenBisection}
+ HVACSystemRootFindingAlgorithm, RegulaFalsi
+! <Environment:Site Atmospheric Variation>,Wind Speed Profile Exponent {},Wind Speed Profile Boundary Layer Thickness {m},Air Temperature Gradient Coefficient {K/m}
+Environment:Site Atmospheric Variation,0.220,370.000,6.500000E-003
+! <Surface Geometry>,Starting Corner,Vertex Input Direction,Coordinate System,Daylight Reference Point Coordinate System,Rectangular (Simple) Surface Coordinate System
+ Surface Geometry,UpperLeftCorner,Counterclockwise,RelativeCoordinateSystem,RelativeCoordinateSystem,RelativeToZoneOrigin
+! <Surface Heat Transfer Algorithm>, Value {CTF - ConductionTransferFunction | EMPD - MoisturePenetrationDepthConductionTransferFunction | CondFD - ConductionFiniteDifference | HAMT - CombinedHeatAndMoistureFiniteElement} - Description,Inside Surface Max Temperature Limit{C}, Surface Convection Coefficient Lower Limit {W/m2-K}, Surface Convection Coefficient Upper Limit {W/m2-K}
+Surface Heat Transfer Algorithm, CTF - ConductionTransferFunction,200,0.10,1000.0
+! <Shading Summary>, Number of Fixed Detached Shades, Number of Building Detached Shades, Number of Attached Shades
+ Shading Summary,0,0,0
+! <Zone Summary>, Number of Zones, Number of Zone Surfaces, Number of SubSurfaces
+ Zone Summary,23,181,12
+! <Zone Information>,Zone Name,North Axis {deg},Origin X-Coordinate {m},Origin Y-Coordinate {m},Origin Z-Coordinate {m},Centroid X-Coordinate {m},Centroid Y-Coordinate {m},Centroid Z-Coordinate {m},Type,Zone Multiplier,Zone List Multiplier,Minimum X {m},Maximum X {m},Minimum Y {m},Maximum Y {m},Minimum Z {m},Maximum Z {m},Ceiling Height {m},Volume {m3},Zone Inside Convection Algorithm {Simple-Detailed-CeilingDiffuser-TrombeWall},Zone Outside Convection Algorithm {Simple-Detailed-Tarp-MoWitt-DOE-2-BLAST}, Floor Area {m2},Exterior Gross Wall Area {m2},Exterior Net Wall Area {m2},Exterior Window Area {m2}, Number of Surfaces, Number of SubSurfaces, Number of Shading SubSurfaces,  Part of Total Building Area
+ Zone Information, BASEMENT ZN,0.0,16.08,0.00,-2.44,44.59,24.37,-1.22,1,1,1,16.08,73.11,0.00,48.74,-2.44,0.00,2.44,6779.02,TARP,TARP,2779.43,0.00,0.00,0.00,9,0,0,Yes
+ Zone Information, CORE_BOTTOM ZN,0.0,5.49,4.57,0.00,37.01,24.37,1.37,1,1,1,5.49,68.53,4.57,44.17,0.00,2.74,2.74,6849.35,TARP,TARP,2496.12,0.00,0.00,0.00,7,0,0,Yes
+ Zone Information, CORE_MID ZN,0.0,5.49,4.57,19.82,37.01,24.37,21.19,1,10,1,5.49,68.53,4.57,44.17,19.82,22.56,2.74,6849.35,TARP,TARP,2496.12,0.00,0.00,0.00,6,0,0,Yes
+ Zone Information, CORE_TOP ZN,0.0,5.49,4.57,43.60,37.01,24.37,44.97,1,1,1,5.49,68.53,4.57,44.17,43.60,46.34,2.74,6849.35,TARP,TARP,2496.12,0.00,0.00,0.00,6,0,0,Yes
+ Zone Information, DATACENTER_BASEMENT_ZN_6 ZN,0.0,0.00,0.00,-2.44,8.04,24.37,-1.22,1,1,1,0.00,16.08,0.00,48.74,-2.44,0.00,2.44,1911.37,TARP,TARP,783.68,0.00,0.00,0.00,10,0,0,Yes
+ Zone Information, DATACENTER_BOT_ZN_6 ZN,0.0,4.57,4.57,0.00,5.03,24.37,1.37,1,1,1,4.57,5.49,4.57,44.17,0.00,2.74,2.74,99.34,TARP,TARP,36.20,0.00,0.00,0.00,6,0,0,Yes
+ Zone Information, DATACENTER_MID_ZN_6 ZN,0.0,4.57,4.57,19.82,5.03,24.37,21.19,1,10,1,4.57,5.49,4.57,44.17,19.82,22.56,2.74,99.34,TARP,TARP,36.20,0.00,0.00,0.00,6,0,0,Yes
+ Zone Information, DATACENTER_TOP_ZN_6 ZN,0.0,4.57,4.57,43.60,5.03,24.37,44.97,1,1,1,4.57,5.49,4.57,44.17,43.60,46.34,2.74,99.34,TARP,TARP,36.20,0.00,0.00,0.00,6,0,0,Yes
+ Zone Information, GROUNDFLOOR_PLENUM ZN,0.0,0.00,0.00,2.74,36.55,24.37,3.35,1,1,1,0.00,73.11,0.00,48.74,2.74,3.96,1.22,4344.14,TARP,TARP,3563.11,297.11,297.11,0.00,11,0,0,No
+ Zone Information, MIDFLOOR_PLENUM ZN,0.0,0.00,0.00,22.56,36.55,24.37,23.17,1,10,1,0.00,73.11,0.00,48.74,22.56,23.78,1.22,4344.14,TARP,TARP,3563.11,297.11,297.11,0.00,11,0,0,No
+ Zone Information, PERIMETER_BOT_ZN_1 ZN,0.0,0.00,0.00,0.00,36.55,2.20,1.37,1,1,1,0.00,73.11,0.00,4.57,0.00,2.74,2.74,860.02,TARP,TARP,313.42,200.61,84.71,115.90,8,1,0,Yes
+ Zone Information, PERIMETER_BOT_ZN_2 ZN,0.0,68.53,0.00,0.00,70.95,24.37,1.37,1,1,1,68.53,73.11,0.00,48.74,0.00,2.74,2.74,554.22,TARP,TARP,201.98,133.74,56.47,77.26,6,1,0,Yes
+ Zone Information, PERIMETER_BOT_ZN_3 ZN,0.0,0.00,44.17,0.00,36.55,46.54,1.37,1,1,1,0.00,73.11,44.17,48.74,0.00,2.74,2.74,860.00,TARP,TARP,313.41,200.61,84.71,115.90,8,1,0,Yes
+ Zone Information, PERIMETER_BOT_ZN_4 ZN,0.0,0.00,0.00,0.00,2.16,24.37,1.37,1,1,1,0.00,4.57,0.00,48.74,0.00,2.74,2.74,554.22,TARP,TARP,201.98,133.74,56.47,77.26,6,1,0,Yes
+ Zone Information, PERIMETER_MID_ZN_1 ZN,0.0,0.00,0.00,19.82,36.55,2.20,21.19,1,10,1,0.00,73.11,0.00,4.57,19.82,22.56,2.74,860.02,TARP,TARP,313.42,200.61,84.71,115.90,7,1,0,Yes
+ Zone Information, PERIMETER_MID_ZN_2 ZN,0.0,68.53,0.00,19.82,70.95,24.37,21.19,1,10,1,68.53,73.11,0.00,48.74,19.82,22.56,2.74,554.22,TARP,TARP,201.98,133.74,56.47,77.26,6,1,0,Yes
+ Zone Information, PERIMETER_MID_ZN_3 ZN,0.0,0.00,44.17,19.82,36.55,46.54,21.19,1,10,1,-2.55E-016,73.11,44.17,48.74,19.82,22.56,2.74,860.00,TARP,TARP,313.41,200.61,84.71,115.90,7,1,0,Yes
+ Zone Information, PERIMETER_MID_ZN_4 ZN,0.0,0.00,0.00,19.82,2.16,24.37,21.19,1,10,1,0.00,4.57,0.00,48.74,19.82,22.56,2.74,554.22,TARP,TARP,201.98,133.74,56.47,77.26,6,1,0,Yes
+ Zone Information, PERIMETER_TOP_ZN_1 ZN,0.0,-7.22E-016,0.00,43.60,36.55,2.20,44.97,1,1,1,-7.22E-016,73.11,0.00,4.57,43.60,46.34,2.74,860.02,TARP,TARP,313.42,200.61,84.71,115.90,7,1,0,Yes
+ Zone Information, PERIMETER_TOP_ZN_2 ZN,0.0,68.53,0.00,43.60,70.95,24.37,44.97,1,1,1,68.53,73.11,0.00,48.74,43.60,46.34,2.74,554.22,TARP,TARP,201.98,133.74,56.47,77.26,6,1,0,Yes
+ Zone Information, PERIMETER_TOP_ZN_3 ZN,0.0,-7.22E-016,44.17,43.60,36.55,46.54,44.97,1,1,1,-9.77E-016,73.11,44.17,48.74,43.60,46.34,2.74,860.00,TARP,TARP,313.41,200.61,84.71,115.90,7,1,0,Yes
+ Zone Information, PERIMETER_TOP_ZN_4 ZN,0.0,-7.22E-016,0.00,43.60,2.16,24.37,44.97,1,1,1,-7.22E-016,4.57,0.00,48.74,43.60,46.34,2.74,554.22,TARP,TARP,201.98,133.74,56.47,77.26,6,1,0,Yes
+ Zone Information, TOPFLOOR_PLENUM ZN,0.0,-7.22E-016,0.00,46.34,36.55,24.37,46.95,1,1,1,-7.22E-016,73.11,0.00,48.74,46.34,47.56,1.22,4344.14,TARP,TARP,3563.11,297.11,297.11,0.00,11,0,0,No
+! <Zone Internal Gains Nominal>,Zone Name, Floor Area {m2},# Occupants,Area per Occupant {m2/person},Occupant per Area {person/m2},Interior Lighting {W/m2},Electric Load {W/m2},Gas Load {W/m2},Other Load {W/m2},Hot Water Eq {W/m2},Steam Equipment {W/m2},Sum Loads per Area {W/m2},Outdoor Controlled Baseboard Heat
+ Zone Internal Gains Nominal, BASEMENT ZN,2779.43,13.8,201.963,4.951E-003,13.300,1.000,0.000,0.000,0.000,0.000,14.300,No
+ Zone Internal Gains Nominal, CORE_BOTTOM ZN,2496.12,124.9,19.979,5.005E-002,11.000,7.500,0.000,0.000,0.000,0.000,18.500,No
+ Zone Internal Gains Nominal, CORE_MID ZN,2496.12,124.9,19.979,5.005E-002,11.000,7.500,0.000,0.000,0.000,0.000,18.500,No
+ Zone Internal Gains Nominal, CORE_TOP ZN,2496.12,124.9,19.979,5.005E-002,11.000,7.500,0.000,0.000,0.000,0.000,18.500,No
+ Zone Internal Gains Nominal, DATACENTER_BASEMENT_ZN_6 ZN,783.68,39.2,19.979,5.005E-002,11.000,7.500,0.000,0.000,0.000,0.000,18.500,No
+ Zone Internal Gains Nominal, DATACENTER_BOT_ZN_6 ZN,36.20,1.8,19.979,5.005E-002,11.000,7.500,0.000,0.000,0.000,0.000,18.500,No
+ Zone Internal Gains Nominal, DATACENTER_MID_ZN_6 ZN,36.20,1.8,19.979,5.005E-002,11.000,7.500,0.000,0.000,0.000,0.000,18.500,No
+ Zone Internal Gains Nominal, DATACENTER_TOP_ZN_6 ZN,36.20,1.8,19.979,5.005E-002,11.000,7.500,0.000,0.000,0.000,0.000,18.500,No
+ Zone Internal Gains Nominal, GROUNDFLOOR_PLENUM ZN,3563.11,0.0,N/A,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,No
+ Zone Internal Gains Nominal, MIDFLOOR_PLENUM ZN,3563.11,0.0,N/A,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,No
+ Zone Internal Gains Nominal, PERIMETER_BOT_ZN_1 ZN,313.42,15.7,19.979,5.005E-002,11.000,7.500,0.000,0.000,0.000,0.000,18.500,No
+ Zone Internal Gains Nominal, PERIMETER_BOT_ZN_2 ZN,201.98,10.1,19.979,5.005E-002,11.000,7.500,0.000,0.000,0.000,0.000,18.500,No
+ Zone Internal Gains Nominal, PERIMETER_BOT_ZN_3 ZN,313.41,15.7,19.979,5.005E-002,11.000,7.500,0.000,0.000,0.000,0.000,18.500,No
+ Zone Internal Gains Nominal, PERIMETER_BOT_ZN_4 ZN,201.98,10.1,19.979,5.005E-002,11.000,7.500,0.000,0.000,0.000,0.000,18.500,No
+ Zone Internal Gains Nominal, PERIMETER_MID_ZN_1 ZN,313.42,15.7,19.979,5.005E-002,11.000,7.500,0.000,0.000,0.000,0.000,18.500,No
+ Zone Internal Gains Nominal, PERIMETER_MID_ZN_2 ZN,201.98,10.1,19.979,5.005E-002,11.000,7.500,0.000,0.000,0.000,0.000,18.500,No
+ Zone Internal Gains Nominal, PERIMETER_MID_ZN_3 ZN,313.41,15.7,19.979,5.005E-002,11.000,7.500,0.000,0.000,0.000,0.000,18.500,No
+ Zone Internal Gains Nominal, PERIMETER_MID_ZN_4 ZN,201.98,10.1,19.979,5.005E-002,11.000,7.500,0.000,0.000,0.000,0.000,18.500,No
+ Zone Internal Gains Nominal, PERIMETER_TOP_ZN_1 ZN,313.42,15.7,19.979,5.005E-002,11.000,7.500,0.000,0.000,0.000,0.000,18.500,No
+ Zone Internal Gains Nominal, PERIMETER_TOP_ZN_2 ZN,201.98,10.1,19.979,5.005E-002,11.000,7.500,0.000,0.000,0.000,0.000,18.500,No
+ Zone Internal Gains Nominal, PERIMETER_TOP_ZN_3 ZN,313.41,15.7,19.979,5.005E-002,11.000,7.500,0.000,0.000,0.000,0.000,18.500,No
+ Zone Internal Gains Nominal, PERIMETER_TOP_ZN_4 ZN,201.98,10.1,19.979,5.005E-002,11.000,7.500,0.000,0.000,0.000,0.000,18.500,No
+ Zone Internal Gains Nominal, TOPFLOOR_PLENUM ZN,3563.11,0.0,N/A,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,No
+! <People Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Number of People {},People/Floor Area {person/m2},Floor Area per person {m2/person},Fraction Radiant,Fraction Convected,Sensible Fraction Calculation,Activity level,ASHRAE 55 Warnings,Carbon Dioxide Generation Rate,Nominal Minimum Number of People,Nominal Maximum Number of People
+ People Internal Gains Nominal, BASEMENT ZN SPACE FUNCTION ELECTRICAL/MECHANICAL-SCH-A PEOPLE,NECB-A-OCCUPANCY,BASEMENT ZN,2779.43,13.8,13.8,4.951E-003,201.963,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,12
+ People Internal Gains Nominal, CORE_BOTTOM ZN SPACE FUNCTION OFFICE - OPEN PLAN PEOPLE,NECB-A-OCCUPANCY,CORE_BOTTOM ZN,2496.12,124.9,124.9,5.005E-002,19.979,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,112
+ People Internal Gains Nominal, CORE_MID ZN SPACE FUNCTION OFFICE - OPEN PLAN PEOPLE,NECB-A-OCCUPANCY,CORE_MID ZN,2496.12,124.9,124.9,5.005E-002,19.979,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,112
+ People Internal Gains Nominal, CORE_TOP ZN SPACE FUNCTION OFFICE - OPEN PLAN PEOPLE,NECB-A-OCCUPANCY,CORE_TOP ZN,2496.12,124.9,124.9,5.005E-002,19.979,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,112
+ People Internal Gains Nominal, DATACENTER_BASEMENT_ZN_6 ZN SPACE FUNCTION OFFICE - OPEN PLAN PEOPLE,NECB-A-OCCUPANCY,DATACENTER_BASEMENT_ZN_6 ZN,783.68,39.2,39.2,5.005E-002,19.979,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,35
+ People Internal Gains Nominal, DATACENTER_BOT_ZN_6 ZN SPACE FUNCTION OFFICE - OPEN PLAN PEOPLE,NECB-A-OCCUPANCY,DATACENTER_BOT_ZN_6 ZN,36.20,1.8,1.8,5.005E-002,19.979,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,2
+ People Internal Gains Nominal, DATACENTER_MID_ZN_6 ZN SPACE FUNCTION OFFICE - OPEN PLAN PEOPLE,NECB-A-OCCUPANCY,DATACENTER_MID_ZN_6 ZN,36.20,1.8,1.8,5.005E-002,19.979,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,2
+ People Internal Gains Nominal, DATACENTER_TOP_ZN_6 ZN SPACE FUNCTION OFFICE - OPEN PLAN PEOPLE,NECB-A-OCCUPANCY,DATACENTER_TOP_ZN_6 ZN,36.20,1.8,1.8,5.005E-002,19.979,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,2
+ People Internal Gains Nominal, PERIMETER_BOT_ZN_1 ZN SPACE FUNCTION OFFICE - OPEN PLAN PEOPLE,NECB-A-OCCUPANCY,PERIMETER_BOT_ZN_1 ZN,313.42,15.7,15.7,5.005E-002,19.979,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,14
+ People Internal Gains Nominal, PERIMETER_BOT_ZN_2 ZN SPACE FUNCTION OFFICE - OPEN PLAN PEOPLE,NECB-A-OCCUPANCY,PERIMETER_BOT_ZN_2 ZN,201.98,10.1,10.1,5.005E-002,19.979,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,9
+ People Internal Gains Nominal, PERIMETER_BOT_ZN_3 ZN SPACE FUNCTION OFFICE - OPEN PLAN PEOPLE,NECB-A-OCCUPANCY,PERIMETER_BOT_ZN_3 ZN,313.41,15.7,15.7,5.005E-002,19.979,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,14
+ People Internal Gains Nominal, PERIMETER_BOT_ZN_4 ZN SPACE FUNCTION OFFICE - OPEN PLAN PEOPLE,NECB-A-OCCUPANCY,PERIMETER_BOT_ZN_4 ZN,201.98,10.1,10.1,5.005E-002,19.979,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,9
+ People Internal Gains Nominal, PERIMETER_MID_ZN_1 ZN SPACE FUNCTION OFFICE - OPEN PLAN PEOPLE,NECB-A-OCCUPANCY,PERIMETER_MID_ZN_1 ZN,313.42,15.7,15.7,5.005E-002,19.979,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,14
+ People Internal Gains Nominal, PERIMETER_MID_ZN_2 ZN SPACE FUNCTION OFFICE - OPEN PLAN PEOPLE,NECB-A-OCCUPANCY,PERIMETER_MID_ZN_2 ZN,201.98,10.1,10.1,5.005E-002,19.979,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,9
+ People Internal Gains Nominal, PERIMETER_MID_ZN_3 ZN SPACE FUNCTION OFFICE - OPEN PLAN PEOPLE,NECB-A-OCCUPANCY,PERIMETER_MID_ZN_3 ZN,313.41,15.7,15.7,5.005E-002,19.979,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,14
+ People Internal Gains Nominal, PERIMETER_MID_ZN_4 ZN SPACE FUNCTION OFFICE - OPEN PLAN PEOPLE,NECB-A-OCCUPANCY,PERIMETER_MID_ZN_4 ZN,201.98,10.1,10.1,5.005E-002,19.979,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,9
+ People Internal Gains Nominal, PERIMETER_TOP_ZN_1 ZN SPACE FUNCTION OFFICE - OPEN PLAN PEOPLE,NECB-A-OCCUPANCY,PERIMETER_TOP_ZN_1 ZN,313.42,15.7,15.7,5.005E-002,19.979,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,14
+ People Internal Gains Nominal, PERIMETER_TOP_ZN_2 ZN SPACE FUNCTION OFFICE - OPEN PLAN PEOPLE,NECB-A-OCCUPANCY,PERIMETER_TOP_ZN_2 ZN,201.98,10.1,10.1,5.005E-002,19.979,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,9
+ People Internal Gains Nominal, PERIMETER_TOP_ZN_3 ZN SPACE FUNCTION OFFICE - OPEN PLAN PEOPLE,NECB-A-OCCUPANCY,PERIMETER_TOP_ZN_3 ZN,313.41,15.7,15.7,5.005E-002,19.979,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,14
+ People Internal Gains Nominal, PERIMETER_TOP_ZN_4 ZN SPACE FUNCTION OFFICE - OPEN PLAN PEOPLE,NECB-A-OCCUPANCY,PERIMETER_TOP_ZN_4 ZN,201.98,10.1,10.1,5.005E-002,19.979,0.300,0.700,AutoCalculate,NECB-ACTIVITY,No,3.8200E-008,0,9
+! <Lights Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Lighting Level {W},Lights/Floor Area {W/m2},Lights per person {W/person},Fraction Return Air,Fraction Radiant,Fraction Short Wave,Fraction Convected,Fraction Replaceable,End-Use Category,Nominal Minimum Lighting Level {W},Nominal Maximum Lighting Level {W}
+ Lights Internal Gains Nominal, BASEMENT ZN SPACE FUNCTION ELECTRICAL/MECHANICAL-SCH-A LIGHTS,NECB-A-LIGHTING,BASEMENT ZN,2779.43,13.8,36966.066,13.300,2686.087,0.000,0.500,0.200,0.300,1.000,General,1848.303,33269.460
+ Lights Internal Gains Nominal, CORE_BOTTOM ZN SPACE FUNCTION OFFICE - OPEN PLAN LIGHTS,NECB-A-LIGHTING,CORE_BOTTOM ZN,2496.12,124.9,27457.097,11.000,219.769,0.000,0.500,0.200,0.300,1.000,General,1372.855,24711.387
+ Lights Internal Gains Nominal, CORE_MID ZN SPACE FUNCTION OFFICE - OPEN PLAN LIGHTS,NECB-A-LIGHTING,CORE_MID ZN,2496.12,124.9,27457.097,11.000,219.769,0.000,0.500,0.200,0.300,1.000,General,1372.855,24711.387
+ Lights Internal Gains Nominal, CORE_TOP ZN SPACE FUNCTION OFFICE - OPEN PLAN LIGHTS,NECB-A-LIGHTING,CORE_TOP ZN,2496.12,124.9,27457.097,11.000,219.769,0.000,0.500,0.200,0.300,1.000,General,1372.855,24711.387
+ Lights Internal Gains Nominal, DATACENTER_BASEMENT_ZN_6 ZN SPACE FUNCTION OFFICE - OPEN PLAN LIGHTS,NECB-A-LIGHTING,DATACENTER_BASEMENT_ZN_6 ZN,783.68,39.2,8620.402,11.000,219.769,0.000,0.500,0.200,0.300,1.000,General,431.020,7758.362
+ Lights Internal Gains Nominal, DATACENTER_BOT_ZN_6 ZN SPACE FUNCTION OFFICE - OPEN PLAN LIGHTS,NECB-A-LIGHTING,DATACENTER_BOT_ZN_6 ZN,36.20,1.8,398.227,11.000,219.769,0.000,0.500,0.200,0.300,1.000,General,19.911,358.404
+ Lights Internal Gains Nominal, DATACENTER_MID_ZN_6 ZN SPACE FUNCTION OFFICE - OPEN PLAN LIGHTS,NECB-A-LIGHTING,DATACENTER_MID_ZN_6 ZN,36.20,1.8,398.227,11.000,219.769,0.000,0.500,0.200,0.300,1.000,General,19.911,358.404
+ Lights Internal Gains Nominal, DATACENTER_TOP_ZN_6 ZN SPACE FUNCTION OFFICE - OPEN PLAN LIGHTS,NECB-A-LIGHTING,DATACENTER_TOP_ZN_6 ZN,36.20,1.8,398.227,11.000,219.769,0.000,0.500,0.200,0.300,1.000,General,19.911,358.404
+ Lights Internal Gains Nominal, PERIMETER_BOT_ZN_1 ZN SPACE FUNCTION OFFICE - OPEN PLAN LIGHTS,NECB-A-LIGHTING,PERIMETER_BOT_ZN_1 ZN,313.42,15.7,3447.588,11.000,219.769,0.000,0.500,0.200,0.300,1.000,General,172.379,3102.829
+ Lights Internal Gains Nominal, PERIMETER_BOT_ZN_2 ZN SPACE FUNCTION OFFICE - OPEN PLAN LIGHTS,NECB-A-LIGHTING,PERIMETER_BOT_ZN_2 ZN,201.98,10.1,2221.708,11.000,219.769,0.000,0.500,0.200,0.300,1.000,General,111.085,1999.537
+ Lights Internal Gains Nominal, PERIMETER_BOT_ZN_3 ZN SPACE FUNCTION OFFICE - OPEN PLAN LIGHTS,NECB-A-LIGHTING,PERIMETER_BOT_ZN_3 ZN,313.41,15.7,3447.512,11.000,219.769,0.000,0.500,0.200,0.300,1.000,General,172.376,3102.761
+ Lights Internal Gains Nominal, PERIMETER_BOT_ZN_4 ZN SPACE FUNCTION OFFICE - OPEN PLAN LIGHTS,NECB-A-LIGHTING,PERIMETER_BOT_ZN_4 ZN,201.98,10.1,2221.708,11.000,219.769,0.000,0.500,0.200,0.300,1.000,General,111.085,1999.537
+ Lights Internal Gains Nominal, PERIMETER_MID_ZN_1 ZN SPACE FUNCTION OFFICE - OPEN PLAN LIGHTS,NECB-A-LIGHTING,PERIMETER_MID_ZN_1 ZN,313.42,15.7,3447.588,11.000,219.769,0.000,0.500,0.200,0.300,1.000,General,172.379,3102.829
+ Lights Internal Gains Nominal, PERIMETER_MID_ZN_2 ZN SPACE FUNCTION OFFICE - OPEN PLAN LIGHTS,NECB-A-LIGHTING,PERIMETER_MID_ZN_2 ZN,201.98,10.1,2221.708,11.000,219.769,0.000,0.500,0.200,0.300,1.000,General,111.085,1999.537
+ Lights Internal Gains Nominal, PERIMETER_MID_ZN_3 ZN SPACE FUNCTION OFFICE - OPEN PLAN LIGHTS,NECB-A-LIGHTING,PERIMETER_MID_ZN_3 ZN,313.41,15.7,3447.512,11.000,219.769,0.000,0.500,0.200,0.300,1.000,General,172.376,3102.761
+ Lights Internal Gains Nominal, PERIMETER_MID_ZN_4 ZN SPACE FUNCTION OFFICE - OPEN PLAN LIGHTS,NECB-A-LIGHTING,PERIMETER_MID_ZN_4 ZN,201.98,10.1,2221.708,11.000,219.769,0.000,0.500,0.200,0.300,1.000,General,111.085,1999.537
+ Lights Internal Gains Nominal, PERIMETER_TOP_ZN_1 ZN SPACE FUNCTION OFFICE - OPEN PLAN LIGHTS,NECB-A-LIGHTING,PERIMETER_TOP_ZN_1 ZN,313.42,15.7,3447.588,11.000,219.769,0.000,0.500,0.200,0.300,1.000,General,172.379,3102.829
+ Lights Internal Gains Nominal, PERIMETER_TOP_ZN_2 ZN SPACE FUNCTION OFFICE - OPEN PLAN LIGHTS,NECB-A-LIGHTING,PERIMETER_TOP_ZN_2 ZN,201.98,10.1,2221.708,11.000,219.769,0.000,0.500,0.200,0.300,1.000,General,111.085,1999.537
+ Lights Internal Gains Nominal, PERIMETER_TOP_ZN_3 ZN SPACE FUNCTION OFFICE - OPEN PLAN LIGHTS,NECB-A-LIGHTING,PERIMETER_TOP_ZN_3 ZN,313.41,15.7,3447.512,11.000,219.769,0.000,0.500,0.200,0.300,1.000,General,172.376,3102.761
+ Lights Internal Gains Nominal, PERIMETER_TOP_ZN_4 ZN SPACE FUNCTION OFFICE - OPEN PLAN LIGHTS,NECB-A-LIGHTING,PERIMETER_TOP_ZN_4 ZN,201.98,10.1,2221.708,11.000,219.769,0.000,0.500,0.200,0.300,1.000,General,111.085,1999.537
+! <ElectricEquipment Internal Gains Nominal>,Name,Schedule Name,Zone Name,Zone Floor Area {m2},# Zone Occupants,Equipment Level {W},Equipment/Floor Area {W/m2},Equipment per person {W/person},Fraction Latent,Fraction Radiant,Fraction Lost,Fraction Convected,End-Use SubCategory,Nominal Minimum Equipment Level {W},Nominal Maximum Equipment Level {W}
+ ElectricEquipment Internal Gains Nominal, BASEMENT ZN SPACE FUNCTION ELECTRICAL/MECHANICAL-SCH-A ELEC EQUIP,NECB-A-ELECTRIC-EQUIPMENT,BASEMENT ZN,2779.43,13.8,2779.403,1.000,201.961,0.000,0.500,0.000,0.500,General,555.881,2501.463
+ ElectricEquipment Internal Gains Nominal, CORE_BOTTOM ZN SPACE FUNCTION OFFICE - OPEN PLAN ELEC EQUIP,NECB-A-ELECTRIC-EQUIPMENT,CORE_BOTTOM ZN,2496.12,124.9,18720.748,7.500,149.842,0.000,0.500,0.000,0.500,General,3744.150,16848.673
+ ElectricEquipment Internal Gains Nominal, CORE_MID ZN SPACE FUNCTION OFFICE - OPEN PLAN ELEC EQUIP,NECB-A-ELECTRIC-EQUIPMENT,CORE_MID ZN,2496.12,124.9,18720.748,7.500,149.842,0.000,0.500,0.000,0.500,General,3744.150,16848.673
+ ElectricEquipment Internal Gains Nominal, CORE_TOP ZN SPACE FUNCTION OFFICE - OPEN PLAN ELEC EQUIP,NECB-A-ELECTRIC-EQUIPMENT,CORE_TOP ZN,2496.12,124.9,18720.748,7.500,149.842,0.000,0.500,0.000,0.500,General,3744.150,16848.673
+ ElectricEquipment Internal Gains Nominal, DATACENTER_BASEMENT_ZN_6 ZN SPACE FUNCTION OFFICE - OPEN PLAN ELEC EQUIP,NECB-A-ELECTRIC-EQUIPMENT,DATACENTER_BASEMENT_ZN_6 ZN,783.68,39.2,5877.547,7.500,149.842,0.000,0.500,0.000,0.500,General,1175.509,5289.792
+ ElectricEquipment Internal Gains Nominal, DATACENTER_BOT_ZN_6 ZN SPACE FUNCTION OFFICE - OPEN PLAN ELEC EQUIP,NECB-A-ELECTRIC-EQUIPMENT,DATACENTER_BOT_ZN_6 ZN,36.20,1.8,271.518,7.500,149.842,0.000,0.500,0.000,0.500,General,54.304,244.366
+ ElectricEquipment Internal Gains Nominal, DATACENTER_MID_ZN_6 ZN SPACE FUNCTION OFFICE - OPEN PLAN ELEC EQUIP,NECB-A-ELECTRIC-EQUIPMENT,DATACENTER_MID_ZN_6 ZN,36.20,1.8,271.518,7.500,149.842,0.000,0.500,0.000,0.500,General,54.304,244.366
+ ElectricEquipment Internal Gains Nominal, DATACENTER_TOP_ZN_6 ZN SPACE FUNCTION OFFICE - OPEN PLAN ELEC EQUIP,NECB-A-ELECTRIC-EQUIPMENT,DATACENTER_TOP_ZN_6 ZN,36.20,1.8,271.518,7.500,149.842,0.000,0.500,0.000,0.500,General,54.304,244.366
+ ElectricEquipment Internal Gains Nominal, PERIMETER_BOT_ZN_1 ZN SPACE FUNCTION OFFICE - OPEN PLAN ELEC EQUIP,NECB-A-ELECTRIC-EQUIPMENT,PERIMETER_BOT_ZN_1 ZN,313.42,15.7,2350.628,7.500,149.842,0.000,0.500,0.000,0.500,General,470.126,2115.565
+ ElectricEquipment Internal Gains Nominal, PERIMETER_BOT_ZN_2 ZN SPACE FUNCTION OFFICE - OPEN PLAN ELEC EQUIP,NECB-A-ELECTRIC-EQUIPMENT,PERIMETER_BOT_ZN_2 ZN,201.98,10.1,1514.801,7.500,149.842,0.000,0.500,0.000,0.500,General,302.960,1363.321
+ ElectricEquipment Internal Gains Nominal, PERIMETER_BOT_ZN_3 ZN SPACE FUNCTION OFFICE - OPEN PLAN ELEC EQUIP,NECB-A-ELECTRIC-EQUIPMENT,PERIMETER_BOT_ZN_3 ZN,313.41,15.7,2350.577,7.500,149.842,0.000,0.500,0.000,0.500,General,470.115,2115.519
+ ElectricEquipment Internal Gains Nominal, PERIMETER_BOT_ZN_4 ZN SPACE FUNCTION OFFICE - OPEN PLAN ELEC EQUIP,NECB-A-ELECTRIC-EQUIPMENT,PERIMETER_BOT_ZN_4 ZN,201.98,10.1,1514.801,7.500,149.842,0.000,0.500,0.000,0.500,General,302.960,1363.321
+ ElectricEquipment Internal Gains Nominal, PERIMETER_MID_ZN_1 ZN SPACE FUNCTION OFFICE - OPEN PLAN ELEC EQUIP,NECB-A-ELECTRIC-EQUIPMENT,PERIMETER_MID_ZN_1 ZN,313.42,15.7,2350.628,7.500,149.842,0.000,0.500,0.000,0.500,General,470.126,2115.565
+ ElectricEquipment Internal Gains Nominal, PERIMETER_MID_ZN_2 ZN SPACE FUNCTION OFFICE - OPEN PLAN ELEC EQUIP,NECB-A-ELECTRIC-EQUIPMENT,PERIMETER_MID_ZN_2 ZN,201.98,10.1,1514.801,7.500,149.842,0.000,0.500,0.000,0.500,General,302.960,1363.321
+ ElectricEquipment Internal Gains Nominal, PERIMETER_MID_ZN_3 ZN SPACE FUNCTION OFFICE - OPEN PLAN ELEC EQUIP,NECB-A-ELECTRIC-EQUIPMENT,PERIMETER_MID_ZN_3 ZN,313.41,15.7,2350.577,7.500,149.842,0.000,0.500,0.000,0.500,General,470.115,2115.519
+ ElectricEquipment Internal Gains Nominal, PERIMETER_MID_ZN_4 ZN SPACE FUNCTION OFFICE - OPEN PLAN ELEC EQUIP,NECB-A-ELECTRIC-EQUIPMENT,PERIMETER_MID_ZN_4 ZN,201.98,10.1,1514.801,7.500,149.842,0.000,0.500,0.000,0.500,General,302.960,1363.321
+ ElectricEquipment Internal Gains Nominal, PERIMETER_TOP_ZN_1 ZN SPACE FUNCTION OFFICE - OPEN PLAN ELEC EQUIP,NECB-A-ELECTRIC-EQUIPMENT,PERIMETER_TOP_ZN_1 ZN,313.42,15.7,2350.628,7.500,149.842,0.000,0.500,0.000,0.500,General,470.126,2115.565
+ ElectricEquipment Internal Gains Nominal, PERIMETER_TOP_ZN_2 ZN SPACE FUNCTION OFFICE - OPEN PLAN ELEC EQUIP,NECB-A-ELECTRIC-EQUIPMENT,PERIMETER_TOP_ZN_2 ZN,201.98,10.1,1514.801,7.500,149.842,0.000,0.500,0.000,0.500,General,302.960,1363.321
+ ElectricEquipment Internal Gains Nominal, PERIMETER_TOP_ZN_3 ZN SPACE FUNCTION OFFICE - OPEN PLAN ELEC EQUIP,NECB-A-ELECTRIC-EQUIPMENT,PERIMETER_TOP_ZN_3 ZN,313.41,15.7,2350.577,7.500,149.842,0.000,0.500,0.000,0.500,General,470.115,2115.519
+ ElectricEquipment Internal Gains Nominal, PERIMETER_TOP_ZN_4 ZN SPACE FUNCTION OFFICE - OPEN PLAN ELEC EQUIP,NECB-A-ELECTRIC-EQUIPMENT,PERIMETER_TOP_ZN_4 ZN,201.98,10.1,1514.801,7.500,149.842,0.000,0.500,0.000,0.500,General,302.960,1363.321
+! <Shadowing/Sun Position Calculations Annual Simulations>, Calculation Method, Value {days}, Allowable Number Figures in Shadow Overlap {}, Polygon Clipping Algorithm, Sky Diffuse Modeling Algorithm, External Shading Calculation Method, Output External Shading Calculation Results, Disable Self-Shading Within Shading Zone Groups, Disable Self-Shading From Shading Zone Groups to Other Zones
+Shadowing/Sun Position Calculations Annual Simulations,AverageOverDaysInFrequency,20,15000,SutherlandHodgman,SimpleSkyDiffuseModeling,InternalCalculation,No,No,No
+! <ZoneInfiltration Airflow Stats Nominal>,Name,Schedule Name,Zone Name, Zone Floor Area {m2}, # Zone Occupants,Design Volume Flow Rate {m3/s},Volume Flow Rate/Floor Area {m3/s/m2},Volume Flow Rate/Exterior Surface Area {m3/s/m2},ACH - Air Changes per Hour,Equation A - Constant Term Coefficient {},Equation B - Temperature Term Coefficient {1/C},Equation C - Velocity Term Coefficient {s/m}, Equation D - Velocity Squared Term Coefficient {s2/m2}
+ ZoneInfiltration Airflow Stats Nominal, GROUNDFLOOR_PLENUM INFILTRATION,ALWAYS ON DISCRETE,GROUNDFLOOR_PLENUM ZN,3563.11,0.0,7.428E-002,2.085E-005,2.500E-004,6.155E-002,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, MIDFLOOR_PLENUM INFILTRATION,ALWAYS ON DISCRETE,MIDFLOOR_PLENUM ZN,3563.11,0.0,7.428E-002,2.085E-005,2.500E-004,6.155E-002,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, PERIMETER_BOT_ZN_1 INFILTRATION,ALWAYS ON DISCRETE,PERIMETER_BOT_ZN_1 ZN,313.42,15.7,5.015E-002,1.600E-004,2.500E-004,0.210,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, PERIMETER_BOT_ZN_2 INFILTRATION,ALWAYS ON DISCRETE,PERIMETER_BOT_ZN_2 ZN,201.98,10.1,3.343E-002,1.655E-004,2.500E-004,0.217,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, PERIMETER_BOT_ZN_3 INFILTRATION,ALWAYS ON DISCRETE,PERIMETER_BOT_ZN_3 ZN,313.41,15.7,5.015E-002,1.600E-004,2.500E-004,0.210,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, PERIMETER_BOT_ZN_4 INFILTRATION,ALWAYS ON DISCRETE,PERIMETER_BOT_ZN_4 ZN,201.98,10.1,3.343E-002,1.655E-004,2.500E-004,0.217,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, PERIMETER_MID_ZN_1 INFILTRATION,ALWAYS ON DISCRETE,PERIMETER_MID_ZN_1 ZN,313.42,15.7,5.015E-002,1.600E-004,2.500E-004,0.210,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, PERIMETER_MID_ZN_2 INFILTRATION,ALWAYS ON DISCRETE,PERIMETER_MID_ZN_2 ZN,201.98,10.1,3.343E-002,1.655E-004,2.500E-004,0.217,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, PERIMETER_MID_ZN_3 INFILTRATION,ALWAYS ON DISCRETE,PERIMETER_MID_ZN_3 ZN,313.41,15.7,5.015E-002,1.600E-004,2.500E-004,0.210,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, PERIMETER_MID_ZN_4 INFILTRATION,ALWAYS ON DISCRETE,PERIMETER_MID_ZN_4 ZN,201.98,10.1,3.343E-002,1.655E-004,2.500E-004,0.217,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, PERIMETER_TOP_ZN_1 INFILTRATION,ALWAYS ON DISCRETE,PERIMETER_TOP_ZN_1 ZN,313.42,15.7,5.015E-002,1.600E-004,2.500E-004,0.210,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, PERIMETER_TOP_ZN_2 INFILTRATION,ALWAYS ON DISCRETE,PERIMETER_TOP_ZN_2 ZN,201.98,10.1,3.343E-002,1.655E-004,2.500E-004,0.217,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, PERIMETER_TOP_ZN_3 INFILTRATION,ALWAYS ON DISCRETE,PERIMETER_TOP_ZN_3 ZN,313.41,15.7,5.015E-002,1.600E-004,2.500E-004,0.210,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, PERIMETER_TOP_ZN_4 INFILTRATION,ALWAYS ON DISCRETE,PERIMETER_TOP_ZN_4 ZN,201.98,10.1,3.343E-002,1.655E-004,2.500E-004,0.217,0.000,0.000,0.224,0.000
+ ZoneInfiltration Airflow Stats Nominal, TOPFLOOR_PLENUM INFILTRATION,ALWAYS ON DISCRETE,TOPFLOOR_PLENUM ZN,3563.11,0.0,0.965,2.708E-004,2.500E-004,0.800,0.000,0.000,0.224,0.000
+! <AirFlow Model>, Simple
+ AirFlow Model, Simple
+! <RoomAir Model>, Zone Name, Mixing/Mundt/UCSDDV/UCSDCV/UCSDUFI/UCSDUFE/User Defined
+RoomAir Model,BASEMENT ZN,Mixing/Well-Stirred
+RoomAir Model,CORE_BOTTOM ZN,Mixing/Well-Stirred
+RoomAir Model,CORE_MID ZN,Mixing/Well-Stirred
+RoomAir Model,CORE_TOP ZN,Mixing/Well-Stirred
+RoomAir Model,DATACENTER_BASEMENT_ZN_6 ZN,Mixing/Well-Stirred
+RoomAir Model,DATACENTER_BOT_ZN_6 ZN,Mixing/Well-Stirred
+RoomAir Model,DATACENTER_MID_ZN_6 ZN,Mixing/Well-Stirred
+RoomAir Model,DATACENTER_TOP_ZN_6 ZN,Mixing/Well-Stirred
+RoomAir Model,GROUNDFLOOR_PLENUM ZN,Mixing/Well-Stirred
+RoomAir Model,MIDFLOOR_PLENUM ZN,Mixing/Well-Stirred
+RoomAir Model,PERIMETER_BOT_ZN_1 ZN,Mixing/Well-Stirred
+RoomAir Model,PERIMETER_BOT_ZN_2 ZN,Mixing/Well-Stirred
+RoomAir Model,PERIMETER_BOT_ZN_3 ZN,Mixing/Well-Stirred
+RoomAir Model,PERIMETER_BOT_ZN_4 ZN,Mixing/Well-Stirred
+RoomAir Model,PERIMETER_MID_ZN_1 ZN,Mixing/Well-Stirred
+RoomAir Model,PERIMETER_MID_ZN_2 ZN,Mixing/Well-Stirred
+RoomAir Model,PERIMETER_MID_ZN_3 ZN,Mixing/Well-Stirred
+RoomAir Model,PERIMETER_MID_ZN_4 ZN,Mixing/Well-Stirred
+RoomAir Model,PERIMETER_TOP_ZN_1 ZN,Mixing/Well-Stirred
+RoomAir Model,PERIMETER_TOP_ZN_2 ZN,Mixing/Well-Stirred
+RoomAir Model,PERIMETER_TOP_ZN_3 ZN,Mixing/Well-Stirred
+RoomAir Model,PERIMETER_TOP_ZN_4 ZN,Mixing/Well-Stirred
+RoomAir Model,TOPFLOOR_PLENUM ZN,Mixing/Well-Stirred
+! <AirflowNetwork Model:Control>, No Multizone or Distribution/Multizone with Distribution/Multizone without Distribution/Multizone with Distribution only during Fan Operation
+AirflowNetwork Model:Control,NoMultizoneOrDistribution
+! <Zone Volume Capacitance Multiplier>, Sensible Heat Capacity Multiplier, Moisture Capacity Multiplier, Carbon Dioxide Capacity Multiplier, Generic Contaminant Capacity Multiplier
+Zone Volume Capacitance Multiplier,   1.000 ,   1.000,   1.000,   1.000
+! <Load Timesteps in Zone Design Calculation Averaging Window>, Value
+ Load Timesteps in Zone Design Calculation Averaging Window,    6
+! <Heating Sizing Factor Information>, Sizing Factor ID, Value
+ Heating Sizing Factor Information, Global,   1.2500    
+ Heating Sizing Factor Information, Zone BASEMENT ZN,   1.2500    
+ Heating Sizing Factor Information, Zone CORE_BOTTOM ZN,   1.2500    
+ Heating Sizing Factor Information, Zone CORE_MID ZN,   1.2500    
+ Heating Sizing Factor Information, Zone CORE_TOP ZN,   1.2500    
+ Heating Sizing Factor Information, Zone DATACENTER_BASEMENT_ZN_6 ZN,   1.2500    
+ Heating Sizing Factor Information, Zone DATACENTER_BOT_ZN_6 ZN,   1.2500    
+ Heating Sizing Factor Information, Zone DATACENTER_MID_ZN_6 ZN,   1.2500    
+ Heating Sizing Factor Information, Zone DATACENTER_TOP_ZN_6 ZN,   1.2500    
+ Heating Sizing Factor Information, Zone GROUNDFLOOR_PLENUM ZN,   1.2500    
+ Heating Sizing Factor Information, Zone MIDFLOOR_PLENUM ZN,   1.2500    
+ Heating Sizing Factor Information, Zone PERIMETER_BOT_ZN_1 ZN,   1.2500    
+ Heating Sizing Factor Information, Zone PERIMETER_BOT_ZN_2 ZN,   1.2500    
+ Heating Sizing Factor Information, Zone PERIMETER_BOT_ZN_3 ZN,   1.2500    
+ Heating Sizing Factor Information, Zone PERIMETER_BOT_ZN_4 ZN,   1.2500    
+ Heating Sizing Factor Information, Zone PERIMETER_MID_ZN_1 ZN,   1.2500    
+ Heating Sizing Factor Information, Zone PERIMETER_MID_ZN_2 ZN,   1.2500    
+ Heating Sizing Factor Information, Zone PERIMETER_MID_ZN_3 ZN,   1.2500    
+ Heating Sizing Factor Information, Zone PERIMETER_MID_ZN_4 ZN,   1.2500    
+ Heating Sizing Factor Information, Zone PERIMETER_TOP_ZN_1 ZN,   1.2500    
+ Heating Sizing Factor Information, Zone PERIMETER_TOP_ZN_2 ZN,   1.2500    
+ Heating Sizing Factor Information, Zone PERIMETER_TOP_ZN_3 ZN,   1.2500    
+ Heating Sizing Factor Information, Zone PERIMETER_TOP_ZN_4 ZN,   1.2500    
+ Heating Sizing Factor Information, Zone TOPFLOOR_PLENUM ZN,   1.2500    
+! <Cooling Sizing Factor Information>, Sizing Factor ID, Value
+ Cooling Sizing Factor Information, Global,   1.1500    
+ Cooling Sizing Factor Information, Zone BASEMENT ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone CORE_BOTTOM ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone CORE_MID ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone CORE_TOP ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone DATACENTER_BASEMENT_ZN_6 ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone DATACENTER_BOT_ZN_6 ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone DATACENTER_MID_ZN_6 ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone DATACENTER_TOP_ZN_6 ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone GROUNDFLOOR_PLENUM ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone MIDFLOOR_PLENUM ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone PERIMETER_BOT_ZN_1 ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone PERIMETER_BOT_ZN_2 ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone PERIMETER_BOT_ZN_3 ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone PERIMETER_BOT_ZN_4 ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone PERIMETER_MID_ZN_1 ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone PERIMETER_MID_ZN_2 ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone PERIMETER_MID_ZN_3 ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone PERIMETER_MID_ZN_4 ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone PERIMETER_TOP_ZN_1 ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone PERIMETER_TOP_ZN_2 ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone PERIMETER_TOP_ZN_3 ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone PERIMETER_TOP_ZN_4 ZN,   1.1500    
+ Cooling Sizing Factor Information, Zone TOPFLOOR_PLENUM ZN,   1.1500    
+! <Zone Sizing Information>, Zone Name, Load Type, Calc Des Load {W}, User Des Load {W}, Calc Des Air Flow Rate {m3/s}, User Des Air Flow Rate {m3/s}, Design Day Name, Date/Time of Peak, Temperature at Peak {C}, Humidity Ratio at Peak {kgWater/kgDryAir}, Floor Area {m2}, # Occupants, Calc Outdoor Air Flow Rate {m3/s}, Calc DOAS Heat Addition Rate {W}
+ Zone Sizing Information, BASEMENT ZN, Cooling, 31249.51944, 35936.94735, 2.54367, 2.92522, VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB, 7/21 17:00:00, 24.03600, 1.06257E-002, 2779.42662, 13.76205, 0.84717, 0.00000
+ Zone Sizing Information, BASEMENT ZN, Heating, 0.00000, 0.00000, 0.00000, 0.84717, VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB, , -6.10000, 2.25331E-003, 2779.42662, 13.76205, 0.84717, 0.00000
+ Zone Sizing Information, CORE_BOTTOM ZN, Cooling, 46929.94796, 53969.44016, 3.82052, 4.39360, VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB, 7/21 17:00:00, 24.03600, 1.06257E-002, 2496.12046, 124.93628, 1.07782, 0.00000
+ Zone Sizing Information, CORE_BOTTOM ZN, Heating, 0.00000, 0.00000, 0.00000, 1.07782, VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB, , -6.10000, 2.25331E-003, 2496.12046, 124.93628, 1.07782, 0.00000
+ Zone Sizing Information, CORE_MID ZN, Cooling, 513599.74879, 590639.71111, 41.81127, 48.08296, VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB, 7/21 15:50:00, 24.72000, 1.06257E-002, 2496.12046, 124.93628, 10.77825, 0.00000
+ Zone Sizing Information, CORE_MID ZN, Heating, 0.00000, 0.00000, 0.00000, 10.77825, VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB, , -6.10000, 2.25331E-003, 2496.12046, 124.93628, 10.77825, 0.00000
+ Zone Sizing Information, CORE_TOP ZN, Cooling, 53418.73926, 61431.55015, 4.34876, 5.00107, VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB, 7/21 17:00:00, 24.03600, 1.06257E-002, 2496.12046, 124.93628, 1.07782, 0.00000
+ Zone Sizing Information, CORE_TOP ZN, Heating, 36671.53872, 45839.42340, 1.61909, 2.02386, VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB, 12/21 08:00:00, -6.10000, 2.25331E-003, 2496.12046, 124.93628, 1.07782, 0.00000
+ Zone Sizing Information, DATACENTER_BASEMENT_ZN_6 ZN, Cooling, 14004.52336, 16105.20187, 1.14011, 1.31113, VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB, 7/21 17:00:00, 24.03600, 1.06257E-002, 783.67941, 39.22487, 0.33839, 0.00000
+ Zone Sizing Information, DATACENTER_BASEMENT_ZN_6 ZN, Heating, 0.00000, 0.00000, 0.00000, 0.33839, VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB, , -6.10000, 2.25331E-003, 783.67941, 39.22487, 0.33839, 0.00000
+ Zone Sizing Information, DATACENTER_BOT_ZN_6 ZN, Cooling, 3167.13454, 3642.20472, 0.25780, 0.29648, VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB, 7/21 19:20:00, 21.85733, 1.06257E-002, 36.20274, 1.81203, 1.56323E-002, 0.00000
+ Zone Sizing Information, DATACENTER_BOT_ZN_6 ZN, Heating, 0.00000, 0.00000, 0.00000, 1.56323E-002, VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB, , -6.10000, 2.25331E-003, 36.20274, 1.81203, 1.56323E-002, 0.00000
+ Zone Sizing Information, DATACENTER_MID_ZN_6 ZN, Cooling, 34532.89386, 39712.82794, 2.81097, 3.23262, VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB, 7/21 19:20:00, 21.85733, 1.06257E-002, 36.20274, 1.81203, 0.15632, 0.00000
+ Zone Sizing Information, DATACENTER_MID_ZN_6 ZN, Heating, 874.92522, 1093.65652, 3.91226E-002, 0.15632, VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB, 12/21 08:00:00, -6.10000, 2.25331E-003, 36.20274, 1.81203, 0.15632, 0.00000
+ Zone Sizing Information, DATACENTER_TOP_ZN_6 ZN, Cooling, 3531.71343, 4061.47044, 0.28748, 0.33060, VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB, 7/21 19:20:00, 21.85733, 1.06257E-002, 36.20274, 1.81203, 1.56323E-002, 0.00000
+ Zone Sizing Information, DATACENTER_TOP_ZN_6 ZN, Heating, 1956.45763, 2445.57203, 8.77606E-002, 0.10970, VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB, 12/21 08:00:00, -6.10000, 2.25331E-003, 36.20274, 1.81203, 1.56323E-002, 0.00000
+ Zone Sizing Information, PERIMETER_BOT_ZN_1 ZN, Cooling, 16892.04142, 19425.84764, 1.37510, 1.58137, VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB, 7/21 13:10:00, 24.78333, 1.06257E-002, 313.41969, 15.68734, 0.13533, 0.00000
+ Zone Sizing Information, PERIMETER_BOT_ZN_1 ZN, Heating, 3599.67381, 4499.59226, 0.15789, 0.19736, VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB, 12/21 08:00:00, -6.10000, 2.25331E-003, 313.41969, 15.68734, 0.13533, 0.00000
+ Zone Sizing Information, PERIMETER_BOT_ZN_2 ZN, Cooling, 17607.24749, 20248.33461, 1.43327, 1.64826, VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB, 7/21 09:00:00, 20.92000, 1.06257E-002, 201.97515, 10.10930, 8.72129E-002, 0.00000
+ Zone Sizing Information, PERIMETER_BOT_ZN_2 ZN, Heating, 2437.83692, 3047.29616, 0.10711, 0.13389, VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB, 12/21 08:00:00, -6.10000, 2.25331E-003, 201.97515, 10.10930, 8.72129E-002, 0.00000
+ Zone Sizing Information, PERIMETER_BOT_ZN_3 ZN, Cooling, 9002.83577, 10353.26114, 0.73290, 0.84284, VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB, 7/21 15:40:00, 24.79600, 1.06257E-002, 313.41284, 15.68700, 0.13533, 0.00000
+ Zone Sizing Information, PERIMETER_BOT_ZN_3 ZN, Heating, 3599.68741, 4499.60926, 0.15789, 0.19736, VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB, 12/21 08:00:00, -6.10000, 2.25331E-003, 313.41284, 15.68700, 0.13533, 0.00000
+ Zone Sizing Information, PERIMETER_BOT_ZN_4 ZN, Cooling, 18827.62217, 21651.76550, 1.53271, 1.76261, VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB, 7/21 17:20:00, 23.78267, 1.06257E-002, 201.97515, 10.10930, 8.72129E-002, 0.00000
+ Zone Sizing Information, PERIMETER_BOT_ZN_4 ZN, Heating, 2520.60567, 3150.75709, 0.11085, 0.13857, VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB, 12/21 08:00:00, -6.10000, 2.25331E-003, 201.97515, 10.10930, 8.72129E-002, 0.00000
+ Zone Sizing Information, PERIMETER_MID_ZN_1 ZN, Cooling, 210632.43048, 242227.29505, 17.14664, 19.71863, VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB, 7/21 13:20:00, 24.84667, 1.06257E-002, 313.41969, 15.68734, 1.35335, 0.00000
+ Zone Sizing Information, PERIMETER_MID_ZN_1 ZN, Heating, 61008.89302, 76261.11628, 2.70629, 3.38286, VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB, 12/21 08:00:00, -6.10000, 2.25331E-003, 313.41969, 15.68734, 1.35335, 0.00000
+ Zone Sizing Information, PERIMETER_MID_ZN_2 ZN, Cooling, 218670.99717, 251471.64674, 17.80078, 20.47089, VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB, 7/21 09:10:00, 21.13533, 1.06257E-002, 201.97515, 10.10930, 0.87213, 0.00000
+ Zone Sizing Information, PERIMETER_MID_ZN_2 ZN, Heating, 41729.84565, 52162.30706, 1.85330, 2.31662, VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB, 12/21 08:00:00, -6.10000, 2.25331E-003, 201.97515, 10.10930, 0.87213, 0.00000
+ Zone Sizing Information, PERIMETER_MID_ZN_3 ZN, Cooling, 99990.29195, 114988.83575, 8.14010, 9.36112, VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB, 7/21 15:40:00, 24.79600, 1.06257E-002, 313.41284, 15.68700, 1.35332, 0.00000
+ Zone Sizing Information, PERIMETER_MID_ZN_3 ZN, Heating, 61009.11795, 76261.39743, 2.70630, 3.38287, VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB, 12/21 08:00:00, -6.10000, 2.25331E-003, 313.41284, 15.68700, 1.35332, 0.00000
+ Zone Sizing Information, PERIMETER_MID_ZN_4 ZN, Cooling, 233129.51900, 268098.94685, 18.97855, 21.82533, VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB, 7/21 17:40:00, 23.52933, 1.06257E-002, 201.97515, 10.10930, 0.87213, 0.00000
+ Zone Sizing Information, PERIMETER_MID_ZN_4 ZN, Heating, 44512.68473, 55640.85592, 1.97920, 2.47399, VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB, 12/21 08:00:00, -6.10000, 2.25331E-003, 201.97515, 10.10930, 0.87213, 0.00000
+ Zone Sizing Information, PERIMETER_TOP_ZN_1 ZN, Cooling, 20874.41193, 24005.57372, 1.69929, 1.95418, VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB, 7/21 13:30:00, 24.91000, 1.06257E-002, 313.41969, 15.68734, 0.13533, 0.00000
+ Zone Sizing Information, PERIMETER_TOP_ZN_1 ZN, Heating, 13650.82598, 17063.53247, 0.61149, 0.76437, VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB, 12/21 08:00:00, -6.10000, 2.25331E-003, 313.41969, 15.68734, 0.13533, 0.00000
+ Zone Sizing Information, PERIMETER_TOP_ZN_2 ZN, Cooling, 21274.71620, 24465.92363, 1.73188, 1.99166, VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB, 7/21 09:20:00, 21.35067, 1.06257E-002, 201.97515, 10.10930, 8.72129E-002, 0.00000
+ Zone Sizing Information, PERIMETER_TOP_ZN_2 ZN, Heating, 9042.70224, 11303.37780, 0.40515, 0.50644, VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB, 12/21 08:00:00, -6.10000, 2.25331E-003, 201.97515, 10.10930, 8.72129E-002, 0.00000
+ Zone Sizing Information, PERIMETER_TOP_ZN_3 ZN, Cooling, 10169.93906, 11695.42992, 0.82793, 0.95212, VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB, 7/21 16:00:00, 24.64400, 1.06257E-002, 313.41284, 15.68700, 0.13533, 0.00000
+ Zone Sizing Information, PERIMETER_TOP_ZN_3 ZN, Heating, 13650.71946, 17063.39932, 0.61149, 0.76436, VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB, 12/21 08:00:00, -6.10000, 2.25331E-003, 313.41284, 15.68700, 0.13533, 0.00000
+ Zone Sizing Information, PERIMETER_TOP_ZN_4 ZN, Cooling, 23520.85042, 27048.97798, 1.91479, 2.20201, VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB, 7/21 17:40:00, 23.52933, 1.06257E-002, 201.97515, 10.10930, 8.72129E-002, 0.00000
+ Zone Sizing Information, PERIMETER_TOP_ZN_4 ZN, Heating, 8938.71893, 11173.39866, 0.40046, 0.50057, VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB, 12/21 08:00:00, -6.10000, 2.25331E-003, 201.97515, 10.10930, 8.72129E-002, 0.00000
+! <Component Sizing Information>, Component Type, Component Name, Input Field Description, Value
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 1, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 1, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 2, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 2, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 3, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 3, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 4, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 4, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 5, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 5, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 6, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 6, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 7, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 7, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 8, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 8, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 9, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 9, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 10, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 10, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 11, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 11, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 12, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 12, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 13, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 13, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 14, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 14, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 15, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 15, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 16, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 16, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 17, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 17, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 18, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 18, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 19, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 19, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 20, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 20, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 21, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 21, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 22, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 22, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 23, User-Specified Maximum Heating Air Flow Rate [m3/s], 0.00000
+ Component Sizing Information, ZoneHVAC:IdealLoadsAirSystem, ZONE HVAC IDEAL LOADS AIR SYSTEM 23, User-Specified Maximum Cooling Air Flow Rate [m3/s], 0.00000
+! <Environment>,Environment Name,Environment Type, Start Date, End Date, Start DayOfWeek, Duration {#days}, Source:Start DayOfWeek,  Use Daylight Saving, Use Holidays, Apply Weekend Holiday Rule,  Use Rain Values, Use Snow Values
+! <Environment:Special Days>, Special Day Name, Special Day Type, Source, Start Date, Duration {#days}
+! <Environment:Daylight Saving>, Daylight Saving Indicator, Source, Start Date, End Date
+! <Environment:WarmupDays>, NumberofWarmupDays
+Environment,VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB,SizingPeriod:DesignDay,07/21,07/21,SummerDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+! <Environment:Design Day Data>, Max Dry-Bulb Temp {C}, Temp Range {dC}, Temp Range Ind Type, Hum Ind Value at Max Temp, Hum Ind Type,Pressure {Pa}, Wind Direction {deg CW from N}, Wind Speed {m/s}, Clearness, Rain, Snow
+! <Environment:Design Day Misc>,DayOfYear,ASHRAE A Coeff,ASHRAE B Coeff,ASHRAE C Coeff,Solar Constant-Annual Variation,Eq of Time {minutes}, Solar Declination Angle {deg}, Solar Model
+Environment:Design Day Data,25.10,7.60,DefaultMultipliers,101273,300,3.7,0.00,No,No
+Environment:Design Day Misc,202,1084.4,0.2082,0.1365,1.0,-6.23,20.6,ASHRAETau
+Environment:WarmupDays,  6
+! <Tabular Report>,Style,Unit Conversion
+Tabular Report,HTML,None
+! <Warmup Convergence Information>,Zone Name,Environment Type/Name,Average Warmup Temperature Difference {deltaC},Std Dev Warmup Temperature Difference {deltaC},Max Temperature Pass/Fail Convergence,Min Temperature Pass/Fail Convergence,Average Warmup Load Difference {W},Std Dev Warmup Load Difference {W},Heating Load Pass/Fail Convergence,Cooling Load Pass/Fail Convergence
+ Warmup Convergence Information,BASEMENT ZN,SizingPeriod: VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB,1.4974830761E-002,4.3380979711E-002,Pass,Pass,3.9831381213E-002,0.2362325684,Pass,Pass
+ Warmup Convergence Information,CORE_BOTTOM ZN,SizingPeriod: VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB,2.9420344108E-002,0.1250568578,Pass,Pass,4.6439030236E-002,0.2650406521,Pass,Pass
+ Warmup Convergence Information,CORE_MID ZN,SizingPeriod: VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB,3.3894571298E-002,0.1618726877,Pass,Pass,5.8758043069E-002,0.3032745653,Pass,Pass
+ Warmup Convergence Information,CORE_TOP ZN,SizingPeriod: VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB,3.3589978796E-002,0.1339362622,Pass,Pass,5.2240002524E-002,0.3096042302,Pass,Pass
+ Warmup Convergence Information,DATACENTER_BASEMENT_ZN_6 ZN,SizingPeriod: VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB,2.1514410628E-002,6.8168021393E-002,Pass,Pass,4.2410384089E-002,0.2361783777,Pass,Pass
+ Warmup Convergence Information,DATACENTER_BOT_ZN_6 ZN,SizingPeriod: VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB,3.5855465219E-002,0.2029184016,Pass,Pass,0.1160507473,0.9533401064,Pass,Pass
+ Warmup Convergence Information,DATACENTER_MID_ZN_6 ZN,SizingPeriod: VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB,3.9461401211E-002,0.2342195689,Pass,Pass,0.1243276137,1.0532982876,Pass,Pass
+ Warmup Convergence Information,DATACENTER_TOP_ZN_6 ZN,SizingPeriod: VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB,4.0476025982E-002,0.2157345090,Pass,Pass,0.1288128903,1.0860789244,Pass,Pass
+ Warmup Convergence Information,GROUNDFLOOR_PLENUM ZN,SizingPeriod: VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB,1.0858173340E-002,4.1596011036E-003,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,MIDFLOOR_PLENUM ZN,SizingPeriod: VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB,1.1801934028E-002,4.9183128769E-003,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,PERIMETER_BOT_ZN_1 ZN,SizingPeriod: VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB,3.0138619119E-002,0.1162166827,Pass,Pass,7.5232706458E-002,0.4026269507,Pass,Pass
+ Warmup Convergence Information,PERIMETER_BOT_ZN_2 ZN,SizingPeriod: VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB,9.5506553695E-002,0.5013553856,Pass,Pass,7.3078255148E-002,0.4160614966,Pass,Pass
+ Warmup Convergence Information,PERIMETER_BOT_ZN_3 ZN,SizingPeriod: VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB,3.7626683666E-002,0.1549853609,Pass,Pass,7.2970201751E-002,0.3853736649,Pass,Pass
+ Warmup Convergence Information,PERIMETER_BOT_ZN_4 ZN,SizingPeriod: VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB,4.4956947334E-002,0.1870399607,Pass,Pass,0.1016634528,0.5846737997,Pass,Pass
+ Warmup Convergence Information,PERIMETER_MID_ZN_1 ZN,SizingPeriod: VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB,3.0481204109E-002,0.1208019929,Pass,Pass,8.0215564411E-002,0.4279986139,Pass,Pass
+ Warmup Convergence Information,PERIMETER_MID_ZN_2 ZN,SizingPeriod: VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB,9.4497956242E-002,0.4984482015,Pass,Pass,7.4077514536E-002,0.4306509203,Pass,Pass
+ Warmup Convergence Information,PERIMETER_MID_ZN_3 ZN,SizingPeriod: VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB,3.7034266069E-002,0.1527192186,Pass,Pass,7.6810269951E-002,0.4280327548,Pass,Pass
+ Warmup Convergence Information,PERIMETER_MID_ZN_4 ZN,SizingPeriod: VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB,4.7751621157E-002,0.2067080527,Pass,Pass,0.1124476407,0.6676850154,Pass,Pass
+ Warmup Convergence Information,PERIMETER_TOP_ZN_1 ZN,SizingPeriod: VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB,2.9691805317E-002,9.9151560218E-002,Pass,Pass,7.6755433248E-002,0.4318898547,Pass,Pass
+ Warmup Convergence Information,PERIMETER_TOP_ZN_2 ZN,SizingPeriod: VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB,9.3968556848E-002,0.4664638031,Pass,Pass,7.5063272259E-002,0.4469549251,Pass,Pass
+ Warmup Convergence Information,PERIMETER_TOP_ZN_3 ZN,SizingPeriod: VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB,3.6384341073E-002,0.1254006922,Pass,Pass,7.4260115329E-002,0.4232739911,Pass,Pass
+ Warmup Convergence Information,PERIMETER_TOP_ZN_4 ZN,SizingPeriod: VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB,4.7120846217E-002,0.1837333533,Pass,Pass,0.1101167153,0.6647434697,Pass,Pass
+ Warmup Convergence Information,TOPFLOOR_PLENUM ZN,SizingPeriod: VANCOUVER INTL AP ANN CLG .4% CONDNS DB=>MWB,6.6161486135E-002,3.7683354494E-002,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+Environment,VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB,SizingPeriod:DesignDay,12/21,12/21,WinterDesignDay,1,N/A,N/A,N/A,N/A,N/A,N/A
+Environment:Daylight Saving,No,SizingPeriod:DesignDay
+Environment:Design Day Data,-6.10,0.00,DefaultMultipliers,101273,100,3.0,0.00,No,No
+Environment:Design Day Misc,355,1232.8,0.1424,5.7719E-002,1.0,2.45,-23.5,ASHRAEClearSky
+Environment:WarmupDays,  6
+ Warmup Convergence Information,BASEMENT ZN,SizingPeriod: VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB,6.5560878937E-002,0.2972572938,Pass,Pass,0.1369998191,0.5657135148,Pass,Pass
+ Warmup Convergence Information,CORE_BOTTOM ZN,SizingPeriod: VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB,6.4384034738E-002,0.2982062674,Pass,Pass,0.1613538878,0.6795067503,Pass,Pass
+ Warmup Convergence Information,CORE_MID ZN,SizingPeriod: VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB,6.4185801238E-002,0.2979365417,Pass,Pass,0.1470513609,0.5471033575,Pass,Pass
+ Warmup Convergence Information,CORE_TOP ZN,SizingPeriod: VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB,6.0221714325E-002,0.3065369168,Pass,Pass,0.2232561130,0.4517651694,Pass,Pass
+ Warmup Convergence Information,DATACENTER_BASEMENT_ZN_6 ZN,SizingPeriod: VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB,6.2898271829E-002,0.2972397522,Pass,Pass,0.1266872297,0.4451052947,Pass,Pass
+ Warmup Convergence Information,DATACENTER_BOT_ZN_6 ZN,SizingPeriod: VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB,5.7323963768E-002,0.2565771253,Pass,Pass,0.4674992572,2.9698028344,Pass,Pass
+ Warmup Convergence Information,DATACENTER_MID_ZN_6 ZN,SizingPeriod: VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB,5.8173126550E-002,0.2625070179,Pass,Pass,0.1725561835,0.4434970701,Pass,Pass
+ Warmup Convergence Information,DATACENTER_TOP_ZN_6 ZN,SizingPeriod: VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB,5.6169610297E-002,0.2864631367,Pass,Pass,0.1370933412,0.4974416670,Pass,Pass
+ Warmup Convergence Information,GROUNDFLOOR_PLENUM ZN,SizingPeriod: VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB,1.4764734634E-002,5.8101844666E-003,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,MIDFLOOR_PLENUM ZN,SizingPeriod: VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB,1.7074276573E-002,6.8780215533E-003,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+ Warmup Convergence Information,PERIMETER_BOT_ZN_1 ZN,SizingPeriod: VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB,5.8554258166E-002,0.3132648760,Pass,Pass,0.1322183112,0.3347288341,Pass,Pass
+ Warmup Convergence Information,PERIMETER_BOT_ZN_2 ZN,SizingPeriod: VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB,5.8414503588E-002,0.3141160601,Pass,Pass,0.2331722229,1.3344830391,Pass,Pass
+ Warmup Convergence Information,PERIMETER_BOT_ZN_3 ZN,SizingPeriod: VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB,5.8554180423E-002,0.3132653185,Pass,Pass,0.1321901582,0.3346454641,Pass,Pass
+ Warmup Convergence Information,PERIMETER_BOT_ZN_4 ZN,SizingPeriod: VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB,5.8407764992E-002,0.3134830668,Pass,Pass,0.1205825112,0.2992249567,Pass,Pass
+ Warmup Convergence Information,PERIMETER_MID_ZN_1 ZN,SizingPeriod: VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB,5.7852805660E-002,0.3204685329,Pass,Pass,9.5775155411E-002,0.3294582687,Pass,Pass
+ Warmup Convergence Information,PERIMETER_MID_ZN_2 ZN,SizingPeriod: VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB,5.7742173057E-002,0.3215031579,Pass,Pass,0.1108998421,0.5000796774,Pass,Pass
+ Warmup Convergence Information,PERIMETER_MID_ZN_3 ZN,SizingPeriod: VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB,5.7852750518E-002,0.3204691122,Pass,Pass,9.5780361200E-002,0.3295188072,Pass,Pass
+ Warmup Convergence Information,PERIMETER_MID_ZN_4 ZN,SizingPeriod: VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB,5.7689070627E-002,0.3211532506,Pass,Pass,0.1095494280,0.4839994143,Pass,Pass
+ Warmup Convergence Information,PERIMETER_TOP_ZN_1 ZN,SizingPeriod: VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB,5.6198648415E-002,0.3373038406,Pass,Pass,6.3160265833E-002,0.3410396931,Pass,Pass
+ Warmup Convergence Information,PERIMETER_TOP_ZN_2 ZN,SizingPeriod: VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB,5.6131526045E-002,0.3380903065,Pass,Pass,5.9596626735E-002,0.3188090626,Pass,Pass
+ Warmup Convergence Information,PERIMETER_TOP_ZN_3 ZN,SizingPeriod: VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB,5.6198614211E-002,0.3373042949,Pass,Pass,6.3157750310E-002,0.3410244863,Pass,Pass
+ Warmup Convergence Information,PERIMETER_TOP_ZN_4 ZN,SizingPeriod: VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB,5.6160281278E-002,0.3370983600,Pass,Pass,6.7635391103E-002,0.3582182921,Pass,Pass
+ Warmup Convergence Information,TOPFLOOR_PLENUM ZN,SizingPeriod: VANCOUVER INTL AP ANN HTG 99.6% CONDNS DB,2.0556423470E-002,8.5259752731E-003,Pass,Pass,0.0000000000,0.0000000000,Pass,Pass
+! <Program Control Information:Threads/Parallel Sims>, Threading Supported,Maximum Number of Threads, Env Set Threads (OMP_NUM_THREADS), EP Env Set Threads (EP_OMP_NUM_THREADS), IDF Set Threads, Number of Threads Used (Interior Radiant Exchange), Number Nominal Surfaces, Number Parallel Sims
+Program Control:Threads/Parallel Sims, No,1, N/A, N/A, N/A, N/A, N/A, N/A
+End of Data

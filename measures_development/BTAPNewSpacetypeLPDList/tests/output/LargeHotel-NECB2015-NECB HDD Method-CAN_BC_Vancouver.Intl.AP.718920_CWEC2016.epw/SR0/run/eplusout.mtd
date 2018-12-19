@@ -1,0 +1,1792 @@
+
+ Meters for 9,CORRIDOR_FLR_3 ZN SPACE FUNCTION CORRIDOR/TRANSITION AREA - HOSPITAL-SCH-E LIGHTS:Lights Electric Energy [J] * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:CORRIDOR_FLR_3 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:CORRIDOR_FLR_3 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 82,CORRIDOR_FLR_6 ZN SPACE FUNCTION CORRIDOR/TRANSITION AREA - HOSPITAL-SCH-E LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:CORRIDOR_FLR_6 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:CORRIDOR_FLR_6 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 107,BANQUET_FLR_6 ZN SPACE FUNCTION DINING AREA - OTHER LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BANQUET_FLR_6 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:BANQUET_FLR_6 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 132,DINING_FLR_6 ZN SPACE FUNCTION DINING AREA - OTHER LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:DINING_FLR_6 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:DINING_FLR_6 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 157,MECH_FLR_1 ZN SPACE FUNCTION ELECTRICAL/MECHANICAL ROOM-SCH-E LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:MECH_FLR_1 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:MECH_FLR_1 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 182,KITCHEN_FLR_6 ZN SPACE FUNCTION FOOD PREPARATION AREA LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:KITCHEN_FLR_6 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:KITCHEN_FLR_6 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 207,ROOM_1_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy [J] * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ROOM_1_FLR_3 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ROOM_1_FLR_3 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 232,ROOM_1_FLR_6 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ROOM_1_FLR_6 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ROOM_1_FLR_6 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 257,ROOM_2_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy [J] * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ROOM_2_FLR_3 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ROOM_2_FLR_3 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 282,ROOM_2_FLR_6 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ROOM_2_FLR_6 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ROOM_2_FLR_6 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 307,ROOM_3_MULT19_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy [J] * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ROOM_3_MULT19_FLR_3 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ROOM_3_MULT19_FLR_3 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 332,ROOM_3_MULT9_FLR_6 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy [J] * 9  (Zone Multiplier = 9, Zone List Multiplier = 1)
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ROOM_3_MULT9_FLR_6 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ROOM_3_MULT9_FLR_6 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 357,ROOM_4_MULT19_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy [J] * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ROOM_4_MULT19_FLR_3 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ROOM_4_MULT19_FLR_3 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 382,ROOM_5_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy [J] * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ROOM_5_FLR_3 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ROOM_5_FLR_3 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 407,ROOM_6_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy [J] * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ROOM_6_FLR_3 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:ROOM_6_FLR_3 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 432,LAUNDRY_FLR_1 ZN SPACE FUNCTION LAUNDRY/WASHING AREA LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LAUNDRY_FLR_1 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:LAUNDRY_FLR_1 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 457,LOBBY_FLR_1 ZN SPACE FUNCTION LOBBY - HOTEL LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOBBY_FLR_1 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:LOBBY_FLR_1 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 482,CAFE_FLR_1 ZN SPACE FUNCTION RETAIL FACILITY MALL CONCOURSE LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:CAFE_FLR_1 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:CAFE_FLR_1 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 507,RETAIL_1_FLR_1 ZN SPACE FUNCTION SALES AREA LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:RETAIL_1_FLR_1 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:RETAIL_1_FLR_1 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 532,RETAIL_2_FLR_1 ZN SPACE FUNCTION SALES AREA LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:RETAIL_2_FLR_1 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:RETAIL_2_FLR_1 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 557,BASEMENT ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-E LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BASEMENT ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:BASEMENT ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 582,STORAGE_FLR_1 ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-E LIGHTS:Lights Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:STORAGE_FLR_1 ZN [J]
+  OnMeter=InteriorLights:Electricity [J]
+  OnMeter=InteriorLights:Electricity:Zone:STORAGE_FLR_1 ZN [J]
+  OnMeter=General:InteriorLights:Electricity [J]
+
+ Meters for 607,BANQUET_FLR_6 ZN SPACE FUNCTION DINING AREA - OTHER ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BANQUET_FLR_6 ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:BANQUET_FLR_6 ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 644,DINING_FLR_6 ZN SPACE FUNCTION DINING AREA - OTHER ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:DINING_FLR_6 ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:DINING_FLR_6 ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 657,MECH_FLR_1 ZN SPACE FUNCTION ELECTRICAL/MECHANICAL ROOM-SCH-E ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:MECH_FLR_1 ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:MECH_FLR_1 ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 670,KITCHEN_FLR_6 ZN SPACE FUNCTION FOOD PREPARATION AREA ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:KITCHEN_FLR_6 ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:KITCHEN_FLR_6 ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 683,ROOM_1_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy [J] * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ROOM_1_FLR_3 ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ROOM_1_FLR_3 ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 696,ROOM_1_FLR_6 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ROOM_1_FLR_6 ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ROOM_1_FLR_6 ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 709,ROOM_2_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy [J] * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ROOM_2_FLR_3 ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ROOM_2_FLR_3 ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 722,ROOM_2_FLR_6 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ROOM_2_FLR_6 ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ROOM_2_FLR_6 ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 735,ROOM_3_MULT19_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy [J] * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ROOM_3_MULT19_FLR_3 ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ROOM_3_MULT19_FLR_3 ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 748,ROOM_3_MULT9_FLR_6 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy [J] * 9  (Zone Multiplier = 9, Zone List Multiplier = 1)
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ROOM_3_MULT9_FLR_6 ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ROOM_3_MULT9_FLR_6 ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 761,ROOM_4_MULT19_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy [J] * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ROOM_4_MULT19_FLR_3 ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ROOM_4_MULT19_FLR_3 ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 774,ROOM_5_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy [J] * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ROOM_5_FLR_3 ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ROOM_5_FLR_3 ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 787,ROOM_6_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy [J] * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:ROOM_6_FLR_3 ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:ROOM_6_FLR_3 ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 800,LAUNDRY_FLR_1 ZN SPACE FUNCTION LAUNDRY/WASHING AREA ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LAUNDRY_FLR_1 ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:LAUNDRY_FLR_1 ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 813,LOBBY_FLR_1 ZN SPACE FUNCTION LOBBY - HOTEL ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:LOBBY_FLR_1 ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:LOBBY_FLR_1 ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 826,CAFE_FLR_1 ZN SPACE FUNCTION RETAIL FACILITY MALL CONCOURSE ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:CAFE_FLR_1 ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:CAFE_FLR_1 ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 839,RETAIL_1_FLR_1 ZN SPACE FUNCTION SALES AREA ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:RETAIL_1_FLR_1 ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:RETAIL_1_FLR_1 ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 852,RETAIL_2_FLR_1 ZN SPACE FUNCTION SALES AREA ELEC EQUIP:Electric Equipment Electric Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:RETAIL_2_FLR_1 ZN [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:RETAIL_2_FLR_1 ZN [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+
+ Meters for 865,BANQUET_FLR_6 ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BANQUET_FLR_6 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:BANQUET_FLR_6 ZN [J]
+
+ Meters for 926,BANQUET_FLR_6 ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BANQUET_FLR_6 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:BANQUET_FLR_6 ZN [J]
+
+ Meters for 953,BASEMENT ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BASEMENT ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:BASEMENT ZN [J]
+
+ Meters for 978,BASEMENT ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BASEMENT ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:BASEMENT ZN [J]
+
+ Meters for 993,CAFE_FLR_1 ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:CAFE_FLR_1 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:CAFE_FLR_1 ZN [J]
+
+ Meters for 1018,CAFE_FLR_1 ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:CAFE_FLR_1 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:CAFE_FLR_1 ZN [J]
+
+ Meters for 1033,CORRIDOR_FLR_3 ZN:Zone Air System Sensible Heating Energy [J] * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:CORRIDOR_FLR_3 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:CORRIDOR_FLR_3 ZN [J]
+
+ Meters for 1058,CORRIDOR_FLR_3 ZN:Zone Air System Sensible Cooling Energy [J] * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:CORRIDOR_FLR_3 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:CORRIDOR_FLR_3 ZN [J]
+
+ Meters for 1073,CORRIDOR_FLR_6 ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:CORRIDOR_FLR_6 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:CORRIDOR_FLR_6 ZN [J]
+
+ Meters for 1098,CORRIDOR_FLR_6 ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:CORRIDOR_FLR_6 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:CORRIDOR_FLR_6 ZN [J]
+
+ Meters for 1113,DINING_FLR_6 ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:DINING_FLR_6 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:DINING_FLR_6 ZN [J]
+
+ Meters for 1138,DINING_FLR_6 ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:DINING_FLR_6 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:DINING_FLR_6 ZN [J]
+
+ Meters for 1153,KITCHEN_FLR_6 ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:KITCHEN_FLR_6 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:KITCHEN_FLR_6 ZN [J]
+
+ Meters for 1178,KITCHEN_FLR_6 ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:KITCHEN_FLR_6 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:KITCHEN_FLR_6 ZN [J]
+
+ Meters for 1193,LAUNDRY_FLR_1 ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LAUNDRY_FLR_1 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:LAUNDRY_FLR_1 ZN [J]
+
+ Meters for 1218,LAUNDRY_FLR_1 ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LAUNDRY_FLR_1 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:LAUNDRY_FLR_1 ZN [J]
+
+ Meters for 1233,LOBBY_FLR_1 ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOBBY_FLR_1 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:LOBBY_FLR_1 ZN [J]
+
+ Meters for 1258,LOBBY_FLR_1 ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:LOBBY_FLR_1 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:LOBBY_FLR_1 ZN [J]
+
+ Meters for 1273,MECH_FLR_1 ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:MECH_FLR_1 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:MECH_FLR_1 ZN [J]
+
+ Meters for 1298,MECH_FLR_1 ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:MECH_FLR_1 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:MECH_FLR_1 ZN [J]
+
+ Meters for 1313,RETAIL_1_FLR_1 ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:RETAIL_1_FLR_1 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:RETAIL_1_FLR_1 ZN [J]
+
+ Meters for 1338,RETAIL_1_FLR_1 ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:RETAIL_1_FLR_1 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:RETAIL_1_FLR_1 ZN [J]
+
+ Meters for 1353,RETAIL_2_FLR_1 ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:RETAIL_2_FLR_1 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:RETAIL_2_FLR_1 ZN [J]
+
+ Meters for 1378,RETAIL_2_FLR_1 ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:RETAIL_2_FLR_1 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:RETAIL_2_FLR_1 ZN [J]
+
+ Meters for 1393,ROOM_1_FLR_3 ZN:Zone Air System Sensible Heating Energy [J] * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ROOM_1_FLR_3 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ROOM_1_FLR_3 ZN [J]
+
+ Meters for 1418,ROOM_1_FLR_3 ZN:Zone Air System Sensible Cooling Energy [J] * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ROOM_1_FLR_3 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ROOM_1_FLR_3 ZN [J]
+
+ Meters for 1433,ROOM_1_FLR_6 ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ROOM_1_FLR_6 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ROOM_1_FLR_6 ZN [J]
+
+ Meters for 1458,ROOM_1_FLR_6 ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ROOM_1_FLR_6 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ROOM_1_FLR_6 ZN [J]
+
+ Meters for 1473,ROOM_2_FLR_3 ZN:Zone Air System Sensible Heating Energy [J] * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ROOM_2_FLR_3 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ROOM_2_FLR_3 ZN [J]
+
+ Meters for 1498,ROOM_2_FLR_3 ZN:Zone Air System Sensible Cooling Energy [J] * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ROOM_2_FLR_3 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ROOM_2_FLR_3 ZN [J]
+
+ Meters for 1513,ROOM_2_FLR_6 ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ROOM_2_FLR_6 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ROOM_2_FLR_6 ZN [J]
+
+ Meters for 1538,ROOM_2_FLR_6 ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ROOM_2_FLR_6 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ROOM_2_FLR_6 ZN [J]
+
+ Meters for 1553,ROOM_3_MULT19_FLR_3 ZN:Zone Air System Sensible Heating Energy [J] * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ROOM_3_MULT19_FLR_3 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ROOM_3_MULT19_FLR_3 ZN [J]
+
+ Meters for 1578,ROOM_3_MULT19_FLR_3 ZN:Zone Air System Sensible Cooling Energy [J] * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ROOM_3_MULT19_FLR_3 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ROOM_3_MULT19_FLR_3 ZN [J]
+
+ Meters for 1593,ROOM_3_MULT9_FLR_6 ZN:Zone Air System Sensible Heating Energy [J] * 9  (Zone Multiplier = 9, Zone List Multiplier = 1)
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ROOM_3_MULT9_FLR_6 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ROOM_3_MULT9_FLR_6 ZN [J]
+
+ Meters for 1618,ROOM_3_MULT9_FLR_6 ZN:Zone Air System Sensible Cooling Energy [J] * 9  (Zone Multiplier = 9, Zone List Multiplier = 1)
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ROOM_3_MULT9_FLR_6 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ROOM_3_MULT9_FLR_6 ZN [J]
+
+ Meters for 1633,ROOM_4_MULT19_FLR_3 ZN:Zone Air System Sensible Heating Energy [J] * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ROOM_4_MULT19_FLR_3 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ROOM_4_MULT19_FLR_3 ZN [J]
+
+ Meters for 1658,ROOM_4_MULT19_FLR_3 ZN:Zone Air System Sensible Cooling Energy [J] * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ROOM_4_MULT19_FLR_3 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ROOM_4_MULT19_FLR_3 ZN [J]
+
+ Meters for 1673,ROOM_5_FLR_3 ZN:Zone Air System Sensible Heating Energy [J] * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ROOM_5_FLR_3 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ROOM_5_FLR_3 ZN [J]
+
+ Meters for 1698,ROOM_5_FLR_3 ZN:Zone Air System Sensible Cooling Energy [J] * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ROOM_5_FLR_3 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ROOM_5_FLR_3 ZN [J]
+
+ Meters for 1713,ROOM_6_FLR_3 ZN:Zone Air System Sensible Heating Energy [J] * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ROOM_6_FLR_3 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:ROOM_6_FLR_3 ZN [J]
+
+ Meters for 1738,ROOM_6_FLR_3 ZN:Zone Air System Sensible Cooling Energy [J] * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:ROOM_6_FLR_3 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:ROOM_6_FLR_3 ZN [J]
+
+ Meters for 1753,STORAGE_FLR_1 ZN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:STORAGE_FLR_1 ZN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:STORAGE_FLR_1 ZN [J]
+
+ Meters for 1778,STORAGE_FLR_1 ZN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:STORAGE_FLR_1 ZN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:STORAGE_FLR_1 ZN [J]
+
+ Meters for 1793,Whole Building:Facility Total Purchased Electric Energy [J]
+  OnMeter=ElectricityPurchased:Facility [J]
+  OnMeter=ElectricityPurchased:Plant [J]
+  OnMeter=Cogeneration:ElectricityPurchased [J]
+
+ Meters for 1830,Whole Building:Facility Total Surplus Electric Energy [J]
+  OnMeter=ElectricitySurplusSold:Facility [J]
+  OnMeter=ElectricitySurplusSold:Plant [J]
+  OnMeter=Cogeneration:ElectricitySurplusSold [J]
+
+ Meters for 1867,Whole Building:Facility Net Purchased Electric Energy [J]
+  OnMeter=ElectricityNet:Facility [J]
+  OnMeter=ElectricityNet:Plant [J]
+  OnMeter=Cogeneration:ElectricityNet [J]
+
+ Meters for 1904,ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1941,ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1978,ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1979,ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1980,ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1981,ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1982,ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1983,ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1984,ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1985,ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1986,ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1987,ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1988,ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1989,ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1990,ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1991,ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1992,ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1993,ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1994,ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1995,ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1996,ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1997,ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 1998,ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 1999,ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 2000,ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 2001,ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 2002,ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 2003,ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 2004,ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 2005,ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 2006,ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 2007,ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 2008,ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 2009,ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 2010,ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 2011,ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 2012,ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 2013,ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 2014,ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 2015,ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 2016,ZONE HVAC IDEAL LOADS AIR SYSTEM 21:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 2017,ZONE HVAC IDEAL LOADS AIR SYSTEM 21:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 2018,ZONE HVAC IDEAL LOADS AIR SYSTEM 22:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+
+ Meters for 2019,ZONE HVAC IDEAL LOADS AIR SYSTEM 22:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+
+ Meters for 2020,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 2045,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 2046,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ For Meter=Electricity:Facility [J], ResourceType=Electricity, contents are:
+  CORRIDOR_FLR_3 ZN SPACE FUNCTION CORRIDOR/TRANSITION AREA - HOSPITAL-SCH-E LIGHTS:Lights Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  CORRIDOR_FLR_6 ZN SPACE FUNCTION CORRIDOR/TRANSITION AREA - HOSPITAL-SCH-E LIGHTS:Lights Electric Energy
+  BANQUET_FLR_6 ZN SPACE FUNCTION DINING AREA - OTHER LIGHTS:Lights Electric Energy
+  DINING_FLR_6 ZN SPACE FUNCTION DINING AREA - OTHER LIGHTS:Lights Electric Energy
+  MECH_FLR_1 ZN SPACE FUNCTION ELECTRICAL/MECHANICAL ROOM-SCH-E LIGHTS:Lights Electric Energy
+  KITCHEN_FLR_6 ZN SPACE FUNCTION FOOD PREPARATION AREA LIGHTS:Lights Electric Energy
+  ROOM_1_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_1_FLR_6 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy
+  ROOM_2_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_2_FLR_6 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy
+  ROOM_3_MULT19_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  ROOM_3_MULT9_FLR_6 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 9  (Zone Multiplier = 9, Zone List Multiplier = 1)
+  ROOM_4_MULT19_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  ROOM_5_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_6_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  LAUNDRY_FLR_1 ZN SPACE FUNCTION LAUNDRY/WASHING AREA LIGHTS:Lights Electric Energy
+  LOBBY_FLR_1 ZN SPACE FUNCTION LOBBY - HOTEL LIGHTS:Lights Electric Energy
+  CAFE_FLR_1 ZN SPACE FUNCTION RETAIL FACILITY MALL CONCOURSE LIGHTS:Lights Electric Energy
+  RETAIL_1_FLR_1 ZN SPACE FUNCTION SALES AREA LIGHTS:Lights Electric Energy
+  RETAIL_2_FLR_1 ZN SPACE FUNCTION SALES AREA LIGHTS:Lights Electric Energy
+  BASEMENT ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-E LIGHTS:Lights Electric Energy
+  STORAGE_FLR_1 ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-E LIGHTS:Lights Electric Energy
+  BANQUET_FLR_6 ZN SPACE FUNCTION DINING AREA - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+  DINING_FLR_6 ZN SPACE FUNCTION DINING AREA - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+  MECH_FLR_1 ZN SPACE FUNCTION ELECTRICAL/MECHANICAL ROOM-SCH-E ELEC EQUIP:Electric Equipment Electric Energy
+  KITCHEN_FLR_6 ZN SPACE FUNCTION FOOD PREPARATION AREA ELEC EQUIP:Electric Equipment Electric Energy
+  ROOM_1_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_1_FLR_6 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy
+  ROOM_2_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_2_FLR_6 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy
+  ROOM_3_MULT19_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  ROOM_3_MULT9_FLR_6 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 9  (Zone Multiplier = 9, Zone List Multiplier = 1)
+  ROOM_4_MULT19_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  ROOM_5_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_6_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  LAUNDRY_FLR_1 ZN SPACE FUNCTION LAUNDRY/WASHING AREA ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY_FLR_1 ZN SPACE FUNCTION LOBBY - HOTEL ELEC EQUIP:Electric Equipment Electric Energy
+  CAFE_FLR_1 ZN SPACE FUNCTION RETAIL FACILITY MALL CONCOURSE ELEC EQUIP:Electric Equipment Electric Energy
+  RETAIL_1_FLR_1 ZN SPACE FUNCTION SALES AREA ELEC EQUIP:Electric Equipment Electric Energy
+  RETAIL_2_FLR_1 ZN SPACE FUNCTION SALES AREA ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=Electricity:Building [J], ResourceType=Electricity, Group=Building, contents are:
+  CORRIDOR_FLR_3 ZN SPACE FUNCTION CORRIDOR/TRANSITION AREA - HOSPITAL-SCH-E LIGHTS:Lights Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  CORRIDOR_FLR_6 ZN SPACE FUNCTION CORRIDOR/TRANSITION AREA - HOSPITAL-SCH-E LIGHTS:Lights Electric Energy
+  BANQUET_FLR_6 ZN SPACE FUNCTION DINING AREA - OTHER LIGHTS:Lights Electric Energy
+  DINING_FLR_6 ZN SPACE FUNCTION DINING AREA - OTHER LIGHTS:Lights Electric Energy
+  MECH_FLR_1 ZN SPACE FUNCTION ELECTRICAL/MECHANICAL ROOM-SCH-E LIGHTS:Lights Electric Energy
+  KITCHEN_FLR_6 ZN SPACE FUNCTION FOOD PREPARATION AREA LIGHTS:Lights Electric Energy
+  ROOM_1_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_1_FLR_6 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy
+  ROOM_2_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_2_FLR_6 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy
+  ROOM_3_MULT19_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  ROOM_3_MULT9_FLR_6 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 9  (Zone Multiplier = 9, Zone List Multiplier = 1)
+  ROOM_4_MULT19_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  ROOM_5_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_6_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  LAUNDRY_FLR_1 ZN SPACE FUNCTION LAUNDRY/WASHING AREA LIGHTS:Lights Electric Energy
+  LOBBY_FLR_1 ZN SPACE FUNCTION LOBBY - HOTEL LIGHTS:Lights Electric Energy
+  CAFE_FLR_1 ZN SPACE FUNCTION RETAIL FACILITY MALL CONCOURSE LIGHTS:Lights Electric Energy
+  RETAIL_1_FLR_1 ZN SPACE FUNCTION SALES AREA LIGHTS:Lights Electric Energy
+  RETAIL_2_FLR_1 ZN SPACE FUNCTION SALES AREA LIGHTS:Lights Electric Energy
+  BASEMENT ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-E LIGHTS:Lights Electric Energy
+  STORAGE_FLR_1 ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-E LIGHTS:Lights Electric Energy
+  BANQUET_FLR_6 ZN SPACE FUNCTION DINING AREA - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+  DINING_FLR_6 ZN SPACE FUNCTION DINING AREA - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+  MECH_FLR_1 ZN SPACE FUNCTION ELECTRICAL/MECHANICAL ROOM-SCH-E ELEC EQUIP:Electric Equipment Electric Energy
+  KITCHEN_FLR_6 ZN SPACE FUNCTION FOOD PREPARATION AREA ELEC EQUIP:Electric Equipment Electric Energy
+  ROOM_1_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_1_FLR_6 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy
+  ROOM_2_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_2_FLR_6 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy
+  ROOM_3_MULT19_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  ROOM_3_MULT9_FLR_6 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 9  (Zone Multiplier = 9, Zone List Multiplier = 1)
+  ROOM_4_MULT19_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  ROOM_5_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_6_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  LAUNDRY_FLR_1 ZN SPACE FUNCTION LAUNDRY/WASHING AREA ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY_FLR_1 ZN SPACE FUNCTION LOBBY - HOTEL ELEC EQUIP:Electric Equipment Electric Energy
+  CAFE_FLR_1 ZN SPACE FUNCTION RETAIL FACILITY MALL CONCOURSE ELEC EQUIP:Electric Equipment Electric Energy
+  RETAIL_1_FLR_1 ZN SPACE FUNCTION SALES AREA ELEC EQUIP:Electric Equipment Electric Energy
+  RETAIL_2_FLR_1 ZN SPACE FUNCTION SALES AREA ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=Electricity:Zone:CORRIDOR_FLR_3 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  CORRIDOR_FLR_3 ZN SPACE FUNCTION CORRIDOR/TRANSITION AREA - HOSPITAL-SCH-E LIGHTS:Lights Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+
+ For Meter=InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  CORRIDOR_FLR_3 ZN SPACE FUNCTION CORRIDOR/TRANSITION AREA - HOSPITAL-SCH-E LIGHTS:Lights Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  CORRIDOR_FLR_6 ZN SPACE FUNCTION CORRIDOR/TRANSITION AREA - HOSPITAL-SCH-E LIGHTS:Lights Electric Energy
+  BANQUET_FLR_6 ZN SPACE FUNCTION DINING AREA - OTHER LIGHTS:Lights Electric Energy
+  DINING_FLR_6 ZN SPACE FUNCTION DINING AREA - OTHER LIGHTS:Lights Electric Energy
+  MECH_FLR_1 ZN SPACE FUNCTION ELECTRICAL/MECHANICAL ROOM-SCH-E LIGHTS:Lights Electric Energy
+  KITCHEN_FLR_6 ZN SPACE FUNCTION FOOD PREPARATION AREA LIGHTS:Lights Electric Energy
+  ROOM_1_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_1_FLR_6 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy
+  ROOM_2_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_2_FLR_6 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy
+  ROOM_3_MULT19_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  ROOM_3_MULT9_FLR_6 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 9  (Zone Multiplier = 9, Zone List Multiplier = 1)
+  ROOM_4_MULT19_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  ROOM_5_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_6_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  LAUNDRY_FLR_1 ZN SPACE FUNCTION LAUNDRY/WASHING AREA LIGHTS:Lights Electric Energy
+  LOBBY_FLR_1 ZN SPACE FUNCTION LOBBY - HOTEL LIGHTS:Lights Electric Energy
+  CAFE_FLR_1 ZN SPACE FUNCTION RETAIL FACILITY MALL CONCOURSE LIGHTS:Lights Electric Energy
+  RETAIL_1_FLR_1 ZN SPACE FUNCTION SALES AREA LIGHTS:Lights Electric Energy
+  RETAIL_2_FLR_1 ZN SPACE FUNCTION SALES AREA LIGHTS:Lights Electric Energy
+  BASEMENT ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-E LIGHTS:Lights Electric Energy
+  STORAGE_FLR_1 ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-E LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:CORRIDOR_FLR_3 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  CORRIDOR_FLR_3 ZN SPACE FUNCTION CORRIDOR/TRANSITION AREA - HOSPITAL-SCH-E LIGHTS:Lights Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+
+ For Meter=General:InteriorLights:Electricity [J], ResourceType=Electricity, EndUse=InteriorLights, contents are:
+  CORRIDOR_FLR_3 ZN SPACE FUNCTION CORRIDOR/TRANSITION AREA - HOSPITAL-SCH-E LIGHTS:Lights Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  CORRIDOR_FLR_6 ZN SPACE FUNCTION CORRIDOR/TRANSITION AREA - HOSPITAL-SCH-E LIGHTS:Lights Electric Energy
+  BANQUET_FLR_6 ZN SPACE FUNCTION DINING AREA - OTHER LIGHTS:Lights Electric Energy
+  DINING_FLR_6 ZN SPACE FUNCTION DINING AREA - OTHER LIGHTS:Lights Electric Energy
+  MECH_FLR_1 ZN SPACE FUNCTION ELECTRICAL/MECHANICAL ROOM-SCH-E LIGHTS:Lights Electric Energy
+  KITCHEN_FLR_6 ZN SPACE FUNCTION FOOD PREPARATION AREA LIGHTS:Lights Electric Energy
+  ROOM_1_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_1_FLR_6 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy
+  ROOM_2_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_2_FLR_6 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy
+  ROOM_3_MULT19_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  ROOM_3_MULT9_FLR_6 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 9  (Zone Multiplier = 9, Zone List Multiplier = 1)
+  ROOM_4_MULT19_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  ROOM_5_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_6_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  LAUNDRY_FLR_1 ZN SPACE FUNCTION LAUNDRY/WASHING AREA LIGHTS:Lights Electric Energy
+  LOBBY_FLR_1 ZN SPACE FUNCTION LOBBY - HOTEL LIGHTS:Lights Electric Energy
+  CAFE_FLR_1 ZN SPACE FUNCTION RETAIL FACILITY MALL CONCOURSE LIGHTS:Lights Electric Energy
+  RETAIL_1_FLR_1 ZN SPACE FUNCTION SALES AREA LIGHTS:Lights Electric Energy
+  RETAIL_2_FLR_1 ZN SPACE FUNCTION SALES AREA LIGHTS:Lights Electric Energy
+  BASEMENT ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-E LIGHTS:Lights Electric Energy
+  STORAGE_FLR_1 ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-E LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:CORRIDOR_FLR_6 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  CORRIDOR_FLR_6 ZN SPACE FUNCTION CORRIDOR/TRANSITION AREA - HOSPITAL-SCH-E LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:CORRIDOR_FLR_6 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  CORRIDOR_FLR_6 ZN SPACE FUNCTION CORRIDOR/TRANSITION AREA - HOSPITAL-SCH-E LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:BANQUET_FLR_6 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  BANQUET_FLR_6 ZN SPACE FUNCTION DINING AREA - OTHER LIGHTS:Lights Electric Energy
+  BANQUET_FLR_6 ZN SPACE FUNCTION DINING AREA - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:BANQUET_FLR_6 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  BANQUET_FLR_6 ZN SPACE FUNCTION DINING AREA - OTHER LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:DINING_FLR_6 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  DINING_FLR_6 ZN SPACE FUNCTION DINING AREA - OTHER LIGHTS:Lights Electric Energy
+  DINING_FLR_6 ZN SPACE FUNCTION DINING AREA - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:DINING_FLR_6 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  DINING_FLR_6 ZN SPACE FUNCTION DINING AREA - OTHER LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:MECH_FLR_1 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  MECH_FLR_1 ZN SPACE FUNCTION ELECTRICAL/MECHANICAL ROOM-SCH-E LIGHTS:Lights Electric Energy
+  MECH_FLR_1 ZN SPACE FUNCTION ELECTRICAL/MECHANICAL ROOM-SCH-E ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:MECH_FLR_1 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  MECH_FLR_1 ZN SPACE FUNCTION ELECTRICAL/MECHANICAL ROOM-SCH-E LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:KITCHEN_FLR_6 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  KITCHEN_FLR_6 ZN SPACE FUNCTION FOOD PREPARATION AREA LIGHTS:Lights Electric Energy
+  KITCHEN_FLR_6 ZN SPACE FUNCTION FOOD PREPARATION AREA ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:KITCHEN_FLR_6 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  KITCHEN_FLR_6 ZN SPACE FUNCTION FOOD PREPARATION AREA LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:ROOM_1_FLR_3 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  ROOM_1_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_1_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+
+ For Meter=InteriorLights:Electricity:Zone:ROOM_1_FLR_3 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ROOM_1_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+
+ For Meter=Electricity:Zone:ROOM_1_FLR_6 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  ROOM_1_FLR_6 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy
+  ROOM_1_FLR_6 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ROOM_1_FLR_6 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ROOM_1_FLR_6 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:ROOM_2_FLR_3 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  ROOM_2_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_2_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+
+ For Meter=InteriorLights:Electricity:Zone:ROOM_2_FLR_3 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ROOM_2_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+
+ For Meter=Electricity:Zone:ROOM_2_FLR_6 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  ROOM_2_FLR_6 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy
+  ROOM_2_FLR_6 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:ROOM_2_FLR_6 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ROOM_2_FLR_6 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:ROOM_3_MULT19_FLR_3 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  ROOM_3_MULT19_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  ROOM_3_MULT19_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+
+ For Meter=InteriorLights:Electricity:Zone:ROOM_3_MULT19_FLR_3 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ROOM_3_MULT19_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+
+ For Meter=Electricity:Zone:ROOM_3_MULT9_FLR_6 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  ROOM_3_MULT9_FLR_6 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 9  (Zone Multiplier = 9, Zone List Multiplier = 1)
+  ROOM_3_MULT9_FLR_6 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 9  (Zone Multiplier = 9, Zone List Multiplier = 1)
+
+ For Meter=InteriorLights:Electricity:Zone:ROOM_3_MULT9_FLR_6 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ROOM_3_MULT9_FLR_6 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 9  (Zone Multiplier = 9, Zone List Multiplier = 1)
+
+ For Meter=Electricity:Zone:ROOM_4_MULT19_FLR_3 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  ROOM_4_MULT19_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  ROOM_4_MULT19_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+
+ For Meter=InteriorLights:Electricity:Zone:ROOM_4_MULT19_FLR_3 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ROOM_4_MULT19_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+
+ For Meter=Electricity:Zone:ROOM_5_FLR_3 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  ROOM_5_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_5_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+
+ For Meter=InteriorLights:Electricity:Zone:ROOM_5_FLR_3 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ROOM_5_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+
+ For Meter=Electricity:Zone:ROOM_6_FLR_3 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  ROOM_6_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_6_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+
+ For Meter=InteriorLights:Electricity:Zone:ROOM_6_FLR_3 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  ROOM_6_FLR_3 ZN SPACE FUNCTION GUEST ROOM LIGHTS:Lights Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+
+ For Meter=Electricity:Zone:LAUNDRY_FLR_1 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  LAUNDRY_FLR_1 ZN SPACE FUNCTION LAUNDRY/WASHING AREA LIGHTS:Lights Electric Energy
+  LAUNDRY_FLR_1 ZN SPACE FUNCTION LAUNDRY/WASHING AREA ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:LAUNDRY_FLR_1 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  LAUNDRY_FLR_1 ZN SPACE FUNCTION LAUNDRY/WASHING AREA LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:LOBBY_FLR_1 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  LOBBY_FLR_1 ZN SPACE FUNCTION LOBBY - HOTEL LIGHTS:Lights Electric Energy
+  LOBBY_FLR_1 ZN SPACE FUNCTION LOBBY - HOTEL ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:LOBBY_FLR_1 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  LOBBY_FLR_1 ZN SPACE FUNCTION LOBBY - HOTEL LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:CAFE_FLR_1 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  CAFE_FLR_1 ZN SPACE FUNCTION RETAIL FACILITY MALL CONCOURSE LIGHTS:Lights Electric Energy
+  CAFE_FLR_1 ZN SPACE FUNCTION RETAIL FACILITY MALL CONCOURSE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:CAFE_FLR_1 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  CAFE_FLR_1 ZN SPACE FUNCTION RETAIL FACILITY MALL CONCOURSE LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:RETAIL_1_FLR_1 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  RETAIL_1_FLR_1 ZN SPACE FUNCTION SALES AREA LIGHTS:Lights Electric Energy
+  RETAIL_1_FLR_1 ZN SPACE FUNCTION SALES AREA ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:RETAIL_1_FLR_1 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  RETAIL_1_FLR_1 ZN SPACE FUNCTION SALES AREA LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:RETAIL_2_FLR_1 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  RETAIL_2_FLR_1 ZN SPACE FUNCTION SALES AREA LIGHTS:Lights Electric Energy
+  RETAIL_2_FLR_1 ZN SPACE FUNCTION SALES AREA ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:RETAIL_2_FLR_1 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  RETAIL_2_FLR_1 ZN SPACE FUNCTION SALES AREA LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:BASEMENT ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  BASEMENT ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-E LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:BASEMENT ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  BASEMENT ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-E LIGHTS:Lights Electric Energy
+
+ For Meter=Electricity:Zone:STORAGE_FLR_1 ZN [J], ResourceType=Electricity, Group=Zone, contents are:
+  STORAGE_FLR_1 ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-E LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorLights:Electricity:Zone:STORAGE_FLR_1 ZN [J], ResourceType=Electricity, EndUse=InteriorLights, Group=Zone, contents are:
+  STORAGE_FLR_1 ZN SPACE FUNCTION STORAGE ROOM <= 5 M2 <= 100 M2-SCH-E LIGHTS:Lights Electric Energy
+
+ For Meter=InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  BANQUET_FLR_6 ZN SPACE FUNCTION DINING AREA - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+  DINING_FLR_6 ZN SPACE FUNCTION DINING AREA - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+  MECH_FLR_1 ZN SPACE FUNCTION ELECTRICAL/MECHANICAL ROOM-SCH-E ELEC EQUIP:Electric Equipment Electric Energy
+  KITCHEN_FLR_6 ZN SPACE FUNCTION FOOD PREPARATION AREA ELEC EQUIP:Electric Equipment Electric Energy
+  ROOM_1_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_1_FLR_6 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy
+  ROOM_2_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_2_FLR_6 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy
+  ROOM_3_MULT19_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  ROOM_3_MULT9_FLR_6 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 9  (Zone Multiplier = 9, Zone List Multiplier = 1)
+  ROOM_4_MULT19_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  ROOM_5_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_6_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  LAUNDRY_FLR_1 ZN SPACE FUNCTION LAUNDRY/WASHING AREA ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY_FLR_1 ZN SPACE FUNCTION LOBBY - HOTEL ELEC EQUIP:Electric Equipment Electric Energy
+  CAFE_FLR_1 ZN SPACE FUNCTION RETAIL FACILITY MALL CONCOURSE ELEC EQUIP:Electric Equipment Electric Energy
+  RETAIL_1_FLR_1 ZN SPACE FUNCTION SALES AREA ELEC EQUIP:Electric Equipment Electric Energy
+  RETAIL_2_FLR_1 ZN SPACE FUNCTION SALES AREA ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:BANQUET_FLR_6 ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  BANQUET_FLR_6 ZN SPACE FUNCTION DINING AREA - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=General:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  BANQUET_FLR_6 ZN SPACE FUNCTION DINING AREA - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+  DINING_FLR_6 ZN SPACE FUNCTION DINING AREA - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+  MECH_FLR_1 ZN SPACE FUNCTION ELECTRICAL/MECHANICAL ROOM-SCH-E ELEC EQUIP:Electric Equipment Electric Energy
+  KITCHEN_FLR_6 ZN SPACE FUNCTION FOOD PREPARATION AREA ELEC EQUIP:Electric Equipment Electric Energy
+  ROOM_1_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_1_FLR_6 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy
+  ROOM_2_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_2_FLR_6 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy
+  ROOM_3_MULT19_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  ROOM_3_MULT9_FLR_6 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 9  (Zone Multiplier = 9, Zone List Multiplier = 1)
+  ROOM_4_MULT19_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  ROOM_5_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_6_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  LAUNDRY_FLR_1 ZN SPACE FUNCTION LAUNDRY/WASHING AREA ELEC EQUIP:Electric Equipment Electric Energy
+  LOBBY_FLR_1 ZN SPACE FUNCTION LOBBY - HOTEL ELEC EQUIP:Electric Equipment Electric Energy
+  CAFE_FLR_1 ZN SPACE FUNCTION RETAIL FACILITY MALL CONCOURSE ELEC EQUIP:Electric Equipment Electric Energy
+  RETAIL_1_FLR_1 ZN SPACE FUNCTION SALES AREA ELEC EQUIP:Electric Equipment Electric Energy
+  RETAIL_2_FLR_1 ZN SPACE FUNCTION SALES AREA ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:DINING_FLR_6 ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  DINING_FLR_6 ZN SPACE FUNCTION DINING AREA - OTHER ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:MECH_FLR_1 ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  MECH_FLR_1 ZN SPACE FUNCTION ELECTRICAL/MECHANICAL ROOM-SCH-E ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:KITCHEN_FLR_6 ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  KITCHEN_FLR_6 ZN SPACE FUNCTION FOOD PREPARATION AREA ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ROOM_1_FLR_3 ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ROOM_1_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+
+ For Meter=InteriorEquipment:Electricity:Zone:ROOM_1_FLR_6 ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ROOM_1_FLR_6 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ROOM_2_FLR_3 ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ROOM_2_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+
+ For Meter=InteriorEquipment:Electricity:Zone:ROOM_2_FLR_6 ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ROOM_2_FLR_6 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:ROOM_3_MULT19_FLR_3 ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ROOM_3_MULT19_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+
+ For Meter=InteriorEquipment:Electricity:Zone:ROOM_3_MULT9_FLR_6 ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ROOM_3_MULT9_FLR_6 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 9  (Zone Multiplier = 9, Zone List Multiplier = 1)
+
+ For Meter=InteriorEquipment:Electricity:Zone:ROOM_4_MULT19_FLR_3 ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ROOM_4_MULT19_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+
+ For Meter=InteriorEquipment:Electricity:Zone:ROOM_5_FLR_3 ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ROOM_5_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+
+ For Meter=InteriorEquipment:Electricity:Zone:ROOM_6_FLR_3 ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ROOM_6_FLR_3 ZN SPACE FUNCTION GUEST ROOM ELEC EQUIP:Electric Equipment Electric Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+
+ For Meter=InteriorEquipment:Electricity:Zone:LAUNDRY_FLR_1 ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  LAUNDRY_FLR_1 ZN SPACE FUNCTION LAUNDRY/WASHING AREA ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:LOBBY_FLR_1 ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  LOBBY_FLR_1 ZN SPACE FUNCTION LOBBY - HOTEL ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:CAFE_FLR_1 ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  CAFE_FLR_1 ZN SPACE FUNCTION RETAIL FACILITY MALL CONCOURSE ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:RETAIL_1_FLR_1 ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  RETAIL_1_FLR_1 ZN SPACE FUNCTION SALES AREA ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:RETAIL_2_FLR_1 ZN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  RETAIL_2_FLR_1 ZN SPACE FUNCTION SALES AREA ELEC EQUIP:Electric Equipment Electric Energy
+
+ For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
+  BANQUET_FLR_6 ZN:Zone Air System Sensible Heating Energy
+  BANQUET_FLR_6 ZN:Zone Air System Sensible Cooling Energy
+  BASEMENT ZN:Zone Air System Sensible Heating Energy
+  BASEMENT ZN:Zone Air System Sensible Cooling Energy
+  CAFE_FLR_1 ZN:Zone Air System Sensible Heating Energy
+  CAFE_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+  CORRIDOR_FLR_3 ZN:Zone Air System Sensible Heating Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  CORRIDOR_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  CORRIDOR_FLR_6 ZN:Zone Air System Sensible Heating Energy
+  CORRIDOR_FLR_6 ZN:Zone Air System Sensible Cooling Energy
+  DINING_FLR_6 ZN:Zone Air System Sensible Heating Energy
+  DINING_FLR_6 ZN:Zone Air System Sensible Cooling Energy
+  KITCHEN_FLR_6 ZN:Zone Air System Sensible Heating Energy
+  KITCHEN_FLR_6 ZN:Zone Air System Sensible Cooling Energy
+  LAUNDRY_FLR_1 ZN:Zone Air System Sensible Heating Energy
+  LAUNDRY_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+  LOBBY_FLR_1 ZN:Zone Air System Sensible Heating Energy
+  LOBBY_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+  MECH_FLR_1 ZN:Zone Air System Sensible Heating Energy
+  MECH_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+  RETAIL_1_FLR_1 ZN:Zone Air System Sensible Heating Energy
+  RETAIL_1_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+  RETAIL_2_FLR_1 ZN:Zone Air System Sensible Heating Energy
+  RETAIL_2_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+  ROOM_1_FLR_3 ZN:Zone Air System Sensible Heating Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_1_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_1_FLR_6 ZN:Zone Air System Sensible Heating Energy
+  ROOM_1_FLR_6 ZN:Zone Air System Sensible Cooling Energy
+  ROOM_2_FLR_3 ZN:Zone Air System Sensible Heating Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_2_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_2_FLR_6 ZN:Zone Air System Sensible Heating Energy
+  ROOM_2_FLR_6 ZN:Zone Air System Sensible Cooling Energy
+  ROOM_3_MULT19_FLR_3 ZN:Zone Air System Sensible Heating Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  ROOM_3_MULT19_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  ROOM_3_MULT9_FLR_6 ZN:Zone Air System Sensible Heating Energy * 9  (Zone Multiplier = 9, Zone List Multiplier = 1)
+  ROOM_3_MULT9_FLR_6 ZN:Zone Air System Sensible Cooling Energy * 9  (Zone Multiplier = 9, Zone List Multiplier = 1)
+  ROOM_4_MULT19_FLR_3 ZN:Zone Air System Sensible Heating Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  ROOM_4_MULT19_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  ROOM_5_FLR_3 ZN:Zone Air System Sensible Heating Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_5_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_6_FLR_3 ZN:Zone Air System Sensible Heating Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_6_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  STORAGE_FLR_1 ZN:Zone Air System Sensible Heating Energy
+  STORAGE_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
+  BANQUET_FLR_6 ZN:Zone Air System Sensible Heating Energy
+  BANQUET_FLR_6 ZN:Zone Air System Sensible Cooling Energy
+  BASEMENT ZN:Zone Air System Sensible Heating Energy
+  BASEMENT ZN:Zone Air System Sensible Cooling Energy
+  CAFE_FLR_1 ZN:Zone Air System Sensible Heating Energy
+  CAFE_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+  CORRIDOR_FLR_3 ZN:Zone Air System Sensible Heating Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  CORRIDOR_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  CORRIDOR_FLR_6 ZN:Zone Air System Sensible Heating Energy
+  CORRIDOR_FLR_6 ZN:Zone Air System Sensible Cooling Energy
+  DINING_FLR_6 ZN:Zone Air System Sensible Heating Energy
+  DINING_FLR_6 ZN:Zone Air System Sensible Cooling Energy
+  KITCHEN_FLR_6 ZN:Zone Air System Sensible Heating Energy
+  KITCHEN_FLR_6 ZN:Zone Air System Sensible Cooling Energy
+  LAUNDRY_FLR_1 ZN:Zone Air System Sensible Heating Energy
+  LAUNDRY_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+  LOBBY_FLR_1 ZN:Zone Air System Sensible Heating Energy
+  LOBBY_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+  MECH_FLR_1 ZN:Zone Air System Sensible Heating Energy
+  MECH_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+  RETAIL_1_FLR_1 ZN:Zone Air System Sensible Heating Energy
+  RETAIL_1_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+  RETAIL_2_FLR_1 ZN:Zone Air System Sensible Heating Energy
+  RETAIL_2_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+  ROOM_1_FLR_3 ZN:Zone Air System Sensible Heating Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_1_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_1_FLR_6 ZN:Zone Air System Sensible Heating Energy
+  ROOM_1_FLR_6 ZN:Zone Air System Sensible Cooling Energy
+  ROOM_2_FLR_3 ZN:Zone Air System Sensible Heating Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_2_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_2_FLR_6 ZN:Zone Air System Sensible Heating Energy
+  ROOM_2_FLR_6 ZN:Zone Air System Sensible Cooling Energy
+  ROOM_3_MULT19_FLR_3 ZN:Zone Air System Sensible Heating Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  ROOM_3_MULT19_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  ROOM_3_MULT9_FLR_6 ZN:Zone Air System Sensible Heating Energy * 9  (Zone Multiplier = 9, Zone List Multiplier = 1)
+  ROOM_3_MULT9_FLR_6 ZN:Zone Air System Sensible Cooling Energy * 9  (Zone Multiplier = 9, Zone List Multiplier = 1)
+  ROOM_4_MULT19_FLR_3 ZN:Zone Air System Sensible Heating Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  ROOM_4_MULT19_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  ROOM_5_FLR_3 ZN:Zone Air System Sensible Heating Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_5_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_6_FLR_3 ZN:Zone Air System Sensible Heating Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_6_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  STORAGE_FLR_1 ZN:Zone Air System Sensible Heating Energy
+  STORAGE_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:BANQUET_FLR_6 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  BANQUET_FLR_6 ZN:Zone Air System Sensible Heating Energy
+  BANQUET_FLR_6 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  BANQUET_FLR_6 ZN:Zone Air System Sensible Heating Energy
+  BASEMENT ZN:Zone Air System Sensible Heating Energy
+  CAFE_FLR_1 ZN:Zone Air System Sensible Heating Energy
+  CORRIDOR_FLR_3 ZN:Zone Air System Sensible Heating Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  CORRIDOR_FLR_6 ZN:Zone Air System Sensible Heating Energy
+  DINING_FLR_6 ZN:Zone Air System Sensible Heating Energy
+  KITCHEN_FLR_6 ZN:Zone Air System Sensible Heating Energy
+  LAUNDRY_FLR_1 ZN:Zone Air System Sensible Heating Energy
+  LOBBY_FLR_1 ZN:Zone Air System Sensible Heating Energy
+  MECH_FLR_1 ZN:Zone Air System Sensible Heating Energy
+  RETAIL_1_FLR_1 ZN:Zone Air System Sensible Heating Energy
+  RETAIL_2_FLR_1 ZN:Zone Air System Sensible Heating Energy
+  ROOM_1_FLR_3 ZN:Zone Air System Sensible Heating Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_1_FLR_6 ZN:Zone Air System Sensible Heating Energy
+  ROOM_2_FLR_3 ZN:Zone Air System Sensible Heating Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_2_FLR_6 ZN:Zone Air System Sensible Heating Energy
+  ROOM_3_MULT19_FLR_3 ZN:Zone Air System Sensible Heating Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  ROOM_3_MULT9_FLR_6 ZN:Zone Air System Sensible Heating Energy * 9  (Zone Multiplier = 9, Zone List Multiplier = 1)
+  ROOM_4_MULT19_FLR_3 ZN:Zone Air System Sensible Heating Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  ROOM_5_FLR_3 ZN:Zone Air System Sensible Heating Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_6_FLR_3 ZN:Zone Air System Sensible Heating Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  STORAGE_FLR_1 ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:BANQUET_FLR_6 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  BANQUET_FLR_6 ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  BANQUET_FLR_6 ZN:Zone Air System Sensible Cooling Energy
+  BASEMENT ZN:Zone Air System Sensible Cooling Energy
+  CAFE_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+  CORRIDOR_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  CORRIDOR_FLR_6 ZN:Zone Air System Sensible Cooling Energy
+  DINING_FLR_6 ZN:Zone Air System Sensible Cooling Energy
+  KITCHEN_FLR_6 ZN:Zone Air System Sensible Cooling Energy
+  LAUNDRY_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+  LOBBY_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+  MECH_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+  RETAIL_1_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+  RETAIL_2_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+  ROOM_1_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_1_FLR_6 ZN:Zone Air System Sensible Cooling Energy
+  ROOM_2_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_2_FLR_6 ZN:Zone Air System Sensible Cooling Energy
+  ROOM_3_MULT19_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  ROOM_3_MULT9_FLR_6 ZN:Zone Air System Sensible Cooling Energy * 9  (Zone Multiplier = 9, Zone List Multiplier = 1)
+  ROOM_4_MULT19_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  ROOM_5_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_6_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  STORAGE_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:BANQUET_FLR_6 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  BANQUET_FLR_6 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:BASEMENT ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  BASEMENT ZN:Zone Air System Sensible Heating Energy
+  BASEMENT ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:BASEMENT ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  BASEMENT ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:BASEMENT ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  BASEMENT ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:CAFE_FLR_1 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  CAFE_FLR_1 ZN:Zone Air System Sensible Heating Energy
+  CAFE_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:CAFE_FLR_1 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  CAFE_FLR_1 ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:CAFE_FLR_1 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  CAFE_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:CORRIDOR_FLR_3 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  CORRIDOR_FLR_3 ZN:Zone Air System Sensible Heating Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  CORRIDOR_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+
+ For Meter=Heating:EnergyTransfer:Zone:CORRIDOR_FLR_3 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  CORRIDOR_FLR_3 ZN:Zone Air System Sensible Heating Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+
+ For Meter=Cooling:EnergyTransfer:Zone:CORRIDOR_FLR_3 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  CORRIDOR_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+
+ For Meter=EnergyTransfer:Zone:CORRIDOR_FLR_6 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  CORRIDOR_FLR_6 ZN:Zone Air System Sensible Heating Energy
+  CORRIDOR_FLR_6 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:CORRIDOR_FLR_6 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  CORRIDOR_FLR_6 ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:CORRIDOR_FLR_6 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  CORRIDOR_FLR_6 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:DINING_FLR_6 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  DINING_FLR_6 ZN:Zone Air System Sensible Heating Energy
+  DINING_FLR_6 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:DINING_FLR_6 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  DINING_FLR_6 ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:DINING_FLR_6 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  DINING_FLR_6 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:KITCHEN_FLR_6 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  KITCHEN_FLR_6 ZN:Zone Air System Sensible Heating Energy
+  KITCHEN_FLR_6 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:KITCHEN_FLR_6 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  KITCHEN_FLR_6 ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:KITCHEN_FLR_6 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  KITCHEN_FLR_6 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:LAUNDRY_FLR_1 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  LAUNDRY_FLR_1 ZN:Zone Air System Sensible Heating Energy
+  LAUNDRY_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:LAUNDRY_FLR_1 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  LAUNDRY_FLR_1 ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:LAUNDRY_FLR_1 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  LAUNDRY_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:LOBBY_FLR_1 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  LOBBY_FLR_1 ZN:Zone Air System Sensible Heating Energy
+  LOBBY_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:LOBBY_FLR_1 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  LOBBY_FLR_1 ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:LOBBY_FLR_1 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  LOBBY_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:MECH_FLR_1 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  MECH_FLR_1 ZN:Zone Air System Sensible Heating Energy
+  MECH_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:MECH_FLR_1 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  MECH_FLR_1 ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:MECH_FLR_1 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  MECH_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:RETAIL_1_FLR_1 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  RETAIL_1_FLR_1 ZN:Zone Air System Sensible Heating Energy
+  RETAIL_1_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:RETAIL_1_FLR_1 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  RETAIL_1_FLR_1 ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:RETAIL_1_FLR_1 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  RETAIL_1_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:RETAIL_2_FLR_1 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  RETAIL_2_FLR_1 ZN:Zone Air System Sensible Heating Energy
+  RETAIL_2_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:RETAIL_2_FLR_1 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  RETAIL_2_FLR_1 ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:RETAIL_2_FLR_1 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  RETAIL_2_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ROOM_1_FLR_3 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ROOM_1_FLR_3 ZN:Zone Air System Sensible Heating Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_1_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+
+ For Meter=Heating:EnergyTransfer:Zone:ROOM_1_FLR_3 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ROOM_1_FLR_3 ZN:Zone Air System Sensible Heating Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+
+ For Meter=Cooling:EnergyTransfer:Zone:ROOM_1_FLR_3 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ROOM_1_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+
+ For Meter=EnergyTransfer:Zone:ROOM_1_FLR_6 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ROOM_1_FLR_6 ZN:Zone Air System Sensible Heating Energy
+  ROOM_1_FLR_6 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ROOM_1_FLR_6 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ROOM_1_FLR_6 ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ROOM_1_FLR_6 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ROOM_1_FLR_6 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ROOM_2_FLR_3 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ROOM_2_FLR_3 ZN:Zone Air System Sensible Heating Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_2_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+
+ For Meter=Heating:EnergyTransfer:Zone:ROOM_2_FLR_3 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ROOM_2_FLR_3 ZN:Zone Air System Sensible Heating Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+
+ For Meter=Cooling:EnergyTransfer:Zone:ROOM_2_FLR_3 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ROOM_2_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+
+ For Meter=EnergyTransfer:Zone:ROOM_2_FLR_6 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ROOM_2_FLR_6 ZN:Zone Air System Sensible Heating Energy
+  ROOM_2_FLR_6 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:ROOM_2_FLR_6 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ROOM_2_FLR_6 ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:ROOM_2_FLR_6 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ROOM_2_FLR_6 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:ROOM_3_MULT19_FLR_3 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ROOM_3_MULT19_FLR_3 ZN:Zone Air System Sensible Heating Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  ROOM_3_MULT19_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+
+ For Meter=Heating:EnergyTransfer:Zone:ROOM_3_MULT19_FLR_3 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ROOM_3_MULT19_FLR_3 ZN:Zone Air System Sensible Heating Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+
+ For Meter=Cooling:EnergyTransfer:Zone:ROOM_3_MULT19_FLR_3 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ROOM_3_MULT19_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+
+ For Meter=EnergyTransfer:Zone:ROOM_3_MULT9_FLR_6 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ROOM_3_MULT9_FLR_6 ZN:Zone Air System Sensible Heating Energy * 9  (Zone Multiplier = 9, Zone List Multiplier = 1)
+  ROOM_3_MULT9_FLR_6 ZN:Zone Air System Sensible Cooling Energy * 9  (Zone Multiplier = 9, Zone List Multiplier = 1)
+
+ For Meter=Heating:EnergyTransfer:Zone:ROOM_3_MULT9_FLR_6 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ROOM_3_MULT9_FLR_6 ZN:Zone Air System Sensible Heating Energy * 9  (Zone Multiplier = 9, Zone List Multiplier = 1)
+
+ For Meter=Cooling:EnergyTransfer:Zone:ROOM_3_MULT9_FLR_6 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ROOM_3_MULT9_FLR_6 ZN:Zone Air System Sensible Cooling Energy * 9  (Zone Multiplier = 9, Zone List Multiplier = 1)
+
+ For Meter=EnergyTransfer:Zone:ROOM_4_MULT19_FLR_3 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ROOM_4_MULT19_FLR_3 ZN:Zone Air System Sensible Heating Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+  ROOM_4_MULT19_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+
+ For Meter=Heating:EnergyTransfer:Zone:ROOM_4_MULT19_FLR_3 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ROOM_4_MULT19_FLR_3 ZN:Zone Air System Sensible Heating Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+
+ For Meter=Cooling:EnergyTransfer:Zone:ROOM_4_MULT19_FLR_3 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ROOM_4_MULT19_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 76  (Zone Multiplier = 76, Zone List Multiplier = 1)
+
+ For Meter=EnergyTransfer:Zone:ROOM_5_FLR_3 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ROOM_5_FLR_3 ZN:Zone Air System Sensible Heating Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_5_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+
+ For Meter=Heating:EnergyTransfer:Zone:ROOM_5_FLR_3 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ROOM_5_FLR_3 ZN:Zone Air System Sensible Heating Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+
+ For Meter=Cooling:EnergyTransfer:Zone:ROOM_5_FLR_3 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ROOM_5_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+
+ For Meter=EnergyTransfer:Zone:ROOM_6_FLR_3 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  ROOM_6_FLR_3 ZN:Zone Air System Sensible Heating Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+  ROOM_6_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+
+ For Meter=Heating:EnergyTransfer:Zone:ROOM_6_FLR_3 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  ROOM_6_FLR_3 ZN:Zone Air System Sensible Heating Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+
+ For Meter=Cooling:EnergyTransfer:Zone:ROOM_6_FLR_3 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  ROOM_6_FLR_3 ZN:Zone Air System Sensible Cooling Energy * 4  (Zone Multiplier = 4, Zone List Multiplier = 1)
+
+ For Meter=EnergyTransfer:Zone:STORAGE_FLR_1 ZN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  STORAGE_FLR_1 ZN:Zone Air System Sensible Heating Energy
+  STORAGE_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:STORAGE_FLR_1 ZN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  STORAGE_FLR_1 ZN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:STORAGE_FLR_1 ZN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  STORAGE_FLR_1 ZN:Zone Air System Sensible Cooling Energy
+
+ For Meter=ElectricityPurchased:Facility [J], ResourceType=ElectricityPurchased, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=ElectricityPurchased:Plant [J], ResourceType=ElectricityPurchased, Group=Plant, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Purchased Electric Energy
+
+ For Meter=ElectricitySurplusSold:Facility [J], ResourceType=ElectricitySurplusSold, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=ElectricitySurplusSold:Plant [J], ResourceType=ElectricitySurplusSold, Group=Plant, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Surplus Electric Energy
+
+ For Meter=ElectricityNet:Facility [J], ResourceType=ElectricityNet, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=ElectricityNet:Plant [J], ResourceType=ElectricityNet, Group=Plant, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Net Purchased Electric Energy
+
+ For Meter=DistrictHeating:Facility [J], ResourceType=DistrictHeating, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 21:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 22:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=DistrictHeating:HVAC [J], ResourceType=DistrictHeating, Group=HVAC, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 21:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 22:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=Heating:DistrictHeating [J], ResourceType=DistrictHeating, EndUse=Heating, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 21:Zone Ideal Loads Supply Air Total Heating Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 22:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=DistrictCooling:Facility [J], ResourceType=DistrictCooling, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 21:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 22:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=DistrictCooling:HVAC [J], ResourceType=DistrictCooling, Group=HVAC, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 21:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 22:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=Cooling:DistrictCooling [J], ResourceType=DistrictCooling, EndUse=Cooling, contents are:
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 1:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 2:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 3:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 4:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 5:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 6:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 7:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 8:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 9:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 10:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 11:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 12:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 13:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 14:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 15:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 16:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 17:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 18:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 19:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 20:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 21:Zone Ideal Loads Supply Air Total Cooling Energy
+  ZONE HVAC IDEAL LOADS AIR SYSTEM 22:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=Carbon Equivalent:Facility [kg], ResourceType=Carbon Equivalent, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
+
+ For Meter=CarbonEquivalentEmissions:Carbon Equivalent [kg], ResourceType=Carbon Equivalent, EndUse=CarbonEquivalentEmissions, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
