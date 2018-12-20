@@ -1,6 +1,6 @@
 {
-  "projectName": "NECB2017 Opaque 3",
-  "projectDir": "C:\\Users\\vuonge\\Documents\\Code Document\\NECB 2017 PATS\\NECB2017 Opaque 3",
+  "projectName": "N2017Opaque2",
+  "projectDir": "C:\\N2017Op\\N2017Opaque2",
   "seed": "dummy.osm",
   "weatherFile": "dummy.epw",
   "analysis_type": "Algorithmic",
@@ -37,7 +37,7 @@
       "defaultValue": "full_factorial",
       "type": "string",
       "value": "full_factorial",
-      "$$hashKey": "object:200"
+      "$$hashKey": "object:203"
     },
     {
       "name": "number_of_samples",
@@ -46,7 +46,7 @@
       "defaultValue": 2,
       "type": "number",
       "value": 2,
-      "$$hashKey": "object:201"
+      "$$hashKey": "object:204"
     },
     {
       "name": "seed",
@@ -55,7 +55,7 @@
       "defaultValue": null,
       "type": "number",
       "value": null,
-      "$$hashKey": "object:135"
+      "$$hashKey": "object:138"
     },
     {
       "name": "failed_f_value",
@@ -64,7 +64,7 @@
       "defaultValue": 1000000000000000000,
       "type": "number",
       "value": 1000000000000000000,
-      "$$hashKey": "object:202"
+      "$$hashKey": "object:205"
     },
     {
       "name": "debug_messages",
@@ -73,7 +73,7 @@
       "defaultValue": 0,
       "type": "number",
       "value": 0,
-      "$$hashKey": "object:203"
+      "$$hashKey": "object:206"
     }
   ],
   "rubyMD5": "",
@@ -83,7 +83,7 @@
   "openstudioMD5": "",
   "measures": [
     {
-      "measure_dir": "C:\\Users\\vuonge\\Documents\\Code Document\\NECB 2017 PATS\\NECB2017 Opaque 3\\measures\\btap_create_necb_prototype_building",
+      "measure_dir": "C:\\N2017Op\\N2017Opaque2\\measures\\btap_create_necb_prototype_building",
       "name": "btap_create_necb_prototype_building",
       "directory": "C:/Users/vuonge/Documents/Code Document/measures/btap_create_necb_prototype_building",
       "uid": "3e9acd53-8602-4749-a655-7cbbe48e8b30",
@@ -177,22 +177,22 @@
               {
                 "value": "SecondarySchool",
                 "weight": "",
-                "$$hashKey": "object:3108"
+                "$$hashKey": "object:2240"
               },
               {
                 "value": "RetailStandalone",
                 "weight": "",
-                "$$hashKey": "object:3119"
+                "$$hashKey": "object:2251"
               },
               {
                 "value": "RetailStripmall",
                 "weight": "",
-                "$$hashKey": "object:3129"
+                "$$hashKey": "object:2261"
               },
               {
                 "value": "HighriseApartment",
                 "weight": "",
-                "$$hashKey": "object:3139"
+                "$$hashKey": "object:2271"
               }
             ],
             "maximum": "SmallOffice",
@@ -203,7 +203,7 @@
             "default_value": "SmallOffice",
             "showWarningIcon": false
           },
-          "$$hashKey": "object:1670"
+          "$$hashKey": "object:1689"
         },
         {
           "name": "template",
@@ -241,7 +241,7 @@
             "stdDev": "NECB2011",
             "default_value": "NECB2017"
           },
-          "$$hashKey": "object:1671"
+          "$$hashKey": "object:1690"
         },
         {
           "name": "epw_file",
@@ -464,32 +464,32 @@
               {
                 "value": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw",
                 "weight": "",
-                "$$hashKey": "object:3153"
+                "$$hashKey": "object:2291"
               },
               {
                 "value": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw",
                 "weight": "",
-                "$$hashKey": "object:3164"
+                "$$hashKey": "object:2302"
               },
               {
                 "value": "CAN_PE_Charlottetown.AP.717060_CWEC2016.epw",
                 "weight": "",
-                "$$hashKey": "object:3174"
+                "$$hashKey": "object:2312"
               },
               {
                 "value": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw",
                 "weight": "",
-                "$$hashKey": "object:3184"
+                "$$hashKey": "object:2322"
               },
               {
                 "value": "CAN_YT_Whitehorse.Intl.AP.719640_CWEC2016.epw",
                 "weight": "",
-                "$$hashKey": "object:3194"
+                "$$hashKey": "object:2332"
               },
               {
                 "value": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw",
                 "weight": "",
-                "$$hashKey": "object:3204"
+                "$$hashKey": "object:2342"
               }
             ],
             "maximum": "CAN_AB_Banff.CS.711220_CWEC2016.epw",
@@ -500,7 +500,7 @@
             "default_value": "CAN_AB_Banff.CS.711220_CWEC2016.epw",
             "showWarningIcon": false
           },
-          "$$hashKey": "object:1672"
+          "$$hashKey": "object:1691"
         }
       ],
       "edit": "",
@@ -516,13 +516,13 @@
       "seed": "dummy.osm",
       "workflow_index": 0,
       "options": [],
-      "instanceId": 0.0020297487056688546,
+      "instanceId": 0.4003274032435209,
       "skip": false,
-      "$$hashKey": "object:1575",
+      "$$hashKey": "object:1594",
       "showWarningText": false
     },
     {
-      "measure_dir": "C:\\Users\\vuonge\\Documents\\Code Document\\NECB 2017 PATS\\NECB2017 Opaque 3\\measures\\btap_set_wall_conductance_by_necb_climate_zone",
+      "measure_dir": "C:\\N2017Op\\N2017Opaque2\\measures\\btap_set_wall_conductance_by_necb_climate_zone",
       "name": "btap_set_wall_conductance_by_necb_climate_zone",
       "directory": "C:/Users/vuonge/Documents/Code Document/measures/btap_set_wall_conductance_by_necb_climate_zone",
       "uid": "ef481d8e-a30e-4f0a-9ccf-a2ed35d2170c",
@@ -580,9 +580,9 @@
             "mean": 20.42,
             "deltaX": 20.42,
             "stdDev": 20.42,
-            "default_value": 27.03934922
+            "default_value": 22.98892039
           },
-          "$$hashKey": "object:1792"
+          "$$hashKey": "object:1811"
         },
         {
           "name": "zone5_r_value",
@@ -606,7 +606,7 @@
             "stdDev": 22.99,
             "default_value": 27.03934922
           },
-          "$$hashKey": "object:1793"
+          "$$hashKey": "object:1812"
         },
         {
           "name": "zone6_r_value",
@@ -628,9 +628,9 @@
             "mean": 27,
             "deltaX": 27,
             "stdDev": 27,
-            "default_value": 31.0287614
+            "default_value": 27.03934922
           },
-          "$$hashKey": "object:1794"
+          "$$hashKey": "object:1813"
         },
         {
           "name": "zone7A_r_value",
@@ -652,9 +652,9 @@
             "mean": 27,
             "deltaX": 27,
             "stdDev": 27,
-            "default_value": 36.39912396
+            "default_value": 31.0287614
           },
-          "$$hashKey": "object:1795"
+          "$$hashKey": "object:1814"
         },
         {
           "name": "zone7B_r_value",
@@ -676,9 +676,9 @@
             "mean": 31.03,
             "deltaX": 31.03,
             "stdDev": 31.03,
-            "default_value": 42.6937093
+            "default_value": 36.50442518
           },
-          "$$hashKey": "object:1796"
+          "$$hashKey": "object:1815"
         },
         {
           "name": "zone8_r_value",
@@ -700,9 +700,9 @@
             "mean": 36.4,
             "deltaX": 36.4,
             "stdDev": 36.4,
-            "default_value": 50.25011803
+            "default_value": 42.94638257
           },
-          "$$hashKey": "object:1797"
+          "$$hashKey": "object:1816"
         }
       ],
       "edit": "",
@@ -718,12 +718,12 @@
       "seed": "dummy.osm",
       "workflow_index": 1,
       "options": [],
-      "instanceId": 0.8998157885948241,
+      "instanceId": 0.16282609683467553,
       "skip": false,
-      "$$hashKey": "object:1576"
+      "$$hashKey": "object:1595"
     },
     {
-      "measure_dir": "C:\\Users\\vuonge\\Documents\\Code Document\\NECB 2017 PATS\\NECB2017 Opaque 3\\measures\\btap_set_roof_conductance_by_necb_climate_zone",
+      "measure_dir": "C:\\N2017Op\\N2017Opaque2\\measures\\btap_set_roof_conductance_by_necb_climate_zone",
       "name": "btap_set_roof_conductance_by_necb_climate_zone",
       "directory": "C:/Users/vuonge/Documents/Code Document/measures/btap_set_roof_conductance_by_necb_climate_zone",
       "uid": "09b4a9fb-3649-473a-aa81-f01c680e63a8",
@@ -781,9 +781,9 @@
             "mean": 31.03,
             "deltaX": 31.03,
             "stdDev": 31.03,
-            "default_value": 35.05100825
+            "default_value": 36.39912396
           },
-          "$$hashKey": "object:2011"
+          "$$hashKey": "object:2030"
         },
         {
           "name": "zone5_r_value",
@@ -805,9 +805,9 @@
             "mean": 31.03,
             "deltaX": 31.03,
             "stdDev": 31.03,
-            "default_value": 35.05100825
+            "default_value": 41.14683578
           },
-          "$$hashKey": "object:2012"
+          "$$hashKey": "object:2031"
         },
         {
           "name": "zone6_r_value",
@@ -829,9 +829,9 @@
             "mean": 35.05,
             "deltaX": 35.05,
             "stdDev": 35.05,
-            "default_value": 39.98776998
+            "default_value": 41.14683578
           },
-          "$$hashKey": "object:2013"
+          "$$hashKey": "object:2032"
         },
         {
           "name": "zone7A_r_value",
@@ -853,9 +853,9 @@
             "mean": 35.05,
             "deltaX": 35.05,
             "stdDev": 35.05,
-            "default_value": 47.31886114
+            "default_value": 46.92779617
           },
-          "$$hashKey": "object:2014"
+          "$$hashKey": "object:2033"
         },
         {
           "name": "zone7B_r_value",
@@ -877,9 +877,9 @@
             "mean": 39.99,
             "deltaX": 39.99,
             "stdDev": 39.99,
-            "default_value": 55.6692484
+            "default_value": 55.20917197
           },
-          "$$hashKey": "object:2015"
+          "$$hashKey": "object:2034"
         },
         {
           "name": "zone8_r_value",
@@ -901,9 +901,9 @@
             "mean": 47.32,
             "deltaX": 47.32,
             "stdDev": 47.32,
-            "default_value": 65.26739468
+            "default_value": 64.95196702
           },
-          "$$hashKey": "object:2016"
+          "$$hashKey": "object:2035"
         }
       ],
       "edit": "",
@@ -919,12 +919,12 @@
       "seed": "dummy.osm",
       "workflow_index": 2,
       "options": [],
-      "instanceId": 0.9060833490535434,
+      "instanceId": 0.2880023150419737,
       "skip": false,
-      "$$hashKey": "object:1577"
+      "$$hashKey": "object:1596"
     },
     {
-      "measure_dir": "C:\\Users\\vuonge\\Documents\\Code Document\\NECB 2017 PATS\\NECB2017 Opaque 3\\measures\\btap_results",
+      "measure_dir": "C:\\N2017Op\\N2017Opaque2\\measures\\btap_results",
       "name": "btap_results",
       "directory": "C:/Users/vuonge/Documents/Code Document/measures/btap_results",
       "uid": "bf37e1c6-de70-457b-a3ac-21aa57b7bc58",
@@ -969,7 +969,7 @@
             "stdDev": "false",
             "default_value": "false"
           },
-          "$$hashKey": "object:2978"
+          "$$hashKey": "object:3119"
         },
         {
           "name": "template_type",
@@ -1007,7 +1007,7 @@
             "stdDev": "NECB2011",
             "default_value": "NECB2017"
           },
-          "$$hashKey": "object:2979"
+          "$$hashKey": "object:3120"
         },
         {
           "name": "output_diet",
@@ -1031,7 +1031,7 @@
             "stdDev": false,
             "default_value": false
           },
-          "$$hashKey": "object:2980"
+          "$$hashKey": "object:3121"
         }
       ],
       "edit": "",
@@ -1047,9 +1047,9 @@
       "seed": "dummy.osm",
       "workflow_index": 3,
       "options": [],
-      "instanceId": 0.27693111214557864,
+      "instanceId": 0.6415792113926961,
       "skip": false,
-      "$$hashKey": "object:2938"
+      "$$hashKey": "object:3079"
     }
   ],
   "filesToInclude": [],

@@ -1,7 +1,6 @@
 {
-  "projectName": "NECB2017 Opaque 1",
-  "projectDir": "C:\\Users\\vuonge\\Documents\\Code Document\\NECB 2017 PATS\\NECB2017 Opaque 1",
-  "analysisName": "NECB2017 Opaque 1",
+  "projectName": "N2017Opaque1",
+  "projectDir": "C:\\N2017Op\\N2017Opaque1",
   "seed": "dummy.osm",
   "weatherFile": "dummy.epw",
   "analysis_type": "Algorithmic",
@@ -38,7 +37,7 @@
       "defaultValue": "full_factorial",
       "type": "string",
       "value": "full_factorial",
-      "$$hashKey": "object:200"
+      "$$hashKey": "object:3647"
     },
     {
       "name": "number_of_samples",
@@ -47,7 +46,7 @@
       "defaultValue": 2,
       "type": "number",
       "value": 2,
-      "$$hashKey": "object:201"
+      "$$hashKey": "object:3648"
     },
     {
       "name": "seed",
@@ -65,7 +64,7 @@
       "defaultValue": 1000000000000000000,
       "type": "number",
       "value": 1000000000000000000,
-      "$$hashKey": "object:202"
+      "$$hashKey": "object:3649"
     },
     {
       "name": "debug_messages",
@@ -74,7 +73,7 @@
       "defaultValue": 0,
       "type": "number",
       "value": 0,
-      "$$hashKey": "object:203"
+      "$$hashKey": "object:3650"
     }
   ],
   "rubyMD5": "",
@@ -84,9 +83,9 @@
   "openstudioMD5": "",
   "measures": [
     {
-      "measure_dir": "C:\\Users\\vuonge\\Documents\\Code Document\\NECB 2017 PATS\\NECB2017 Opaque 1\\measures\\btap_create_necb_prototype_building",
+      "measure_dir": "C:\\N2017Op\\N2017Opaque1\\measures\\btap_create_necb_prototype_building",
       "name": "btap_create_necb_prototype_building",
-      "directory": "C:\\Users\\vuonge\\Documents\\Code Document\\NECB 2017 PATS\\NECB2017 Opaque 1\\measures\\btap_create_necb_prototype_building",
+      "directory": "C:/Users/vuonge/Documents/Code Document/measures/btap_create_necb_prototype_building",
       "uid": "3e9acd53-8602-4749-a655-7cbbe48e8b30",
       "uuid": "{3e9acd53-8602-4749-a655-7cbbe48e8b30}",
       "version_id": "54d97ed3-d9af-4291-8b63-9343e409c1b5",
@@ -178,22 +177,22 @@
               {
                 "value": "SecondarySchool",
                 "weight": "",
-                "$$hashKey": "object:1812"
+                "$$hashKey": "object:1914"
               },
               {
                 "value": "RetailStandalone",
                 "weight": "",
-                "$$hashKey": "object:1873"
+                "$$hashKey": "object:2035"
               },
               {
                 "value": "RetailStripmall",
                 "weight": "",
-                "$$hashKey": "object:1903"
+                "$$hashKey": "object:2045"
               },
               {
                 "value": "HighriseApartment",
                 "weight": "",
-                "$$hashKey": "object:1943"
+                "$$hashKey": "object:2055"
               }
             ],
             "maximum": "SmallOffice",
@@ -204,7 +203,7 @@
             "default_value": "SmallOffice",
             "showWarningIcon": false
           },
-          "$$hashKey": "object:1691"
+          "$$hashKey": "object:1363"
         },
         {
           "name": "template",
@@ -240,9 +239,10 @@
             "mean": "NECB2011",
             "deltaX": "NECB2011",
             "stdDev": "NECB2011",
-            "default_value": "NECB2017"
+            "default_value": "NECB2017",
+            "showWarningIcon": false
           },
-          "$$hashKey": "object:1692"
+          "$$hashKey": "object:1364"
         },
         {
           "name": "epw_file",
@@ -465,32 +465,32 @@
               {
                 "value": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw",
                 "weight": "",
-                "$$hashKey": "object:1977"
+                "$$hashKey": "object:2085"
               },
               {
                 "value": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw",
                 "weight": "",
-                "$$hashKey": "object:1988"
+                "$$hashKey": "object:2096"
               },
               {
                 "value": "CAN_PE_Charlottetown.AP.717060_CWEC2016.epw",
                 "weight": "",
-                "$$hashKey": "object:1998"
+                "$$hashKey": "object:2106"
               },
               {
                 "value": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw",
                 "weight": "",
-                "$$hashKey": "object:2008"
+                "$$hashKey": "object:2116"
               },
               {
                 "value": "CAN_YT_Whitehorse.Intl.AP.719640_CWEC2016.epw",
                 "weight": "",
-                "$$hashKey": "object:2018"
+                "$$hashKey": "object:2126"
               },
               {
                 "value": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw",
                 "weight": "",
-                "$$hashKey": "object:2028"
+                "$$hashKey": "object:2136"
               }
             ],
             "maximum": "CAN_AB_Banff.CS.711220_CWEC2016.epw",
@@ -501,7 +501,7 @@
             "default_value": "CAN_AB_Banff.CS.711220_CWEC2016.epw",
             "showWarningIcon": false
           },
-          "$$hashKey": "object:1693"
+          "$$hashKey": "object:1365"
         }
       ],
       "edit": "",
@@ -517,13 +517,13 @@
       "seed": "dummy.osm",
       "workflow_index": 0,
       "options": [],
-      "instanceId": 0.8307092879274951,
+      "instanceId": 0.7625825472407994,
       "skip": false,
-      "$$hashKey": "object:1651",
+      "$$hashKey": "object:1268",
       "showWarningText": false
     },
     {
-      "measure_dir": "C:\\Users\\vuonge\\Documents\\Code Document\\NECB 2017 PATS\\NECB2017 Opaque 1\\measures\\btap_set_wall_conductance_by_necb_climate_zone",
+      "measure_dir": "C:\\N2017Op\\N2017Opaque1\\measures\\btap_set_wall_conductance_by_necb_climate_zone",
       "name": "btap_set_wall_conductance_by_necb_climate_zone",
       "directory": "C:/Users/vuonge/Documents/Code Document/measures/btap_set_wall_conductance_by_necb_climate_zone",
       "uid": "ef481d8e-a30e-4f0a-9ccf-a2ed35d2170c",
@@ -581,9 +581,10 @@
             "mean": 20.42,
             "deltaX": 20.42,
             "stdDev": 20.42,
-            "default_value": 20.42540769
+            "default_value": 20.42540769,
+            "showWarningIcon": false
           },
-          "$$hashKey": "object:2784"
+          "$$hashKey": "object:1485"
         },
         {
           "name": "zone5_r_value",
@@ -605,9 +606,10 @@
             "mean": 22.99,
             "deltaX": 22.99,
             "stdDev": 22.99,
-            "default_value": 22.98892039
+            "default_value": 22.98892039,
+            "showWarningIcon": false
           },
-          "$$hashKey": "object:2785"
+          "$$hashKey": "object:1486"
         },
         {
           "name": "zone6_r_value",
@@ -629,9 +631,10 @@
             "mean": 27,
             "deltaX": 27,
             "stdDev": 27,
-            "default_value": 27.03934922
+            "default_value": 27.03934922,
+            "showWarningIcon": false
           },
-          "$$hashKey": "object:2786"
+          "$$hashKey": "object:1487"
         },
         {
           "name": "zone7A_r_value",
@@ -653,9 +656,10 @@
             "mean": 27,
             "deltaX": 27,
             "stdDev": 27,
-            "default_value": 27.03934922
+            "default_value": 27.03934922,
+            "showWarningIcon": false
           },
-          "$$hashKey": "object:2787"
+          "$$hashKey": "object:1488"
         },
         {
           "name": "zone7B_r_value",
@@ -677,9 +681,10 @@
             "mean": 31.03,
             "deltaX": 31.03,
             "stdDev": 31.03,
-            "default_value": 31.0287614
+            "default_value": 31.0287614,
+            "showWarningIcon": false
           },
-          "$$hashKey": "object:2788"
+          "$$hashKey": "object:1489"
         },
         {
           "name": "zone8_r_value",
@@ -701,9 +706,10 @@
             "mean": 36.4,
             "deltaX": 36.4,
             "stdDev": 36.4,
-            "default_value": 36.39912396
+            "default_value": 36.50442518,
+            "showWarningIcon": false
           },
-          "$$hashKey": "object:2789"
+          "$$hashKey": "object:1490"
         }
       ],
       "edit": "",
@@ -719,12 +725,13 @@
       "seed": "dummy.osm",
       "workflow_index": 1,
       "options": [],
-      "instanceId": 0.7326691619005665,
+      "instanceId": 0.508182599040178,
       "skip": false,
-      "$$hashKey": "object:2720"
+      "$$hashKey": "object:1269",
+      "showWarningText": false
     },
     {
-      "measure_dir": "C:\\Users\\vuonge\\Documents\\Code Document\\NECB 2017 PATS\\NECB2017 Opaque 1\\measures\\btap_set_roof_conductance_by_necb_climate_zone",
+      "measure_dir": "C:\\N2017Op\\N2017Opaque1\\measures\\btap_set_roof_conductance_by_necb_climate_zone",
       "name": "btap_set_roof_conductance_by_necb_climate_zone",
       "directory": "C:/Users/vuonge/Documents/Code Document/measures/btap_set_roof_conductance_by_necb_climate_zone",
       "uid": "09b4a9fb-3649-473a-aa81-f01c680e63a8",
@@ -782,9 +789,10 @@
             "mean": 31.03,
             "deltaX": 31.03,
             "stdDev": 31.03,
-            "default_value": 31.0287614
+            "default_value": 36.39912396,
+            "showWarningIcon": false
           },
-          "$$hashKey": "object:3012"
+          "$$hashKey": "object:1704"
         },
         {
           "name": "zone5_r_value",
@@ -806,9 +814,10 @@
             "mean": 31.03,
             "deltaX": 31.03,
             "stdDev": 31.03,
-            "default_value": 31.0287614
+            "default_value": 36.39912396,
+            "showWarningIcon": false
           },
-          "$$hashKey": "object:3013"
+          "$$hashKey": "object:1705"
         },
         {
           "name": "zone6_r_value",
@@ -830,9 +839,10 @@
             "mean": 35.05,
             "deltaX": 35.05,
             "stdDev": 35.05,
-            "default_value": 35.05100825
+            "default_value": 41.14683578,
+            "showWarningIcon": false
           },
-          "$$hashKey": "object:3014"
+          "$$hashKey": "object:1706"
         },
         {
           "name": "zone7A_r_value",
@@ -854,9 +864,10 @@
             "mean": 35.05,
             "deltaX": 35.05,
             "stdDev": 35.05,
-            "default_value": 35.05100825
+            "default_value": 41.14683578,
+            "showWarningIcon": false
           },
-          "$$hashKey": "object:3015"
+          "$$hashKey": "object:1707"
         },
         {
           "name": "zone7B_r_value",
@@ -878,9 +889,10 @@
             "mean": 39.99,
             "deltaX": 39.99,
             "stdDev": 39.99,
-            "default_value": 39.98776998
+            "default_value": 46.92779617,
+            "showWarningIcon": false
           },
-          "$$hashKey": "object:3016"
+          "$$hashKey": "object:1708"
         },
         {
           "name": "zone8_r_value",
@@ -902,9 +914,10 @@
             "mean": 47.32,
             "deltaX": 47.32,
             "stdDev": 47.32,
-            "default_value": 47.31886114
+            "default_value": 55.20917197,
+            "showWarningIcon": false
           },
-          "$$hashKey": "object:3017"
+          "$$hashKey": "object:1709"
         }
       ],
       "edit": "",
@@ -920,14 +933,15 @@
       "seed": "dummy.osm",
       "workflow_index": 2,
       "options": [],
-      "instanceId": 0.5288471768212746,
+      "instanceId": 0.5021704706071424,
       "skip": false,
-      "$$hashKey": "object:2721"
+      "$$hashKey": "object:1270",
+      "showWarningText": false
     },
     {
-      "measure_dir": "C:\\Users\\vuonge\\Documents\\Code Document\\NECB 2017 PATS\\NECB2017 Opaque 1\\measures\\btap_results",
+      "measure_dir": "C:\\N2017Op\\N2017Opaque1\\measures\\btap_results",
       "name": "btap_results",
-      "directory": "C:\\Users\\vuonge\\Documents\\Code Document\\NECB 2017 PATS\\NECB2017 Opaque 1\\measures\\btap_results",
+      "directory": "C:/Users/vuonge/Documents/Code Document/measures/btap_results",
       "uid": "bf37e1c6-de70-457b-a3ac-21aa57b7bc58",
       "uuid": "{bf37e1c6-de70-457b-a3ac-21aa57b7bc58}",
       "version_id": "a5026e21-37f3-41b4-868d-73f314b51da4",
@@ -968,9 +982,10 @@
             "mean": "false",
             "deltaX": "false",
             "stdDev": "false",
-            "default_value": "false"
+            "default_value": "false",
+            "showWarningIcon": false
           },
-          "$$hashKey": "object:3524"
+          "$$hashKey": "object:2913"
         },
         {
           "name": "template_type",
@@ -1006,9 +1021,10 @@
             "mean": "NECB2011",
             "deltaX": "NECB2011",
             "stdDev": "NECB2011",
-            "default_value": "NECB2017"
+            "default_value": "NECB2017",
+            "showWarningIcon": false
           },
-          "$$hashKey": "object:3525"
+          "$$hashKey": "object:2914"
         },
         {
           "name": "output_diet",
@@ -1030,9 +1046,10 @@
             "mean": false,
             "deltaX": false,
             "stdDev": false,
-            "default_value": false
+            "default_value": false,
+            "showWarningIcon": false
           },
-          "$$hashKey": "object:3526"
+          "$$hashKey": "object:2915"
         }
       ],
       "edit": "",
@@ -1048,9 +1065,10 @@
       "seed": "dummy.osm",
       "workflow_index": 3,
       "options": [],
-      "instanceId": 0.4890025007146388,
+      "instanceId": 0.7513623561617346,
       "skip": false,
-      "$$hashKey": "object:3484"
+      "$$hashKey": "object:2873",
+      "showWarningText": false
     }
   ],
   "filesToInclude": [],
