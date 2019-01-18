@@ -2,8 +2,8 @@
   <schema_version>3.0</schema_version>
   <name>btap_new_spacetype_lpd_list</name>
   <uid>fe83dee3-2233-4744-abb1-3cbb1777fbae</uid>
-  <version_id>637dd35a-c729-4b84-8498-efe87001bccf</version_id>
-  <version_modified>20181203T202727Z</version_modified>
+  <version_id>7b37627c-9eb4-4a19-ad87-c5cd6d6e1024</version_id>
+  <version_modified>20190117T163948Z</version_modified>
   <xml_checksum>2609226D</xml_checksum>
   <class_name>BTAPNewSpacetypeLPDList</class_name>
   <display_name>BTAPNewSpacetypeLPDList</display_name>
@@ -82,7 +82,7 @@
       <filename>listofspacenameschangedIP.txt</filename>
       <filetype>txt</filetype>
       <usage_type>resource</usage_type>
-      <checksum>FCE37987</checksum>
+      <checksum>3E6C3638</checksum>
     </file>
   </files>
 </measure>
