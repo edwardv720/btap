@@ -1,0 +1,28 @@
+# Logfile created on 2019-02-21 16:46:31 +0000 by logger.rb/47272
+[16:46:31.763608 INFO] Server host is http://web:80
+[16:46:31.763880 INFO] Analysis directory is /mnt/openstudio/analysis_63796a5d-cec7-494a-9e67-4109aa458616
+[16:46:31.763991 INFO] Simulation directory is /mnt/openstudio/analysis_63796a5d-cec7-494a-9e67-4109aa458616/data_point_1575f484-2684-4ef5-93f6-b23e01bcf40b
+[16:46:31.764400 INFO] Run datapoint type/file is workflow
+[16:46:31.764495 INFO] Starting initialize_worker for datapoint 1575f484-2684-4ef5-93f6-b23e01bcf40b
+[16:46:31.764943 INFO] Downloading analysis zip from http://web:80/analyses/63796a5d-cec7-494a-9e67-4109aa458616/download_analysis_zip
+[16:46:39.370831 INFO] Extracting analysis zip to /mnt/openstudio/analysis_63796a5d-cec7-494a-9e67-4109aa458616
+[16:46:39.769150 INFO] Downloading analysis.json from http://web:80/analyses/63796a5d-cec7-494a-9e67-4109aa458616.json
+[16:46:39.857708 INFO] Finished worker initialization
+[16:46:39.890841 INFO] Downloading datapoint from http://web:80/data_points/1575f484-2684-4ef5-93f6-b23e01bcf40b.json
+[16:46:39.942378 INFO] Creating Workflow Manager instance
+[16:46:39.942951 INFO] Directory is /mnt/openstudio/analysis_63796a5d-cec7-494a-9e67-4109aa458616/data_point_1575f484-2684-4ef5-93f6-b23e01bcf40b
+[16:46:39.943085 INFO] Opening run.log file '/mnt/openstudio/analysis_63796a5d-cec7-494a-9e67-4109aa458616/data_point_1575f484-2684-4ef5-93f6-b23e01bcf40b/run/run.log'
+[16:46:40.000981 INFO] Running workflow
+[16:51:43.803847 INFO] Final run state is finished
+[16:51:43.842191 INFO] Saving files/reports back to the server
+[16:51:43.842815 INFO] Saving report /mnt/openstudio/analysis_63796a5d-cec7-494a-9e67-4109aa458616/data_point_1575f484-2684-4ef5-93f6-b23e01bcf40b/reports/eplustbl.html to http://web:80/data_points/1575f484-2684-4ef5-93f6-b23e01bcf40b/upload_file
+[16:51:43.959215 INFO] Saving report responded with {"id":"5c6ed71fc526ec0139755ca7","data_point_id":"1575f484-2684-4ef5-93f6-b23e01bcf40b","display_name":"eplustbl","type":"Report","created_at":"2019-02-21T16:51:43.928Z","updated_at":"2019-02-21T16:51:43.928Z"}
+[16:51:43.959829 INFO] Saving report /mnt/openstudio/analysis_63796a5d-cec7-494a-9e67-4109aa458616/data_point_1575f484-2684-4ef5-93f6-b23e01bcf40b/run/objectives.json to http://web:80/data_points/1575f484-2684-4ef5-93f6-b23e01bcf40b/upload_file
+[16:51:44.254436 INFO] Saving report responded with {"id":"5c6ed71fc526ec0139755ca8","data_point_id":"1575f484-2684-4ef5-93f6-b23e01bcf40b","display_name":"objectives","type":"Report","created_at":"2019-02-21T16:51:43.986Z","updated_at":"2019-02-21T16:51:43.986Z"}
+[16:51:44.255500 INFO] Saving report /mnt/openstudio/analysis_63796a5d-cec7-494a-9e67-4109aa458616/data_point_1575f484-2684-4ef5-93f6-b23e01bcf40b/out.osw to http://web:80/data_points/1575f484-2684-4ef5-93f6-b23e01bcf40b/upload_file
+[16:51:44.539103 INFO] Saving report responded with {"id":"5c6ed720c526ec0139755ca9","data_point_id":"1575f484-2684-4ef5-93f6-b23e01bcf40b","display_name":"Final OSW File","type":"Report","created_at":"2019-02-21T16:51:44.318Z","updated_at":"2019-02-21T16:51:44.318Z"}
+[16:51:44.540139 INFO] Saving report /mnt/openstudio/analysis_63796a5d-cec7-494a-9e67-4109aa458616/data_point_1575f484-2684-4ef5-93f6-b23e01bcf40b/in.osm to http://web:80/data_points/1575f484-2684-4ef5-93f6-b23e01bcf40b/upload_file
+[16:51:44.971027 INFO] Saving report responded with {"id":"5c6ed720c526ec0139755caa","data_point_id":"1575f484-2684-4ef5-93f6-b23e01bcf40b","display_name":"model","type":"OpenStudio Model","created_at":"2019-02-21T16:51:44.662Z","updated_at":"2019-02-21T16:51:44.662Z"}
+[16:51:44.971697 INFO] Saving report /mnt/openstudio/analysis_63796a5d-cec7-494a-9e67-4109aa458616/data_point_1575f484-2684-4ef5-93f6-b23e01bcf40b/run/data_point.zip to http://web:80/data_points/1575f484-2684-4ef5-93f6-b23e01bcf40b/upload_file
+[16:51:48.783591 INFO] Saving report responded with {"id":"5c6ed723c526ec06a27e1e57","data_point_id":"1575f484-2684-4ef5-93f6-b23e01bcf40b","display_name":"Zip File","type":"Data Point","created_at":"2019-02-21T16:51:47.874Z","updated_at":"2019-02-21T16:51:47.874Z"}
+[16:51:48.810273 INFO] Finished /opt/openstudio/server/app/workers/run_simulate_data_point.rb

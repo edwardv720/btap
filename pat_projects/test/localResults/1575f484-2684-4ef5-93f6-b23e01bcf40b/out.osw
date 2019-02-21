@@ -1,0 +1,768 @@
+{
+  "completed_at": "20190221T165143Z",
+  "completed_status": "Success",
+  "created_at": "2019-02-21 16:46:39 +0000",
+  "current_step": 6,
+  "description": "",
+  "eplusout_err": "Program Version,EnergyPlus, Version 8.9.0-eba93e8e1b, YMD=2019.02.21 16:50,\n   ************* Beginning Zone Sizing Calculations\n   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval=\"ECONOMIZER MAX OA FRACTION 100 PCT DEFAULT\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval=\"SCHEDULE DAY 1\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval=\"SCHEDULE DAY 10\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval=\"SCHEDULE DAY 11\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval=\"SCHEDULE DAY 12\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval=\"SCHEDULE DAY 13\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval=\"SCHEDULE DAY 14\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval=\"SCHEDULE DAY 2\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval=\"SCHEDULE DAY 5\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval=\"SCHEDULE DAY 6\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval=\"SCHEDULE DAY 7\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval=\"SCHEDULE DAY 8\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Day:Interval=\"SCHEDULE DAY 9\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Year=\"ECONOMIZER MAX OA FRACTION 100 PCT\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Year=\"SCHEDULE RULESET 3\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Year=\"SCHEDULE RULESET 4\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Year=\"SCHEDULE RULESET 5\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Year=\"SCHEDULE RULESET 6\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Year=\"SCHEDULE RULESET 7\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Year=\"SCHEDULE RULESET 8\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Constant=\"ALWAYS OFF DISCRETE\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** ProcessScheduleInput: Schedule:Constant=\"ALWAYS ON CONTINUOUS\", Blank Schedule Type Limits Name input -- will not be validated.\n   ** Warning ** CheckUsedConstructions: There are 18 nominally unused constructions in input.\n   **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;\n   ** Warning ** GetInternalHeatGains: People Combination of ZoneList and Object Name generate a name too long.\n   **   ~~~   ** Object Name=\"SPACE FUNCTION DINING AREA - BAR LOUNGE/LEISURE DINING PEOPLE\".\n   **   ~~~   ** ZoneList/Zone Name=\"SP-DINING SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN\".\n   **   ~~~   ** Item length=[104] > Maximum Length=[100]. You may need to shorten the names.\n   **   ~~~   ** Shortening the Object Name by [5] characters will assure uniqueness for this ZoneList.\n   **   ~~~   ** name that will be used (may be needed in reporting)=\"SP-DINING SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN SPACE FUNCTION DINING AREA - BAR LOUNGE/LEISURE DINING PEOPLE\".\n   ** Warning ** GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.\n   **   ~~~   ** Object Name=\"SPACE FUNCTION DINING AREA - BAR LOUNGE/LEISURE DINING LIGHTS\".\n   **   ~~~   ** ZoneList/Zone Name=\"SP-DINING SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN\".\n   **   ~~~   ** Item length=[104] > Maximum Length=[100]. You may need to shorten the names.\n   **   ~~~   ** Shortening the Object Name by [5] characters will assure uniqueness for this ZoneList.\n   **   ~~~   ** name that will be used (may be needed in reporting)=\"SP-DINING SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN SPACE FUNCTION DINING AREA - BAR LOUNGE/LEISURE DINING LIGHTS\".\n   ** Warning ** GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.\n   **   ~~~   ** Object Name=\"SPACE FUNCTION DINING AREA - BAR LOUNGE/LEISURE DINING ELEC EQUIP\".\n   **   ~~~   ** ZoneList/Zone Name=\"SP-DINING SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN\".\n   **   ~~~   ** Item length=[108] > Maximum Length=[100]. You may need to shorten the names.\n   **   ~~~   ** Shortening the Object Name by [9] characters will assure uniqueness for this ZoneList.\n   **   ~~~   ** name that will be used (may be needed in reporting)=\"SP-DINING SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN SPACE FUNCTION DINING AREA - BAR LOUNGE/LEISURE DINING ELEC EQUIP\".\n   ************* Beginning System Sizing Calculations\n   ************* Beginning Plant Sizing Calculations\n   ** Warning ** GetDXCoils: Coil:Cooling:DX:SingleSpeed=\"COIL COOLING DX SINGLE SPEED 2 24KBTU/HR 14.0SEER\", invalid\n   **   ~~~   ** ...Part Load Fraction Correlation Curve Name = DXCOOL-NECB2011-REF-COOLPLFFPLR has out of range value.\n   **   ~~~   ** ...Curve maximum must be <= 1.0, curve max at PLR = 0.99 is 1.015\n   **   ~~~   ** ...Setting curve maximum to 1.0 and simulation continues.\n   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 2 24KBTU/HR 14.0SEER but not at the AHRI test condition due to curve out of bound.\n   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.\n   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 1 21KBTU/HR 14.0SEER but not at the AHRI test condition due to curve out of bound.\n   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.\n   ** Warning ** Output:Meter: invalid Key Name=\"GAS:FACILITY\" - not found.\n   ** Warning ** Output:Meter: invalid Key Name=\"DISTRICTCOOLING:FACILITY\" - not found.\n   ** Warning ** Output:Meter: invalid Key Name=\"DISTRICTHEATING:FACILITY\" - not found.\n   ** Warning ** Output:Meter:MeterFileOnly: invalid Key Name=\"GAS:FACILITY\" - not found.\n   ** Warning ** Output:Meter:MeterFileOnly: invalid Key Name=\"GAS:FACILITY\" - not found.\n   ** Warning ** Output:Meter:MeterFileOnly requested for \"Electricity:Facility\" (TimeStep), already on \"Output:Meter\". Will report to both eplusout.eso and eplusout.mtr\n   ************* Testing Individual Branch Integrity\n   ************* All Branches passed integrity testing\n   ************* Testing Individual Supply Air Path Integrity\n   ************* All Supply Air Paths passed integrity testing\n   ************* Testing Individual Return Air Path Integrity\n   ************* All Return Air Paths passed integrity testing\n   ************* No node connection errors were found.\n   ************* Beginning Simulation\n   ** Warning ** Processing Monthly Tabular Reports: Variable names not valid for this simulation\n   **   ~~~   ** ...use Output:Diagnostics,DisplayExtraWarnings; to show more details on individual variables.\n   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed \"COIL COOLING DX SINGLE SPEED 2 24KBTU/HR 14.0SEER\" - Air-cooled condenser inlet dry-bulb temperature below 0 C. Outdoor dry-bulb temperature = -21.65\n   **   ~~~   **  ... Occurrence info = RUN PERIOD 1, 01/05 08:02 - 08:03\n   **   ~~~   ** ... Operation at low ambient temperatures may require special performance curves.\n   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed \"COIL COOLING DX SINGLE SPEED 1 21KBTU/HR 14.0SEER\" - Air-cooled condenser inlet dry-bulb temperature below 0 C. Outdoor dry-bulb temperature = -21.65\n   **   ~~~   **  ... Occurrence info = RUN PERIOD 1, 01/05 08:02 - 08:03\n   **   ~~~   ** ... Operation at low ambient temperatures may require special performance curves.\n   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed \"COIL COOLING DX SINGLE SPEED 1 21KBTU/HR 14.0SEER\" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = 0.29 C.\n   **   ~~~   **  ...Occurrence info = RUN PERIOD 1, 02/06 00:02 - 00:03\n   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil\n   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 13.185 C.\n   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.\n   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.\n   ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed \"COIL COOLING DX SINGLE SPEED 2 24KBTU/HR 14.0SEER\" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = 1.72 C.\n   **   ~~~   **  ...Occurrence info = RUN PERIOD 1, 06/08 13:20 - 13:30\n   **   ~~~   ** ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil\n   **   ~~~   **    1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 14.600 C.\n   **   ~~~   **    2) may have a low air flow rate per watt of cooling capacity. Check inputs.\n   **   ~~~   **    3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-ELECTRICITY\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-DISTILLATE OIL\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-RESIDUAL OIL\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-NATURAL GAS\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ** Warning ** The resource referenced by LifeCycleCost:UsePriceEscalation= \"U.S. AVG  COMMERCIAL-COAL\" has no energy cost. \n   **   ~~~   ** ... It is likely that the wrong resource is used. The resource should match the meter used in Utility:Tariff.\n   ************* Simulation Error Summary *************\n   ************* There are 9 unused schedules in input.\n   ************* There are 9 unused week schedules in input.\n   ************* There are 16 unused day schedules in input.\n   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.\n   *************\n   ************* ===== Recurring Error Summary =====\n   ************* The following recurring error messages occurred.\n   *************\n   *************  ** Warning ** Plant loop falling below lower temperature limit, PlantLoop=\"MAIN SERVICE WATER LOOP\"\n   *************  **   ~~~   **   This error occurred 4 total times;\n   *************  **   ~~~   **   during Warmup 4 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Min=0.237051\n   *************\n   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed=\"COIL COOLING DX SINGLE SPEED 2 24KBTU/HR 14.0SEER\" - Low condenser dry-bulb temperature error continues...\n   *************  **   ~~~   **   This error occurred 492 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=-3.333333E-002 [C]  Min=-24.866667 [C]\n   *************\n   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed=\"COIL COOLING DX SINGLE SPEED 1 21KBTU/HR 14.0SEER\" - Low condenser dry-bulb temperature error continues...\n   *************  **   ~~~   **   This error occurred 546 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=-3.333333E-002 [C]  Min=-24.866667 [C]\n   *************\n   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed=\"COIL COOLING DX SINGLE SPEED 1 21KBTU/HR 14.0SEER\" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:\n   *************  **   ~~~   **   This error occurred 22 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=1.757493  Min=-0.58375\n   *************\n   *************  ** Warning ** CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed=\"COIL COOLING DX SINGLE SPEED 2 24KBTU/HR 14.0SEER\" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:\n   *************  **   ~~~   **   This error occurred 10 total times;\n   *************  **   ~~~   **   during Warmup 0 times;\n   *************  **   ~~~   **   during Sizing 0 times.\n   *************  **   ~~~   **   Max=1.974988  Min=1.722017\n   *************\n   *************\n   ************* ===== Final Error Summary =====\n   ************* The following error categories occurred.  Consider correcting or noting.\n   ************* Nominally Unused Constructions\n   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause\n   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm\n   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).\n   *************\n   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.\n   ************* EnergyPlus Sizing Error Summary. During Sizing: 26 Warning; 0 Severe Errors.\n   ************* EnergyPlus Completed Successfully-- 1115 Warning; 0 Severe Errors; Elapsed Time=00hr 00min 57.79sec\n",
+  "file_format_version": "0.0.1",
+  "file_paths": [
+    "../weather",
+    "../seeds",
+    "../seed"
+  ],
+  "hash": "1D99A103",
+  "measure_paths": [
+    "../measures"
+  ],
+  "name": "DOE Autogenerated 12",
+  "osa_id": "63796a5d-cec7-494a-9e67-4109aa458616",
+  "osd_id": "1575f484-2684-4ef5-93f6-b23e01bcf40b",
+  "run_directory": "./run",
+  "seed_file": "dummy.osm",
+  "started_at": "20190221T164651Z",
+  "steps": [
+    {
+      "arguments": {
+        "building_type": "QuickServiceRestaurant",
+        "epw_file": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw",
+        "new_auto_zoner": false,
+        "template": "NECB2017"
+      },
+      "description": "This measure creates an NECB prototype building from scratch and uses it as the base for an analysis.",
+      "measure_dir_name": "btap_create_necb_prototype_building",
+      "name": "btap_create_necb_prototype_building",
+      "result": {
+        "completed_at": "20190221T164943Z",
+        "measure_class_name": "BTAPCreateNECBPrototypeBuilding",
+        "measure_display_name": "BTAPCreateNECBPrototypeBuilding",
+        "measure_name": "btap_create_necb_prototype_building",
+        "measure_taxonomy": "Whole Building.Space Types",
+        "measure_type": "ModelMeasure",
+        "measure_uid": "3e9acd53-8602-4749-a655-7cbbe48e8b30",
+        "measure_version_id": "acb70987-933e-468b-b16a-8eb7dd810946",
+        "measure_version_modified": "20190220T180311Z",
+        "measure_xml_checksum": "2C38F48B",
+        "started_at": "20190221T164651Z",
+        "stderr": "",
+        "stdout": "[OpenStudio.Measure] <0> OSArgumentVector is deprecated, use OpenStudio::Measure::OSArgumentVector instead.\n[openstudio.EpwFile] <0> Successive data points (2009-Jan-31 to 2004-Feb-01, ending on line 753) are greater than 1 day apart in EPW file '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.epw'. Data will be treated as typical (TMY)\n[openstudio.setFileExtension] <0> Path p, '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.ddy', has an unexpected file extension. Was expecting 'idf'.\n[openstudio.setFileExtension] <0> Path p, '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.ddy', has an unexpected file extension. Was expecting 'idf'.\n[openstudio.EpwFile] <0> Successive data points (2009-Jan-31 to 2004-Feb-01, ending on line 753) are greater than 1 day apart in EPW file '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.epw'. Data will be treated as typical (TMY)\n[openstudio.setFileExtension] <0> Path p, '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.ddy', has an unexpected file extension. Was expecting 'idf'.\n[openstudio.weather.Model] <0> Could not find ground temperatures; will use generic temperatures, which will skew results.\n[openstudio.EpwFile] <0> Successive data points (2009-Jan-31 to 2004-Feb-01, ending on line 753) are greater than 1 day apart in EPW file '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.epw'. Data will be treated as typical (TMY)\n[openstudio.setFileExtension] <0> Path p, '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.ddy', has an unexpected file extension. Was expecting 'idf'.\n[openstudio.setFileExtension] <0> Path p, '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.ddy', has an unexpected file extension. Was expecting 'idf'.\n[openstudio.EpwFile] <0> Successive data points (2009-Jan-31 to 2004-Feb-01, ending on line 753) are greater than 1 day apart in EPW file '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.epw'. Data will be treated as typical (TMY)\n[openstudio.setFileExtension] <0> Path p, '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.ddy', has an unexpected file extension. Was expecting 'idf'.\n[openstudio.setFileExtension] <0> Path p, '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.ddy', has an unexpected file extension. Was expecting 'idf'.\n[utilities.idf.WorkspaceObject] <0> Object of type 'Schedule:Constant' and named 'Always Off Discrete', points to an object named OnOff 1 from field 1, but that object cannot be located.\n[utilities.idf.WorkspaceObject] <0> Object of type 'Schedule:Constant' and named 'Always On Continuous', points to an object named Fractional 1 from field 1, but that object cannot be located.\n[openstudio.EpwFile] <0> Successive data points (2009-Jan-31 to 2004-Feb-01, ending on line 753) are greater than 1 day apart in EPW file '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.epw'. Data will be treated as typical (TMY)\n[openstudio.setFileExtension] <0> Path p, '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.ddy', has an unexpected file extension. Was expecting 'idf'.\n[openstudio.setFileExtension] <0> Path p, '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.ddy', has an unexpected file extension. Was expecting 'idf'.\n[openstudio.EpwFile] <0> Successive data points (2009-Jan-31 to 2004-Feb-01, ending on line 753) are greater than 1 day apart in EPW file '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.epw'. Data will be treated as typical (TMY)\n[openstudio.setFileExtension] <0> Path p, '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.ddy', has an unexpected file extension. Was expecting 'idf'.\n[openstudio.setFileExtension] <0> Path p, '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.ddy', has an unexpected file extension. Was expecting 'idf'.\n[utilities.idf.WorkspaceObject] <0> Object of type 'Schedule:Constant' and named 'Always Off Discrete', points to an object named OnOff 1 from field 1, but that object cannot be located.\n[utilities.idf.WorkspaceObject] <0> Object of type 'Schedule:Constant' and named 'Always On Continuous', points to an object named Fractional 1 from field 1, but that object cannot be located.\n[openstudio.standards.Fan] <0> For Fan Constant Volume 1, there is no greater nominal HP.  Use the efficiency of the largest motor category.\n[openstudio.standards.Fan] <0> For Fan Constant Volume 2, there is no greater nominal HP.  Use the efficiency of the largest motor category.\n[openstudio.EpwFile] <0> Successive data points (2009-Jan-31 to 2004-Feb-01, ending on line 753) are greater than 1 day apart in EPW file '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.epw'. Data will be treated as typical (TMY)\n[openstudio.setFileExtension] <0> Path p, '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.ddy', has an unexpected file extension. Was expecting 'idf'.\n[openstudio.setFileExtension] <0> Path p, '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.ddy', has an unexpected file extension. Was expecting 'idf'.\n[openstudio.EpwFile] <0> Successive data points (2009-Jan-31 to 2004-Feb-01, ending on line 753) are greater than 1 day apart in EPW file '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.epw'. Data will be treated as typical (TMY)\n[openstudio.setFileExtension] <0> Path p, '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.ddy', has an unexpected file extension. Was expecting 'idf'.\n[openstudio.setFileExtension] <0> Path p, '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.ddy', has an unexpected file extension. Was expecting 'idf'.\n[openstudio.standards.Fan] <0> For Fan Constant Volume 1, there is no greater nominal HP.  Use the efficiency of the largest motor category.\n[openstudio.standards.Fan] <0> For Fan Constant Volume 2, there is no greater nominal HP.  Use the efficiency of the largest motor category.\n[utilities.idf.WorkspaceObject] <0> Object of type 'Schedule:Constant' and named 'Always Off Discrete', points to an object named OnOff 1 from field 1, but that object cannot be located.\n[utilities.idf.WorkspaceObject] <0> Object of type 'Schedule:Constant' and named 'Always On Continuous', points to an object named Fractional 1 from field 1, but that object cannot be located.\n",
+        "step_errors": [],
+        "step_files": [],
+        "step_info": [
+          "Loaded space type map from model",
+          "Finished adding geometry",
+          "Started adding weather file for climate zone: NECB HDD Method.",
+          "Started applying space types (loads)",
+          "Space Function - undefined - had no ventilation specification, one has been created.",
+          "Space Function - undefined - had no infiltration objects, one has been created.",
+          "Space Function - undefined - set infiltration to 0.0 per ft^2 exterior surface area.",
+          "Space Function - undefined - set infiltration schedule to Always On.",
+          "Space Function Dining area - bar lounge/leisure dining had no people, one has been created.",
+          "Space Function Dining area - bar lounge/leisure dining set occupancy to 9.29368029739777 people/1000 ft^2.",
+          "Space Function Dining area - bar lounge/leisure dining had no lights, one has been created.",
+          "Space Function Dining area - bar lounge/leisure dining set LPD to 0.929023 W/ft^2.",
+          "Space Function Dining area - bar lounge/leisure dining had no electric equipment, one has been created.",
+          "Space Function Dining area - bar lounge/leisure dining set electric EPD to 0.0929368029739777 W/ft^2.",
+          "Space Function Dining area - bar lounge/leisure dining had no ventilation specification, one has been created.",
+          "Space Function Dining area - bar lounge/leisure dining set ventilation per area to 0.705 cfm/ft^2.",
+          "Space Function Dining area - bar lounge/leisure dining had no infiltration objects, one has been created.",
+          "Space Function Dining area - bar lounge/leisure dining set infiltration to 0.0 per ft^2 exterior surface area.",
+          "Space Function Dining area - bar lounge/leisure dining set occupancy schedule to NECB-B-Occupancy.",
+          "Space Function Dining area - bar lounge/leisure dining set occupant activity schedule to NECB-Activity.",
+          "Space Function Dining area - bar lounge/leisure dining set lighting schedule to OS:Schedule:Ruleset,\n  {b4f3f052-c624-4c82-9ddb-24199673dd78}, !- Handle\n  NECB-B-Occupancy-NECB-B-Lighting-0.0-0.0-0.67-Light Ruleset, !- Name\n  {3c5dfcca-50b0-46a6-a672-21aabefedcaf}, !- Schedule Type Limits Name\n  {ceeb56f8-9f93-486a-9140-7690efcc1124}; !- Default Day Schedule Name\n\n.",
+          "Space Function Dining area - bar lounge/leisure dining set electric equipment schedule to NECB-B-Electric-Equipment.",
+          "Space Function Dining area - bar lounge/leisure dining set infiltration schedule to Always On.",
+          "Space Function Dining area - bar lounge/leisure dining set heating setpoint schedule to NECB-B-Thermostat Setpoint-Heating.",
+          "Space Function Dining area - bar lounge/leisure dining set cooling setpoint schedule to NECB-B-Thermostat Setpoint-Cooling.",
+          "Space Function Food preparation area had no people, one has been created.",
+          "Space Function Food preparation area set occupancy to 4.646840148698885 people/1000 ft^2.",
+          "Space Function Food preparation area had no lights, one has been created.",
+          "Space Function Food preparation area set LPD to 1.059086 W/ft^2.",
+          "Space Function Food preparation area had no electric equipment, one has been created.",
+          "Space Function Food preparation area set electric EPD to 0.929368029739777 W/ft^2.",
+          "Space Function Food preparation area had no ventilation specification, one has been created.",
+          "Space Function Food preparation area set ventilation per area to 0.27 cfm/ft^2.",
+          "Space Function Food preparation area had no infiltration objects, one has been created.",
+          "Space Function Food preparation area set infiltration to 0.0 per ft^2 exterior surface area.",
+          "Space Function Food preparation area set occupancy schedule to NECB-B-Occupancy.",
+          "Space Function Food preparation area set occupant activity schedule to NECB-Activity.",
+          "Space Function Food preparation area set lighting schedule to OS:Schedule:Ruleset,\n  {b4f3f052-c624-4c82-9ddb-24199673dd78}, !- Handle\n  NECB-B-Occupancy-NECB-B-Lighting-0.0-0.0-0.67-Light Ruleset, !- Name\n  {3c5dfcca-50b0-46a6-a672-21aabefedcaf}, !- Schedule Type Limits Name\n  {ceeb56f8-9f93-486a-9140-7690efcc1124}; !- Default Day Schedule Name\n\n.",
+          "Space Function Food preparation area set electric equipment schedule to NECB-B-Electric-Equipment.",
+          "Space Function Food preparation area set infiltration schedule to Always On.",
+          "Space Function Food preparation area set heating setpoint schedule to NECB-B-Thermostat Setpoint-Heating.",
+          "Space Function Food preparation area set cooling setpoint schedule to NECB-B-Thermostat Setpoint-Cooling.",
+          "Finished applying space types (loads)",
+          "Started applying constructions",
+          "Finished applying constructions",
+          "Started creating thermal zones",
+          "Finished creating thermal zones",
+          "This building has no exposed ceilings adjacent to spaces that are not attics or plenums.  No skylights will be added.",
+          "Running simulation /mnt/openstudio/analysis_63796a5d-cec7-494a-9e67-4109aa458616/data_point_1575f484-2684-4ef5-93f6-b23e01bcf40b/run/000_btap_create_necb_prototype_building/output/QuickServiceRestaurant-NECB2017-CAN_NT_Yellowknife.AP.719360_CWEC2016.epw/SR0.",
+          "Finished run.",
+          "Started Adding HVAC",
+          "Finished adding HVAC",
+          "Started Adding Service Water Heating",
+          "Adding service water loop",
+          "Adding water heater",
+          "Finished adding Service Water Heating",
+          "Set sizing factors to 1.3 for heating and 1.3 for cooling.",
+          "Running simulation /mnt/openstudio/analysis_63796a5d-cec7-494a-9e67-4109aa458616/data_point_1575f484-2684-4ef5-93f6-b23e01bcf40b/run/000_btap_create_necb_prototype_building/output/QuickServiceRestaurant-NECB2017-CAN_NT_Yellowknife.AP.719360_CWEC2016.epw/SR1.",
+          "Finished run.",
+          "Started applying prototype HVAC assumptions.",
+          "For Fan Constant Volume 1: allowed_hp = 1.01HP; motor eff = 61.5%; total fan eff = 40% based on 782 cfm.",
+          "For Fan Constant Volume 2: allowed_hp = 1.01HP; motor eff = 61.5%; total fan eff = 40% based on 882 cfm.",
+          "Sys_3_PSZ Sp-Dining Sys-3 Flr-1 Sch-B HPlcmt-south ZN does not require an economizer because the total cooling capacity of 23500 Btu/hr is less than the minimum capacity of 68243 Btu/hr.",
+          "Sys_3_PSZ Sp-Kitchen Sys-3 Flr-1 Sch-B HPlcmt-north ZN does not require an economizer because the total cooling capacity of 20854 Btu/hr is less than the minimum capacity of 68243 Btu/hr.",
+          "Finished applying prototype HVAC assumptions.",
+          "Started applying HVAC efficiency standards.",
+          "For Sys_3_PSZ Sp-Dining Sys-3 Flr-1 Sch-B HPlcmt-south ZN ERV, ERV power is calculated to be 349 W, based on a min OA flow of 882 cfm.",
+          "For Sys_3_PSZ Sp-Dining Sys-3 Flr-1 Sch-B HPlcmt-south ZN: No special economizer controls were modeled.",
+          "For NECB2017 NECB HDD Method:  Sys_3_PSZ Sp-Dining Sys-3 Flr-1 Sch-B HPlcmt-south ZN: DCV is not required for any system.",
+          "For Sys_3_PSZ Sp-Dining Sys-3 Flr-1 Sch-B HPlcmt-south ZN: Annual occupied hours = 5421 hr/yr, assuming a 0.15 occupancy threshold.  This schedule will be used as the HVAC operation schedule.",
+          "For Sys_3_PSZ Sp-Dining Sys-3 Flr-1 Sch-B HPlcmt-south ZN: Setting motorized OA damper schedule to Sys_3_PSZ Sp-Dining Sys-3 Flr-1 Sch-B HPlcmt-south ZN Occ Sch.",
+          "For Sys_3_PSZ Sp-Kitchen Sys-3 Flr-1 Sch-B HPlcmt-north ZN ERV, ERV power is calculated to be 164 W, based on a min OA flow of 338 cfm.",
+          "For Sys_3_PSZ Sp-Kitchen Sys-3 Flr-1 Sch-B HPlcmt-north ZN: No special economizer controls were modeled.",
+          "For NECB2017 NECB HDD Method:  Sys_3_PSZ Sp-Kitchen Sys-3 Flr-1 Sch-B HPlcmt-north ZN: DCV is not required for any system.",
+          "For Sys_3_PSZ Sp-Kitchen Sys-3 Flr-1 Sch-B HPlcmt-north ZN: Annual occupied hours = 5421 hr/yr, assuming a 0.15 occupancy threshold.  This schedule will be used as the HVAC operation schedule.",
+          "For Sys_3_PSZ Sp-Kitchen Sys-3 Flr-1 Sch-B HPlcmt-north ZN: Setting motorized OA damper schedule to Sys_3_PSZ Sp-Kitchen Sys-3 Flr-1 Sch-B HPlcmt-north ZN Occ Sch.",
+          "For Fan Constant Volume 1: motor nameplate = 0.48730596986208674HP, motor eff = 61.5%.",
+          "For Fan Constant Volume 2: motor nameplate = 0.5491362657668144HP, motor eff = 61.5%.",
+          "For Service Water Loop Pump: brake hp = 0.0HP, motor nameplate = 0.1HP, motor eff = 70.0%.",
+          "For Pump Variable Speed 1: brake hp = 0.05HP, motor nameplate = 0.1HP, motor eff = 70.0%.",
+          "For NECB2017: Coil Cooling DX Single Speed 1: AirCooled Electric Resistance or None Single Package Capacity = 21kBtu/hr; SEER = 14.0",
+          "For NECB2017: Coil Cooling DX Single Speed 2: AirCooled Electric Resistance or None Single Package Capacity = 24kBtu/hr; SEER = 14.0",
+          "For NECB2017: Primary Boiler: Oil Hot Water Capacity = 36kBtu/hr; AFUE = 0.847",
+          "For NECB2017: Secondary Boiler: Oil Hot Water Capacity = 0kBtu/hr; AFUE = 0.847",
+          "For NECB2017: 16gal Electricity Water Heater - 11kBtu/hr 1.0 Therm Eff; thermal efficiency = 1.0, skin-loss UA = 3Btu/hr",
+          "For Sys_3_PSZ Sp-Kitchen Sys-3 Flr-1 Sch-B HPlcmt-north ZN ERV: Set sensible and latent effectiveness to 50%.",
+          "For Sys_3_PSZ Sp-Dining Sys-3 Flr-1 Sch-B HPlcmt-south ZN ERV: Set sensible and latent effectiveness to 50%.",
+          "Finished applying HVAC efficiency standards.",
+          "Started adding daylighting controls.",
+          "For attic, daylighting control not applicable because no exterior fenestration is present.",
+          "Finished adding daylighting controls.",
+          "Running simulation /mnt/openstudio/analysis_63796a5d-cec7-494a-9e67-4109aa458616/data_point_1575f484-2684-4ef5-93f6-b23e01bcf40b/run/000_btap_create_necb_prototype_building/output/QuickServiceRestaurant-NECB2017-CAN_NT_Yellowknife.AP.719360_CWEC2016.epw/SR2.",
+          "Finished run.",
+          "Total Time = 171sec."
+        ],
+        "step_result": "Success",
+        "step_values": [
+          {
+            "name": "building_type",
+            "value": "QuickServiceRestaurant"
+          },
+          {
+            "name": "template",
+            "value": "NECB2017"
+          },
+          {
+            "name": "epw_file",
+            "value": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+          },
+          {
+            "name": "new_auto_zoner",
+            "value": false
+          }
+        ],
+        "step_warnings": [
+          "[openstudio.EpwFile] Successive data points (2009-Jan-31 to 2004-Feb-01, ending on line 753) are greater than 1 day apart in EPW file '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.epw'. Data will be treated as typical (TMY)",
+          "[openstudio.EpwFile] Successive data points (2009-Jan-31 to 2004-Feb-01, ending on line 753) are greater than 1 day apart in EPW file '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.epw'. Data will be treated as typical (TMY)",
+          "[openstudio.weather.Model] Could not find ground temperatures; will use generic temperatures, which will skew results.",
+          "[openstudio.EpwFile] Successive data points (2009-Jan-31 to 2004-Feb-01, ending on line 753) are greater than 1 day apart in EPW file '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.epw'. Data will be treated as typical (TMY)",
+          "[openstudio.EpwFile] Successive data points (2009-Jan-31 to 2004-Feb-01, ending on line 753) are greater than 1 day apart in EPW file '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.epw'. Data will be treated as typical (TMY)",
+          "[openstudio.EpwFile] Successive data points (2009-Jan-31 to 2004-Feb-01, ending on line 753) are greater than 1 day apart in EPW file '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.epw'. Data will be treated as typical (TMY)",
+          "[openstudio.EpwFile] Successive data points (2009-Jan-31 to 2004-Feb-01, ending on line 753) are greater than 1 day apart in EPW file '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.epw'. Data will be treated as typical (TMY)",
+          "[openstudio.standards.Fan] For Fan Constant Volume 1, there is no greater nominal HP.  Use the efficiency of the largest motor category.",
+          "[openstudio.standards.Fan] For Fan Constant Volume 2, there is no greater nominal HP.  Use the efficiency of the largest motor category.",
+          "[openstudio.EpwFile] Successive data points (2009-Jan-31 to 2004-Feb-01, ending on line 753) are greater than 1 day apart in EPW file '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.epw'. Data will be treated as typical (TMY)",
+          "[openstudio.EpwFile] Successive data points (2009-Jan-31 to 2004-Feb-01, ending on line 753) are greater than 1 day apart in EPW file '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.epw'. Data will be treated as typical (TMY)",
+          "[openstudio.standards.Fan] For Fan Constant Volume 1, there is no greater nominal HP.  Use the efficiency of the largest motor category.",
+          "[openstudio.standards.Fan] For Fan Constant Volume 2, there is no greater nominal HP.  Use the efficiency of the largest motor category."
+        ]
+      }
+    },
+    {
+      "arguments": {
+        "necb_template": "NECB2017",
+        "surface_type": "Walls",
+        "zone4_u_value": 0.29,
+        "zone5_u_value": 0.265,
+        "zone6_u_value": 0.24,
+        "zone7A_u_value": 0.215,
+        "zone7B_u_value": 0.19,
+        "zone8_u_value": 0.165
+      },
+      "description": "Modifies walls, roofs, and windows conductance by climate zone.",
+      "measure_dir_name": "btap_set_envelope_conductance_by_necb_climate_zone",
+      "name": "btap_set_envelope_conductance_by_necb_climate_zone",
+      "result": {
+        "completed_at": "20190221T164948Z",
+        "measure_class_name": "BtapSetEnvelopeConductanceByNecbClimateZone",
+        "measure_display_name": "BTAPSetEnvelopeConductanceByNecbClimateZone",
+        "measure_name": "btap_set_envelope_conductance_by_necb_climate_zone",
+        "measure_taxonomy": "Envelope.Opaque",
+        "measure_type": "ModelMeasure",
+        "measure_uid": "36fd01e8-5fcf-4fec-9117-90bf8d4071fc",
+        "measure_version_id": "640ec217-f62b-42fb-ab95-8ed4a5972bba",
+        "measure_version_modified": "20190214T214035Z",
+        "measure_xml_checksum": "A51D361F",
+        "started_at": "20190221T164943Z",
+        "stderr": "",
+        "stdout": "[openstudio.EpwFile] <0> Successive data points (2009-Jan-31 to 2004-Feb-01, ending on line 753) are greater than 1 day apart in EPW file '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.epw'. Data will be treated as typical (TMY)\n[openstudio.setFileExtension] <0> Path p, '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.ddy', has an unexpected file extension. Was expecting 'idf'.\n[openstudio.setFileExtension] <0> Path p, '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.ddy', has an unexpected file extension. Was expecting 'idf'.\n",
+        "step_errors": [],
+        "step_files": [],
+        "step_info": [
+          "The Weather File NECB hdd is '8170.0'.",
+          "The selected surface type is 'Walls' So the conductance of walls only will be changed.",
+          "Initial conductance for Wall was : 0.18299999999999986 , now it has been changed to 0.16499999999999987 ",
+          "Initial conductance for Wall was : 0.18299999999999986 , now it has been changed to 0.16499999999999987 ",
+          "Initial conductance for Wall was : 0.18299999999999986 , now it has been changed to 0.16499999999999987 ",
+          "Initial conductance for Wall was : 0.18299999999999986 , now it has been changed to 0.16499999999999987 ",
+          "Initial conductance for Wall was : 0.18299999999999986 , now it has been changed to 0.16499999999999987 ",
+          "Initial conductance for Wall was : 0.18299999999999986 , now it has been changed to 0.16499999999999987 "
+        ],
+        "step_result": "Success",
+        "step_values": [
+          {
+            "name": "necb_template",
+            "value": "NECB2017"
+          },
+          {
+            "name": "surface_type",
+            "value": "Walls"
+          },
+          {
+            "name": "zone4_u_value",
+            "value": 0.29
+          },
+          {
+            "name": "zone5_u_value",
+            "value": 0.265
+          },
+          {
+            "name": "zone6_u_value",
+            "value": 0.24
+          },
+          {
+            "name": "zone7A_u_value",
+            "value": 0.215
+          },
+          {
+            "name": "zone7B_u_value",
+            "value": 0.19
+          },
+          {
+            "name": "zone8_u_value",
+            "value": 0.165
+          },
+          {
+            "name": "necb_template",
+            "value": "NECB2017"
+          },
+          {
+            "name": "surface_type",
+            "value": "Walls"
+          },
+          {
+            "name": "zone4_u_value",
+            "value": 0.29
+          },
+          {
+            "name": "zone5_u_value",
+            "value": 0.265
+          },
+          {
+            "name": "zone6_u_value",
+            "value": 0.24
+          },
+          {
+            "name": "zone7A_u_value",
+            "value": 0.215
+          },
+          {
+            "name": "zone7B_u_value",
+            "value": 0.19
+          },
+          {
+            "name": "zone8_u_value",
+            "value": 0.165
+          }
+        ],
+        "step_warnings": []
+      }
+    },
+    {
+      "arguments": {
+        "necb_template": "NECB2017",
+        "surface_type": "Roofs",
+        "zone4_u_value": 0.164,
+        "zone5_u_value": 0.156,
+        "zone6_u_value": 0.138,
+        "zone7A_u_value": 0.121,
+        "zone7B_u_value": 0.117,
+        "zone8_u_value": 0.11
+      },
+      "description": "Modifies walls, roofs, and windows conductance by climate zone.",
+      "measure_dir_name": "btap_set_envelope_conductance_by_necb_climate_zone",
+      "name": "btap_set_envelope_conductance_by_necb_climate_zone_2",
+      "result": {
+        "completed_at": "20190221T164952Z",
+        "measure_class_name": "BtapSetEnvelopeConductanceByNecbClimateZone",
+        "measure_display_name": "BTAPSetEnvelopeConductanceByNecbClimateZone",
+        "measure_name": "btap_set_envelope_conductance_by_necb_climate_zone",
+        "measure_taxonomy": "Envelope.Opaque",
+        "measure_type": "ModelMeasure",
+        "measure_uid": "36fd01e8-5fcf-4fec-9117-90bf8d4071fc",
+        "measure_version_id": "640ec217-f62b-42fb-ab95-8ed4a5972bba",
+        "measure_version_modified": "20190214T214035Z",
+        "measure_xml_checksum": "A51D361F",
+        "started_at": "20190221T164948Z",
+        "stderr": "",
+        "stdout": "[openstudio.EpwFile] <0> Successive data points (2009-Jan-31 to 2004-Feb-01, ending on line 753) are greater than 1 day apart in EPW file '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.epw'. Data will be treated as typical (TMY)\n[openstudio.setFileExtension] <0> Path p, '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.ddy', has an unexpected file extension. Was expecting 'idf'.\n[openstudio.setFileExtension] <0> Path p, '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.ddy', has an unexpected file extension. Was expecting 'idf'.\n",
+        "step_errors": [],
+        "step_files": [],
+        "step_info": [
+          "The Weather File NECB hdd is '8170.0'.",
+          "The selected surface type is 'Roofs' So the conductance of roofs only will be changed.to 0.11 ............. ",
+          "Initial conductance for RoofCeiling was : 0.12100000000000004 , now it has been changed to 0.10999999999999999 ",
+          "Initial conductance for RoofCeiling was : 0.12100000000000004 , now it has been changed to 0.10999999999999999 ",
+          "Initial conductance for RoofCeiling was : 0.12100000000000004 , now it has been changed to 0.10999999999999999 ",
+          "Initial conductance for RoofCeiling was : 0.12100000000000004 , now it has been changed to 0.10999999999999999 "
+        ],
+        "step_result": "Success",
+        "step_values": [
+          {
+            "name": "necb_template",
+            "value": "NECB2017"
+          },
+          {
+            "name": "surface_type",
+            "value": "Roofs"
+          },
+          {
+            "name": "zone4_u_value",
+            "value": 0.164
+          },
+          {
+            "name": "zone5_u_value",
+            "value": 0.156
+          },
+          {
+            "name": "zone6_u_value",
+            "value": 0.138
+          },
+          {
+            "name": "zone7A_u_value",
+            "value": 0.121
+          },
+          {
+            "name": "zone7B_u_value",
+            "value": 0.117
+          },
+          {
+            "name": "zone8_u_value",
+            "value": 0.11
+          },
+          {
+            "name": "necb_template",
+            "value": "NECB2017"
+          },
+          {
+            "name": "surface_type",
+            "value": "Roofs"
+          },
+          {
+            "name": "zone4_u_value",
+            "value": 0.164
+          },
+          {
+            "name": "zone5_u_value",
+            "value": 0.156
+          },
+          {
+            "name": "zone6_u_value",
+            "value": 0.138
+          },
+          {
+            "name": "zone7A_u_value",
+            "value": 0.121
+          },
+          {
+            "name": "zone7B_u_value",
+            "value": 0.117
+          },
+          {
+            "name": "zone8_u_value",
+            "value": 0.11
+          }
+        ],
+        "step_warnings": []
+      }
+    },
+    {
+      "arguments": {
+        "necb_template": "NECB2017",
+        "surface_type": "Floors",
+        "zone4_u_value": 0.193,
+        "zone5_u_value": 0.175,
+        "zone6_u_value": 0.156,
+        "zone7A_u_value": 0.138,
+        "zone7B_u_value": 0.121,
+        "zone8_u_value": 0.117
+      },
+      "description": "Modifies walls, roofs, and windows conductance by climate zone.",
+      "measure_dir_name": "btap_set_envelope_conductance_by_necb_climate_zone",
+      "name": "btap_set_envelope_conductance_by_necb_climate_zone_2_2",
+      "result": {
+        "completed_at": "20190221T164957Z",
+        "measure_class_name": "BtapSetEnvelopeConductanceByNecbClimateZone",
+        "measure_display_name": "BTAPSetEnvelopeConductanceByNecbClimateZone",
+        "measure_name": "btap_set_envelope_conductance_by_necb_climate_zone",
+        "measure_taxonomy": "Envelope.Opaque",
+        "measure_type": "ModelMeasure",
+        "measure_uid": "36fd01e8-5fcf-4fec-9117-90bf8d4071fc",
+        "measure_version_id": "640ec217-f62b-42fb-ab95-8ed4a5972bba",
+        "measure_version_modified": "20190214T214035Z",
+        "measure_xml_checksum": "A51D361F",
+        "started_at": "20190221T164952Z",
+        "stderr": "",
+        "stdout": "[openstudio.EpwFile] <0> Successive data points (2009-Jan-31 to 2004-Feb-01, ending on line 753) are greater than 1 day apart in EPW file '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.epw'. Data will be treated as typical (TMY)\n[openstudio.setFileExtension] <0> Path p, '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.ddy', has an unexpected file extension. Was expecting 'idf'.\n[openstudio.setFileExtension] <0> Path p, '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.ddy', has an unexpected file extension. Was expecting 'idf'.\n",
+        "step_errors": [],
+        "step_files": [],
+        "step_info": [
+          "The Weather File NECB hdd is '8170.0'.",
+          "The selected surface type is 'Floors' So the conductance of floors only will be changed."
+        ],
+        "step_result": "Success",
+        "step_values": [
+          {
+            "name": "necb_template",
+            "value": "NECB2017"
+          },
+          {
+            "name": "surface_type",
+            "value": "Floors"
+          },
+          {
+            "name": "zone4_u_value",
+            "value": 0.193
+          },
+          {
+            "name": "zone5_u_value",
+            "value": 0.175
+          },
+          {
+            "name": "zone6_u_value",
+            "value": 0.156
+          },
+          {
+            "name": "zone7A_u_value",
+            "value": 0.138
+          },
+          {
+            "name": "zone7B_u_value",
+            "value": 0.121
+          },
+          {
+            "name": "zone8_u_value",
+            "value": 0.117
+          },
+          {
+            "name": "necb_template",
+            "value": "NECB2017"
+          },
+          {
+            "name": "surface_type",
+            "value": "Floors"
+          },
+          {
+            "name": "zone4_u_value",
+            "value": 0.193
+          },
+          {
+            "name": "zone5_u_value",
+            "value": 0.175
+          },
+          {
+            "name": "zone6_u_value",
+            "value": 0.156
+          },
+          {
+            "name": "zone7A_u_value",
+            "value": 0.138
+          },
+          {
+            "name": "zone7B_u_value",
+            "value": 0.121
+          },
+          {
+            "name": "zone8_u_value",
+            "value": 0.117
+          }
+        ],
+        "step_warnings": []
+      }
+    },
+    {
+      "arguments": {
+        "necb_template": "NECB2017",
+        "surface_type": "Glazing",
+        "zone4_u_value": 1.9,
+        "zone5_u_value": 1.8,
+        "zone6_u_value": 1.7,
+        "zone7A_u_value": 1.5,
+        "zone7B_u_value": 1.4,
+        "zone8_u_value": 1.3
+      },
+      "description": "Modifies walls, roofs, and windows conductance by climate zone.",
+      "measure_dir_name": "btap_set_envelope_conductance_by_necb_climate_zone",
+      "name": "btap_set_envelope_conductance_by_necb_climate_zone_2_2_2",
+      "result": {
+        "completed_at": "20190221T165001Z",
+        "measure_class_name": "BtapSetEnvelopeConductanceByNecbClimateZone",
+        "measure_display_name": "BTAPSetEnvelopeConductanceByNecbClimateZone",
+        "measure_name": "btap_set_envelope_conductance_by_necb_climate_zone",
+        "measure_taxonomy": "Envelope.Opaque",
+        "measure_type": "ModelMeasure",
+        "measure_uid": "36fd01e8-5fcf-4fec-9117-90bf8d4071fc",
+        "measure_version_id": "640ec217-f62b-42fb-ab95-8ed4a5972bba",
+        "measure_version_modified": "20190214T214035Z",
+        "measure_xml_checksum": "A51D361F",
+        "started_at": "20190221T164957Z",
+        "stderr": "",
+        "stdout": "[openstudio.EpwFile] <0> Successive data points (2009-Jan-31 to 2004-Feb-01, ending on line 753) are greater than 1 day apart in EPW file '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.epw'. Data will be treated as typical (TMY)\n[openstudio.setFileExtension] <0> Path p, '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.ddy', has an unexpected file extension. Was expecting 'idf'.\n[openstudio.setFileExtension] <0> Path p, '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.ddy', has an unexpected file extension. Was expecting 'idf'.\n",
+        "step_errors": [],
+        "step_files": [],
+        "step_info": [
+          "The Weather File NECB hdd is '8170.0'.",
+          "Initial conductance for FixedWindow was : 1.4 , now it has been changed to 1.3 ",
+          "Initial conductance for FixedWindow was : 1.4 , now it has been changed to 1.3 ",
+          "Initial conductance for FixedWindow was : 1.4 , now it has been changed to 1.3 ",
+          "Initial conductance for FixedWindow was : 1.4 , now it has been changed to 1.3 ",
+          "Initial conductance for FixedWindow was : 1.4 , now it has been changed to 1.3 ",
+          "Initial conductance for FixedWindow was : 1.4 , now it has been changed to 1.3 "
+        ],
+        "step_result": "Success",
+        "step_values": [
+          {
+            "name": "necb_template",
+            "value": "NECB2017"
+          },
+          {
+            "name": "surface_type",
+            "value": "Glazing"
+          },
+          {
+            "name": "zone4_u_value",
+            "value": 1.9
+          },
+          {
+            "name": "zone5_u_value",
+            "value": 1.8
+          },
+          {
+            "name": "zone6_u_value",
+            "value": 1.7
+          },
+          {
+            "name": "zone7A_u_value",
+            "value": 1.5
+          },
+          {
+            "name": "zone7B_u_value",
+            "value": 1.4
+          },
+          {
+            "name": "zone8_u_value",
+            "value": 1.3
+          },
+          {
+            "name": "necb_template",
+            "value": "NECB2017"
+          },
+          {
+            "name": "surface_type",
+            "value": "Glazing"
+          },
+          {
+            "name": "zone4_u_value",
+            "value": 1.9
+          },
+          {
+            "name": "zone5_u_value",
+            "value": 1.8
+          },
+          {
+            "name": "zone6_u_value",
+            "value": 1.7
+          },
+          {
+            "name": "zone7A_u_value",
+            "value": 1.5
+          },
+          {
+            "name": "zone7B_u_value",
+            "value": 1.4
+          },
+          {
+            "name": "zone8_u_value",
+            "value": 1.3
+          }
+        ],
+        "step_warnings": []
+      }
+    },
+    {
+      "arguments": {
+        "generate_hourly_report": "false",
+        "output_diet": false
+      },
+      "description": "This measure creates BTAP result values used for NRCan analyses.",
+      "measure_dir_name": "btap_results",
+      "name": "btap_results",
+      "result": {
+        "completed_at": "20190221T165135Z",
+        "measure_class_name": "BTAPResults",
+        "measure_display_name": "BTAP Results",
+        "measure_name": "btap_results",
+        "measure_taxonomy": "Reporting.QAQC",
+        "measure_type": "ReportingMeasure",
+        "measure_uid": "bf37e1c6-de70-457b-a3ac-21aa57b7bc58",
+        "measure_version_id": "86fb174b-6040-4a41-8cbe-ab3d1551296a",
+        "measure_version_modified": "20181219T170133Z",
+        "measure_xml_checksum": "15BF4E57",
+        "started_at": "20190221T165104Z",
+        "stderr": "",
+        "stdout": "[openstudio.EpwFile] <0> Successive data points (2009-Jan-31 to 2004-Feb-01, ending on line 753) are greater than 1 day apart in EPW file '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.epw'. Data will be treated as typical (TMY)\n[openstudio.setFileExtension] <0> Path p, '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.ddy', has an unexpected file extension. Was expecting 'idf'.\n[openstudio.setFileExtension] <0> Path p, '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.ddy', has an unexpected file extension. Was expecting 'idf'.\n[openstudio.EpwFile] <0> Successive data points (2009-Jan-31 to 2004-Feb-01, ending on line 753) are greater than 1 day apart in EPW file '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.epw'. Data will be treated as typical (TMY)\n[openstudio.setFileExtension] <0> Path p, '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.ddy', has an unexpected file extension. Was expecting 'idf'.\n[openstudio.setFileExtension] <0> Path p, '/usr/local/lib/ruby/gems/2.2.0/bundler/gems/openstudio-standards-b33bde241549/data/weather/CAN_NT_Yellowknife.AP.719360_CWEC2016.ddy', has an unexpected file extension. Was expecting 'idf'.\n",
+        "step_errors": [],
+        "step_files": [
+          "/mnt/openstudio/analysis_63796a5d-cec7-494a-9e67-4109aa458616/data_point_1575f484-2684-4ef5-93f6-b23e01bcf40b/run/005_btap_results/qaqc.json"
+        ],
+        "step_final_condition": "Saved BTAP results to runner.",
+        "step_info": [],
+        "step_initial_condition": "Gathering data from EnergyPlus SQL file and OSM model.",
+        "step_result": "Success",
+        "step_values": [
+          {
+            "name": "model_osm_zip",
+            "value": "eJzsvdeWG8eWJnx/ngK6mKufUQxvqNX/WhQpiuoWzbAosc+50QpLYoQCqmEksWv63WdHJnwigUgAJIsS1H0kmoqdYbb5tokd/3h1/eiXOJ70R8MH/+j17pwMLjIWkNTWIR6sRhY7gZiO0SnuEibkfx70vkG953YYBhHG0Ct5hb/tHfwHxsy/1PsxxOG0n/px/I9/wASu+9NYfV0QRgJPAbngGeJGK+SooMhhjCmNTiartr7+zzgYjP74bdhPsff49a8v3/765PHLBzu//tLe5BGSXnHJdvxIc8RPdtqfzkLs3YX4/n9gLCKEX3F+cHAeOxq+3xqsDn90Pvht/yb2/jUawuAP4zyWYnFVMhzGfj+Iv8O8YZvvbvLQJ/3px4LjqT4bx2PbH84P5WY2qOg8GQ2n49GgOiHlBY84UsScsogTq5BhWKEUqaSJS8NCapzQpGjdMObpqF70df+/+8P3vSd24Odz6Ezn+uNkGm/OQen1wA6nuwm9HBWf6JvZsLfa0l4ajRckX8dxfxQm3ea1g9y7aKcf4rj3rD+I1d+vCOMrfJhne3O2tWHSgyP/PY7fx6GPvbejQRzb/Ktf7GAWK3K0dJ5v480tjJ7OxnEf0Swjg6l9kvn12Www+HE4zZMfPx6G7/+sf9n4IlC/Hg3suPe0P5mO+242PxQqig/lhf0T9vCm93J242DnRqn3zo5vZre9p/Zj3jdZIjdzUv3hHlKVQM3Gyfpa0UVLo/RRIkmoBjESBDkpCVJME+E5jxbLLTF6Ch8Yvv/1nR0Mfr0ezaYfWla5UnT5RwtPfT633tuPt3nkHffGqmApol7B/EQQoJI1h/mBXaAyGMNsPT84VNj9ma/YcP7hO0qVFaAJkJc4Ia4JR8ZoiRQoCS8iWBGH6+HXt/mz83GvZtMwGo0PCgGMgx+d9EG3fjeaDYMdf8zzCP05B5Sd/wE6vVfu/0Q/BXLXs+H3f96OJjHsJ1zt47BX/Szwez6Bfubfw0NhZP7R9aEd1vBLP/7Re2b9FJTAdNT7YZzX0o3EimvBRE/7PlZa40H+fwa6Q+t9tGD8fz7454N/VWPjnz0yNzz1eFxiLDfG0/l4Iq4op/ogle3xbMf4ehW7xXl7PK/GVyJ7uxDYco7eEtginLGQG06owEkA+mLeI56MRE4xi0BdYMykjJ7ydbnJ4roY3OG0n8ZkZ4Pppuxex+kJpK79hxhmYHjWyBw++RWZ/jjW0wAWfBOzVfsdVjYaTz8s4VMHcv/ZezXuv+8PV4xYOvKfR4/81+bIO0KZ0xgUZwjSgIqXFhkNwIkTr4g1JAks6rP8btYfhIwErkGCPy6ZgVgwAolgBOCXIy5TRNpbgoQGXsBSe57mYPgtmP0bO6ix03x4Byzx2o6ned/fjqZA5NkAVHDv8ThaoFJo/2pOmPTfAxvdRg/I3te4ZK7Re4/747k+refXsIeSKGY0RZ4x2CIfONJRw94ZLwP3DgPI3BKv/+hPgeeGtUH83k6m99geeiskN14g73VA3CkC2oODzdeAl612VlpysYcbI++hPVzaE3UlKeGtprHNHjbGt2iXg/Zw3bAVjG/Yw+UvdlvFEntYztHbAlsCBxZyIyy4m44zRKgEe6hZRJYRg0Iy2kjiAiP0Yg8Pk/tL2MPkg+HKWZQCAWZgMSDjtEZGqJBookxZvtceFhmzffZw22p5UP0xeYxoIjGHqyIIASyJJoCELAGnhrDHi3sXW43WvbBaFy/ur2C18EF7tRzf5sUdsFe7x9MTvUC2MX6f/7Z7/JrVWhNZZSMTVEjEogctpHNwWQQKGFs5gSVlwW2L7AJoVopgvxs6l4BDP7k2YktkOxz2OYFmzWxFrurnFNmXI5DE0n3cENmXoyyJRQu6hyJ7LNA7F9A8VuTXRHY18z0yWwI0hVHC8JiQ8Ao4OjGDtHYGSUNiokFbHd2WwNopbGQZ2yzkxlKeqIoYBS0d4kqBqZPgiUYVBQ+MAWaxF6B5mNzZgObhqONy5DbQFNhgQoVDADZBxXMHqCcGj3yMMQSCddBhL9B0OBAJ/IWoIoBPjeSgP7VDHv4dlZSUM9EONF+OyoImh4AmKMjb2fTRiziN40oSSKBEeYuRDBR4lJuItABniGQA7IlIS/y7lIQf7OQR6Kf+oD/9eECQ57P/MJqNB3t/djniTbwFNsnb92wc/2sWh/4jEHg7nsVCuFotrU5XvRoO8uBndjCJZankJ7M6+fV7HUx6Hu30OzvIGaXHg/ejcX/64aaOLIHds0x7cDuMQJw6wOgJmINFzWz0KVKyHVnKlqiWzbdjO5ykOH42G1a/f7A9i+W3qhRtSRZ80+qvZcd+voVf9n7q3/SnvbsntRpcMGgdgmagCDHwocwpcU6BpTUBb0OAotKgIjFmdGsl/3vW979dx/HvYFjegLdhZ7CgKXry+GVOlK+lzq8ev75SxDCJf33y7vsnFBN5FW//6HngxmkMj2BxwGkYPAnSI/IRV48w6f1/GP55sMY8HdTXSvRiZT7n+KeDwqh11OM/+5Oloupid0c3/eFS6MB41794HvvvP0znmqQDuaZVuGNJGMKIQDhGYDzOCAJjJbP1Upr4YJWbH9dnsgqkfG+vpzaDsjBZwydZR/ZreHIaocduBCamBktrVF9+/+Q74DL1626m/XYn1SUbVfyzU20qrUAwwKAHnlOtxnhkjQIB4sEzTA2Vzm6JzfcDYMpx34PWXIng7gV+5Wpz3TWioEZESgZRLy3iHuymwaaq76CaGBls3A7pDbMMovFolA761PONegM/+ySCQTqQGdsRzWDc4RiIQirbZo5hkpZohajQMUowfvCXe6IZ5UDyEs2Yj7yPrhG9UpiylYNCrwTHzYqPg65RR9eK7nJtjshJL6a7Of2m7JZFM6hkMiWwLF4ICbpNeOQIjUgEmQDrOm/8djXWegCyMqHo9evHs+noSWXpX+UKogeLAzg1APmFohmLHSr47F6RvQN8aE0C0+FsUohrZZCJXiIJFly6oBgVc8R9iWbc3wDksdGQRtpscxUNmS0TWQtwI1CskVMGvFNjDbLecCSxTZ5Fyrj2WyIb7WRaYGQvVvZiZe+blQVRQ+QKUwyupaGYMS54RJjMSZVnundT+bZFaHc7AjbSgJVFUWZt7nwCzlYMscAxcSEw10hZrzsCz395/ORwtu5rdQTezIZ1uXC1VdpI2G0LnpLIqdZAKt9VIcId90kJm+J20GRVcLzfP1xtVQc38ruY43svRsPph2MGPrUfM4Mvx5dVL+fx34NoLoaxwu/Oh219tEOp+M+TuFnM/Xw06Af7cdKz2WPOBVZ2sChRPoUukBhU8Y5r+/uqEr0b0ce3t4OPQDb+FmFy85kCN3Qt/W9M7o2Fk/sRVLK3oN46lsc3qF0PR39sUiPltd0rHZnvZUwyr9/WrA5K18UsyVWYrJKkf0Y7fhonfty/nS5u1QQviRc5mCwCyYUCACQ5YygoR4OKilq9Xe7dBTvbQcwmrJc/XVstOIPDy8vxoppJ8/HVVxKmOSQNf9rALSRlLC4TUuBUgPbMhj1wh5zH0RvjrDXbuGXuahzMht6HxOmRtQ6XxOn9wi1HQv1duKWLd3/GWoflzE+vdaDMRCZMQEbn23Q2sBzQi0hgFYwPntDUUp500Hc4h6vxhUT2bNGB4BxodUpQZIAiuc/F+hp7ZKhhUToejaKX6MAaif0ie+CqyUGR7ViUu6PWoVN04tOUJ2VJjYxTQAaAEXjAEUSWMOSEpjha8MH13jr4PSWF5wjoXergL9GBzRj4MSJ7bAz9jOVJB0J5u8e3iKzw2KVgkPRggbjCGDlDJAKGpvkae/Rs28r+ES8BvdWELyK7GvqpRHZ32qlJ9ROKLD6AaXeO3xPO0z4wk5JHWAJzcynAFBGvwTIZbrF1jGGzJ5y3ryzq6w/nVXGKabytNRSWzGLvkTAUg9XFBhkbAahiToQGm4ztNqjocPF9KzgCH530ciXTc9i6hrLEPjKWg6485OyHFAZZ5hNKPNLEwTExZruGaT1hueea373AN5cbE38FZXk2l+TIKML9SliWu7mbBdgo5WAeCv1h6zX4+xD4OxLfnC2KUB6kuUQRLoG/PSL7wYbRH2vtierbE0l54aNAgYMV48FyAEk6Ik0MM0RZzyjbEl5WWINbJx4WX9sAPUTgolrob1YdeJ713wMzTXr9Ya9eSe/V73E8sLfrH2n20QEEKCONGIkodQYVKacsHTLMA5IwUjnedp3rkDt1H0KcX7oAigstA3MRxWwAuGcJ4JADjB2V98Cu0WB7UU5rJD5t34ADUZc9yumoeM2niZdQIzANXKKoEngj8MdI40SRS9qLRMEemrgvxFkVLbYu4Iu7AJcQ51/KBegocvelzLgp8p1bX63XLBbXwbaXGX/CrMTXnkgsr+K+WNnPYGW/3KXpM1rZcuS202v/bU+vnovX3sXvuIhsFyv7d+tz0MhqBBocJyCtxCawBYCRkSHYZBxqOGVOxUYH7LWsxss4bU9sfP1ZjY1GLmCYDWwW0ianfxjJHQMlBq9CgzmNLBi1XY84yV1zL7cV5xO+uBGrofc17cqujMFGcE6AwSVWEWEGZJC4UlhRpammGAtdXYZQoIyuFKFEEkxAV3CR/1Q+OJxmQPxKgs6R1GBF4L96SY4ZcMexxFQCKm6jt0w77L400iHtsNYgvOqDMKljmFZYZUNEiWCV+x4QZCmOyEqYHuHEJ7N9b6PDDYFF3+55v/hFDhPm1B/OpnFSN98vbumxiGfm2yK9H6e5ucMycLnUzHlVuVO+c4DyObHwLx08LCgxZBXWJgTicYr/8+3aqtb7QVT9Suqy7OKuesvN2ep60rpXKzXYqStD3VfhX6AGRmP4jJ3G7u0Uztyd4TM1WOjQLDdrmFswrsMQx/kolk1xmydc3s6m7YRbr7usTrhDu53LCReRaT3h+bWUjIjqOhaaaDRGgGuWzxdUG9KcYOQJHHVWfTRtB1c23zzZW6WdH//IfsLb4qTO9TQf6Ovx6Pd+fp7hTXxfQ4Ldz6rs/iiYz+k4f3fRTKYAjzy1U9u7BmTq8xLrZjRljs2LV3Pr+4+/3+MuCdjo0cOHD2eT8cPByNvBw0HfPRzP3MeH7+PN5CG9olf4oZtlzhnXfzS6jSAks9AfocmikQpyjLkQKSeCm4cBjuLhHzWfPixuFlTx6M/jQY7+PTFgmJ/yQ/KSeeVD9L9NZjfLh4AevQP+G7+w/eFkrT1SrQqFD8kajRKgADBxgSHHFaDrJCXO+Ein7WtUT0bjcZwnRA/NZC2bCV7Lh1FHBLjezGmpPOaKA7ErLjRb/dMeDn08HM5AMT4GJGTfx40O6utfuKveSuH0yhS+7bNAJk/7KcVx9QjLj/M7lYOPhz43WT3QsjynGiWv/dDKeK13dgf46KnySBDAbBxbUG80BQRaFnBKPlC1XXxGzJWgBfIAY/7dwmaBiZt3E2puUKaFC+57Aq1n0Y0PE2MHddl8t8f+w35KpszePr4d9wftlCi+woULfGH3rI0ScALKdNC/z4ZxDyFQOSVP8FSEBvtmRK+YKiP0ePZ+NpnuXRznpojUdbwFPyC7cvu2HNysImqvwKXcSwsYQRce38vR7wcmBsQkY2UXP6PfS2zZhDPHM+okUHGLzKUg16GJRfO8HurBl2LqD2PooQeb8zl/L807iZMlymkUHRNgLRxBoIE9wkJGmyF0MGGzAdsuyHcHhs46YjDCNpuanNV1WBMUlLVKk8Rl1DWZnZCvuk3PqOMkIaVEAgqRwUSoRgQ7FUhKRshlJ7gOb2hs7+9eHNjWMq23eSr7g5grIqt+d3X3gMWawYUfjOpIZnQ2cBUMcgncWq5z6REmEQlHuBKYhSS38/zd+YWKsse+qkjm4lzeAL3FU2ZHEfhhHONwnURp38cVie/yo2c1haaolT8D1LZ1dfq1Z8fRwjY6O+4NQMzfx4eD2M/hsV6YP070iURPg3BYw1CQBHSFDA7OPmAkApw7TdjZZAtED7wiFi24RkRzkGCbC9eitwhTErHTwXrs9oset0YaKwkiPoHoRUmRtl4gxaVxTvqMJr+c6BWe0redZS+3MknEKUSJUvl5OYasT6DCAtVEERxko1XobgbaNasHf3n5K392pG37no1GoXc7jre2DgBWZ/yg96lMnYkkSO0cGGMB8uaFRiamHCgigWsfRBJF8mZZiNEZRFXgiHMMesc4wOr5sU8fsDWLdbfJW0zUOgaCL7CV+apJ3jkpUAL9lZhM3n1Jedt5Kjt4p6u4USM9JZyCN5pfr8I5hIOFQForiXVwWPjtHuUH+OXB2lT+aqJWvXpat5p5VHPBU1uHOlV+XRYMH0qYVVe6CLLWCSQVcRjYKgBs2BsKy85z7/n0fc8AEv5fVSZqOOk9/W5dZcH5XJVsxLrLPP6IvpsN3A7I3aXVuu2Du7OT1hsL+nX9DdQOk3w+u+mH/vTjortN9UrtIgU36dlpYxlA3wBrFrifmf53djy6iTnB3Hs9jpPKLt29tpW/URS1WiXnQNiBH+9uHlZZFUbKNm8xetWq/ojG9Ne/few9GUQ7HsISug3dbETU8bMbbYcqT7Q4TLjdtapDTms+BLZtGscrGTvwse49uLcbSFWRzfXlvotTBxxXElLdxcfdq4V2Uclr2w7Ize3gC/hf/3bQj20p87zIdol9MQrVK+ZHTLSE6vakH18/f/P4+4qNgZ/bNfE3i5eRgVIcrB3IAf1rWSTegXcvGas6QIP9tzIXaQudoo5O6m3cs0P/Phm8713xNe37b///i3ffbaLGq9LnqAtUsLoqiOz0Oqvgw0mLJdkvqIKL9rHXpoKJuKjgfWO3VHBhimddBV/Pbm4uKvivpoLf2tmB77Sq4G6vZER7s3jkfscOdllrP6XZJO4hhq+YLFGkOdxebUIPdsGBIgCGG05AJwxArOsW55zsbYW0i1BoEGpztsrjsUVxxXVc9ddztmrFs+FkP5o72eBjP+gWnS7bz1/icNpfZFyPCnesRwGWidgOKnF9/DNAJ1U7CgA8kyprzh5O0G31m472ayfZ1aNNc9I3tGPpSoPsm7qghtUm+pQJ5l88+ZAV2qolBwjQw7rqoEMxy+45PhvbeShqQ5XUfFfp9sVfXMfpg24pmTJeW49iHclseU8m2ci/up0X652iZldVoK/j6HbQLAToQGtO4TEs/PdsTn+Kv4MlOYHgTxknVGVhx9NYFJv3vv+vWf8WFPb0FGo/2Ml5CD0fTXtV3cgecnckeFBsBNiN+KqQVCEdhUCKaC25zUHPuab7cZj6g+np7HA9zQa8fUpdRLDqZdxGqnLs5n/yKDdfnswlrnzNS4l7PPgj95p+dehGykrc7pgXIXlvkcAO3EVpJbJS5dfCLIh1AsG28xtsy2lXb2XVVb6rovcgecj+p1A0P86aW6lp7VHE2BDGcKAU1zWxizB2E8hs7MTCsS0i3LILi2+1V+ycdxc6sNePObxzC4gOlPF0tKxdztih0C+cK8Ae6WZpXlS10dWoDm20K1jS+znDg9pNIRunlfdirey7fDeXZ7YwSPbARdJvjqls/mn0x/J9vgVE6xCTW3/ebzH8CTiJsJOj2YGnyWvDErPaXeYhqqcnR5OpnYLtux31h9NHT2d2sPhNDe04AGKDKdIe8DKnniMDCBklR1TyyVmluqTge6tvfrvcwzaYXp67PWMO+68C22vTn1EULHHZzEUnHWELLZLRiazFErKRROSCpSJpS5094PkUbukCeqx9f22T6798+Hie0TzAtZtw6NQaywbBu9vqvxVSviI4l0cwTomkqrUIeAWtskTOd2gNxtfOwcPOQL5BacPtoA/XnI6rgiKtmugSY7+xoW+H0zX2qFOPjuooAUwLSyRoSc2QERYjHxjsgybUqvOUisz3bJ0ROjBkg6FWFRrFtS71vEfzIzvyBeZzAvTzIfPF5cE88uHj4XsgMr+N9lN/sl6KFqmIgiMiRITDpgEZrMFVt9wmRaOPbq7P343Gv/W+T+Dz9/OVzSYW1spFqQzsczD5AjNnyBmWkJLCROM1Vmyunp8MRtMPmQF+HE4Wotsg50PugasYstYCucgiMi5pBGwglcMK/mru2GUX8pc4GOXrqg06HcDEKmzYDn7LF7mqF1+sdkHwMOwjgkjHE0WgfnL7BgtWNhmKHGbJM5t4jKIA/EojZHXFz8Wc/Oawe45gjaQVhJNAlLLqKPBbRPjALiy/WacU6x/Iz7GcfR/+tvC34ty6DMLLEKSgSPgEYu4tiDloSSSFx8l4AeB3+5rDckczkT2wdF15FwvHBvHJUc/MV9N6NQ7VHZ27wBV3mQ+j4hywoQKO1FQimJIAve+dWuixE6Pe9eNE9Xs4x4x8MTp25NtZnBw59F0Mw6MHv/0wGx879tm4f+TI65w7OXLs/MmonBACQa7SL4cDD/lHt2rH5vmfMvy+qPEaT4+pr1i9ktTrleWe69jZ+mNi5VeK54+J7Vbu5aK0R7nXScqVUl9++m+t2vFVsSPXLbJRvpuNM1thsNZc6XkiGx3Oan9k43AkZj2ysWulrZ3LfgZXYhUQ2YkAy3HpKvC3C6DuWMWaeGBDZMI8oYzOEce55x8NEcWUb/g7J/yiZeBeBBgNjlpxBaDe5VbAMXdadiT3fKjKS5nj7CgEWES4YBd2hELPvgtfnZKgn0ZJlO/m8swW53VoIV+/klistOB+cYGSKHerl1vd5l9vL+QT5EiMITFLcMwXOsDyg0YDs4Gioz7fxxMEi+NyJCWEy3ZhW0/83XMkhVhvj5KoUreT7YAw1xwcQ0mR5diCdcMGNlMnxER+XFy6IBopkiODf/X3WwLC7+x0OjkcD655srr1UQfMTg0GL/PZNbm7dzm2aq4M/EPBtCksqdnX+6Sad0sQ+F33+O+K3CLo+24j5lucWWjEfDuZmeXoX/qTvps3DqrPr86r8aR0fouWeJmZJiqkXYTfRpB/772gYhsMnMQ0GzGico5tcNyXihg3YpTlKmB1kPF2ADOwruvTvmtRzl7vhziMYzsoeUQJfEaU30C+njlwj+P70bj2HxflG8s6gm2VIrXVzBMwgynkZ35VRFZkV4UpoTGPWrsz5ZjyVOp6hnumVjaI1UqFXBVllj67UulAaMmLPwE/zHVKsX+7MwvV4KU67xujNQmEm3EGDCRimMMILbAkPkWMz5SQWjHQhoop5+AdtUz3T918QWVRUDxafr/61NNuKSu9nt2UmtXPWlYKCoMJTQ5BzDayLWWlp8z2r1xWWtxu4FQu/DwFp3eERKwC+GKM5N4ZDBZkk8/NvI21QbjA8RwmHcxn35EgiOAk3w1PItfL29wyV6OUqFHgbpm4gFxlBad3jieWsKDIS8ozQYpMgBlSTgDCKRaC0msYblfB6Z3AnOEYOfKgUEFJa8CBjmKEPfdCOM+pEK1K+lJw2jqte1BwWsy6S1l8+f2T79B36JX3s1s79K3xq/MHU6iGuXlAJwx4GcjAr5zDGOUH77JHQgw5LphSRHj/LrTVnd7PYEoHr+jkiGtBe8deWzCl194NtWWm9KiZVqOuynZl10xpt9RiNVN21Ew7jmrMNI8vvMm/nCk/aqb8xD3N40n55c9qpuKomYo6ZHP0TPN4Usioi5nKo2Yqu4WmGjPN40mZQC5nqo6aaTWq/Kp3Y6Z5/EE8vjVTfdRMq1FXJXe7d880jyeFdQyLmZqjZmpOPP08npQ3vq01Pz5O9eMTZaoiQMpOZTXZI+3UyYaqqi0rNADLyR5nquphV2XtDnZONhOgHdUVOc5a1cNOUAMVAdpRY5HjDFY97JSd5cfkqY6zWfWwq4M9m9snK1rqGUUQwUXApVaxBM4eVchpoREBr4gmYT0hjZDgRj1jO2utgeFyx6OtnrEDMtysZ7SBSRmwR8TlvtQ62tw3zSPNfBDWGie8+RT1jP+MBx962Ry5rGfsPHJVz9h56Ho9Y/fvruoZO4/9S9Qzdi5LPLGesQPs3KhnLCyE/uZAPWO5KB10nP/vu9/Cx96q6crFcb44zrtnenGc98/04jg3Z3pxnPfN9OI475/pxXFumezFcT442YvjXDDZv4TjrJilgnmFYlQCXFrFkaaRIqEtc9a7BD7tXsd5b6XS+RznDhh203E2wiiNjUGR5dy0yX1ZOMW527r0RAVKhLpcBPxyFwE7u9wXx7lk2KdwnMtFqd1xhtNb85fXP/03d5yPB3qf23E+HjldHOfmTC+O876ZXhzn/TO9OM7NmV4c50OTvTjOBZP9+hznrr7oaY7z8b4ob/FFvZCaWXBDdUwaccEA+bloUXDSS4CEypP9TWnaN+CsvujRTWkSwz6/RosEdxRxFwjS0lLEBNbaWUfC8umqHb5od0/p4osWjb0kcTsNvBe+aLko7fFFZ8P/C6ew7Y9efNHjvZGvyxft6uF9QV+0o4f3BX3RjpDpFF+0DPC0+qId8dIX9EU7+k2n+KLH76k6whU5xRc93mvSR/ghX84X7fCY1Bl80eLnFnf7op09ppN80ROCpuSYVONJvugJjjM9xr07yRctg2ktvuiepyJKL4puorbFfdE9q1lHbSJKYylGNAWZGxYm+IrFKEiae5AGGzEt6ZUGE7JaG6QCyy8ep4AAWkpEmaQaRxNsIJsvHu/y2u6Cx/ntIyCTuEE8WYe0YDCl/O5R8hpLPe8PN++ROG8O0ULME4OJR1QmmV9Sosjlt6NTiE4RwoQ0pL5NOO+i20psdxe34iXvPp89D1mc/XzOgqo/Yxffwnacu1H17sac2vDguEch5SaPRGDkEg1ICq4SZjRJvX0DdNU+Cxhij1355phr53+h0zq9nVbztEpEd59sNST6wdosLrJVNqr0tKKyOosQaG0PmjBqOK2EQbaskkaZGCXZLhLfkK09MOgiW8WjymWr1Ma2yFbD9F5k6+yytf34UvFurjrGzo+r6hpShAW/1u6jGyvds//fFHUfLW+n0hosRfM/WPRbQfgKz/8nVf2nizTJRqusM3XR8DE6IZPOXawZ4lpaZAjHCJQxjkCfEMqP6qJRRPj0rVni4ktw+YQs52cOLh8fXfjMhU4nhGw/d6HT8Xv6uQudjg+EiSMM9CnBZXO0gZYtmXhtomPYEJRIzsQrTQD9EoOScpJlt1PS7UrPzUx8+zGvKcBys3T269RKKaE4t0hZERAHtxnZRD2yyhmqnObC78nEd88TX65TF429ZOI7DbwXmfhyUToSQa3ftV7AqeygXaDUBUrtnukFSu2f6QVKNWf6qaCU4imIqCSSKb+elV8GcgF+RbynLkilE2n0wt+AUu0lrGeFUkdfsBPwCWEtRx4T8KAFZsgxAqo4JhI15UniTwKlOo/8mxY1Xi7YlQy8F1CqXJSOhFJwtBcEdUFQh2d6QVD7Z3pBUM2ZfioEBcBGk+gc4rzSitwgU/d11yYqS7DA+4NR7Zt3VgR19LUQQYyiXoj8biQs0IHGtzJmtR9B8VOjQ0iXayGXayHtQy8IaoGgikXpWARV3xm5/yiqKzb5cr0Lulr8L9f0r6vFPwVFHb+nxzRROgVFHY+hj+mgdAqKOv6x7R3tkxbFFeXvzGyrnMW7M2j1vFljJueuo8BCUS0dilYKxKPLT/5iiTTGRgYiEzu2jqKEcOEubFUR30/9evFSN2d68VL3zfTipe6f6dfvpWIhSQzYouSVRjwkgaxxESmOBfNRRkK2S1A3vdT2m3NrCrDc2Jy9ZIIaGwRVoHt1fleXco508hI5+JWQngTF3aVk4lIy0T704qUunm4rFqVysLTWiv4CmC6AafdML4Bp/0wvgKk5008FmALAGMFSQDj4AIBJKGQ1jaCpbOLMRaZ1413nDcDUzvxnBUxHF0bQ7PtapVBKIrdWthG5SBxi0sVgjI5JfRLAdAnr7x17KYzoNPB+AKZiUSoATJstiC9g6QKWds/0Apb2z/QClpoz/WTRJaUo40YjrUALcsUEMsQpZIT1iRtsZKP1+iZYameps4Klo2sgPEnMWI6RoMYhjgmsLXeZxypwUO+MyoAvNRCXGoj2oRewtEjFFYtSCVja6JF5P8HSpdRhc6aXUod9M72UOuyfaV3q8PZDHN+MJlM7vY7T21F/OH30dGYHi9/UERzigsNUo0AFB0WT0/1CcqS9EkFbASqi8ejyrfWx92w29JWCftof9ofve3YcbQ/1nB33BqMZaPuHg9ifzMaxF+ofWM1mI7odNDFY+oBEzJWh2ElkPDYoGqdltEkEFucTiDbXcvUW8++9jTe3cZxtVGx2WRNKa02lQUkGwEGBEaBL4FfcRed4oiGoukriyQhMVRnd1gKSDqvY0terbVlOAM1X+mBxvqs1pRxUs4hqq/I9JI6cdg5JzpQj1JrISUEBCbWc2EgdiskQBL+2yHAikdRgW0xkTFB6VAFJEeGuu7Cz78Z5duIrs1wd+nLutFyFfV3PYLk6tJD9wm4+Lbfmuy1XR3twvOWitBha7rBcu13SBHrRUs0RxRwEFuf+TZxpkF+GldQ4g8D9LmkrxDhKxZ+94MGJ3JlPeeQEzRrJJGQU2DjnaDKMW+1suBQ8XAoe2odeXNK5cS8XpSOM++7Kh4uV3z/qYuULZnqx8tQJ47KVV1JGxD13yDIQIyXgL1RQQuH9ZY3tmuesVv7oLL0zOGrrJUrKYsQtzX5HcPB9RjwRPICeumTpL1n69qEXK7+w8sWi1MXKL9P1F+N+Me67Z3ox7vtn2mbcsxSlKDWS1HkEohqRs0Kh6ITwPFnF5P4SvPZHcs9q3I/OKmMTk6A6IM2CzbfSItI6OYSppMzhACDm8uDiJau8Z+jFuM+Ne7kodTLu6+nl+2ngP18p3ilm8/OW4p0CRT6vgT9lTz9vKd4pUKQa3zEPfnx2+ZTT/7yleEQfD5rkvscryvXTUhuuZYb3ruWbY56HuVePV6ytdO/2f1P0eEVRMr7Y8MwT9p8qPc4kTZRYiqx1CXFjGXI4YiSAGIDpwKVjR6XHiwh33YX7nh7/fKa3g0r6wr41K38Ldqfp7ap8T/Ct+fHKd8cbknU4GjNspI6gBzxFXJiArNbgsVollZGRJ976LFftsbYuf0MESlXO2ZPOwjjmZARHnAaXyyo5SDyIvfaBEo+JZJdb9pek876hF4910QuuWJSOMJn3Pul8sZ2bM73YTuBMS3CUKEobELcSrJrDDHmGsSEJ/tYeuEPUun1ntZ1Hp3KDtjgYwZDwDKSPhgQL5AYFpwwhNl8WpZdU7iWV2z70YjuXT0uXilIX23nPU7kXk7k504vJ1IEDsyeKpFbZZDKMtM3pDyaEj9r4wOx+k9n6estZTebRCVKAAiKoOjeb8vOnPsNjApiAJ2KkM1HHS4L0kiBtH3oxmYsX44tFqZPJvP8J0q7JvOPN5inGiByRIjshQXqCgf+8ZpOV3RTdYzbfxCFYE2DWR09Gg9G4EgZjWYjRGURV4GDIcq2/cQFF5pT1AVtDtvHj1tXQZ6NR6N2O460d11olXxJ90Fs3nFQU3xxezhF+FZYprqMI/DCOcbhOovSm7YrEd3kfawp5A1/H0W1WJDH1h/281moLucVJOEWQ0MnmZhwRaWk47CgVnLpkZOPORMkW9uqv9da+tral9V8+fDzf633LeTm7cXHcG6UFxSd24GeD+ksv4vTDKHTTMA2Cd7fVf/8n8/YVFhgTTRTBmjDJW5QOkJkPzgnN+X4MRqNxLy8pUxxPRsOHN/R/us2tQSmTf10R693d0Ic13XqmrJQhno1tfVBvbOjb4XSNGeryvPyYBeUCKZpr73lMSIsQEOU6SGq8xOIEDtgwJ+XM1mCflUmyXnDHGSIUbB/XLCLLAMaGZLSRxAGunct8PcvR/IAqu9TdIDXY5ZSADmzX7/3px95P8fc4OIXS9Wyc8uLyyIePh++ByDM45VHOrk+WeP2OmEhFFBwRIeBoJQ3IYK0RsdwmRaOPbg4W3o3Gv/W+TwCu+nHomxj8TisXpTIWxWBy42k4AGdYQkoKE43XWLF5mPvJYDT9kPXPj8PJQlAb5EA5uxQUy7FyIBfhFE1+tJKKJJXDCv5qzgmP++PeL3Ew8nnjtukUgqrKGM0G0/7toA8eSRaA6mWVybY21FZql6hExuTWRJZzZImjyEZFVZIuEdIIXpbIQv21Fm34zk6nk8PKsILBcdJ/P5zzz6macPH0zJzc3busWAi5YsYYLDVVwuzNY1bzbtGA77orvxW5hcZ7t6Hwio1oQ+Hl0WV1zeujf+lP+m4Q17ilZpEI/jkmDqVAKeLeUGRYcChKyTGJxmq3ff2gA4tsqMtybmzw15dSlw0BLUeLq2OLtwOYgXWDjh9fE/Fe74c4jGM7OHjstcOFfp6Aap858C3j+9G4dr4WjYqWfYq21QW1wTsFm5sEhc1NFiMXU0CayBRklOCpNV7dLeGF/OFe9dV7pjI2iM0VBoAmzCTjlEiq2l2fz60wOhBact5PcPpzfVGMt3fCqwbnzN/wAZnLV5MNiQLgj6II3GqMNJbWJ8EZY9vPhnVklw31Uc6di+n2Nvq93zNV8gUVQc32G+GnR69m0wDsC/Ckjsskah0zLDeWlnC2OG+OFCg5xRKTyTvTuORScra/xOwI220FcD27KTWH84lWQGop8x28+PXxILF/bDol7OEErVtpMI1MtcejD5Bd1wgV6VopnDLbNzmUVBE7lVL+xZMPOV5Za50qJHJHHn4YZ8qFSLR9jktF0qzTnFeDLP7iel6zaiIJMofjohIOoIjQKF+fyE2LA9c+iCQaeYMSnltOIH9ojek6SGDem0n2ml5VNbo7fQBCIgD9KBEj+RXFDKJs8hFFb6wNwgWO5+rwoBN2R4IggpO8FbAB3GuLtCEapUSNCt6auOgTOKdwwBfr8FDrEkY3G3wVNzrdoYBPUH8/2Ml5CD0fTbOVha1vJwdb7xnVxCNMfJXEVUhHIZAiWktuc2hubhZ+HKb+YNrCDl0swzTamz1T6iKK0w97Vlfaoo4ysIBMWpSsAssIjjJsQb6hbJPQggA0Ckcp/79cQ7onoyGsZr5rLBrKmE1gIwN4UlEEZBxTKGhOEo5aOLbdQfTx4A/7cdJ7lXv6Tfw4TltSR2ub5TnxzHGMJGUYtAxsm7M0IB+D8FRaLag8nMLoEGhYRVxbbnWUz2i57lfDVykVSMhq3R0M3a5bHR38tl23OvafzuZ8N291PP7dAtxx/QHo5n17/k3jVkcWqHUNM0dt2cBm+zp/5Nu7pFlAROTXQKjVYCZ0RCBMPjCVPE3bsU5wMmB264QPspwwSpgcRxU+5/MTM0hrZ5AE3A9CpK2O7hBQ7iAd23KcV/zw+z9BbfcBn7b7iCt/bgVCzuQg7kBeXfyxBRxsuonroBCwJqaHo0LrBBe7sgygNqh2CefuxYMdBHChFUGLjm/gd3Eeh512I7Oug3dRuqJF+b6swhbx1l1kOmjCZdj2v2Zgz0KTXLHgBoWjik4gKXPUTQWJnPKA9EA6CE7GCrWd9p53fT0oueseM1VWsJAA9OGcXCccGaNlzoxQL6JL2OGL4LYTuQjuRXC3BFdxFqVlAFNV5R2ACNskHZIiKiwSZ5Zvh0j/oz8FwRgelNx1kGeF5Ab0gfc65MgaIFfDCQKXi4Xc909achHcdiIXwf1bCW59FLAJv8fK/Xw8eD8a96cfbh79OJz0Qy25EhscacIo+By9AOcEWYc9IoRrLVIyIm3nQt8+fvO6ZLL5KBefPDSjV7PpckrCG0IkJUjGbPuFjch6LZCmKmIh9Y67JUdP6UWOe/Tt4NHL0Qs7qT23qG1SArx7o1zuThIYcg6AfX6SIqSAiW/UGz15jWnvCUzi+7e914+f7kuPzJXJL3H88c1o9v7D4Rhq9WPDOJnUzEYkP1yyndk2hxXsoPcGVEcWA5+VBkX/8fBdLeXF7w8sCD12k9H4tqL0j05vKF2PBnbcGF7WTiGze52i3SCwfnbzh0oY5ji/AKnzjV5iA9I4gIEQIlgvleJ2+zIvwfjmpvdylBf3R8zxvZ4fDSuPtpeybnywnML80F7E0J/dXN+MRtO959Y4NIIPBssXe933v+VhcFb5mOgVK3LSa20XZot4Z860of+oKLCyFhuVkQG9kAf/9v7hDcuDNSvOqC/yJlU0qnf37w9/e58n0CZkJIiInYkoWpmhvsYgXyTfEVEyGo4jTo0eBKPhOE5+rczWr6uyk8biTj4veqU1NQT8e2oUMfv6kt13IVOnClllQ8czv8yGR+k554IjAF0OtLN3yGGecgAkeqeYgt9tHdwcaIS+dTaHWfw6zc1pHF8ktaqIXCC9cj3+k/0Y61riDnqkHkSLmfnb1SDW1F8iaKUtpkgqCXaYKDB6RFiUpFeRGZ9r9La29QdMeoSBCnv/8XYyu+m5kR2HHTu3lk88KAnLEZv6CxNawIg79BeovgLFt09/aVwG1XbqLwLopvDzLfrrPghx+fs7JZbSKUmcVhyZpHNCjnPkgrIAAC2nzAgH/7fFaS8I7tHKWi4NpAMI+lvP2UmsMip/2MHgQUPzHgY4TXiDWYG52sFp5IrRElZr5zSi+fGW0pBzWMqGtnXSReOJRYoID5qFUqRTcIgIJXT01FC93Xfgu8WZvIMzadW1Z9e2RWz17bq23blgn1xkMUUkrdQodyJCNj8K510UimnHnNlOFy0XXNuZ1hV/iQVvm5cim/TtunlZqwxY36xFdQBLwhBGBMIxVxtxRpC2WuZUhNLEB6vctrPy3dvHr1EGYj1gvw8h9P6tp4kCJf+gsfrFWm10QJQL5AgFU89zSa+xBgVGASZFwbWaW8VFK6pGRGB98mtPQNFEuISTTlqnXCFskc2ZG5YS5twoFaXYJFzdHTpMOGmTJI0EeZyfgGIqIFiEh82xBNCdjZGkTcI/jEezYahalVk/PUBeckOV5h6lfJ2Zy6iRzTUJ2BGcIQTVRLZuiNtPGytNGXAXUgpjxI23SHsPIhBc5h0S2aIgdMeeHKCdFJUBOA6FwPIzaxr0SWQJURq0wdoFq80ijT+n+dqOp3WJ2DrJY0Spijpdf7Ahi9GJxL6b9QcVnX30OpQIXPen++a2Xp+zjGKs9rd+xCgHLaIE2Mdhg3lQFNlAQdSpJMmzEFUj7Zgv7VFMSA/1ns0Gg+vx7+BITOF37z6MBnG5RlT9YO/506fz4OFKcgXGleSuCWuSFjiFR+SjB9bXXiMtAJw6jZP3FHSEnqvQWmHu2rk7HkBumA7IUeByLmBFLjCPhGRaa6ElMfOqo8rM7KShQHvrahtUFm6OGdJgr0B1AGURvPPG1cruzWiUek9if3D87pdrklXuaC4+u0VmhQU29haDWrcqC3rMnWtxDkFL5IV23lLmyUJ+9uxtZCHADgCjkJzm0lbAAeXiTfAeSCAmkZQO7S1RwiklAoL9BUMSDEZaEQn6KBdc2Shkwmfb2+TyfR4CrpAxYOqcjMhYifMtEWapoMHJ7eDKuTg71yis7b+xQgeARIgkDbxtZGbQCCwVjWDUBWNiOrj/5UTa97+IRuf9d61HoB0R2HGKqDTgHwpwMcHEhKxrKPwxgICwXQX4SZSLBZQiGTAA9tmAhIwJWAYdDHCPtsC+cS5mz/p/xtB71x+G0R+797CcVlVfmD2bfeTAZhqRUZALuVBSwGZZbnHuMyIJF4QlssASraxRPqUfBhlBtVPSDsM3MeheUHU5l81hNpIioiQ2PGklFnmmV7/H8Ydow1mmdf3bx0EVyjyRztuZm2Vf9Kmd03s6uoknEP12N9F+SrNJ3LXqQrkoB0s71L7bq/q/Dq4vR3St7NWl6HQ/13egdJjru0DLfVzfgU4513eAll25/noKnGrHYfLjMOXkRJV0bzjKGoNPxoJGmOQLvYxbZALLL2qB26MSAK/Gy+wdeGXXkhcewdIhaM9/5x8Ffzks5Wte99cFkC92YXMuy0rAxoaUw95NTxgcM1SBhconPlA8dJbIQd5uobhGShoJpoEb5DAzeaaYYkkl9rgROcCgHyIm+VZurlqKVCKw+x4O3VBwLoLzy2uCq8C0gX8Yo9Uz2rlG0SfkogAQQcBBNd7rxH0zMF3GgOAOCG1hAQ5bli8ewVyUBj8YIBBxMTout0NTHc5oFwMuXOhna8m5jgzYesTdGLBT/cDrOJ7Oxq7S5NU2V7LUmr46OPwIYaoL4Fso7ZSmcv+vKU0ZNbcL07mlCQsLwFthJBIGbyphQADMeyQ590RaK3yyDWnimlNMNfhxPoEmzI8S2py7SYo7HKJn8McNaeoqt2yeLwPGjhIJw2IuWpJIu/zSsSG5GYIlXKV1EeQdRDBqrTx3INQpv7mUHEHgJigkFfNGgTXgYTuJ2uFg94nguyrev/fEPrkIduiL/VWKYFH4pEUEs9OJwJ2zu0/pzCIoEiEYIAc4N/lJXuBpZEUAD1UqZUC4ArOxIYJF0tQIhZcJhmHA0gRkAnzylO9kZZ3AQTAk5kbFyLluCEb5du8TjLzxxwpG63E1j2KvYHS41vFVCkZ5EG5TMGDj0QHscGbB6FpNQI4BbV0EQ0kFRFJ2GHJahAqwGOCEISKwDTmg5d325fQO273PazgBtH1Kr6E8FtvkpQNG8NxKtrhCZI2XigYdyUvRSW+dBAfA+yoECg5AvtmLJUugY5U3evvdog7bvY+XTkAfn5KXimLyLbw0DxDvKTU7Jy8VqZijSqOO5CUevKAWNixhkR1DDXpJRIUiDtRbrKLn22nsDtu9j5cObPyX4qXyHMUmL/0wHoYD4Ywz85Ly4DHAZiNsgoCjo+DgYMBNEf4UUBwJEuvPauO8t9qZpFGkWAP4sxbZIGNmjpisiDK57Txsh+3exUt16cC8cmCPofscXtFfDPwVBkNVkE7RmJvW5AgZk8hyDKcJukkKZpPRDVhzxiPfY48uR75N40xHbnIAPKWEJDifcHwBXDwBjmfIvQ8lMc7K7YLZcx75Hj/vcuTbNM515GAZUtASBcZyxMAzZHLsGRuiwJhgL1Qj5VGebdsb7qoScO0rbj3ynba9PFHdDOw8PehFnbWEPjDYv2SQtDo/6m7AfYg2t47VhFpQtm4RYPxMgR1mtdHa5GaJPKd7wRcFUy8RM/BvZamIftv177Dd+1jgwMbvk/pOTW8uUr8dsshFzqq6pG/y5QqekM3IMRcDU6kw2ZFnOk3qqyR3Pu8Di+0m9eUFIU2pz8ny59GGFib8EvnJRil32WkG4TV4jQ4JTMBpA0UCh5KNsUq5S1ji4Epun2b5zn0iAX4zGgx+vi26lvC3yhoW+mPgqCcJIE0nWXWoBE6KzOeOkjgIkRwODXB+mgAvykEOrXWvAJctLmnniEoEJpo7yElqwM/0EcwM40AOE2XOvLh5OcmimiRXqOxcZzftVD6nHZhkMZV5XUvrPYKzaCfJDDYaJikIEYgzCiDegx9gKPdU2aSiSMdqJxJ94EwBNsi+AXchIO2JQ9SL4IBfpU/bLd7OfJrzLWyc6BlYlXjmI/UE5cBMfuZFIYtNbvTKhZSRM08a8drTFreM11bweW/W5YtUDBWXQzXjtZ8Xh1tuUnQxIOZkhr1MI5cAEimZgrDGgeNqj+X5KB0cvFQIY5XZIpcTxAROMZU2ANCCY26EXs9TSHaCRT4jW2xcjiza6O1ruKJHxc1N74/RaNf12yZLHN1GAFNR0Gnkm53XcIsa63/TejlS4rJ3Ar/ZeQ1XsvtwDbf4bYFPdA13pzxusB/TPAnQuChxB7IoCMiiNblVZ7LOWKq82bbCHXTD4lOrUtNdnRnKq5xW7Vc+3vY90D2ET785/SY6wUQrLgUFj1C0din65m/QmeEwNxGlBDbW5xR/jt4QhhzRDCnOWOIWi9DoytXB92vnprowv7hedflx3usPrzYbsjxZ3Dd/tqchyxHXzL9sQxZyZVb/7En57mrIsjG2lQc/sSa9/7yPhQRrWRVycfDGcPDIRmFQ0HD0+SoVww2wW8SyHTRpeZa9oUmf2PFtnPZe2xZEcQZNmhtJqdz40hjQpm3S8BVo0pMbSR3mJh68DyxXCgcB7EEkwGMb8u07oyOWVgOHNJJNxSnuQ5q0uMB51drqx5eAe2fejw4Gik5uDUNFwUuYOzGpNEQdVoTtmpRoUQRKWzSpXNek+9TwPdakpqjryGma1AjjvGMIh5xyEflNOMwJqh650T4F6rcbmZexbAnvl9fpLz+ugfefvHr55M33b7/vPX8Hait9NwjNAp8V75f04ZuPOF+zGlICI/agCMpLXardvA94bvFP60zuN+9/BhThklTJA2zwLlT3lXx+GTkgIyLWySmbGt0xy1i2hPeLbo5s6f2HFLj/h6of2IHIwlfcEkxpXsR8LbxfNbj90rxf9iZzK+/zT8/7NOVG6JoicBkd8L4SCCCPRSwX+wGUVo41MnXll50O8H75jZJVk7J8faLutjAPFn4y6Ax8sw5cAES31Flu8z4XV7QA8uzlfcqO9h65MetjW8Xwb6/3g+IkR0JQklznflcWuZQcYpwkxSwGz7uB94tYtoX3D88InFHMZIyAvbwF6gyMkNcOYSeosYY61vAlOxRsHzMjTUlQ4D0i6oQCDztTTwRE30fhpbbK6Uassvw6wgH9UF50vPy4/IzRJVHSEfwSXfpq9YMBz4clnTmehyxZBulIMAKVAcoCmFw1urWWsWwL79cJ1GWM6bp/czuIPwzsf/eH768/Tqbx5kFxanxzWhukirJX9Krs4i2M+BnN3yuvHn5d8EcR+lsdb8VgP9j+sNl3v+i9rrWDfju2w8lNf9rlqL1SOko4McNywZKiOZCoGWIiKOVDdJw1SgLKSxQOuQDF9ZerZstYz6HQZB8KOhMMKoi/tMCgQv/zU8AgUd5S+O+t5pyjMoYE9lnhkK9VAAzS2gC6B0DvAUFE2+D9IpZt4f1DfejK25Ce0uw0WsOsEQlRYVx9S8D43PcumOQwh9UIf7h/ok2GJxNgbgTQETGwA5TBVEm0oDWSIM4c6jGHiZfO+vwKs8pJCZgS+FEYKdh3ED2elU9xj7lm3UfxMvf1y3n0MwK8s9U4+ZvzVr+4EDWmAHu9tjy3VzfIOQOKVeIYXZBc8eYNs3vXL0cGCxY+GGTA9oNRkIDlKXjJRmMPq+CGNR6E7HBGl345rcM/ReXrrnRfOZvuKZzYXeN/srGWVwrUnsFa4Pywz77brvc93fcZ7J6nQVgODrz0uQxUA9wD3zQiD56z4T562eglW3b6RzvbjApVRZ5FzMXFgYINBG8tlxmD3xyd8m47HnZSOvvwjATRQWoOYMAHlfcIsEGIBlkWhPFCUm4aN3FOSYk2r4wXW9g9Hapq86W3Mphntl+fr0MVeB3EY8BqIbuXPMEuu8wrSTOqNebGk437Wp+8Q5WzXLmoIqIpB5GBjZFxXiASqbbBAeeSBoIsP9hLh6rW4Z/tuseGUpAUeFkSAP+eA9My4ZCTMuXe+IpUFohvlyqclCsuiNRoAdydA6XCG1DLMDcd8tuvWSRS5GARG80AzpHBWwcG5VK5DxjsZKaTgYG4IoYJBisGVKrFvpTABRjcOR+I4jQztKpajiikVSRIaR+k8hj+pBH3Kzr9o/lbEmFtsGB8mcegLL1GYGIDkloDNvBKu0bI76QsXUPDFzmpB7vU1XaY4u2s2pkt8VGN6rTQgiolkDQMttjllqeWYGQ90zQqIiTRx95nlk4I4VJCREdQfhy8PJ0MQUlQYomMIJSNAoPyHb80qmsd/mXsI/fMaG8dCjx3MAjwK0OEBmmlgRnGGYtnzSvuskZF7HzQGu2s+TvZGukrKvPrgqCHsKLbsHxj2MUa3RmhjdNwdAwwEuI+u6lMSkRBu4PBAW3abIFSrsy6h2fL31w6HJ7d0g1r4dmQ7zAIGrMBzQ1sQW8a7xSKMVgdefBkocP3hGcd4Sl4TpGyGmdD7pF1yoGHzwjDHkxy9IfCs0U0jg7Pli9zbwOwyrAytSENZzaqRzUAUySkqBNFmHDglRQAl4M2Q/BnVmCZlAji6CYhwUiGA+AsAsCIpxiQ0RasJAvRGpO0dA2jWr7dlwZgrcO/jFGlBkyGjmBKAzAQ9xaOmwSCZPCay2CMbGKoU5Lxu4xqETsfuurxiVw8eiUUFeDU5lYpUu7Ltt53o/oZrno4oRzBOt/tyF1NVX7rSuT4aX5OURlCeMOf6aDMCl28pjXAueNJjlvQnP6BryEtLEZEJvAvqbO66eaV27hLg7vW4V9GpWFhgHWIQgqMELiF2b8XAg7RCm88doI3+1CcW6VRDt6Ky0VNibL8oJ5HJgJm1Bq+z4TCwrf5CWsq7dP4CfxKGgEAVrHq363FdheVVnmdBgP2jhjFKgiPUzaVOSbPVQJ7ALzkGn5C0emXxojKNdEOLFsHiRZQlm7pgvuAZcv36oiXDIKycD4JuZBf2WEats4khcAUafD9cUipcXZnVPyXNpefOUCUHAkMwKtluT96Igy851z64Vk+au0Mb1xbPkXxF5R5ZwXrNEFa5lLXqDWYIkwQjiYxrrxNjbZ1JymPgjf/yh9fPqUMjMYgTXQUWRnyDXJYCTiOAXCXICEoZ7RcPDV68M2/clpFb/4p6S0z4J0akiTwBodfSeyRsODrUssdTovXp1sjIOVTOvTSZa505SZ4BIdicws0i/Jzu8iCGnIhBZZU+UuX5dPa/9JlOZ0OL10WET3qpcvSAm9Q+ZaAo2Ejy4LFDQgWyJn2gUZudaCN/OoGqUc//1uu1sO96+c/PIFfylUl7IrzSfnltPtf4L3jBZRS2dndfBdQSNsGnRmLHNV8F0xBTgtFxJzLTzWzhKw3YBGqt71itFSnY7FI4NLYBHoX/F0wNJQYZIViyBkStGPe2+YdpPLtvjTfbR3+ZbCIF94J6QhK0mjQdh5QCQ/ZzPJoPIGjbHTwOan6e5cTWsTOB5NVO8X1ZCcUXD/CqdSYS84JMW0M8hU4oZ8hWcVD5ADP8kliDqYLQJsLuYM7sEvgUXAqGnG1cmVW4ISWw5T9/Zd3GIAzK35CcqtRHpGiuXozAbR3IWikFDeKBiwxVUd3OOUGCyNdfqs1+4ZRIB1BpQsMoBpghImiEVkq37lL/+XW4Z+rCr2IeQ5qzJ2N9c6kMbVY/vuiMfdd+TbCe80tWFAP0Ml6CmInLMIK/h2dT0E2RLVcdRRozHIf6nBP6J2ex5n1ZpF31NCbFYOMgMem13F6O+oPp4+ezuxg8Zva78I0SmsNYlbmuj8tcx+YmBMx+dJ6gG3friK9vs2TfDYb1goI9WYw3dQfgnabM2X1zR75drkNpbPh+a1skhjyIhHE4bdIJx/yzXtAbBTwduPm/dZsnvaHeePsOFqYjQP+Hoxmw/fx4SD2J7Nx7IX6B9bnuX5cd0ETg2X+ZiSw1dhJZDw2KBoHhtkmEdiiOgG8u0xqsYLe23iTYxzT/Jlr/yGGGUjHskBPgW2nMnc8DSbfOCRAF/wMzl10jicKfFcf4ZPRaFBIt3RfXdTEJyNyTwKwjSnXeSbKEaUCw2kHDxy1f1+fjUahdzuOt3Zc69Fqh/86u7iKytVpKnAHLKMOZdUCwEBxZHN2gdDEucWch8YVjJrzfs0JxV+/t5Ppr1XwrNkgfLVLLT+wWzW4behw55gykQNk8Sm3x03CIG1ht6OmWNuc0KV7HNA7QKyMEVVduYMNlCLfcPEJJR5hkSL3gZlX7C0+3F2jvZpNJ/0Qe9/lwLsdf6wuPferabxy/yf6aTdyv/TjH715XGY6msfzO+rYDzbMa5Wm49HgiDU9G8OQHpw6nPjvsLjxETRezAbT/u2gX2GvDuNezm4cfHCUer8Adur7mLEHEVcUUMeDZRttcsWU0IIIQyl4b4s7cTD+Px/888G/qrHxzx5ZtGzbHg8YQO4o2NgeT7fHqyuRO++0DG+MZy3jt6f/bct4Xo3fIbz5Mg54UAHRXOzEiTL5klu+mQrmjBFntd2+lbAuvNej2fRDi/TeF+GF5UXpo0SS0Ny2M792LCVBimkiPOfRYnkR3iaFeye8S5mr+R64QhshKNtuYdUmvGvj2+Ru5/h14SXqMIF9wrsYv7WAb/eNbxXeJGxiRDsUYi5xNPlOpQZEGFLCSgSAo3Q7EbAuvO/i/be83lIZk89JxPzsuNERGQOaiiYvIoPVmwXmvgjvOoX7J7ytNqtQeA/azN3j6Wp83aZ47WrRLvvdJrwt45sGuFh6hZVEEu4QBSca7FLUyORnilOy8H9E2NB4ofg/+lNA48ODwPm+SG+UAJqNpsgzlotyAyioqAUKgDEC9w6bRdnARXrXKdw76V3DnZJLfTxuXow/FjevbOhOAgdx83L8buRcLLwhORPzo2CBY5ufF9dI5+aHjksKRF2gjYZgG8L7cjRuA873RXipEZgGLlFUKRed+ghLTBS5pL1IFGCLiRfhbVK4l8Jb8/xSCnbC533Cuzm+TPjoBu5e6/RGd5NqNb37xjeAdLnrawSzTHFkciN7roVF2uREt7cVdzMhtl3fDRHeA5/viwgb7VlknKKQO9HwgAE94/wAkIDx0Qowxhf7u4PCvRNhvMdy7UOva+j5gOXcPZ6uo++9lnv3eNYc3xay2jl+JbzzDN6/RsNaeh0OREpDAD0Tmpui8dyV0CEP/45KSspZM/2B7BR2tHf9cYJw79lgjGgOb6PNtMzz1wN/M0V+NI69f708Mj917Okv7oc+r3sT17vXRXxGg9lNzpKyjgPra7KPc6bi7oZ2HJxPJSeOsx4Aqfs91mro8eD9aNyffrg5gtpCrZyJ3FIp5c39/r9m/dubOJz2fupPpivAI5zAHLCOkDkRI0lCWlqBSEjecM0U5fM3xiuSj/tjWPMgX3EBMFeRqtw67kWQGBjTx7pHH7IiRRSddJKCwjWL99aWVL7/84OdTbboOKWFi8ohYXJHHKYVmKfk8gtugmCHZYjbdF6OwjEavBr/Jk5n4+EpZF6P+zdZ/y+Svier4PrUQREuTjCTGoCMuo/7PtbRWEQ/qu3WZ5n33s91+9KPAxD1/rCqinhhb4+Yazaut7tqTkkiVkqHiAf257lJjLWAkUBxC+WNAvQ/161rSc354JejstoWGPzzBJRGiLksA7jup5ENk0rVZ/6rIyRa88hFRJjm59tE8Mh4JZGC6XnKJKV8u/Sg4t2CIs21/Gu5oK2k/R/dSnhm0+XAeY3FMK5djCqewFoHB4B1xlqCPOO5BwyTSCsGWDYIIYVRPsb51iyXWWwwr0ezMfDUEr0VPVLUXGmnA3xrx+9h4PKbRS9a9Xpbp5I3N/8i69AH3VT6WqFbwID8PWyUqNu6A2h2WiAtGKFBS+0Xt286bW3lmTz/5fETkPabW9AMwx3zLTcea/MVhAomWG7pmBuVSZiqUzE/p+CCTSm/T3XG+V73qzsESyCWNJyiZw5FGvMr0FgjYFmf3wqPNPe7TLbR7a2cFysVCsAk/3fdWF/Pbm8HH0FvrJUqtFSrzbVwXeLwNE7674fz4ZXeWa91+HF4O5vmzkYfRtnnaC1NO+kjd08qp5pclT7+1YF2LrSK41gVyoU4mNrqW103a1Fn0mmzyl4i6/qR4zarjPbuzcod7XXBI9GHD+Y5mOeQm86/yWVAufU8ek5f5ebxtj9efuosyzr4qa5wcFlqVEn73CE/CnfPS4u26NRLAAx0gOA3aHuD83LBWfljxXld3KsWWrBtldP0cNJxsxYEX/SH/ZvZzYoicFm9AxuOFXwAdfauWr9x1gkvgGu3w9liyZMOp43W0YezIPjC/vnJDqf1G2ed8NrhdCA338ilf/gUDOi472aVf/I9KL/8pEasnuSo7t3NOQMg9Kf8znKR9XdeHniddu07j70fzcBrT3BmT2Poe2CMkDFnqE4RvlzfksxU42w6toOl5dsTsNpHaekIXgO1aXz/EUjb2XQ06f9325Mqh0n/BAe6s9SyXle1l7XdW3zqEBhu/dRz8DCLvpWRXT6/DPgeLeMjS1yqiEngYzikuSCIR6OQzbWkzLMUaXDE6u37krUZyfhxK9zS2ruhAy5d1PPnjxRX9pa7tZ3rt+mO+u21YGXyAM2VsygFAt4ay73IYE3ICBVSvh6v7Pa1p+tbNM82VOFKVoUrSRWu/G4RohzmJOIlRlk2+K8RozRaZl8vIUW9Ah4G31o761EE0YgpN4zl9HCMEhPiOEgBojg3S8s9hrRUBGHJmQ1JRhJkSYwy5Id3wJFHieS+2j5YZJim4N+r3GRb+sDInhjlXeReWhw80lTlnjReIsOjy48J0mgcTkquxzgvMcpLjHIpCCw5jJ1AiUVQqVhZZIHpkAo2EhOstYu3MD5tjFKxHMiSDIEkcRBITJFzTCGCgZFziC7I7V4tFe+WPRm+vCNSLGifKEZZPoG1FtVWMZeize0zc/DNgjn3EiMSvBKSSJ602gxMldvJ88Uoyw/wE8Uoy1X6amutCBFGUURkbgFOsMudeUCBczgnR6XxKR27tVsxvxxF9Sl4rRhiJsAWGWWQy9cFdCC534PSwYcal1XWgTTXWG5w1kLcKkQfSUQiX7XhFvgOGCo/YZuYkMpguzAOndZYGtckzmDiaUIyYg2Lzt23hNKIipSMt1a42HgzonyTv2xcs7Wl9ikf+avGNTtu1iWu+TnjmuSq7HgOxTXhIDrRucQ1L3HN0qld4pqXuObe71ziml0/da64JiHSygAILWqb3yLMnaqUZYhwAOSRKS71tlvTGtfc8uiOwt4bcc1coyw1ZsZjFK0F5KvzSKHzozGEestUfk52DVCuZpTbwHXoVbY1etUQ4L9mFY44jdxCMkY5boOyE71J+U4n5TxVHFGpc88Op5GzALipdMlQnixfvI24RTm/d9jhfb1Dy6TdvLoOy6TFUerywMbR/Sfo191/Yju6TqzFMhGMMM5NxWQCB9pbgoTGmOFcr5O2mx1d36J595PW4PokX22/BNfLBv81gusuCG5JLvXCCnSsMBJZZiySmAnOqU4s4cPB9YS5TYokJLPKrxom2QTypKgWgpOoPNkO0e8MrkuRkufEIhEE0BGEIOuTym+9BW6ZiJFsB+k3gutKecoZjki5PCqXkenkPGI0X04jAv4tL8H1S3B9R3A9v9OlSH4MMuX3wSwWyBkGKMnFKGgyGBT55wiuY537loEI2OqWpdcGGR1V9QIGKH0Tmd2OwVW8WxATWDOA5YL2iYLr5RNYhRq9jo77SBCzAqy2xwk5lkQOsLKAAyVays3oaLmZPF9wvfwAP1FwvVylr7aWScZy9zTEaX75l4SEjNUUMZHfOo84qWSO3dpmcB0AnlLRcBRx7lcnc389CxwQrcfM5Sb3ge8PrpcbnNUaZQpaMNiNAGtC4JwQpHMXZ57RNuNwZou+Gp3WWBpcB55VxlGNWACYD1MWuQUsQMXocdAcC6OaXQ2LN/kSXL8E1y/B9Utw/RJcvwTXL8H1S3D9Elzv9KlzBdex8p5ph5EL4JhwLz2y1oMryYKCXzBs+HZcrjW4vmWIjsLe28F1nIz30eTHgbkD5GslMlW41UlOFTgIjIS/QnDdEu81dkhFCRvkOLhAhEpEGJNKEK89w3+X4Hp5YOOMTbO/8nD764EFoR6Nbud3shP4Z8qjSCJ4biFwkJeAkfDcp2i1S2b7uufz0bT3Ljea71VU9h36fDHVT5dh3GeDWT8c8bLDD4OPflS96e6BvepESTcD9nN+yOvp/DbAxjS6xEzz5q6xefXyW8Voi9PPrH4umouTP4LmPNzaTjszzqI0NwrDKEZR5gvJASyAdQT0jzQOvHuftJgLWeaHTe5bsOSRIegFBmoQrk1jF0pzqHsGSutzOg2bbkxqB6nHYPq9Hfj8gMc+qLFkkorQZsroTgSNmUocMWVyppkGpANLqEo4G5yfn5xHFmsa1zlLU8fgNvIPBofEPbdIYQ6awjCVX47yyLPIlbGRS96kM48fHpuBWBH6bmyH/sNmfidhl5SQEjmVO9VzQQEqGIOYMxG0cdSOzaHC03iTuz+1LQ3GcwWkEOE5fGUkAYxDDcqRNo8pLHDRVmCd0GlrW6e0Y3FHUppHosGqrhN7dTsFcW977HuDWGWJN7D7ShEQRwwBJIWYMbn9p/YAsEx+nVQGmTRWgs4B1uPfbX9gXX+QwxEv7NC+j+Njl7fG2fOVPpmLxMbsOrm/Nzcw9HX/NuaXFOekuipQ8GQqFbck8MnMxdKIfwq7cSzxQgNyJPlluHllQvZRzlUWFNASAxScHQAHYmydE0hbwQyTUSbJNyT4Rf/PVRu4O8BvODIiUYq5YCUkikwC1wEDenM0GK4x2VQAt8Da0zUKyvhIkk3I0IzK80taOvsuhGKjAwEFY9iiNV8VsducQKKOkyBz2JyZ3PSDIBtUfizYBEWqfvfzR9HmwzcnsBaTrw6kbogYWQCTjZHP6p57wZCT+UqCVN7oyBj7f+y9WZMkx5Em+D6/IikrI7I7AivafVQ/4WxymyAwAEjM9kuLnUAKsjJrMrNAomv6v6+qexweHh4R6pEe6GIjKGwQDZRb2KGml6l+n9+j+qO7g/3B94yvpd4/rdzB9YpW8ktTOWiS+7vjiQHKNuHQff3532+fp1LGNNLSzSRWQ57OD//54f5TEMoMKhc2++jAq6QnquBOx8yNDL+7fVOfnuvbLm3y8c8wrx9wvB6Dsp/KydTAarztlHdTsX0WZueltmEAlWNhEk4cn/cSBFYQ9YO15d45VRUfy05nBwkIK4PYie6a7LzUvue5Zae5xtoH33P6IIot480IY10Tbn1bxi+1mwXSndrdBdIeBTYLtKFF8C2Y51XAxYMgLnlh4EZa6aPKmD+ZWiDJ1zq+wFibKMpKTJwgnxSEpEjtx1TzHlleK8xjaoGEKzNYYAspg1fAmYwWqUEbOGM1K1ac0hKOUhbephZotcNdLnBk2EumKzagy8qMcRYUVQ2i5ekFbjyc150G/Wie8t2sdeso9Yr4CM/nZq1WiyYVmAaB3a3O1hW3SrFWRp5yW+/oas4rt25jZJzMUsMOKRBRlHbDEhwoM9iMlROcqq7DvRp83md+sg0lC1wh0sFrrys+ZHtmvU5aKY5K+tAAsptBKb6a0j19I7WTLSxyGC8GUPcZDKXiq8av/QHUaPfXBugjsvk6dAAbUzZ5BjvCZr1p6OA7pCqu6O/74FhAwGATAoiBOrD+ebK6f379AaSMsMJwiY1NeO7IgSuUZdnWBuoIRLCEgyPIPmSBe4fyaRR8rCVcTd+CYEpEo4U0UbS6I/cHj2BdbELXoYNWPK1ExsZEUzorj2BjGjEUYuACpmOaHEGi0f2CvWITOujWqNiEboOWKzYZbS5dZLabKy3EpRV8T50ilqggraBMijkFl8MGL6Ic93KSb894c4nP7RObSzcPF9tcekJhUOfisIkX1GepWFqVsc4lOPT4jchGt5j9qImUbuiX21z6bRlvrjDkarvR5m5dN69BR3G80ljzxFMBmQUVYwvoqgoRgTTjEqnO8BO4U4cyS8697Bp+CYZdchBza73E24FbIzhLsaGgm2hMOuHZiGqaNag+FYiMlgm5o4Nn0kWXQpYBdejEAglVFoMFasuVdBBRug66EXFrgkDK9NAqWBtQtHLSNyXlko4vsIFoupgcgwtakPKUg5FARNBWQMK5TFWM3ZlugQT63MECa+bcVOThLniBOKioGFphRRfQrLZwrSddNw6rgHAZPonY+w33CA7PCCZFcU5I+E/gdNeNHrgfdN2OgJ/PP8xp1815LmV0obOQIHfZMGSeZVWD+Yetgz055Hn0nkMNHJw+cLUKr8gw61bLFNkF6U1qaV1tN+W6HfG86JmLY57X5BYO9o90aw97XnRRO+R5SfglX31gVYL7paPS8Nu8gQPjs4JL5VKOB/0mOWnayQpsa33gTyZwqQQD/0hi+5YH017xbsskIeLwUqjF/CYal/WU30Q2ABcz7XR5GZTp+iAFuMesSAVC4hT4QyphCQCPRkoPl8aP/CbyQpcz7fT7drHNpd+mAXaLiFGA08/AGcI35AYKEHcu1hClsKmIWnc3l77Q5TaXbvgutrl0SzFwSmtyDZxPFpxN4JRmAXE57BwvMRsboq5Rjp1SqtUbb+6MAo7R5tLdpottLv2dbRir5uSSz8wVzBQ54VgS3jGpYJ8KD3AgelTZTl7oB+Hx+3M9/uEj2+qN7eMnTGDvtkSTH+02ez54cRM3J39lFyrx63dv3r7+a3y8jemufvu21tK7eQV7NThYgJYw32fgFC1MChxGpVsB18iPy0xwpJv1SDfdUJMZosHJk/LCAzdl5xE4lgxhr4IQGIEqdcRCHgwZY+agUoMxdU0B97KH32+6Ar2XFQ70Y3Q79Icay837r+N5Izz8rXYvOE8wVPe29v77viid5n3AQF8+oCf5eWu3+bbe51/mTWPYXdeP9Mf7uh7rtj4hZ1Rfi/Pt82ONMztFP31Yj/UMkgw/8fxjvfk6YlMmvnx+XR/bw+ObruHu03ePP89+o9yOLi86urro6Hrx0dd1LRNC/sd7iDfeYNRx9OGse2FE8V7X3p7xto6fb2cwLrCbO1K3DWd8/Mc3b+vdHZaW3cK3GGzN7wH/4rOX7sPj2zcv2YH1gW6rHtZjzdc86/qpRcZazeubr78cDPPNw3NXKPCEcox/5t1zPXOSiw/cvemuDoC/Irwm9p99+9MtPnU/PYEwl9uIpfTDfoBOj8OcUNzhf9Zbuzf69tm81/yrZ+BNo4bS3nFCe892nM/vwI15vM2rAbGp4i/3t8/Dq//97/9vvP3/T9+CJJy2ECtbz71xBzNW2x/49sfYng+PvvlHvR38nj39/o1ivSBxut+6+rF9xbXZZHRuPnm4hZv8+g8Pz31Fa+fZOOtNlJFVha964MPimxBnQXLBZXFJ7sE9rmtn+uFulP3pk+d3v//xEQTCa3fz8Rd/+fyj1bzWtJPv6t1Xt3f/1ynvHy0q/NG1lhAQCppXWoMHGDh3B91b/KEHbD2/u/k0vo0Zq7bWjgDMiFa5ux5hXZZ/rkuw/W6lc4flGJ//HO/e9VVAa9ewC4ljCyZqy4yW2P4KwXHE+E16rUMIvuZ108Cf0azd3f47OD+r7d/7vXMq8Drp6YuiV97hi2pMdwZcpsZ0a9y79sAzdfZLBumqECcHoZUDdOe3OrR+Zya8eKck5ypzJhLSFzlpMdERmYlZW5FkA1GYGGnCpQ+EdPpqZTtj/OUt6qTh8f/pFhyelRB0vK4QXuGhnvB/VhPsW+n6PqkZBfGwy/HpFukxNyq62/P+Xs+oQhp3bf5zvYeF3Z3UrXiV7wtDUIhv3yVsS/rh4fGXw3pUJ2syBKbGRzg44yrEblFhEM95TaZaPm4h32JvrLaKTyvSF+tR7NElth5f9ehVjx4Z5MJ6tPKqfLSF+YStQvhCEpIPTEhfQ805gmqk6VFZrRLcK8aV4ciax1ks+Bf4u2xDhX9srnr0P1mPYgX7648hHkggALlTo6qUmoVQcIOxYiXHBJ5otuCdqurBLvKw9/LS1cFvRjm8pEGiTSldagMr7SXildtqWMjIv+IwU+abicIfTLRJW7PlpYFUunXpSbYOJM0mYY0M2aqdt7zt1wcWjRSPOQfHTK0grByfjkDcWcsuNfDI0eofX/QxBuztiwhcKgeePnf4hqKUZ0k5uGsm+wTrESGJg4smVYIeXvSmNkBC7AS3GOsPPey8sZjOBU/JSXCgkixS7L339hyqp0V+sFR6LnS3NoBUoXesNmD9UkDP5A4KrzxPIafEDEdIzcolCzEZJmPhzifHWxo/IJIrzJZ7KaBnwi/2DEM/3QE+VdG8GIEvrFgoKEHk4IZ5xrluCdxzcK1HIEr0hS63ufTbccGSQWqR6uDp2xjeZOAMBBjmDsqERZkqq95V54NvNo7Av+gLXfB1llymuNzmbou+suDaKMdK9xytcYtgNqCGnVLgqRgnx3at13unLfRgW+nR46icnVLaTdF79EB4cDVjEqY4z6xC61fgTgcLxklKU5STpZU0upr04s8F9R45T7b3QkoUn5NXk366283VVtoiWmNwBbEKgMM3Fb5JyvtsWvO2xJHeIy90r+SHjp41ftsn346L6T16d8NAcm3OuttNAZGm5lgmJEByrdE6NQtmWI7qqegLXU5y6d0l481VL9d7WlmItsD9CQW8eIjoAvNaeOxB8QWLJ2QZ10f2eu90ochgW+mNDbt6jxRvUvQefQKDyhCbakZHJJUGhrBldKl5YmAtwR5mGbkzSxXaE5sYJqSHfoAXsJqqmODAkWYp+QiXpMBVa1mz7LMXsSYV+LTVPH1bhs4IOVewKz2kfiaK9NDTHsM2DYhDlUJYTY09sR6L4bJjDYRNQ5DmchjVFdFPckGrSc6KXsxq0k93sLmCw35wD7FxAgcDPBDmG3g1KkMMEQw3So8ajOgLXc5q0m/HxawmvaVvGOeqXGUByVURdJf02MUXQFeCC8NtAunNI3+PvtAPwWrql+u9mBXWtQkmG7YWgesB8uc59mA5DvGn4Wkc4fZ677SeH5oTSjPfhN4jZc8oeo8+gYFDm3UTFklZs8aLBsF/ShB6Jhud8k1lvU4Qvtxq0sobJtvTyAd4AauZLITtSBBoqsILhrzVUQeWXQlaoQ8fJmHKxen1Dq0mJQ06FWuSm3hPSA89iTtgRGw+emkgctQuI3E4/nFlmErG8maLUnEUDtFPcjndQ0+CX64Dgny6281NWcJNxHgxQzSvNczYawQ39w08Yue8Knms2KkLXW5z6bfjcrEm5QqMN1c0mDg4eLxhBxEXSNokOJbc+5wheNx8swmKyAv9EKwmsXH0uN6ztoYC4pPR83Iqg0tcYf1YMq9AQSQ/HS2cxowYmhMyjMJI71GeX0hWkzyBrfQEb53l2jDL8TpHA9+oALfbpgLi40GtjWLNGYBAi7V40A/wcleT/Eg2CORzy57bNXCrKugEg7+RInjGyYAP7NL4alIXuuTDDfWR8WKbS4eTGVhsHvBpARmXOUefLbJQIRRQBjeRF573H26oC11wc8ld+stt7hpZbNXV8nqFmfzx7eM39ak+r4Lf6MG2FgbqPiJNn2LJwV9yUdkmp7Evbq8qaQVYtsa9G2IxdyP3T+zbHT/ByDBcwroMfFC0MwMyazO1+LyZFQJR79fYMCJ0Vn+SRwayxFKLA7PrsKv3R51Rv3FipDn4EDtgpg89r9aZoIYvqMWnHKKcXyq14FCkg1yPO4926dhYXU/c7SP2rSHkeP9saCBESWAZWkE0cewoDS2Av2w12BkXIALZqyr85enf1L99/e2/Iqvgv9w+w0ndH6YVvAdt8gJawQ2Z2C485nstfbbY1VwC5njAd2Xg8XoWvRLZFlDCcdXavAO1OYREjF5zHuFrZbWFIXxk0UgPN1sb8IEdODJmYogptE7Eof2WinY/piV5Wdndy6BRp+FQ33tugsdGTVcxilVIEytMZKLIEFoRNeh1TLpCWzwAHAtSBSE0uCpCOOxAB8sQLSYxC/wDsKxC+5WpPAEc+x5CNSWLySyD6YWRwMFMMnmWDUQbYHFLK3J/pMGUPsZRIEpEEHTHJEeqq5AgPC+g2yAMbDbrqCD03F/YcD4fz9vgA5P5ZKbCODCZmcMMKA8/+eVtfHrqZW8SkHoPbx1EQgQBGyYR2APul4HgW3tmrUkaUfaL9zsHsAvgqWMw4IVB7K4EZnM13lWMLHywVTtd9PpteYwg+vELIH/XY3yyHmOGNj0IJLqtNYteQpCjQZrQy9bCQcjsLFOugR8vjGly7Pz08eDpSueBu0m/jCMkIdUi0poxJXpaN8lihFvYwCUOvpWiZDwBtKMaZqAsPuGAu6t9a5jjxAeLrDiSqDU7iSQkTkMJDRYITrsxASFjHMeKIHynMvB7IpZqs4cQaZKPkHaZKQEvfYcH7GzN1AbKjUUFW6xBmSHbKD6zGucEgsdaPnqaJ5vacdhAob9a7em43ossoReLyegqd7u5xWisLwzMRdxSIyF89eBzmlg891kYxccvOGRJXS4mox/o3tujeDGKWSoQwqecmesSzTpIFopE7mwVa4rWFD6JYiZOV5sPtpVudUcgXxrR5lJkxRr4LoTCgsueyVqcSSaXnOUJ3WOsyI2DDISGmMy1BYg74FIm05Q2Psk6DUArZxXyao5JaIU5ZHxWrQVzmJiVhnlGGVyqeVL3kByb4wvUXDmJRbjW4MVo+OgIETOLoSS8HBVCrckFzqrYqznKaJtgArmQNdYCJTQKcKmchWtk/TSEsMwNC5MUU6HgtYWDSKZK5iHEzzk6XzLtFYUuQgMcKYgttRCV4cs6UjlHFmxRjIfCY1UmCeGXUq6Ewu/1no6zieQreLliWrJ/PUh4JWu1C42BFsW4Ryo4WQ4Cooq0SWkJkrG7ufSr+CEo13D25g6C447nawdIju7Abra65zF7eNszfHWd7ZNYvsPELUVxHuqh8HCs3CbBrJBYxiAyQ5hQBu6VzdHnpi2f7qFY0eyON2ALQ0j3/o+tfhJK+ixtPBUiCmQ347ByJTpHLGCmqjjmRRa1ihR5ikMMwfHqxyV35KMYeIVBg8dl3bo2xyNGm5ewa6lkG1sWbvT8S1ciy90tuihfDkaMfNKDLoDKQQ2APEev8G29eua9AQ0hVMpFpLBhEpsfsy73xkRXlgtm6ntqi56Osa/4i6AKeC0MdChYUK9grzIEVgrEEdzxVGPaqxelq9yVnljv87f1/uk23VHSX9gwjHA6XYvg8wM2/cGu369yaGTGyC6HNnw3mEiizWg9XPeurvgshwN2faNEqEkc6uvH+mONz1NUGe+31Mm0TufRWIf5iz9e8RfTK/1g6PzwcLfUNIdjLTnNTzuuurtZpOEzOLbXw8+h2X4BtckMFlfB+X/fEfAt9+zLB1ot97/N4vE+fRQnD36GTJ0+mZO/tiR79oz3NBp79pLs0TMmR2OP7nzfd28oYeZKYw4FbDOvuUw+6+b/Hb2+xr97X27foJl5AMv39LSWphCss+Y49sTgTCZfXb7ue9+nKK5nrGD9E0PAvrVJK0cngK7cq6Cd0QZ8MH7sNlKW0oE9rf/UFmWjW9X3M/dtw8h6uX1b/8T0vh2bwJK/c/J8hPEIXn36fE5u2RqM6/nQ+azm0l/R9R+Y+NF9XbMZbXMFZ9BwHxqrx3GQSpMgL48MNJaX738/W1iOH97oB//bhmSNspUjzfiirTw01goSw5CxQw8NdLGtPPCDMPRX91+1RghQJjyFzbTXxTmrPaVj9NKf6g9kHwgwvbslXlUV5WNkInZxPJK6Q8DKlIm8aQiedVw9LU3WBgySCl/E+9drLJaeeLZ/WavYScAtSyF5+AGZWcgQBMPvORkgXqxqHJ/BSBtUlzWH7Qm8X1WDVNj60BLGv9VgTS82h3otsDfCJHWsSmKLw6hCcKTifZzkDiCT1TT35HcDytBvbp82YJczSivW/sOER8NfWULzQT/Ki/B61xi9KH9PHSLvEIbyfU1SWtEiq8W3niDB86pYi0IbEUEO1t3SKL8TKT76WykOMJElm/EAfghVB8Kfu9crTfF6DfqzppvHjvnKZOv6XzCxFENhRikTLK6cj6UaB9uonQ2C0L5cLy/VZ0GFzfvuANjZe+54ijDdHvUDXT8WdRRMJS+S5rU6b06IgVXSYFVvyiBHjWeWQGOwXB22HVZdSzoqBu8x0eOjyayoiu/XXXMwUnFZyaM1MEpcMSie4CvfSMRK3b/+7H+9/hb+d4hujm2gpoTMuEMiCicy1i47fKzlKYckchv3I3RysbHs/+umH3INc34jxRrKTuhX/NvPP//mowuIyAyb3+OFf/fwPGX4+mOfPdo6r9bdj00ySr3yUtO4mvphPv3qa3QRzpvDgRDROfWKkmfZjPP5z/HtA0gRaEe0ET1eLfoxK0t2AA/3veMq1yTQEuM7pMZOPO8iK6EGV6owsRy/KjVrpWWFs7fYnVcS3DWLjQrNSu10DiDvx69KSUVlD+oWoS6wm0awYAy2KhnLXaxx0wl94Pi/eHe/8bWGt2kHBvC9cjChaBuLqiMiqJz5FDMzVgQfeDbGWPLPdNu58fFGP8Rz1q5kpqMD5ybA5kZpPZNF1FyaFIav1vP5fX384RfY1bfvVvJHXEsVFrRLd/WwqN43MASlRtjBJFVq2sKukX7i2DqweAVmbJiX2A4mrGKhaiTPsDxoONa8BlDaIgFuh3p4fKwrXvJz4Rg3SJS3IMBtS/WMUvxNffPwM/y754ebT+oPt/c378/gMIDNgD34I0SMtzDUlw/gpq7AKbu7hHPvrkxX6/ZcYwEV9oz/4E8R8eMHCmgve3IGKOOnv+RO4PpbmuH/q0+ggWeONp5at3kbv3b2Lm3ZtafvP/xTvChgiGYMtYY1pYdTmyP5uQ7GAb8B37x+rvew6xOHMOPNY/oHDmjnF4/bYeKfoMCYkRt7jPc/5fjUGzIcbQT+OuOlZpQj/OzxF/bJu7u0o4u6qzj+za+6f93Nf3a9fp/L6dE3vwUTBkHezXcw/nkV12sV8SnWtffa6PDQM/bmk/i0Su7vbvHv/+U/5tW57Ay0cfn2n0JmxBI7Q66OArNkOw5X50qiLn79ye3/fhfL4wbA0tkiSjaK5c7fLa2wpEHfZxHhn2hR6x7rVK/UBwMdyI5svUb+CqyGwbrD457N73boQcRGea1zq0YrdQLMeHcIefP31bfceuVOpId2v1U3f/8f/wOpkxl8LwTX0rqjrUm7n+sbDGnMK6lDZfxUT9Put+bml9VPh1dOzv7cwszxx2cQ+a3faf8a7951z8i4b5Le37XWHjvfz3iO3Pt9nL+25GLOvd//ZSDz/3NH4oUwziKZZuPo9xqPJbAVIrwQqgxOGpfH9Iu9xP/PE/K+K/G00uKjEk/b/kmJn/O8si/xM+hBJgVHvKL1hE8LzmFl1bKzWUJo7RGZULtUmS+FsxxtLblxye2Yy2tfWU3v6vDoIKrRAoETXqCslPbenHqUnTo61msrqc5TVvi1Ds7JE22UU8qq+2WtXDDH092HlFX3vZOey6PLviorurIqmEmyWvacmVoLzmLUkYWSIAxM0qS4l98ZKavTJMXilTCGsH1HJB7OXnhCCcIB8ywNoen3A1dWuwcHWsopzEGqAFpKC9nRnmpWVQT/yjgd/LjBZ3xwhwRyx8qQ1n5UVZHS9xexMvPLyHYPjl7Vd+jgNj2wgxb8vsrPuGa8aqwWzG1VD1fOi8hc4TwHiQBXe5Zm21A7rLPYU6W/O6db95t6d1vboUTaeZ2KZ46ApcblJQN8nJ/fdenK4fcz0qdrYThRpTgjVJ+sj9kf8c8Pn+eH+4c3MOjjCQO3/YNj/rwvHyAsg2EJ9BETg3zcR7WrsY7b2UNjrVfbk1pMxvkrBAUN9pyWij44/Of3zz/Gu7cQLf+/v//ph5npgcOTrn87FDrPGb57FHu4R4aN9TT78XfylkyQdmE84ZWUntzlPz/86SH/9PDuKCllP/zqD66P/wu8iavfOSFKu7NZfT+j13/qzi3A6jislVhq6PVbNXHo90raFBKHUCK3wnTWlqXcMmtJc1e5dTyvOn0GGv7Lmn+MIDjx7uavYNNu+3z3vJl2+VmY3Wfxl6mrPp7ojNLUDqZiU8a5GnDe5PqvwUt43kxoSCA5Z6SdyUyp2Lk0ROsJdSP/8b5H5lj/wCfxCczTw7aIfbecFX6p79D//sd6/9XHOIV/fuySZ9/Bga7k8p82c++eB2t++Lki11ff2r+j0EduxFYuBmLx0Twxm/IopuVt5Vws9zw77xxWWACbaZbRXVhVu1J4hg5Xu467p7aO2qApozXDE9Zt2Ii9PjZXlrqmaC/AD7dFqj1Ayd0yph0N0c9l5bgNNpfuFA5Obv6FGc7l8//97vYtFlKdi0NyEmHlvQ8myGYzg6XhO3COLLYSWGnOZ61sFtyujcCU54dZmWhVgi+KDohqZ5hXCf4iijJKppjWr547u9zX8Oy+KGuZdFQcRkpYvZEhaIKhmFDO+tZyFWs4toE/PDUQHaFh4A/vDbTTVOxtS8kay6rFSgskrYglSJZMsE5aATswvr99U/EcOPwZBzsC9nVFdy/wymNvfvUaLHl0IKmuaTgGXRM/0TXtnWzRYmsfdwjXJuAEo/JMJS1c1EUkNw55+gXOQmxHEDdbXILzkCAs2QaWQGexVjwHGbJRlCkMxnlYTUdhAsl1XoP+LaecChKf2pEtQmuYPueKqZKb0ikqw+UINYFchTjujyNy1o1XOgup4QLIxaSqpynpmYV7Ta/OGrFFUKoDSSw55AkMMDew8VJIfGHQiP+aQHo6OAIXc0YGK6tGPff0ar+x9NCw86akh36AF2tdpddwDhA8hVHCJIkgKHCdLZJywD+A29aaSKZmOabioC90QVhosjoYb65/+dU00Vv4jweLjn2zWWEqshrmFPhGDtSd23OO+qs5C1ScXg22ezVJFZskKg7yBAaQ9MJwcBQ8AzeBI/0Z+D4WPMjCYaxakyhixBZBL7hcTrHTD/BiV5NeVzvQe96ZwhFwHRuetUZ7pEJgPIuSfZHw6QhUnL7Q5a4mXddeAPfatWKqBW+oIreBttWCICHgFXjSEqy58GUS71/Owr2me/i7V5NUIUq5miR3fIx7LYPJxibEtAGfq0EQG0IxiFAfkYXTCDVmJiRDci3ITEgOPJdT7GOMNfLpDgAfVLa1CM0sYgFpGyq4ihwCWzhulxo4OXuEpeSFLkfFQb8dF9N79CLp7eZaG0GeK1h3BErRvoBHHiA8RpEtIL5ZjFkR6QtdUO+RDdlykjvGve5bDzBN9PqbDpChZyYSoCosOH9O6y56KaAtSgZZrQ6iUJtBGZxCvl41NXQpy37oLp8zePOe/9y/FDbCOkN9dLz3sOwAQVuEyFggdGLFTJ4HUTKuNNmkgph8J9m0k5+lBYOd7j4BLr3Kv31XH7uS7NWZffYuP7/+y33epP567BkLQXzInNUYKzrwMGeDjMhFyBwVqIm9ILBffT/2+tRw8Jvh4Hh2yyU556E6DeziXuaLDgHXQ1RtD3ynkHrViHfqWg1EZ/KBctezcCAtWmuIOAzsEUQ1oK99YVlHE0NrqtVJgFE5C0G16mwjh7vpJRJa8AyKSyPDUzKyBjAQbppJiA4odcqzoIDpjfQzeB6pgfizHMGD1VLXnsLBg9rTKYHfZ0ZQUnRAwQV5Cbw1yqjGnERfWJvaN61UrUwFayzFIdba87k/xxEV+XQH8ThXpXCrwJgg+Ug2HM4CJDB55TKEvCaNaZroim4PYJBe8jX2LMi342KeBekKjDY3FwHnYdB71gW5SuFAUBgD+Lfg+kJclUbhKn2hy0kuHRvsYpJL1+wDckMD8gyxKcxTgtvmkJQM1AhTtoLzZ3QIYy4YOtrbgghzZBN7ObVAtno7AUct2YCNbgKkHX2SCBEDK8XzlGxBdrfR5pIXuiBjLlnPL6kWBj3fXbfKa3zCTg/xsXeqwCkPvmKuBSJiuMI1Ms/BEASDaWUkO0rjEGSn9bvvgNmMOSxI2273B4nncT780kk8jxn1+XPxPGa84f2FfRE7jggsBXnqp9iXKK57i84ofOnP+2XcF3Djf64g4fdwr757uKtIhdHjPmYuc+GgU6OW+NYL/lY0gklRnBMS/hNWN6SfxkTbMPcqWQNfg+tW+1x4jKB2pfahKimNLisE636IvXrHHT8XgtVmeEmscVDEMBpSVAWJsaOKqlgv9TTW8ywgfdKcpzJonksZHTJDYypA4bMjGsWqhbKaJ9hORcN6Ju/7VudyMFg5Kc+ah/nqAg6yl+BhlBS1kyKEmsZ8qzYkFxP8EYX92Ji29U1Z+EvRLXKZqjjAHHe+QaOrt+XgiMebSz7dQXKbe+91LMxFnDZHUr/mIpNNGN6q4fDf3c2lL3Q5IG367bhcBo1yBcabm5XzMXtmBDJjhQC7xLNkAtxiTGoWM/YW6AtdkjmuSS8h1BEqwMVMqYEHj3Uv0agAXqNtVi/timEeoSuD2tjz152u7nqhe/ehd4Ab3H0JrotEenkI2jzoC5igtKkFCZcZ/jva9S5F0RVDbX2F7dgrZXyZRAzpavzT0M53Hs4wP7XDvVWk1wFCHFYghAXf0eGFBuXJYVANmtRkPq7V2eHe+uz2vuuhPUS99fTw7hLUW85WUPIgS8Y1cJJDUyzkGFmO4OuGavyGVPsw9VYNwURvMEYHmYQ4BMLvViAAU8Iq1yoE8BND/Baot2QCW9ZCYz4Xi7wyggWdCrMuCQGxS3RirSKOU29VWZ2CWJH5WiW+CWSIf5xjOenihAB5Lbt8TQept5KA62ggxtSeO4yfBISSSKJcTMxwgYtJEyONqbeqaEainQ8OYysTIB5TxoIR5zqAVqphnc+6Um+NFE8VplksAdMR4lkd0Io72ElTJeLf8apy2jmAEfVWq5bDpQW95WHnq4DYXzvPvBGumZaUamb3/D586i3rfIAQ2zCjMNrO4A2mwAMD5xPf7TnckunE8Sz6G/plHDnUCWx5QsZxGcGbQJPmOdjcqkQKrroqywGHessO02SuPIBuBccOzLbi8HdwhsaWVhsPvPJx/3e3QDWL/iYID/oW3JDKNZYM4mueBtfEFYMvepJnMcktRrrMpMw4eYcHL5cNDI2BsKJpZDf3NsI34Bdzo5FgAWRBjSo26JZ2OeotuoRerlKNrHIHBQ21RK2qYjLYBgeiBX4NVkRm2PLAQV2MSBbokrqcU0s/0AtQb/HsqgHXlHGHEWtw4Ewn7uF2t5ilB9fGTdL+qVnETXSru3s1tVcxB25Ysg7DRBXwbgVmMcCoNjiuT9H+NQgoQWKQkwTVVwOR8QoumI/NCeUxpB/DOPYLnFNE/r5ghY2IWNisFAb+8HeqRAZSWTwvEnTBpHIlOTbHFyhASLHgjomABlVy+GmIhWAcsLJOihbrZK2hmlVE7k0uQruE7wpoCvBiWAgxZQLV2mqCSHNygdxF58AFBqWMG2Olgp0XgtUIQWjSQbqiScqVLkID6i0TORwI9oxgdWuN4Cc0GUC4eVG6IBGIXUq5np8xoF/ByylXsn89yHVpk6UEhQwmwOEjIkSQ4BCwVsBaGDibHEbUW/Sr+CEo10tRb5EdWBL11lBLDe0YRXEOrutuK08y1sXiWUJudO0zTLHmxEBGc0z4XNPymdRbdO//NPXWSEGfpY2nQsSWrOEWxFSVhNU74Pr6JBFWgqfaVJKZ8xnUW/Sj2N4tdKxzc5rBDOA+enybR+KuBCrLgnerclW7d4uuRBZ8GCWL8uUIWcknPbAKWfCoQagL2koNG8eiQrzN7CuPYBWiGxUL0qV2OeoturK8JPWWjcEqDt6EkQ1fQiRMgCvBlIPwL4NcxrxfhE5WuVfqrYNDXam3rtRb6+Gv1FtX6q0r9RZlXlfqrSv11pV660q9dWLoK/XWb5R6i/xUfz711qheg0fLczaZ2YTBZsOC/iAdk8qlhlBgxqgXkW/xUGuyyTEIthAeoSbmbQrM8pKrlBjAjd/Wpsi3pgLV5ctOruRbtP/87iT5VpPKhJw9EylGBHXhLAbvmBG1OcG9E/44+Rb9tfQ/g3yLOyWjKYFp6WWPEuCLKixqg8A/Mvq9F+Np8q19uV5equfgHy5MvqWq4C5VD1MOloHnB2KADd/NSWwtbVWv4QQPiAG30rgSM8veGSyAiixpLlg1zTdVsE/IHRWD9zCD5hEEovkEkohEgzF6z2ItWUap0d9ZjHwrxpCKwVxY10gGosAiNpCYIltKwXpZxvm+o+Rb8kbqK/kWdZh/aPIt5XPxrjkmAse0ZIhgiRsC2zueq8spW3f0qiipRU42sFZylwV2LDQDkiEVN8ZUA9r0+FW5km9dybcmJftKvnUl31p9eyXfOvIbV/KtwV5cybfOId8SThqvE4TLWPBfDcZNYCpzjanoUHMrYuxA7vHZTPsrW6/xSr51Jd+a+fuX47MBn6ZxI8AbRKRGXWxmCPSFHYYiKmlqcKdoUQ61dw8l/kq+Rft+DvlWVBASOAgxslAQnBceWFLgAZsYQLWoJL0dF+fuK6vpwxse3ZV860q+Nev3L0i+1YIUXimWsUhYY5gcpJFwAYJ0cFbCpHF94FhZHbrKW4m/km9Rv6eTb2k4HR4K2O4kGz6tWBZBp7CYvPCFJ+HEHmTG6OAObcmOlbmSb5G+n0u+FRNvVsPJZaMs08JZRGCxLNUYFOfZJr9376bJt/bu1e/O6de9km8NJ3Al37qSb13Jt15OvkXv9v8vTL7FS3EqR8ecwpL5rBWLihsWRNXOCnzVajsop1fyrSv51nzyLbqYzSDf6p2L5Z5n553Dh0O+5a1tPDbHeE6INeM584EnFiBi4q55bt0Y4eck+dbKcRtsLt0p/Ici38q+BFshxHRIupRTYinGwrKstsSUhM1hbQQmybeSqkl55CtI2NDVkmBeI8aSTlUk0bwfdJcdJd/SJRaJnA6N5x7MEUHIORPIEpmLSHpNU3OCfIuO0UAm35IKBlAiMNEyEgiIxKIMyHFVPcR6xek6TpT3bcVz2IVmHOxuW3HILdUGollbwobVUkA0XYOT9BK7UqNaY20f7JuO3LQSTWA164QdzTCESp4JE0G8ndVhj/qmX+AsjhaXUT+5AjNDFLniAos5Vubgt2LGhrXsJvqmlyPfotd5Dci3BLhJqRqkXEIAMRnBT9KGqawUb060NoZrplchLsfRQsdquAD5FqnqaUp6ZtGI0Kuzdq8HqTqQBIJInsCA4Qc0hNHYg5DgJ0HgNEvWOtS3PpecHTejxnB6td9y5Fv0A7xY8yq9hnOAF+NB2pODSywiIkxqAbvkwPK3XKNqibs4ohGhL3RBPGqyOrgA+VYDqyeKLMj2hu3rYOojsof6ZDi4hUZLM8mLd+oF4mbX8yRXg41oIykVm5SrSZ/AVnqMygZsHtxFgyQ0LSskhUR8HFN9KzImpUcQmuSCy+UUO/0AL3Y16XW1A0AMawKId4aLhnrPqcqCyh0Yv4sa/OgcR7x49IUueDXJuvYC5FvJJA9BmoUgTWICRmBrOIgjRHDBBZ1lUJPkW2oWdDDdwx9dTUqFKOVqktzxcdc8mMgA4RazpiiUOAkSB+4o+I5Kox9mysjnooNyLUhhRA48L0e+RT7dgUNrZUoK7pivDpHZLFw05J6LNmVnfAi1jYCA6AtdjnyLfjsup/fIRdID/pFsLFob2FfYJTBEEOzkAqFZUiYFE0sdU2TQF7og6DXZkP3a5FslW3DdpGTVNUSpgmjLB62YkSpHLsHHM+MqDwr5FuZzBm/eHzr5loiR2yY4w5oMOJ9WQejgpIznXHHrs25uJ9m0S75FCgaXJt/iLSClTEQOS0whIDkMOOAQNlstHVdGibE5o5FvyUv0oNBwnQZ2cS/zRQeB+9XJt7IQ4MAaZDWHUAeiz7rKuEAQlYsGP0tM4xjOwlB1LkuteGUuNQShQyFFRhYli1RegC5Rk7SedEipU/E4BU5vpJ+rBM2nuAdVh2yy4NiC8QNTVr0QGWJCEN4RlTodUnA5/QzKWUfhDXhKaKINuN0RQd4tXCNwnhFZ9YB+Xoxlh366A+OnmvAWwq5kQkL+XLhTRTRWwP1vVdac84iUgK7oliPfot+OyyU7KFdgvLmRO28bzDNUkAllwB2W4OFq1Rx3mIKWZXdz6QtdTnLp6GAXk1y6Zh9w8kGkycHxAA8XL1ysEHcqDnPnumpvYm58hDxMx3tbMFwlm9jLMZuRrd4AY67gJfeoOyR2lCGzAmZoOGwgBvaF25FPTF/ocuRbdD3/K5JvudqijEV05HXIXA1hrYPtrsWoLHkMJe7Vqx8j3xooze12f5CIHlfyrQ+OfEt555F6j5UKEW2XzonGKFYMr8Kmwr06Rb6lfJFCqsSawiHAorHEJabji8Z8YeNK08m3OM+tgg4Bn0EghEmCCckEsaNJroF5M4aPCzW7kQjgGQNlJFNsvnq4dBIJjKPSYEZ5Qw8yK6mqSzlO+bmk7aJB6VMnMGCT9K05TIAljSGgtGjLuGDZBUx5WgO+8yiDlgtYZ2FZq0jZU9qKUYqbAg5JCdpzsbTOpR/gBV4ti+AFvH4PkWTwaMrAgoNbxAwEBKrmGpuaJGLQs9DeSRI/IT01cOswBQqngq8TbsXuJOAEJUS5Ddxy2tMI+dYOpKdJU5BTU4KNBucGU+JGavDmId7mxjU/JmKgn+Ry7hDdOF6Muo1+ugNHXsSmMSdYEiISeNUR6Ga4d5zXkjK45yNHnr7Q5YDY6bfjckDslCsw9jVzUeAjGgiLcNoNfMgUIr4IcPhAgjtvRmDR9IV+CNRt+vLUbVHk7HliriKDdtLYvCItTFVZZ0QGmzPWFyTqtsuk8UhX4wh129d38f4ZSwH7+iCrI4hCYCZEfHfiFeIcD6ozuySTTwGChNHav4y39zff1sefb/N6pd1wEwcyv87ri7t3t+UM3IR/vvslPyCWCXhuiBs3vz75L4hX8Fltt/fg7+5MY8Yg3eYOyhi3YAHrw0D0kKXGXCO3nDHm4+2b+PjLkbFR7lYVJDwH0CWWWRMcvrhhKS/YR2FlBiMgQH+v3KSuwPQEzNPNjaVr6E0bxHjg/tVghq7fdARMj3RG4NGN9LK4Y2dSB3p6crzLXQfNkXE3QtINtAJCglG6lxXQEMEGBOixcLl15EgergtzJlRnSsLk0QrdphvjEAmf0FrLDLoRlGXERnIJHpJNLGHtiLdSxtT2xnlZ99ZgoAmCwveNZ6+0qcx4AebPG8GCchwTJy7r7JF5vp/RAf68zUCCO+21Y6aCxdVYEpMMBBHJI/6Q9aCx1f5AL1vbcKSXsS8OR5pmYkTo8DfxjuLEd+BGn8G3j7fp3UgRgM1qXHq0NzYgsn9jKUWUANHAbVGyrF8qT5ZhzxaCTrLXFfirK7Ezu1nh/ps38OnXt29BQ8EFPKebZYMxuR3gYubizH4Fmt04d3CiATlzeDiit+Bi4e1fm5BjI79H56nZ6LGQAB8Icgb3UitmQRN48DvB5dpVBbu0ksUXcJwq/PkC6kRLrHvwoDIbuMIlepvLmo96TAm5eXmwxXMDXngVyGjNkbJFgZYVoEFic1mJsMt1ujsBb5yBoAocT4uN7w30WcoJ/fLcck3KZr1y6g7ySa7YO7oD6aP92AxXLTHjUD0WpBWvvjCTk9SwYGfNOJM6wx3sD36LVbbyAkcZVprKQZPc350ZvsEqFdl9/fnfb6eaI2fU4qz0yx6NxWe3rdXHLjP4vtS75/hS9oa5cPZdrvS5vn1CyoWPf4Z5/dCluW/vy8Pf+qmcfEpfjbed8npWq3zsl2DCRt0RlkuO8AtCYlEPGFjmsdRKuCwDyGMKetzP32eKZtHm0V2T3UxRgclZoWA6RkPApiPmEwK4paYID94JV/YUbR7dqR0tcBZtXkk+qqohshTYSZEkZqIkBN4OS6QDuFNSTi2Q5GudIF11Bg5JYEEhPoVijWCw2TIVrYIVKhPrJPGhntPA896CalIQccJJINd8hYg+WCWY5Epp6YPXdXKBKdSWeITz1tH1+i7mBkIGiwugbUEFhaO5vofH11taMbryHTYbrhylXhEfOtbhy713JkadGTcIE5kyMolyxWQrttYsnAxq0/iFc165dRsTkRUKXcIqfxB5VxAegycGh5nAADXXyk5WffD5jeiMBAitBA8MxMCB2CsRYQLCgpuaSzUOS3vbkJlsOIAcbd4OKR3J+hzav40lmtzCoaxUXlJwkRlZ8bVcZviVgPkQKyJcEw5/4MD654na/vb3+8e11VnWwJJE/zW0Cp4snKJMGYSxIZuV2BG6gxu4IXcjK7BBvs5xzzHx47OBdWCVGiiCwjKosYLDGTF6G6Yb5b1kKPGhYj9fRzcAF0uG0g98kGkuvHgHfzJi7YfOSA0X4UBkLGAgmpGtjih/6bK/IHMeWTdfbHPp0fxgc2vSoOw08w2LnSzepBDhVLgJJsH98WXU4UC3sgtmmsm3ZY9PmdjicOSFTRjukjdYvG/wx1NjoYJIcXzp4NVat1cS2lvdWV2l9MTHrtX1LidTHDbLKmwGdQbLuxVTzhawklFEd+B9drNABSdpS0LibUyVtIjvrZpjwXhpqjXZzPj5p1/grMbHFKuI2Wh8HsC3NQHXWNoKptZJkzOmuSfdClIi5wRhtIR4MaTMbGsW9ygwb6KFqEmYCuoj5jzZPnYCqHO0wFxSVBKbsEzG8jTdHR5yPBYNjmHmUUz2qGA0WzT4N3AM4IOYCM5Ai6BIkrdKwUR5PdD4POU30aPmg37TaWzI9yAZOWIPIJh4bAhtWC2Jj4FOlqxAYNO6QG7ab+KuwgACq9sSzBJEn3nRJGghbYRzMPVd9vB9u2+dyqKBFQDhQXAysNKGa1B9BjzNzL3O+dAAshcrB8KdsWsalLb2MBf41QZevU3RNLBGKR5yvNQxx4uedzjmeE2ewfClWkvnE+gHYz2S0CTNwHpzsHO2CAEOiFlr4UnHiy6rhxwvldDFFbBhCrQNSIADrejB2IBtbiE4MDfu4AjdCYDQwF65DFochBTckYRPdBL+X3CxXBPKVnPQdVOTBalkHTooEgBPuzv4kCVspFCNRRBCxiP8cZUSjrKY60YHiByX9ZFt0MW8C7rIDOrUdVQigTecQRuBlHI0U1KzEsCXA7dIKDGqwKDfnuW8C7p5uFwpNfm1YpDXg5DLCS8hMoGz0AKReHwAf5cngV3j1blRBQbd0H8QrhuxS2t/c2nUYfSnj82eD94tSLxh/7TZ/S6bu0puY160QzF76iN1Z7JzYIRyURnFL8KxIwyNSzorCfvmx3AeO++x62KCjkB5Ne52a+ZDxf+pA/XvYda6Us7uVZbM1PWXt2/3Psf+rtv7dw/vno6PgvN996Yiy9MqeTxY6VFpwB++X+PCDTf79Tfwl6e6OvJSA1yZBtcMI2AtMsT2QbEM2gscJxtdHW/1flFEN6cbBoE4/2KqEHnGgU6d3aDmjsvGkenFVaywAj8nZohnhWnZg49Xclrl0z6rLb67e+5g2PZR8zc7gZyy5IHn7MJ6Ah8tvwuz4IRgbm8f8F0dmVXWSXZU0/SUyR9A8XUOzjxo13fPvVtkOVln9VXSf0G0sR5HT0w3mK42p6+kNyGXxsHtxaIu5OjBDg/4O7BTqeasYzDjYrL10f348Hzzt+74ntbPb2/63xijhA3u3NFN+N22cfOv8fE2phVYDPmS7dVBkXIL1JZP5CnZ0Ctu+cYgWPYyx8yqRQ8jSNhCC5EMRA9IqZQkT+NXggnpx8GPVEfRnjMG/vluWUYA49McmCKJoJbWIo0Rou1ljimvUKyLO771mTC0PYnLRJGK5K+U8E4YL7kW7mCjwWaMjhPmDzWWNTXj7FkcpJIhkcv293CfnXHGLR42SayZGteIz/B/T6hT+hKyHmUNRu80zhsM2I6+GHZPq7hBIxzdOU/z+Pn2oM583+/mgLiwMxUrqIMOCPCzWxAxvALv38zlq3p47t75sUO6Y+l7/1h//v2b2/uZ4+Dz6bwvvv3pFh+Un55g58ptz2U0YN3sxO7r+oh7C/+zLgGZutqrl+ReUFePrZuOIQX+IxevTr4Eb8fZ8Fn2A75dE0AfILsTryRcRiPgr6ccodUPfPtjbM+HR9/8o/7afs+efv9GMby9u/0FDv1kV1iTiPtkEP1GcVDpHvxk8OadN+Okcp87m4XvQtd4u7kz0vsTpb+Arq+3AViCXzDIOQSRMb4Ea9Nn0R3HXxetQai1G4DRX2CWC8Do9u5yDxPk091uLth7W52OTBUEq3QKtgozCUFzG42zXuTR5tIXutzm0m/H5Z7UyE+wA9Cw6rIH8UQSSaR2iJJFHQtzxXqVopPFj5Je9IUuiExEfsZbbnMPxOixarjQorLEK2ZOLPrdQrHkOA88Cp72AsdTMfq6aug3HKN3/nTP+9a9YPQOulIqcKkMorhi60aB8NQphCHKStVSndTjvRb2B/As1hYVC1R7V33FKQdRqthQAr/iN9/9CG4bOopDEeevuAnBKae8CUbbQ7Cenbjd/7RXkk2PeqZI88ahEBEXojf3EQzQfSHUuHn5Sg7+c/Bq/m5bEj8ctBeYvg4PCT9Pevc3m87mfRYJuD7qlZXOa2GFDAe9/O0AG67R3R7rOUDuq4FWNfovHuiPPyD9KsQMGzaAF/UOjEf9rN7FX1a0pwPhPhWUr4b54l3dbPaMCsXV190dwUt1Jr35gFa3L0jcIaQQ+pXXSjiutQKX6CBiDxqF1nphwyHj0y3yCnVLG8aKK3955kYdHHrdq0RvsZ8aqoPe34SVmJICvTFz8fcXW/uBkee3aU2MdGjlay1HiJI+fpOQamlH//zxvtxm5N3pfBh8nhHOMBURx9gnLN0DW4HwdNZVsCB59fwxNdQL6DmmhlvfljMJJqaGHCLND/M74pVS4HU4F7wOPByswdgRyi4AHjBY4ZlM/egZoA2jH9k59cGuzJz5/a8w8XvivOdovRp/wq7DFxqC3RE2U3uB0H76cFfWTMJ9t8Gx20Cr5f1oPdVDPVjRQnyhlGe8gjukVXIwAE+s1Rp1k8WpdbZ6M8pEQnOG7doMs0OuPTNh1McvB9Z05kAvW9ZwpPHKZiRaN7uzShBNyOiM0YaTOjygoFMbonZ/hLUNfPeOUX7NXdM9krzvOeXXfxb/0Kptae1WfzQadjjPboJrP7TrkJj5wrSa4cd3MMP7LhNLceb/GQ7rMd5RWGQ+vy+sO6d3CSxd/eHh8ZfDz5lGlOh5jqw5xPsKHgHYdGQhJSmjcJaLcW5uM7XVOIfEcJhXcU2lqiKTHnVBaliWkBKzWrkkZAx1U/B57DnTQLyeVBGseC4RB8HAPBG4EAKRVJyvVuSznjNJAx/YBfyJIwmKxXfhH+w5UxITKUeeM6fkVoRkYlKJKYlIgMnBXuaK/RMxgQ8nU+Ljito9uT0QIC8vt8Hk4HThrOjqEZAjsCCiYilZpbjjNkRxltySBj4it0ek4Lcutws8w0/qW3LIsTmxnTzU0HHdbje7cVhIMnwmIGcbj2tc44w1vDAuLNZ5BERHl5k1zIQLa4Q07TyNSxn4vH2YLCVZZj/+wWRYildi+J9DEn1Yhgf0KUKBMTTMOykQjtyzZNCbN9U7q2P0YWwh+ze8WUjKdG9/9w2P1ENHecOjBy0D8h2X4NebYzJnhFvKtrvNzIDISfCvZIojsF96o89yLyH0lPgeZCqRYvrkMxP9dAfNRS35qo1HOguJSMrYXKQUiKGCbbWgKdqouYi+0L3NPRtJmX47LldbTW4j3W5uA+lUBrx9UH9wIJwjIVNDDDddPEg7d6Htbi59octJLr2NdzmwXwQBef1xuY1pw2XP4XpXuKAQH3GwIEKCJKoYQYSTjwUMuSrjN6UOSmQzyuEtGGywQ8IujkXuBuHAVPQMnC4ECw4OdrhAgJYOFn1Z7kU0NrOqE7qDoI5SBPl3yFLkfKxK7EIlHoATFfg47tA1MdjEaiA8BLcS/b8irK4wkzQJJ2pmwYmS+m4nm50IW0SCzSdPYNjrIZpEjiQvdRcvw4VrBrbYag5Dcd7KqGL+/E7SF0A4kw/wAnCiMprYMvhWIhuUQnzir1oyx6UTOUDEwCdBIswsOFGSrE81O5K75U/ROZFv6oAEUXnRcnYgcRyxArBVAPtlW/RIAeW9ryOFSz/JBdHVyZruchUp5NMd+mElRwkW0GEvK/hecJ07BF/Bc3IRjBUflfvQF7rc5tJvx8U2l3QFxuU+CUy79o5xI2CrCrZ7ew3xU8k8GxO9EyMYZfpCPwRX4Xw40QlXITntben5E5BvwkmICGD9VQXwkASPSe+1Be26CgdV/46rQGj6PeQq1ChErCADRtgODBk0EWwPU1mD1ZNcJEVyFTJ8YBKoPVXQhUygn9BCwjgh8uJSdXpcOtYr+1mIQKTZTih7Uo8wTdlT93rIlwwyF4NiyiaklxMOG/ISMnpbFVXMEACNvGtyF+GCDDtkWb0cvDH5dAdtocVqb7RgBuIbpPqGQD1GpNUM0jYIDoUb0RfRF7qgPiLfjottLr1NflCVLLzElAbsJip73xAQIgrwdJXVxsJ+iRGdMH2hC1Ylk2EKLhoXghE1SVuBnEUI4KzAmiJsNjJAiQq77sQYGWKk7A8+bw5z8KKEGjVismCvfOh65ZE7OQkVsoRttu6gsifhjRGUfazFI2MT/D5PeMqKhaY5y1IkK0KLfJoowMxCR6MDau0qe9IWUZQ9fQID3qSGICqxsRyRmkJiLClMZFwh83LhEFeOiFpnQEOOrsyMws4xfBP5AC+mj+iCPGxTFwpvM4vw55Hnq4Iqqhp3LoHSF8bo0ebSF7qgJSUrgottLh1YcLC5BXx7pKnL0ldELGugUIVEeqpWwc9PlY/S1/SFLkinRoaMWm5zJ5S9SBCjW9gdAS4cXFoJqkFXwaTQSKuQauYnlP2xkrVt3zMBkOlg56dSCP6QmChIBslrYNHzCsrMVyeiLylVUhIwuSqRO4Ijz7m2ELol8BzAe8hZQiDHN5n3kbKfhRRJmu2UZ08Br6Eoe/peDzjdZW0V7hLjTmLxQQF3SqnMHExKhIpcgyM4OTr4ynJXhi6rl+vaIp/uYHPBxVScO9btsG5wqF6Cl8ezTh7rPqUdby55oUtuLvV2XM6zJ+M3DXJkBQyplYXJng0rFYhjIYCqxghRrAvBx/HmUhe6YEscGcHnosqexwImTSAsWIAN9oiDGFoCScT0meGgNsaqYaTsj3WkbPJkVsnkMH4FL2fV0IkNcrZGpzRsc0rqoLInIeIRlD0HOZIR9JhzmMwOsFTfYDq8CHSFbQxuEt7OzAIopEO+7Sp70hZRlD19AoOcPWyA11kwG5GiFn4KroyEaSQBQW1OuoxZquiB6XKePf0AL6aP6II82FxwMq3xmVmPLqfL4OMX7Gbm3niXmg1jYFb6Qhd8ECErgottLh36cvi8r5HJG7bUY3Wgbh5iUohjk4S9g3+unRq9NtEXumBhChlRbLnN7UrJ/vJUB7u8AtKqKvNULUscJ5MVGDorsTJHGnDTish7TGt9WRoWXA8Gm6iJHupBlVIwCcJRcGb6uosYbMZyY3AjZRbBH87cxxR0tBYcVpAJ7BKF6CtWw0wscH+sgoBtFzfz3N6Dvsdj1fDx/PAYf6h92+r8sb6p+S6+6Wk6FhnwDw/P9FaUi/W4zBj4s0ekR9uWMN58/vf8Y7xHApz5UC5HBvusPj3f3p/BXHNkzCmC3nWz1PusW43aV7ivBkwq4uAl0MVg9qyTIKgq1B0iW7woW16YFRjozp3c/NvXHe3a7TZ1FFsOAovznI2ItwqmRlkLXmJuJWmptR9fzs/g+/sfRuhLOAUYGtu1ww/xDjFkhlpwxqZNtVrc3JhXxighwTe2IVgPYSWfjPp/t2r2muh5eW8Edzy1wPBKo6eCAWrEQkTelJE+KLPrAh/txfJSVB9EYCIarFVwiQWIEMCESBWtBB9obWa/rfdPt+nuSMfYe1sRsQGMb42IEZ5rZkgbw1yEaE8IjXnN/sT/FBHW6NBQB2uk6bM9XNt/wB6ddcpHK6SbL+A9QjwPuhziI3AIIQArmSldq/OxgIPozqqQJg18pLb/iGe++C78g9VF81c01+F382r7SRfjhNwe2IPl5TZI2TIi/VvEXdbcCQyFPDMpKueCkUWa83pSKAMfkdsjiPBXueUkLoKZcku3NYfl9oC2WV5uhQTdV6UAm+owH9WVYgrHOMSaSgqfNmTyM+WWNPARuT2CMfhbl9uX91LtO4cfkZ1Poke44w3uvr2T/c4pF3frxG5TftJFgzzpGV/bYEDNQvCWOWllNjU1ntZh9tuYt56XRmxdhdCtGbHQZQKXQDewN1lqrwNIqVjJ/snO/8P4xpTfGGUCP//0E/YJ293SCaa/wZaqbEpDihkDS4XLFrE82kkmRYypNixZWWOBHVUGKrYgc2BZZAikC9zZgBlxxH2T0TXv9Hn4xqSB6buwbUm7wC4sogzmoPu81Iid5nxZfTWhDGblSLuZyrNm2n1FBx7Ymyl+f7r1bXem6qyZqpVjQPlwaqb4vSAe/3qm+qyZdl/RsXj3ZorfC3qPVjdTc9ZMu69e0ezj1Ezxe0FMia5nas+aqX2hnOL3gkiIup6pO2um7oV3H78XtM83M/VnzdS/8PTxe0GD/drMNJw10+6rVzRBm5opfi+Iamqj+fl5qp+/cFe7ASSdCLif7Jl2SrzwWoke+mLmZM8zVf1ndJy5/cnKc6KB86xV/9mrcH7+Re37rv0Tts1W+iyw3yQzLfApUSXJbHRciNxV5hyLYo9QKw1cNrp7vBciz4fl7Kb11WOpHVqdi97o5DKzXHimsdncV1uYNTIZiIQyXxeM7ju586Dkeirxd/clYjr7/6sn4FzHX375cO6X372rT2d++n0t92d//N2P7x7P/faLx9v+y/k7jNn6M7/9w8Pd6mc/A2f+G3yoOTFGJxcIN/W25tuGIIgYFc4H9/z2GWE54Yyffzznw8+6Sc9w4z6/L5tfmwFFgJ/hb02Gd/SrNCu8+z/f/1R+wV/dBSS4RnlHv7pGeYSZXqO8YzO9RnnHZ3qN8vZneo3yjs30GuVRJnuN8g5M9mJRXmsySmM1c07j67J34LmlwpS2TbqYOa8HX5f7KO8YE9lyUd4MT2sU5QWXebaZhYJkpx4m4ZU3jCvjXIymSZMuEeXN/nIT5c3+chvlzf50GOXN/91tlDf7202UNzs+vEZ5lM8uEuWRrxItyoOT7IO76yPeSxz8Xzu8O98ZvYZ3+zO9hnfHZnoN747P9Bre7c/0Gt6dmuw1vCNM9r9EeBeqFzKWBuEd1l2pUFnC0r5ofUgmgdtmxz2Eo/DuGBXWcuHdjD3bDe+MsEplEVhOIjEdIZL1JnsWK89eW6VFMIfDu/nBxzW8I317fcSb9eEHEd7RrxIxvHt3/3/gRK7vdy+2m9cAb2+m1wDv2EyvAd7xmV4DvP2ZXgO8YzO9BniUyV4DvAOT7c0VqdnwWIC3pQ9yxtfYKjMQaDFtbGO+5cJslsHopsB5m0YOPa1Khp5aQrITAdGjal0jI2JLegjufNQtBGelnISJJuFxUPCF6BPYorRk4aUWRbBqXWU6dT+eHatcCF208XGMrE6Hx1qOUYJ+gBdglPCcZ0RNYjIj+nbThQWdkAnBO+55FHUPdbGXntNezGBb6cAqIyhC6yAMaYVJiYXHwSJ8DtdYh1yKyNzrnGnoVGRYmAHGT1aCa28Ztx6CE6eRWCRk5krSHKShwW6NQMbJJ7kcxg8dVudiAEr00x2g5WUON43DCYQqIfKTBRv6E4PTVrLIoqwfQaPSF7rg5pJvx+WgCClXYA/6KyhTo2SqaoEI7g6OJksmmk6mNV0tH0ER0hf6IYCMn88ocRCdCiGSlSmBRQTI0sZx1mHgC1NgI211PIwRH6fRqfZdnsE2GxVs64jpZNYg9Qpx3FRBzLwcmnGIKnYYkNBGrZBEN1i4YdoaxUIAlcajEiZYCX8fr+hUV3SqXwmdSsGFScjzGQ0CYmdb4cYoybJpVnuVGs9yIXQqUF5Bgr1m2SG2ZCqRRecDS0KKmGRLvoxZdf7l9hnO7P4wPJW9BDyVeuW45HClrVXOCX8OPJVLGv4LarEhyo0O2jBwNTwrPqYGqriCzqfDU8lsQhRFsVoLOj4Ibmgk6DXhLJgRJDJek1ydhqeKSQRhJKicIEB9xcZZUoUz4Yr3JuNc5YvgqeizPQyXciCsOeuUjyIkQAARVTWagdsHF6A6zXwG10SoBCYzFxvLeZTppIGPwKUcCYQX34VFcu//8PBUpItxQm4PBFQXkNsqvUhZsFI4sjhkdKlzZEUmcMNVVfAvz5NbysBH5PZIHu4qtxeBp6LbmsNye0DbLC+3HMJ0D1EeUwZZ72yEyVqIB5stxanqAyjKs+SWNPARuRWHz/S3LrcXg6cieZ9Ul3DHHdzNW1EdTyI8VY7GgmI0LGckFkhOQAwHYWbyAfOLKdoofgV4qm3yuOUMa4NtrLiNKjYWg8jIjVdkgUhc5GkmktPJ9sE28taKLy6zAr+G8OWJRSEl/L8yGdeEsuvOkhHtFCVcJtERkycwoJ1SqVQBx54UEmxUPPts4ASUbYhWpoIZ0eCdnzwmvj9OJY/JB3iB5LEKMUeRwF1vFlmNHOKhJ2Sqk7DFqiUhxuajl57TL26DbaXnPXalp4H31RQIjivolHnhQVmExpywKZqm4BZFkvTQszZb6XGZF7CggSn0A7WznEUNa/CpmmyzbMGP+d/JJ7kgrxY563U59H3y6Q4Yc32rsnENgiaQXbxCmKhDgGC7WnC4ZeXr8qSNDJEXuiD6Pvl2XGxzSVdgtLmKW++ah3AzIT90xqcSWTQrsIfNOrA4acT1TF/oh5A8pr28Tm3ut7f/fnv/w+uv4yMsHMz9itcgaYsanoFAWli9Cgxiwcaka9Y2cCD5XrQu6BULmwq67rdv+nxcNwSt1K9LbT7c7Q+BC4I9ffvuGWTm+fHh7vU39S2sFP7Idw939THe59ovEPkTbeSdLDjkujDge9iClLJJpFA8rHu8QPq5bn7spq0Sjds11+e3D7eYLHx4vvkSTgIizLvn+CmmyYiFjgd+YbMlB3/hcKhfGm9o1WtpiYEPpuF6gOBJb2tT0kXpymg3Ps8P9w9vbv8dHMQv499vvvp465oJzm/e5ueP1nNdOGTynNvsIsyuFPBhLIK4SojNpU+l5ea4d+eF+qSB5+7CFsrztx42zZDuA2ET3qFNIv/1x7eP3z3AX16vk7wf35c+RbtiwPFeC13BWUEi49YgKrGg91ssIuvonNd7nd+/PP2b+revv/1XCFTYGvj3lyemIAB5ZAIPg31y84ev7/KbZ/b08O75x5t//fPN59/8dddy1CAVejoN3x51Bfc6JOVYgek0Xj1q+f6HP/453t7FdHt3+7wVUBgivnt+eAKhOrXN+KMgfffxbv2+A9sxlX+fUfS0yZh/3hoa3Z/rfX16uonPKND/faPGNj/0vsD5wCcPYFae5v7YKqP+a/zU4XU582sta/lfOnFaa5PwK5zWsj91/LR+nWURf+l9yC3VJht4ikliYQLC4bvGQAHJjBQkak1AObik26fw7okocu1T0BBkC4c1NjCEBRcQnJCgRK7gb5m9IQYP4p3aydqUBubbBVlgjAbRgOqQ6ZNrJSD93GqMz//+Y3z39DwxD5dRc7kCc0cuzeIgtsixIiNFihlWVrLbH2N3Ikr7VwbMpjHeBn24omqgvD6/g51/vM3glf4NLOn773FfZ/Qu7W/K8Plw5QrCkN88PMfHX06PunJR91+1V6v+6v7u+CiYsnp8gO1Z/fb6eyYVyUtGB+/Hx/r0Iz7gD9fy/tNeuIWlFNx3hv/2+Ra2GLyQbkKdNd34KPvSLF5pkkOAZRBoYh7agaH/eJ8fa3yCKYv+bR3Ok+rcD7yqPz3kn8DQ7qZoXNRwwbRjyYOUa8kzC01mkNqWGpfBFDFZ32dPu/ADO06/lLspmqRqUj5ALJGwQBMiRQjks4EoPVWRRPN+ndY8Vd9HVixDwlbhVdUGOVQMcttqzA4E5kwSEO5YHf2IIFEqnoxC9qSGiSAhMDSGVftaveOgA3RdPItA983Gga4gphFOZhHopzukGlbaYea8eAlhUo6wuVYUJuFccxIgh8qPUjTkhY43d0ajyWhz6bfjcvkvyhUYV6aC15wDj8w0ZOSoRrKUuAUjxrOz0jU1zn/RF7pg8aS1jcfmGEdKeV09WNkABxq0tNw1j5WN05trX56ajlLW0BqY54oJvyw5SJPu6n+1rrIlt5f56vXe6ZaFwbbqEovUUbDGMzoS0rEALh4TWvqci0ha+Sm9R3JAKHqPPoGt9BTJPa+lwtaA+6JBbbJohGdWiWZM1jWtG8E3aQTySY6lh9brNiU99AO82NWku4mD7Gnk3KVQYTfhjmkrBFxNq1guydoA46QyKr2lL/SDMCrE2tuTm0v3n7ebK0Gsa6iOIVkhQ0EFNQmCnFMQwvpqq5SLGRV6T+BYcjmoZcxK16zB9OFLEazJMyRRDspZHcrikrtOZH4Z7yMmfGBK5eHhEdz8rx/rM3iXK1InUyMImGYKGXd04gjbxSXKNu5eUVnsJXrWKdLV0DerobsQYj04JnzPytmtnf6/xsfbmLofZIHWj9dnzG7fvHuzneO+/08crBst/v3UaKIyUp/x1Nz+8O7NbcHs1TdYpHvz/qcfupqB3//0w2ePv8Bm/se8vPnebCnjv08mefAXLAsJ3TJ8X4zROIacTC6A8glqlb3+prb6WDFrPkiSD6vRySN9efv3Wjpx+RaF5c3uOHSfeih4UyNZB26UkIYZ5UE75ATeTuCBFR6zKJk7wet6bXCm9wcHIjlL/9TnXoZbA3PD//3T7dPzNnU+TFyub+efb3/48fnTX/KaXiFanpFZweKF1C3DpgaJWs6l5rPVxoyRWXbSoeub2Q170427lqSzLiUiaNzmiWTrjDG+iPfDL7tJfXX/8f2JlMJAJcxH3vjux/r4BsJr0EfbN5/Bm9EcvQTzxWTWN+/u1y9GO7NSlpMy+1NDve9zYeChQaQZPPPNYcjascebwrJviKEoBJiP/tTXv/2vD/edkHX/u5UylFivgo0a8RcVjJXBm/NCQchVlADRqoErsR6rz9KdHjOXYEDiBbPGe7wFBmwFPnSVKIJPgie9fuJZ5WlPj1nQ2+Rgjl32oDQcTlHD3Yf1Fi6czD6s3qPWY3ZjgDA93WAm6dDQeNG+hKt315tS/BcfzdvjGTfr6Nzwp/9pc+0OzYt+XoN0hdTOcXwcMaglpPNIyJhZcdxmj4XGOv3H6Z+ecaxbv0vH6ELmrDYX4Rvk7yzgdwmuuNIteh4N4adJpz/+6QKqmPMKq1YQ6hYD/nRBvuYgdOHB62bK6KenK13BN4SlQ8js8Nk2NMVCjpHlWKIN1XjR9ihsznri+ipn/DcXgLl5b5wIcEaRlYhS47DKHAIzVqQBh9gpxcsa4Orgay7mykzVPhXLZONgJyHmg0vhKpMwOWM9l2Dr1hn0N2/61qLbH+6nB9MZK0wsuNXVGqZ9xhjJQvgjanQiV+vDqsjq+1t8WD082DQQEXnJyxzb1BP0h4RS9I/0BL13mAmiDpMLZ8YHBA2GaC8KCEayFQFudozWH+yS6OqsD/sCv/WCAWKZ9ZzTIt3sJa/enoK4XsILXMIMNrs1J1itiKOhsOUD++wU9zVxqYraq+bavYSHE6TXS0j+inpadFu90CXcM/nXS7jgJdyAseqoc1I2MVsxV5EUKNfYJBMmZRG4ALO4qDu6whztmrZ2H4bIfvEhvFYiIlmXd9nBaxU+BF+sZyYbiCq4CRCmWQUbUSAO0s3LNVrKh0K6OPs3r3it1G9/m3itkliM/rsTeK30q7SoOvlQbcOvh+U645cmsVyPtI5OzvQFWK4vmOk58HjnY7m+xN4eAj+vMenicwPhlNiiAvGnF8qypKLIUkWd4jjh9rILstL8lzC4M5oFdw2ubdoL4zkL2mI3kI8s9BEdkrP67JKTlzC4s79cguX4anCPf/sbNbjE0qJTBpd+lZbVJ1eLe7W4h2b6YVlcFU1sKmOeVzUGxhcfbmphTZmcrZSlqj0op5elD9f6+xI2dwa6667NbcVInXRlueXaAz5Enh0LThfwQrLJ0n5YNvcFQe5sc321ub8Fm+uWsbn0q7S0Rrla3avVPTTTD8vq8ipCkaIwpyr4pRX7srFWlutcdNUqKj7uTn+hX7pSwpcwujPqm3eNrgT/wrdkmS/NM811ZFHZBvc0SC/B+8jV/5cxui8KdOcH2FejS/79/1Sj65cxuvSrtLBCudrcq809NNMPy+bqGnlSXDEQRvBLY6gsGO1YM8Eqn4Q0ddlCmV6PXsLizqCW27W4iBBkjJVMGS6YFiYgPiFnQeSc4S9aiHi1uC8Nc2db66vFnfXhyywujbP3pMWlX6VF1cnV3l7t7aGZflj2lvPWlPQWLohCePwGzmmukRXNXXLOBuuXLXZY68JLWNwZQjeOcaMPiHzJA4JWc7idMSgPm5KVluCcG82vFvc/L7E8n0/8anEJn+2wXdPBxU/EuNSrtLBC+VBt7lyG6avNPT7Tf3ybi7DmMoBIOlUy045r5nXzrGofUhHw921hm/vuUvXKMzZ1VD6Va3NcVKakBjUhpGDBx8Iil1Y6G6tLR7LK8+3B1eKSvr3GuLM+fJnFJeqWUxaXfpUWVScfqr399WLcl1gxcYZncL69fYln0H1PHODl9vYle4rfSzp8XTdTfdZM9Qv3VJ/hw5izZtp99QIfxswHwI4t6uJ4QfxygYQSEAGkVJhRNnGvVXLlaDnnhlrokEK6f3i8ImBfEbDnLOuKgL3MaX1YCNjKFa1L0kx5xDOpHpGuomO1uKaLMromfgIBuwahYrWZBesgFlNCsNh8Zh6cqVIsqCx/GgE7yKiNMMzzUlHtwBiGe9aMbDxKLUqLpxCwq5bNFpdYjDIgBVtgCbQZa8VzlYKNokygaO9ORFj9SknHpVDBenGQVWygvK4I2PvfXxGwDyNgx+Kj5vieliW+pyGiRTCWNWVd4v9/e+fW3MSRBeC/ouQxRYu+X9jKVgVjEnYJsIYU+9pX4optZWU7G5Y/v+eMLFnSeKSWNA4mGT9QLlM909Pn3tPzHSGSbLGWZiTY7Wu/FMfrjXKtSVk0XiObMiXpsE8Y4pgC/MPAGQgefKCyigRb71hu4UrZWkvBSkksTXsobUhQmTXPwIzWlpcWCbaEoGH1srYKFlMW4hPYfFAwhmsGjzJnB/UGK61Pzu6NgF0v3SVel8zM0pKRLO6JVDIRm4wlNItIXdQcNG+NBFv9oP0RsOut4/6alNWYwDpmN7tgDUuEzlq2SkNcoozk6IM3UtoyR4ktFrf6QfvT3FIUDYYqoj2qjY6ZBFqaRmwqGp246OoA1wMBu3BYFi4zyQUxtD55WCKhEfRis0sy+NaxpJnf2+7Sl/2e5EF6QUF4wYDwYiAOpEeYMNqWEjMz4U4Cdk0CUuP36idwqz3SgW0qFgkNHMYkqZHQS2EGXJnACy+x1ZyxVpL9EbDrBXh/BOzqNHEJTq+QZ4/QYyhfYdpgaEEUAabpvIZgYUBEa4tb/aAPIqj0RcCuz59vF9dZqr0FN+lLhKAiHLaq5pyApjuI3CJTansLKnsTsK3hxWsHBkURM11QgTy+UA3YHFImFsznImAnxH9bzwkkxaCd+ErLRcQ6O89LMpwxvc7arSNg84GAvW1uD4KAbUpSGUI+yZCugifPGjsmQCoHyQenjDObKgnY9VfaTMCuz6m3EbC5t1w4CEucekEkGBtxwYAjNaUwx5Qqcz7+FgJ2VbLUIwHbZZGE9R6PUCOULiDmE3yWUB6irEpa+nVXuJXTe/OqYi+jHAjYfwQBuzCtnMKSNStIqgITBOooRUwoHPL+gI2CagnY3kctg4tEFwvBNFhsAKWxmZPJoWgB5ezuBOwIeWVwgVCdsIID/bTGFULhVsI7n4UsuxKwIczELAQkU05A6qlLISHyRLJUsQhaopCmTwJ2/RrvYFk9ELDr5XWb/FjIzw2FjN1ED2NkaDrQUBCPh2cRkAiZGgz1DmJdSmqjMQ59U8RuBwZqf0eh8qTg9gvjwSi6jqG+69ZV0l+7tc9K8RQtYVFDxpIzJn8OUmStVA5M6WR1DQEbOwJpCREmwSzAp+Ox2QyP4K2AKyfIRv3GU27177juEYHNNASgYBmJoQGd2QCpL3YgFkhAM5Qt9go2IrBDoI46wYjGVBhmA9E2aawCiwUVyJblRR/KrQhsuH/SMB9QxoD6lCDqRuFRqVXJNmsV1AEI7PpH7kluAwP7HvG7eEhdMF+IYIzi1gPki0aXZq8WCmouLW2BP1fwu90l716Zzp9IWveA360y7V5tb4Bgj/4AK9RCW4vHRpVVkElko4jnRpKitOTaUZmy22iF3Q8/WGH1qOq+AdXRui8rHCjYo3u0wsWp8siVUkZnAsIFpxqVINivl4SSWczcgi32LNguDHZ9ctw7BttTzxPcjCSOi5DAIfkcImHFcsMtVCNqntIOGOwd7zscK6++/58Bg11vSv36k4caHYZvp1dnOnzHZZ200UhPmCkOy89AAsNeutHroGWkPG788GJ3C+kEYR8ecvcGYXOtlcakv4EISqc93tqREEQWVEZu1b10ntj/S64BhL1x5BBya4bdBwi73pR6dihDzB1ibtdMH1bMpdlBVasT8YUKIgvPxOIeBjfBJQqVrub9vnjZhMI+POrujcI2Dt+8aUF4tolIX2BFvNREc6l1LK64/Ochlgwo7M1j/6JRtycUdr0p9e5Shrg7xN2umT6suOs81VJJPLDoEh59YcRiL3iuaeCZaeZbzd8PTU07YdiHh929YdguCssdc0R7PCDvsfUVpYVQU4xXIQbOHlix+7n2lwcY9t1Dv/yw2xMMu96U+vYoQ9Qdom7XTB9W1DWaBc8EJ4Fjx2qW4DcjA9EuRB+Co6r0hNLYhsM+PObujcM2YITWFE9iVGCh1OEXVAw/BU2R02yL5mmIuQMOu3volx9ze8Jh15tSv/5kiLhDxO2a6cOKuFQYFgULJCpriZTJIb5WkCiSM4IyJX3P73S7gdiHx9y9gdglWK9L4MT5iJ/TCkqC54xkn0QqnntwIEPMHYDY3UO/+JjbFxC73pT69igPNeoOROzVmQ5R10clmFORaBUikQ6irg2SkQhGEg1zWuied5e7kNiHx9y9kdgiGsW0QXKKBgt1jBP8KI14XlhOKkVn3YDEHl7pdg/98mNuT0jselPq15881Ig7MLFXZzowsTfNdGBib57pjIl9dD39LT95evqfa5+m4Gzj7JPkkES0yDbDQ2pSI+xFKUOoAE9kfIYaYD2Tefbvo9evX5JXx0dPOWWMnBw/J0ffvXn+7lFrKvMUY2y1cdvRQV8hoCMXCAan+eKKIVHj8spfXDWXoExyqbbxjFYvwUe/z8ZSqpQUWz7TWh0rRr9/8w0aDsHxBhZly/xXh8sRxhUxFlXMpNWxavRx6daUuW427l3DNcy8CWr1djTHNc10Z1KaddtBu+c4pr3Hr98f5y/rjym37v9xSef/taLxwmguPXYxFg4y5pgp5O4+EqUZRFkalVK6UuOfv3z9/tHqRHbfyOrU+L0ucaPxe41daPxuLqot+B1KrjsUp9tZCRqjNNiDyBuBaZKHDElbwhPLMRXOVIuGcafo4C/HL05WHNays2JMu22+Ypuz4lY6sc3+7hLdzOQl25aRdokObs0ko1scxp3OauZsNKNb5r3RWYGj36L8g7Oqd1aZ6WJ90xyCQk5uC9QEKXuI1oGLUCBJb3FcN2n8ssManFW/zuroOtwIDUl74JAUsRwxk0wL4rJUhElNkVnlo60V2puXz5+/eXnyaGkSCzdFuangy24Qmhw7piqEf6ebsmNmK0ymQ2hyjDCvXYdLHN5UGOM6su4fJ/Psi1N4CltJbpERlomPWRCIA9JBKZ9jq0fe09cvXh6fkOPnjYgXsm892LLMuaM7C2xF5nysdQXk+W6Zi7HZfexC5mxsq6rlLpl/fjvHZZxe30J8ZXTeJPyaJ6Khq6RISFYSI7SFxCQ5J9YN/em7796Q49+vyHt/dkZ+9JeXT36CwMmsIE8+jb6Ok4v09bd/x7YNagXlu8O2ytvraQHdG53ki5SnSOqb7/DQ7JKCjJdknQo4JuuJFUKBzmqpnU+gtTfbTC/9xzzbVvnksuYlJwdlDG3gR5oE6wxR2XN4dk6NscuD+GxbumQRuSMC9J5IHgMJJShivMo2aivF/CDYbJBo0jvhHZU0kgSlJ8KjkQ2iMqxuAl+nC48lzlhqs0FytpkGmp38NF2+uCiT6XmzjdgWFY0sCSMiodQa5P45mBDNxBprmMN2B23kYL14l283X20QMqz+ZIqC3iS9m40wkFVaiO5mFxTVo9JiFquwOpebC+2wS/UmT6+upwFpxLNlhuEvLi6vz5qF3ZrZtYbPp1BpfXiN11c/w7iOKzV0RST7nvqzR7sp9UKy7MUrWLDrGCebc59b83t7Pplc/Vzl+k4m1x9+xs5AN0FaVSS2XyG99TT+0jQU+nQ+69yiHTPu9qfjKjPtSyjv35DZ+en943PStFFhVm2rAuZXeIatXXDwLx8enwscbIUeu+13b1TvZgN/1gnn0z8e//JhNgE6rkZZN+xafzb6LlxOpr9eIbp2tzD/dnLmp63hrgopjntmp7MmUssX6HQuK+pnOEhYQHLutWTgJIwjVrJESi7ceu0La3WPq1PZv80i0exWS4jI7TOKQRUaJImYhciSEgnKW5KpTUYLWwprNUU4ZEYrN6+PFoubW7DGo9evjk6O3x2PfniP6O2nZ+lDyzRvrbExsQrNaFkjp6Iu6Vy3RjYWVfvn3dbIuaxFJt9tjZYufjpn8rCtse77x4OsUdrADE+RaI3E45Q56HHWpEjhuRNWFxVbbRVqVHZva6QyWsjawT84hh+AG0mCVJRQURzLueRIW/7hkBnN//Lk1aRJH3bLxhZzgFh7GuG6t6F/pEcnRPCxXQkqB4dINTbWaS00gx+jNzWBm6vlSb48vbya4c3POfnn4/d/Gf1W3ClGPSUsYBorCwVtko7kJGQC3beFtdolVUm/xrdX5edrmdZjDt79+4+/XkI5tcGB9pFpMV63HdLOtFgVv6/btxsrq5Svw7c3+6af27fXbX926n5dX5yDdJ9pUaRJgUBKAjlKLoIEh9mK9l5wcKahddR5h5JyH98ORuWCBstyRoRZYyio3iBrStlIMC2mYwsmf8iMWlWtkIHmxAwxUCwQSbUnnoFj4MrmrI2X8J9dGxAnk0khP+YrCBXNDgSny/m+s2v7Eaz/7QiTDATGAHEtRWwwxRTxwhRSuOPCKe1oZq3tCA2CNwE7C4HhwCN7RgJnEOF9iZYpEf08U51vR9RvEqiQqM9wMRoC0tZ1Ii5qWE4ai2A0W93O5etFsGmTAIWx7yYBirDO+WzeJNjhNcAXt0lQr2oLyTbrOkLBLFb8zhXqI3RRalaNr+NG66FLqjGv2CPYGLq4GNddoR26pHPLYzuj6F++LFGwOh6ydhLxbI004FNcSRq/14Gst6jiXavbW5XK7r9JkCH+BJgMFEoWv6yDAiVSRljhJpUkwJmt05cPmtFdZUmVK68qSxQba95rWeLGsCTWMckFgkQ6VWwoS5oSIxlQbyuhDsE2OZDJYEfWQiwVRrEcTfYtbaoP5BWJUBDG4Vl3EgseoC3KEeuh3s6WU+uNY4yvH+pZJELP/MczbHD07LSU68s8ffLTt5DvSDp6+8P3R/CrhuJ9KRdiY9F/KqRiYDxCQqghycDXE5AVWo81WlJRRe2lSMtZzQyq/v70Ik3+uzCtt6fnv57l78/8/+DSbz9eXuXzR9UXXztdvHypOxZkxEaYNOJJzaVzBFUdy5uV+Ik89/FqMm0iEZ9HgjqM+kLRm1DyvT+9WH5fONvnq3rZt6Ty76b+4vL89OpG6f8PxEpZFA=="
+          },
+          {
+            "name": "btap_results_json_zip",
+            "value": "eJztPWlz2si23/Mruvy+3KlnFO0L7+ZWEYxjavByASeTSVKUkBrTN0JitNhhpvLf3zmtHQQYJ3Y8d8ZViY10+vTZl+6W+OMFIUdBNIli23ft0I0mIb1lEQv8ozY5mirK1KXy0fEG1C0NcyBRkAUlA1lSP4oTlwVVAFnQBVEwHVOa2TNz6qSw1KfhzWrpJTVkpmAJYgrg2jHlw0XJaolyS5aIpLc1qa1I5H9F+EnBpgnzXObfAOgf8Bmu+PaCD/x3wpzPIxreMocOKdCehLYft7qdi8nFePKeel5w99lnMyp0rgRDshRdnHTf9bowoS7Q5R1xQgo0uG1SJ0E12mKVBJjSCXyXxcADdSczLwjCiQ1jJwsZ6JAVkI8qW5pkqhk4/RLTkNWgVFUVDFXTTcVQZBP+MjLY28BLOD+WLgmKYpqGqaimpBl6BuAniykNJ8EM1BOEjEY4Z3avVFgTlLQDyp4Gt3RyEwaJ795ziMduQQ+TxGcxgvqJ5+UkBgvm214mmjiYOJR5CDun7GYe7wFO/6iBAuRXrv0bGtyE9nK+KtU/d134YEqGKIi5evglTSkveGwBqp38DhrjZlcoksWI6qhiHaRzdVRyDYOWYQCMOhRc5SYz24txaQmJH4ccBxhaftWzYwZ+gXPpsqDqSn498G/yGy1JUgVVLViLlrZD49WSplYyhf8+u8GdX3LKISazxHfQ9CYtEL1LZwyNsAVQObNrYOAsKHqOtDWZ2uHEA5pv6EuPsigJaQaAygY/kAxJNTRLbsY1CwIX5EGXdmjzC4h1bWTBEAUvAd06UclBHMSgaZ9OJ04QoXIlU5YMQZLz+eoAkyVYGncXwxRUUZcMFRzCEjUxt8ueR504ZKjGOlpRBe/R5B1gFeSGoKuWroO3KZZoWbnbXtgxhBCPvLGjKvLSzpoASrQl3CWrM21ogqFb5Y/ZAFfFY2i6JkmiqFqWJhpSDk4rXG3Qtn6ziS4/pX9yA/RvIFi/2YTAdtMwCGAb49fuNQ1Ptb0xsrxcG1QaFoSoJKIVu5pD4EYjv/lPJl5dLvwz8Io7YKS57JifhWQPw0wBoZoQu9ejdh1EXMdAf0vYckH9OL0vq4KpraNYg8lxzGw/ykZpgppHiWWyWGaXRUHKyUEeIQT9h6auWMMzTxbMZTPm2A330nEOxPdwlUkIpJl70B2EuHASraKYLrJJFUnQzMbb6aeFgjhkRdCsDCqks5Dd0LBh+htM/DYklKh+PVVyrspsYlkWJE0sf5Rm4A0yNkxjQhPWZB51r9JMXVNFQ5csWVU3DKZmfLKuWaYuSaapSiKkbGWHHVUHyqIpaqomqYqkG6ZhKDuMqzJul41V0UuibmmKpWuyLkuqbhi7DG8Tf2Z/dYyWqomyAQFHU1SjwJgbZU0qoqiLsqaBJEXDABEZ1jZj3Zx7w2YbQNZMtza3qoimbOqqaYoyUKxoWwy6xpyiWZJl6IYmq7IJkttp5dWRmgJGgmNNzRCtwinXDX+Th5r9b97ecIMSBBIY2KdsWLoqabKlitZub9hFbuEgC4rAS6gtKuEzzxWTOyybVAkSYlluVtLAHa99OkcFtsQHfJN5kIQVbJkHYTS1oCo4rvngWiiP0nI946GEqdcLWYUYOE6ytH1nxYO8ABpURWBPNtG9GtIeymNF7XAtpK2DuPYqpQqMSZQlrLhl1bSMbSgBnv/OyMlyFyRn8APVMiBZQ4o2m+RXIagxT84S6jUD1XSc3a1F4BpAzhEUNJICVg4+ohiyaGlbgBvYkcDeJKiIZEmEykM1KhH2lnrQ+JVKCpLYxYr9zva8qNLiSJBMDUmSLE1XDSxzcqfJB4RBMKsOkDUTUqeum5ZkYE+kr8HzxqA6oPCxtG1ZJ2Dt9vp0a7c3sDc0ckU8vg/wHfOhfq8CKVDqQkS1gEEZ01vuG9HnFU8DTdS5W3jGmAj+4k62AWRRYrP1hCwBtm7qCgTuqpjTAZk0dnKWQuZq2d7UriswUxBQbt/QCTbRiQONJfp/Frwmn9M4rWvNtnKPoVKzWvePVIrsVWhu3yAI0dmQfFmilMr+CWXZMHUdygJwU7GMGAWqXBWHkF4Mvs/8hgUGIIKeoOuRpJyVmXuH4UUuo08U1qMR4IziMOG5vQz81bJjBlkPQHhaBIAPGQApQLPYmK7cvB53rlq9L3HrxE4d4YTNZpDbwvb1K6yARTI6e9OFP3VRbLX/IB/5AszHo1f/AgV8zZruHCckpLrHmbX78ZyGC95elHIBiaSiqek0GxAFHvTMwIsfLVjMB3Bh6DUoXESbepTD1cBkqQD7mv316XhDXsHS/i2hB0hqCP7QOqfgh+3rFsgIonv1x6yLCd1ip5x46NUPE1TpazVJ2dMoCJelAIyS/+N7MvcO4kTr3I6ilDdT2eBG13ayk6aeg9nJo85OfvgKxzaFpi57Tz2+CX23dYrxqWQWPHmnnngwPpSxIjzcV1E5Xy8qajvKI8reCXPeS84Lvu04Zk6FwaNF4sVs6THKK5rKjWIdVNZkwTIk3YS8ZSo6VFcVqMKBMLXkq1FFoEqZ5UtYfGEtp2KEl8hptqpFWqRYSCOtKnE5p/my4WjZ4gyQ0SpqieTUC1syGTnzVg0DObvynEXccoKQkl8vqghxUS+eY3hGlGWuYCGkqbvJ7fR3vjBYGcH8GfOyQDqBYnseoHUdgdXcvexlzHeQ7W1jOOJ6zyZXzPyoKKonkTOnbuIhp+XyLIfh9eJ1RHt5M8mVXNz/lP1V+HeD4k/SRcaDNK9oKjq/BoW1CQW5vk/vFhgKlCA8qeGPdJAVpBQSxAU6nNohqa+TEneDhQb7yLCggSjcQCRuIK9zo4hA5/OHWIUoqJL+4y3j6KLXfd163boserH6iFq3XblVLHNUppTqjlp2odUeuObK87u8a4k2/LzZSEnxU43DuJ4BLXAqgjDdeNIEDbpmWZVF3bKghKUtsZYQN8ZwOjLTg7rXFCXRguZRMwxoYWC0uTYaqQci47QPhH8Rr41akHkt2YAwp4iqpliV/FJG4vs52c8sBk35z9nLToPAJZUdBO5ve3wqY2u7U/lB+FCnkjRL+VM5lajt8ypJUPd5FV+veCrHUgRDlEVTVnRdMQzJPMixFLBN3VAsDZciNU2VDnAsDWo1MGnosjSojg1R2+1YL/JPlf24qOC16HGaS5ktjnafMmZvEfPgEuY7FzCHli+He9MBvrS/cNldttRq2w3lrpUre7W7LYgeGEIfoUz5LkXKQ0qUH6D97XF0a2mytzDZV5bsiJ17ImetMTy4HPmWYuQBpUhjS7jhNusFyDPym92Fx/cpOx5SdDxrNymLjb2lxj0KjcdylX0FxreUFw8oLtZc5UW2PlQzsR11xTfm6PI42lHT2v12n2TRpHKsjZtJcFS9y1wK1IMtT7zAdpGDme1FtADJd9kj9jv+mtlOHIS8IKjoOd9e3wnEnSdH59KI3fiTKFkuvRWfPqaLJe6pQrbDaCeuj8zn2DdSUtdrrGi71W1bwULFrpb7a7JN8yg95/D65EFJvGYam4e9DjGN9yCq72EblcX2raYhVbL1YZahPNgylAdYxsYS13bTuG8Rd2+j2UlYh4VkDLEHN9HJCPB6lJwkTkyufVBrHAaeByYqb6EcEg2G/m6wWIIIYb6SqD3r+b8CPDl72+mS13ZEp4EduqQb+Ld4KOSWkncY8rdNi2NxaNO09/WQByTwv13kUV1kc4Fqu480F2xP6RHSj/GILdPe3yOKiiM1tmC5q9pYRRNlcjX6lTwopTTXNPzWIfg2dJmeMKgcrceDQtyvGp0yBX9Ik8qRVyDTCjEvUsuiWtHMclAVflCUs4BXgLZL1DRZt7SSuMyFZnZ5lLum2O7b6nJfrphT20fTwIP3MXnL+6VarMSzexM6mzGH0fRIlChAx2ZUlwcXQYxHAOtAulQFAQeL+CnwkEX8uLpaX/xb2F84m2X1XCvgVbkCi7fdSdEHLIM7gMMzY7oOOsv3wb+WDpseEP+dh9KG5exu7oohuUwlTtBxa1LI3HWSC/Mi6JVYN2bMg5sTMC+qT+p+gaiKgWASLSmtb+FurHGWFDIPtMSRkpNf8lAyQgxEJrL6+XWcvJyHvNQc9XrDmmtzgpa8C8ETZ2u38lNv2WloG6IjnkDj8oTOvnqwoLaceVzjKb4LKgw1QqEwirDP+7Cj3dt7RapqECNHVpy3taM90+aQudEcIPazdCjJz/avVRIVB8sh1u/nEs5ly31YlPX0QPFu0daov7fQJvSLM7eh0Kta/NfddUw1QD+gotkdoe+P8ElDdG2B5L4hWlIMeU+IBryCYhoyPu4hy+ojhGjp2YXo6nGR7SFaUwzBMDaM9oEhWvqThGiJyNLjhGhN00H0W7Zy/7IhWvoOIVoWJVkTJOUHhOiisF564PL7SuuzIM4q+gEAlhE566xwNEzG4rXGypQrjRUHygZUwCYum81oSNOjW1h3FiP4cxr7O6ArACNv7ZDZ09IbmhsPBG3noByyDsdPIS95w2xYiiZXg1O+spsGp/raL0RstX7griEuQYOqyzWgSsQsAmbD0bVyTR7MgIb3EUnIFna4Iq/5AKLoeWQQBVM1SOf0utcsoHRAG/TN1V0HwjP9OeAp/H3JvP9ZW/NoMHJJVFVNUFXJkixRNEpj39dhjjBiuxU2xB/IBc/KO1TjzBmmjjIfUVbz0U8bWSHmhrGRBTbgy+dJcCuCfVmD21lxndsMCqL0wZSHOLAuHurA2uH+u0kfQT/d4cF5pbLTg2VMWvdwX0sQN3ZZGrxXXIsF3+K7P956dipE0m9sj1QeNM5Uc8axkBZUxUWlIYhkjGU56c1mzRrjY9Oh7XNOwLrCkLS8tq+Vj9KazDNY/mzRerpFN90U/1qyo/jSBqinJzQscyLIKMTFnaqpQgQNHKhVR9lWY99fJnGb5B/bJ/aq3ccnaG5t79XHo1738uLyvP9rb0jOO7+Qyw45HXa64/7lBYQ/kVx1x+Skd9q5How/Hh2T15ByPxe4yBg4IQO2YHFELkAFhOFkpNUid2AVxIfcO6UEJmL4XglXKL33MCJH3bPeyfWgR04674n0bAgRnw0lz0cm8rOhRHk2lKjPhZJnoxztuRCiPxdCjOdCiPlcCLGekpD31A7vlQ1/AFGFVIbw36g3Jk8a2bYR8aRBbRsRTxpHthHxpDFkGxFPGj+2EfGksSNvpYCQzuBd5/2IXJ6ekpP+qDvsjXs/mJILApFk3L+4vrwefVdSunPqfL6OqNutPv7b5q0Mxd15IpkkWwXwViTxE4AltWeFYbJ0PoGQ0yAk9MvSwy6EuDS2mReRwCfUduZNg48JXMJVZpTACbNv/CCKmRMdn7Bo6dmr3pc4tN9lXcn/lWS/oTGP80AVNlRvoLsHoq9osARpdIPFFOjl5wuCGcE99gGLYmL7Lrmc4utLUiFlb/EANgk2fCQOAoIv8wI+KmBomFedbo+cXl+kofukf9G/eEM6w14HWsDXnSEZXF5fvOm9HPT6o+thLwe46l1eDcByAF9Ow0t+WKBA28ogR+9HuFMzGOJOTfeM79QMuufj1ujyenxGfr3gSPoxXRCP+jfx/NUHSVQ/kX+Rc/sLWyQLMigui58E8j5IyMJeER9XAOOARPMgjKlPoLfkrEaAbZRew6VcvFwVzHRFPmifiDO3Q9sBKUepGdl8xwLUyH5L8FHwiMxA3fGcRQV/gDcV5dyO00Fgd1zr/0B64AOSBB/BZkK6BApg/p8OkwX5VnXsM6MBf23DszGjQf/N2Xj0txk9EzMq1LHPjPL1mOL087OxqN6g1yW9f1/3rx7NqsxHtSrrv86qaiqpWdbJL7jtBvaEv9rZpmf75Jd2uunJV36Bxu5lfwBFwuUAseGWKPyGUmp01eud8FMrP78eX788GxZbolhGMJ/XBIQIgnBlhzEZBLZLTlGwaKPdIAypl9prNwlvU+MgrwA/ztTCRw5kUZJaw95pC69cDU5PrwZDMrch60MBAkYe4rYblh4JFfg8KaJFZhqLJOK1yT9f8TVO4uR3CegIUb3CtzNYBNQI9yWNoxjRmG9BOjVUYEq4CIvOFMGFjG7cqGZ+AlZVShWKGzLKXn5KhnwvMcIZHNtzcByYABrPDoEDWQcLnExBIliKAWdo1J2zYZ/EFPgvDpkSN0FvzxjLJDjFt0+A7MiQ3jJ6x8duUJ+TnhdkCNTzbxhYdIiiGtJsZ6J0C9xKJbh4LJCOFwVbSzHSVItxNLMkxNVqcpNAXQm4n1TEuM3/lxZxhuccX/7WLlz5Z7rKQ/ibzqh92un2B/3x+49HEH5QMjPO6gFYoAMaD/vdcaaH74jxrNcZH46R/3/KPHrpe6vvxPej44R8Amkpys3+Y3Wzpn1qO8yDPwDvP8ZsQUcxXf50TGwvpLa7wvbpYw015tt3mL7SJIXWPA3iOcn3dAQaBTwMFhcWcbjRfaLJnkNwnAN1Y3sKlh2CCSNCyDXFIQKekDmzqUgK066EWAzJh7RxWdK/Iwt8zqnSJTLw0VvmJrYHs6UEVMN2FxzwJKBymhF3JkTyoIQIau2wsIU7i2mf6lI/AudjvkehnQ1XLRDTlFS2fCF1ecCISLpCcVaqEe4VacmSoEP+QmkRfEovTIMF82cB3B5eX0CHMuxfQmQ7JqL0UtSIaLZFGYjC30o2cEnzk/MxwaltKCmxtqxMFvHyCi2OwczRkjoMJAp3QXkLDCJp8Hsk0TbF5b9F+7iiPU0gGuATKJjQUKA22yKsfxIZ5DlGD0ZvcyATRzyTLQMICVMehzAj8sw1C8GNX85CSn+nXAmIui56UZAt1BAX4V7Ryy9FnYhiJnqxEP0VnxzCDUS8CNMrhhlUwR52IlyhaqfsgLA40fgj/cT1NLdvsYdCRKmdbcMjkH5xv86fhA+TaimHhMgbeHEEnqMgvF+DgQSfK00lmB5PzI/OCISvtaVLZVGKT/kJayLegkDFvMQKHEba5OwX7GcYzxcFHmTubs5wIS1Czsmc3cxJBH7ERUdns/SJE2x+1iZ72hj646xREgz5/taovxRNUHBbFvEkh9JWxGdvjSq+LfG/xxqxSwC5BUno4B9Z/exijz9gM9pdOR7tgtbb1xG9gmqJ9iKownmQfgXmeS2MoLB++4aAjZ6f94bdfmfQwk4ay8u0UMNO1A9I+kUlBF8/n1kH6cfIrcc+UyiA+JIAGt5dGAB3BU2ZPNBGK5RC8ZJ4Lgg/BvZxFH8Bcyo5aAyuY2647THUMLPZI7OLxXR/MOiMewSc9a/A8bA36p9cdwZ/FX4vOuPrIbALLchfgd3uZefZqfUKj4YTPPaJz/fyAJhWpx4ePqwFaQ934Y4JH4EnOKF3PO/0L8ioN3zb7/bIO/BUXAS8vPp49KC0/LC1PshwA6C3LLwb8zENQ0h15ZKZ8LDKYR+JW+vYPwGJG8VNlbiyiLHXS5hq9bLBRF7NrGd8/K4ixjtpqEHwy4zaT2syP5pZzmt2hPdoZse2V57tzS9H9JaGtHL9Rf6ytzCZriYbR1rT59oF/j/umws3NBZcOrMTL8431EdwCS+n34sVzNKN5WK7HYIL0A2sYmFYfXdII+70LfAfxE84zsdCFkbx5+LbH/jgT+knvovf/rDrhSOf8nnwQTshfWEA7m4I+Dl7MGfEr57ytwjUKf2Wl9A0zphZ2/eesTik7AQuxbcnhbXvmzr8e4Hosvoeh/t8uVsQ7Ryh6lCIm5olKno+R/GOdqiS2fqX0pgyjBAlSxMVRSu+Z6QYstgcImmKpGi6ZWiqruha+l0NL77+P4B7H6I="
+          },
+          {
+            "name": "geo_city",
+            "value": "Yellowknife AP"
+          },
+          {
+            "name": "geo_province",
+            "value": "NT"
+          },
+          {
+            "name": "geo_country",
+            "value": "CAN"
+          },
+          {
+            "name": "geo_latitude_deg",
+            "value": "62.463"
+          },
+          {
+            "name": "geo_longitude_deg",
+            "value": "-114.44"
+          },
+          {
+            "name": "geo_heating_degree_days_dd",
+            "value": "8170.0"
+          },
+          {
+            "name": "geo_cooling_degree_days_dd",
+            "value": "53.0"
+          },
+          {
+            "name": "geo_necb_climate_zone",
+            "value": "8"
+          },
+          {
+            "name": "qaqc_unmet_hours_heating_hours",
+            "value": "0.0"
+          },
+          {
+            "name": "qaqc_unmet_hours_cooling_hours",
+            "value": "49.17"
+          },
+          {
+            "name": "envelope_conditioned_floor_area_m_2",
+            "value": "232.34295184"
+          },
+          {
+            "name": "envelope_exterior_surface_area_m_2",
+            "value": "444.74568373287457"
+          },
+          {
+            "name": "envelope_building_volume_m_3",
+            "value": "961.3388783481576"
+          },
+          {
+            "name": "envelope_outdoor_walls_average_conductance_w_per_m_2_k",
+            "value": "0.165"
+          },
+          {
+            "name": "envelope_outdoor_roofs_average_conductance_w_per_m_2_k",
+            "value": "0.11"
+          },
+          {
+            "name": "envelope_outdoor_floors_average_conductance_w_per_m_2_k",
+            "value": ""
+          },
+          {
+            "name": "envelope_ground_walls_average_conductance_w_per_m_2_k",
+            "value": ""
+          },
+          {
+            "name": "envelope_ground_roofs_average_conductance_w_per_m_2_k",
+            "value": ""
+          },
+          {
+            "name": "envelope_ground_floors_average_conductance_w_per_m_2_k",
+            "value": "0.379"
+          },
+          {
+            "name": "envelope_outdoor_windows_average_conductance_w_per_m_2_k",
+            "value": "1.3"
+          },
+          {
+            "name": "envelope_outdoor_doors_average_conductance_w_per_m_2_k",
+            "value": ""
+          },
+          {
+            "name": "envelope_outdoor_overhead_doors_average_conductance_w_per_m_2_k",
+            "value": ""
+          },
+          {
+            "name": "envelope_skylights_average_conductance_w_per_m_2_k",
+            "value": ""
+          },
+          {
+            "name": "envelope_fdwr_ratio",
+            "value": "20.0"
+          },
+          {
+            "name": "envelope_srr_ratio",
+            "value": "0.0"
+          },
+          {
+            "name": "peak_electricy_power_watts",
+            "value": "54177.76"
+          },
+          {
+            "name": "peak_natural_gas_watts",
+            "value": "NA"
+          }
+        ],
+        "step_warnings": []
+      }
+    }
+  ],
+  "updated_at": "20190221T165143Z",
+  "weather_file": "dummy.epw"
+}
