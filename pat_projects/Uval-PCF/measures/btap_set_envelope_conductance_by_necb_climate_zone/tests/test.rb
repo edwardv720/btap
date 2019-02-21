@@ -42,7 +42,7 @@ class BtapSetEnvelopeConductanceByNecbClimateZone_Test  < Minitest::Test
             "type" => "Choice",
             "display_name" => "Template",
             "default_value" => "NECB2015",
-            "choices" => ["NECB2011", "NECB2015" , "NECB2017"],
+            "choices" => ["NECB2011", "NECB2015", "NECB2017"],
             "is_required" => true
         },
 
@@ -51,63 +51,63 @@ class BtapSetEnvelopeConductanceByNecbClimateZone_Test  < Minitest::Test
             "name" => "surface_type",
             "type" => "Choice",
             "display_name" => "Surface Type",
-            "default_value" => "Walls",
-            "choices" => ["Walls", "Roofs", "Glazing"],
+            "default_value" => "Glazing",
+             "choices" => ["Walls", "Roofs", "Floors", "Glazing"],
             "is_required" => true
         },
 
         {
-            "name" => "zone4_r_value",
+            "name" => "zone4_u_value",
             "type" => "Double",
-            "display_name" => "NECB Zone4 Insulation R-value (ft^2*h*R/Btu).",
-            "default_value" => 31.03,
-            "max_double_value" => 500.0,
+            "display_name" => "NECB Zone4 Insulation U-value (W/m^2 K).",
+            "default_value" => 0.59,
+            "max_double_value" => 5.0,
             "min_double_value" => 0.0,
             "is_required" => true
         },
 
         {
-            "name" => "zone5_r_value",
+            "name" => "zone5_u_value",
             "type" => "Double",
-            "display_name" => "NECB Zone5 Insulation R-value (ft^2*h*R/Btu).",
-            "default_value" => 31.03,
-            "max_double_value" => 500.0,
+            "display_name" => "NECB Zone5 Insulation U-value (W/m^2 K).",
+            "default_value" => 0.265,
+            "max_double_value" => 5.0,
             "min_double_value" => 0.0,
             "is_required" => true
         },
         {
-           "name" => "zone6_r_value",
+           "name" => "zone6_u_value",
             "type" => "Double",
-            "display_name" => "NECB Zone6 Insulation R-value (ft^2*h*R/Btu).",
-            "default_value" => 35.05,
-            "max_double_value" => 500.0,
+            "display_name" => "NECB Zone6 Insulation U-value (W/m^2 K).",
+            "default_value" => 0.240,
+            "max_double_value" => 5.0,
             "min_double_value" => 0.0,
             "is_required" => true
         },
         {
-            "name" => "zone7A_r_value",
+            "name" => "zone7A_u_value",
             "type" => "Double",
-            "display_name" => "NECB Zone7A Insulation R-value (ft^2*h*R/Btu).",
-            "default_value" => 35.05,
-            "max_double_value" => 500.0,
+            "display_name" => "NECB Zone7A Insulation U-value (W/m^2 K).",
+            "default_value" => 0.215,
+            "max_double_value" => 5.0,
             "min_double_value" => 0.0,
             "is_required" => true
         },
         {
-            "name" => "zone7B_r_value",
+            "name" => "zone7B_u_value",
             "type" => "Double",
-            "display_name" => "NECB Zone7B Insulation R-value (ft^2*h*R/Btu).",
-            "default_value" => 39.99,
-            "max_double_value" => 500.0,
+            "display_name" => "NECB Zone7B Insulation U-value (W/m^2 K).",
+            "default_value" => 0.190,
+            "max_double_value" => 5.0,
             "min_double_value" => 0.0,
             "is_required" => true
         },
         {
-            "name" => "zone8_r_value",
+            "name" => "zone8_u_value",
             "type" => "Double",
-            "display_name" => "NECB Zone8 Insulation R-value (ft^2*h*R/Btu).",
-            "default_value" => 47.32,
-            "max_double_value" => 500.0,
+            "display_name" => "NECB Zone8 Insulation U-value (W/m^2 K).",
+            "default_value" => 0.165,
+            "max_double_value" => 5.0,
             "min_double_value" => 0.0,
             "is_required" => true
         }
@@ -116,25 +116,23 @@ class BtapSetEnvelopeConductanceByNecbClimateZone_Test  < Minitest::Test
 
     @good_input_arguments = {
        "necb_template" => "NECB2015",
-	     "surface_type" => "Walls",
-       "zone4_r_value" => 31.03,
-       "zone5_r_value" => 31.03,
-       "zone6_r_value" => 35.05,
-       "zone7A_r_value" => 35.05,
-       "zone7B_r_value" => 39.99,
-       "zone8_r_value" => 47.32
+	   "surface_type" => "Roofs",
+       "zone4_u_value" => 0.59,
+       "zone5_u_value" => 0.265,
+       "zone6_u_value" => 0.240,
+       "zone7A_u_value" => 0.215,
+       "zone7B_u_value" => 0.190,
+       "zone8_u_value" => 0.165
     }
 
   end
 
- def test_Zone4_conductane
 
+ def test_Zone4_conductane
     measure = BtapSetEnvelopeConductanceByNecbClimateZone.new
     # create an instance of a runner
     runner = OpenStudio::Measure::OSRunner.new(OpenStudio::WorkflowJSON.new)
 
-    #load model
-    # model = create_model_by_local_osm_file('/EnvelopeAndLoadTestModel_01.osm')
     # Use the NECB prototype to create a model to test against. Alterantively we could load an osm file instead.
     model = create_necb_protype_model(
         "SmallOffice",
@@ -152,22 +150,16 @@ class BtapSetEnvelopeConductanceByNecbClimateZone_Test  < Minitest::Test
     result = runner.result
     show_output(result)
 
-    if assert_equal(31.03, arguments[2].defaultValueAsDouble)
-    runner.registerInfo("Zone 4 ( Victoria), test r-value of 31.03  >>>>>>>>>>  is equal to :'#{arguments[2].defaultValueAsDouble}' .")
-    else
-    runner.registerInfo(" \e[33m Zone 4 ( Victoria), test r-value of 31.03  >>>>>>>>>>  is NOT equal to :'#{arguments[2].defaultValueAsDouble}' \e[0m.")
-    end
+    # test if the measure would grab the correct u value for the correct climate zone.
+    assert_equal(0.59, arguments[2].defaultValueAsDouble)
  end
 
 
  def test_Zone5_conductane
-
     measure = BtapSetEnvelopeConductanceByNecbClimateZone.new
     # create an instance of a runner
     runner = OpenStudio::Measure::OSRunner.new(OpenStudio::WorkflowJSON.new)
 
-    #load model
-    # model = create_model_by_local_osm_file('/EnvelopeAndLoadTestModel_01.osm')
     # Use the NECB prototype to create a model to test against. Alterantively we could load an osm file instead.
     model = create_necb_protype_model(
         "SmallOffice",
@@ -184,27 +176,23 @@ class BtapSetEnvelopeConductanceByNecbClimateZone_Test  < Minitest::Test
     runner = run_measure(@good_input_arguments, model)
     result = runner.result
     show_output(result)
-    #assert_equal(zone5_r_value.to_f.round(3),31.03)
 
-    assert_equal(31.03, arguments[3].defaultValueAsDouble)
-    puts " \e[32m  Zone 5 (Windsor), test r value of 31.03  >>>>>>>>>>  is equal to : #{arguments[3].defaultValueAsDouble}  \e[0m "
-
+    # test if the measure would grab the correct u value for the correct climate zone.
+    assert_equal(0.265, arguments[3].defaultValueAsDouble)
   end
 
 
-  def test_Zone6_conductane
 
+  def test_Zone6_conductane
     measure = BtapSetEnvelopeConductanceByNecbClimateZone.new
     # create an instance of a runner
     runner = OpenStudio::Measure::OSRunner.new(OpenStudio::WorkflowJSON.new)
 
-    #load model
-    # model = create_model_by_local_osm_file('/EnvelopeAndLoadTestModel_01.osm')
     # Use the NECB prototype to create a model to test against. Alterantively we could load an osm file instead.
     model = create_necb_protype_model(
         "SmallOffice",
         'NECB HDD Method',
-        'CAN_QC_Montreal-Mirabel.Intl.AP.719050_CWEC2016.epw',
+        'CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw',
         "NECB2015"
     )
 
@@ -217,19 +205,16 @@ class BtapSetEnvelopeConductanceByNecbClimateZone_Test  < Minitest::Test
     result = runner.result
     show_output(result)
 
-    assert_equal(35.05, arguments[4].defaultValueAsDouble)
-    runner.registerInfo(" \e[32m Zone 6 (Ottawa), test r-value of 35.05   >>>>>>>>>>  is equal to :'#{arguments[4].defaultValueAsDouble}' \e[0m .")
-    puts " \e[32m Zone 6 (Ottawa), test r-value of 35.05   >>>>>>>>>>  is equal to :'#{arguments[4].defaultValueAsDouble}' \e[0m ."
+    # test if the measure would grab the correct u value for the correct climate zone.
+    assert_equal(0.240, arguments[4].defaultValueAsDouble)
   end
 
-  def test_Zone7a_conductane
 
+  def test_Zone7a_conductane
     measure = BtapSetEnvelopeConductanceByNecbClimateZone.new
     # create an instance of a runner
     runner = OpenStudio::Measure::OSRunner.new(OpenStudio::WorkflowJSON.new)
 
-    #load model
-    # model = create_model_by_local_osm_file('/EnvelopeAndLoadTestModel_01.osm')
     # Use the NECB prototype to create a model to test against. Alterantively we could load an osm file instead.
     model = create_necb_protype_model(
         "SmallOffice",
@@ -247,19 +232,15 @@ class BtapSetEnvelopeConductanceByNecbClimateZone_Test  < Minitest::Test
     result = runner.result
     show_output(result)
 
-   assert_equal(35.05, arguments[5].defaultValueAsDouble)
-   runner.registerInfo(" \e[32m Zone 7A (Edmonton), test r-value of 35.05   >>>>>>>>>>  is equal to :'#{arguments[5].defaultValueAsDouble}' \e[0m .")
-	
+   # test if the measure would grab the correct u value for the correct climate zone
+   assert_equal(0.215, arguments[5].defaultValueAsDouble)
   end
 
   def test_Zone7b_conductane
-
     measure = BtapSetEnvelopeConductanceByNecbClimateZone.new
     # create an instance of a runner
     runner = OpenStudio::Measure::OSRunner.new(OpenStudio::WorkflowJSON.new)
 
-    #load model
-    # model = create_model_by_local_osm_file('/EnvelopeAndLoadTestModel_01.osm')
     # Use the NECB prototype to create a model to test against. Alterantively we could load an osm file instead.
     model = create_necb_protype_model(
         "SmallOffice",
@@ -276,19 +257,16 @@ class BtapSetEnvelopeConductanceByNecbClimateZone_Test  < Minitest::Test
     result = runner.result
     show_output(result)
 
-  assert_equal(39.99, arguments[6].defaultValueAsDouble)
-  runner.registerInfo(" \e[32m Zone 7B (White-horse), test r-value of 39.99  >>>>>>>>>>  is equal to :'#{arguments[6].defaultValueAsDouble}' \e[0m .")
+  # test if the measure would grab the correct u value for the correct climate zone
+  assert_equal(0.190, arguments[6].defaultValueAsDouble)
   end
 
 
   def test_Zone8_conductane
-
     measure = BtapSetEnvelopeConductanceByNecbClimateZone.new
     # create an instance of a runner
     runner = OpenStudio::Measure::OSRunner.new(OpenStudio::WorkflowJSON.new)
 
-    #load model
-    # model = create_model_by_local_osm_file('/EnvelopeAndLoadTestModel_01.osm')
     # Use the NECB prototype to create a model to test against. Alterantively we could load an osm file instead.
     model = create_necb_protype_model(
         "SmallOffice",
@@ -305,9 +283,10 @@ class BtapSetEnvelopeConductanceByNecbClimateZone_Test  < Minitest::Test
     runner = run_measure(@good_input_arguments, model)
     result = runner.result
     show_output(result)
-    assert_equal(47.32, arguments[7].defaultValueAsDouble)
-    runner.registerInfo(" \e[31m Zone 8 (Yellowknife), test r-value of 47.32    >>>>>>>>>>  is equal to :'#{arguments[7].defaultValueAsDouble}' \e[0m .")
-  end
+
+    # test if the measure would grab the correct u value for the correct climate zone
+    assert_equal(0.165, arguments[7].defaultValueAsDouble)
+    end
 
   def create_necb_protype_model(building_type, climate_zone, epw_file, template)
     osm_directory = "#{File.dirname(__FILE__)}/output/#{building_type}-#{template}-#{climate_zone}-#{epw_file}"

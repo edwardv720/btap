@@ -2,8 +2,8 @@
   <schema_version>3.0</schema_version>
   <name>btap_set_envelope_conductance_by_necb_climate_zone</name>
   <uid>36fd01e8-5fcf-4fec-9117-90bf8d4071fc</uid>
-  <version_id>8f771480-80c7-4628-8a84-66b01d27262e</version_id>
-  <version_modified>20190124T173231Z</version_modified>
+  <version_id>640ec217-f62b-42fb-ab95-8ed4a5972bba</version_id>
+  <version_modified>20190214T214035Z</version_modified>
   <xml_checksum>A51D361F</xml_checksum>
   <class_name>BtapSetEnvelopeConductanceByNecbClimateZone</class_name>
   <display_name>BTAPSetEnvelopeConductanceByNecbClimateZone</display_name>
@@ -38,7 +38,7 @@
       <type>Choice</type>
       <required>true</required>
       <model_dependent>false</model_dependent>
-      <default_value>Walls</default_value>
+      <default_value>Glazing</default_value>
       <choices>
         <choice>
           <value>Walls</value>
@@ -49,58 +49,62 @@
           <display_name>Roofs</display_name>
         </choice>
         <choice>
+          <value>Floors</value>
+          <display_name>Floors</display_name>
+        </choice>
+        <choice>
           <value>Glazing</value>
           <display_name>Glazing</display_name>
         </choice>
       </choices>
     </argument>
     <argument>
-      <name>zone4_r_value</name>
-      <display_name>NECB Zone4 Insulation R-value (ft^2*h*R/Btu).</display_name>
+      <name>zone4_u_value</name>
+      <display_name>NECB Zone4 Insulation U-value (W/m^2 K).</display_name>
       <type>Double</type>
       <required>true</required>
       <model_dependent>false</model_dependent>
-      <default_value>31.03</default_value>
+      <default_value>0.59</default_value>
     </argument>
     <argument>
-      <name>zone5_r_value</name>
-      <display_name>NECB Zone5 Insulation R-value (ft^2*h*R/Btu).</display_name>
+      <name>zone5_u_value</name>
+      <display_name>NECB Zone5 Insulation U-value (W/m^2 K).</display_name>
       <type>Double</type>
       <required>true</required>
       <model_dependent>false</model_dependent>
-      <default_value>31.03</default_value>
+      <default_value>0.265</default_value>
     </argument>
     <argument>
-      <name>zone6_r_value</name>
-      <display_name>NECB Zone6 Insulation R-value (ft^2*h*R/Btu).</display_name>
+      <name>zone6_u_value</name>
+      <display_name>NECB Zone6 Insulation U-value (W/m^2 K).</display_name>
       <type>Double</type>
       <required>true</required>
       <model_dependent>false</model_dependent>
-      <default_value>35.05</default_value>
+      <default_value>0.24</default_value>
     </argument>
     <argument>
-      <name>zone7A_r_value</name>
-      <display_name>NECB Zone7A Insulation R-value (ft^2*h*R/Btu).</display_name>
+      <name>zone7A_u_value</name>
+      <display_name>NECB Zone7A Insulation U-value (W/m^2 K).</display_name>
       <type>Double</type>
       <required>true</required>
       <model_dependent>false</model_dependent>
-      <default_value>35.05</default_value>
+      <default_value>0.215</default_value>
     </argument>
     <argument>
-      <name>zone7B_r_value</name>
-      <display_name>NECB Zone7B Insulation R-value (ft^2*h*R/Btu).</display_name>
+      <name>zone7B_u_value</name>
+      <display_name>NECB Zone7B Insulation U-value (W/m^2 K).</display_name>
       <type>Double</type>
       <required>true</required>
       <model_dependent>false</model_dependent>
-      <default_value>39.99</default_value>
+      <default_value>0.19</default_value>
     </argument>
     <argument>
-      <name>zone8_r_value</name>
-      <display_name>NECB Zone8 Insulation R-value (ft^2*h*R/Btu).</display_name>
+      <name>zone8_u_value</name>
+      <display_name>NECB Zone8 Insulation U-value (W/m^2 K).</display_name>
       <type>Double</type>
       <required>true</required>
       <model_dependent>false</model_dependent>
-      <default_value>47.32</default_value>
+      <default_value>0.165</default_value>
     </argument>
   </arguments>
   <outputs/>
@@ -138,12 +142,6 @@
       <checksum>1FD7D11E</checksum>
     </file>
     <file>
-      <filename>necb_2015_table_c1.json</filename>
-      <filetype>json</filetype>
-      <usage_type>resource</usage_type>
-      <checksum>302D1148</checksum>
-    </file>
-    <file>
       <version>
         <software_program>OpenStudio</software_program>
         <identifier>0.11.5</identifier>
@@ -152,13 +150,13 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>0F71718B</checksum>
+      <checksum>FDB75035</checksum>
     </file>
     <file>
       <filename>test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>9F8280A8</checksum>
+      <checksum>06B5C274</checksum>
     </file>
   </files>
 </measure>

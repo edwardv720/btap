@@ -1,7 +1,7 @@
 {
-  "projectName": "Uvalue_PCF",
-  "projectDir": "C:\\b\\btap-nrc_207\\pat_projects\\Uvalue_PCF",
-  "analysisName": "Uvalue_PCF",
+  "projectName": "Uval-PCF",
+  "projectDir": "C:\\Users\\vuonge\\Documents\\Code Document\\TG- BE\\PCF-UValue\\Uval-PCF",
+  "analysisName": "Uval-PCF",
   "seed": "dummy.osm",
   "weatherFile": "dummy.epw",
   "analysis_type": "Algorithmic",
@@ -38,7 +38,7 @@
       "defaultValue": "full_factorial",
       "type": "string",
       "value": "full_factorial",
-      "$$hashKey": "object:1899"
+      "$$hashKey": "object:200"
     },
     {
       "name": "number_of_samples",
@@ -47,7 +47,7 @@
       "defaultValue": 2,
       "type": "number",
       "value": 2,
-      "$$hashKey": "object:1900"
+      "$$hashKey": "object:201"
     },
     {
       "name": "seed",
@@ -56,7 +56,7 @@
       "defaultValue": null,
       "type": "number",
       "value": null,
-      "$$hashKey": "object:1694"
+      "$$hashKey": "object:135"
     },
     {
       "name": "failed_f_value",
@@ -65,7 +65,7 @@
       "defaultValue": 1000000000000000000,
       "type": "number",
       "value": 1000000000000000000,
-      "$$hashKey": "object:1901"
+      "$$hashKey": "object:202"
     },
     {
       "name": "debug_messages",
@@ -74,7 +74,7 @@
       "defaultValue": 0,
       "type": "number",
       "value": 0,
-      "$$hashKey": "object:1902"
+      "$$hashKey": "object:203"
     }
   ],
   "rubyMD5": "",
@@ -84,7 +84,7 @@
   "openstudioMD5": "",
   "measures": [
     {
-      "measure_dir": "C:\\b\\btap-nrc_207\\pat_projects\\Uvalue_PCF\\measures\\btap_create_necb_prototype_building",
+      "measure_dir": "C:\\Users\\vuonge\\Documents\\Code Document\\TG- BE\\PCF-UValue\\Uval-PCF\\measures\\btap_create_necb_prototype_building",
       "name": "btap_create_necb_prototype_building",
       "directory": "C:/Users/vuonge/Documents/Code Document/measure/btap_create_necb_prototype_building",
       "uid": "3e9acd53-8602-4749-a655-7cbbe48e8b30",
@@ -178,82 +178,82 @@
               {
                 "value": "SecondarySchool",
                 "weight": "",
-                "$$hashKey": "object:2887"
+                "$$hashKey": "object:4232"
               },
               {
                 "value": "PrimarySchool",
                 "weight": "",
-                "$$hashKey": "object:2898"
+                "$$hashKey": "object:4243"
               },
               {
                 "value": "SmallOffice",
                 "weight": "",
-                "$$hashKey": "object:2908"
+                "$$hashKey": "object:4253"
               },
               {
                 "value": "MediumOffice",
                 "weight": "",
-                "$$hashKey": "object:2918"
+                "$$hashKey": "object:4263"
               },
               {
                 "value": "LargeOffice",
                 "weight": "",
-                "$$hashKey": "object:2928"
+                "$$hashKey": "object:4273"
               },
               {
                 "value": "SmallHotel",
                 "weight": "",
-                "$$hashKey": "object:2938"
+                "$$hashKey": "object:4283"
               },
               {
                 "value": "LargeHotel",
                 "weight": "",
-                "$$hashKey": "object:2948"
+                "$$hashKey": "object:4293"
               },
               {
                 "value": "Warehouse",
                 "weight": "",
-                "$$hashKey": "object:2958"
+                "$$hashKey": "object:4303"
               },
               {
                 "value": "RetailStandalone",
                 "weight": "",
-                "$$hashKey": "object:2968"
+                "$$hashKey": "object:4313"
               },
               {
                 "value": "RetailStripmall",
                 "weight": "",
-                "$$hashKey": "object:2978"
+                "$$hashKey": "object:4323"
               },
               {
                 "value": "QuickServiceRestaurant",
                 "weight": "",
-                "$$hashKey": "object:2988"
+                "$$hashKey": "object:4333"
               },
               {
                 "value": "FullServiceRestaurant",
                 "weight": "",
-                "$$hashKey": "object:2998"
+                "$$hashKey": "object:4343"
               },
               {
                 "value": "MidriseApartment",
                 "weight": "",
-                "$$hashKey": "object:3008"
+                "$$hashKey": "object:4353"
               },
               {
                 "value": "HighriseApartment",
                 "weight": "",
-                "$$hashKey": "object:3018"
+                "$$hashKey": "object:4363"
               },
               {
                 "value": "Hospital",
                 "weight": "",
-                "$$hashKey": "object:3028"
+                "$$hashKey": "object:4373"
               },
               {
                 "value": "Outpatient",
                 "weight": "",
-                "$$hashKey": "object:3038"
+                "$$hashKey": "object:4383"
               }
             ],
             "maximum": "SmallOffice",
@@ -264,7 +264,7 @@
             "default_value": "SmallOffice",
             "showWarningIcon": false
           },
-          "$$hashKey": "object:2723"
+          "$$hashKey": "object:2827"
         },
         {
           "name": "template",
@@ -302,7 +302,7 @@
             "stdDev": "NECB2011",
             "default_value": "NECB2017"
           },
-          "$$hashKey": "object:2724"
+          "$$hashKey": "object:2828"
         },
         {
           "name": "epw_file",
@@ -521,7 +521,38 @@
             ],
             "variableSetting": "Discrete",
             "distribution": "Uniform",
-            "discreteVariables": [],
+            "discreteVariables": [
+              {
+                "value": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw",
+                "weight": "",
+                "$$hashKey": "object:4403"
+              },
+              {
+                "value": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw",
+                "weight": "",
+                "$$hashKey": "object:4414"
+              },
+              {
+                "value": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw",
+                "weight": "",
+                "$$hashKey": "object:4424"
+              },
+              {
+                "value": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw",
+                "weight": "",
+                "$$hashKey": "object:4434"
+              },
+              {
+                "value": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw",
+                "weight": "",
+                "$$hashKey": "object:4444"
+              },
+              {
+                "value": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw",
+                "weight": "",
+                "$$hashKey": "object:4454"
+              }
+            ],
             "maximum": "CAN_AB_Banff.CS.711220_CWEC2016.epw",
             "minimum": "CAN_AB_Banff.CS.711220_CWEC2016.epw",
             "mean": "CAN_AB_Banff.CS.711220_CWEC2016.epw",
@@ -530,7 +561,7 @@
             "default_value": "CAN_AB_Banff.CS.711220_CWEC2016.epw",
             "showWarningIcon": false
           },
-          "$$hashKey": "object:2725"
+          "$$hashKey": "object:2829"
         },
         {
           "name": "new_auto_zoner",
@@ -554,7 +585,7 @@
             "stdDev": false,
             "default_value": false
           },
-          "$$hashKey": "object:2726"
+          "$$hashKey": "object:2830"
         }
       ],
       "edit": "",
@@ -570,20 +601,20 @@
       "seed": "dummy.osm",
       "workflow_index": 0,
       "options": [],
-      "instanceId": 0.7978549799707759,
+      "instanceId": 0.5712971360749985,
       "skip": false,
-      "$$hashKey": "object:2680",
+      "$$hashKey": "object:2772",
       "showWarningText": false
     },
     {
-      "measure_dir": "C:\\b\\btap-nrc_207\\pat_projects\\Uvalue_PCF\\measures\\btap_set_envelope_conductance_by_necb_climate_zone",
+      "measure_dir": "C:\\Users\\vuonge\\Documents\\Code Document\\TG- BE\\PCF-UValue\\Uval-PCF\\measures\\btap_set_envelope_conductance_by_necb_climate_zone",
       "name": "btap_set_envelope_conductance_by_necb_climate_zone",
-      "directory": "C:\\b\\btap-nrc_207\\pat_projects\\Uvalue_PCF\\measures\\btap_set_envelope_conductance_by_necb_climate_zone",
+      "directory": "C:/Users/vuonge/Documents/Code Document/measure/btap_set_envelope_conductance_by_necb_climate_zone",
       "uid": "36fd01e8-5fcf-4fec-9117-90bf8d4071fc",
       "uuid": "{36fd01e8-5fcf-4fec-9117-90bf8d4071fc}",
-      "version_id": "8f771480-80c7-4628-8a84-66b01d27262e",
-      "version_uuid": "{8f771480-80c7-4628-8a84-66b01d27262e}",
-      "version_modified": "20190124T173231Z",
+      "version_id": "640ec217-f62b-42fb-ab95-8ed4a5972bba",
+      "version_uuid": "{640ec217-f62b-42fb-ab95-8ed4a5972bba}",
+      "version_modified": "20190214T214035Z",
       "xml_checksum": "A51D361F",
       "display_name": "BTAPSetEnvelopeConductanceByNecbClimateZone",
       "class_name": "BtapSetEnvelopeConductanceByNecbClimateZone",
@@ -650,7 +681,7 @@
             "stdDev": "NECB2015",
             "default_value": "NECB2017"
           },
-          "$$hashKey": "object:5290"
+          "$$hashKey": "object:2998"
         },
         {
           "name": "surface_type",
@@ -659,15 +690,17 @@
           "type": "Choice",
           "required": true,
           "model_dependent": false,
-          "default_value": "Walls",
+          "default_value": "Glazing",
           "choice_values": [
             "Walls",
             "Roofs",
+            "Floors",
             "Glazing"
           ],
           "choice_display_names": [
             "Walls",
             "Roofs",
+            "Floors",
             "Glazing"
           ],
           "display_name_short": "surface_type",
@@ -676,163 +709,164 @@
             "choiceDisplayNames": [
               "Walls",
               "Roofs",
+              "Floors",
               "Glazing"
             ],
             "variableSetting": "Argument",
             "distribution": "Uniform",
             "discreteVariables": [],
-            "maximum": "Walls",
-            "minimum": "Walls",
-            "mean": "Walls",
-            "deltaX": "Walls",
-            "stdDev": "Walls",
+            "maximum": "Glazing",
+            "minimum": "Glazing",
+            "mean": "Glazing",
+            "deltaX": "Glazing",
+            "stdDev": "Glazing",
             "default_value": "Walls"
           },
-          "$$hashKey": "object:5291"
+          "$$hashKey": "object:2999"
         },
         {
-          "name": "zone4_r_value",
-          "display_name": "NECB Zone4 Insulation R-value (ft^2*h*R/Btu).",
+          "name": "zone4_u_value",
+          "display_name": "NECB Zone4 Insulation U-value (W/m^2 K).",
           "description": "",
           "type": "Double",
           "required": true,
           "model_dependent": false,
-          "default_value": 31.03,
-          "display_name_short": "zone4_r_value",
+          "default_value": 0.59,
+          "display_name_short": "zone4_u_value",
           "inputs": {
             "relationship": null,
             "choiceDisplayNames": [],
             "variableSetting": "Argument",
             "distribution": "Uniform",
             "discreteVariables": [],
-            "maximum": 31.03,
-            "minimum": 31.03,
-            "mean": 31.03,
-            "deltaX": 31.03,
-            "stdDev": 31.03,
-            "default_value": 19.5802184
+            "maximum": 0.59,
+            "minimum": 0.59,
+            "mean": 0.59,
+            "deltaX": 0.59,
+            "stdDev": 0.59,
+            "default_value": 0.29
           },
-          "$$hashKey": "object:5292"
+          "$$hashKey": "object:3000"
         },
         {
-          "name": "zone5_r_value",
-          "display_name": "NECB Zone5 Insulation R-value (ft^2*h*R/Btu).",
+          "name": "zone5_u_value",
+          "display_name": "NECB Zone5 Insulation U-value (W/m^2 K).",
           "description": "",
           "type": "Double",
           "required": true,
           "model_dependent": false,
-          "default_value": 31.03,
-          "display_name_short": "zone5_r_value",
+          "default_value": 0.265,
+          "display_name_short": "zone5_u_value",
           "inputs": {
             "relationship": null,
             "choiceDisplayNames": [],
             "variableSetting": "Argument",
             "distribution": "Uniform",
             "discreteVariables": [],
-            "maximum": 31.03,
-            "minimum": 31.03,
-            "mean": 31.03,
-            "deltaX": 31.03,
-            "stdDev": 31.03,
-            "default_value": 21.42740882
+            "maximum": 0.265,
+            "minimum": 0.265,
+            "mean": 0.265,
+            "deltaX": 0.265,
+            "stdDev": 0.265,
+            "default_value": 0.265
           },
-          "$$hashKey": "object:5293"
+          "$$hashKey": "object:3001"
         },
         {
-          "name": "zone6_r_value",
-          "display_name": "NECB Zone6 Insulation R-value (ft^2*h*R/Btu).",
+          "name": "zone6_u_value",
+          "display_name": "NECB Zone6 Insulation U-value (W/m^2 K).",
           "description": "",
           "type": "Double",
           "required": true,
           "model_dependent": false,
-          "default_value": 35.05,
-          "display_name_short": "zone6_r_value",
+          "default_value": 0.24,
+          "display_name_short": "zone6_u_value",
           "inputs": {
             "relationship": null,
             "choiceDisplayNames": [],
             "variableSetting": "Argument",
             "distribution": "Uniform",
             "discreteVariables": [],
-            "maximum": 35.05,
-            "minimum": 35.05,
-            "mean": 35.05,
-            "deltaX": 35.05,
-            "stdDev": 35.05,
-            "default_value": 23.65943057
+            "maximum": 0.24,
+            "minimum": 0.24,
+            "mean": 0.24,
+            "deltaX": 0.24,
+            "stdDev": 0.24,
+            "default_value": 0.24
           },
-          "$$hashKey": "object:5294"
+          "$$hashKey": "object:3002"
         },
         {
-          "name": "zone7A_r_value",
-          "display_name": "NECB Zone7A Insulation R-value (ft^2*h*R/Btu).",
+          "name": "zone7A_u_value",
+          "display_name": "NECB Zone7A Insulation U-value (W/m^2 K).",
           "description": "",
           "type": "Double",
           "required": true,
           "model_dependent": false,
-          "default_value": 35.05,
-          "display_name_short": "zone7A_r_value",
+          "default_value": 0.215,
+          "display_name_short": "zone7A_u_value",
           "inputs": {
             "relationship": null,
             "choiceDisplayNames": [],
             "variableSetting": "Argument",
             "distribution": "Uniform",
             "discreteVariables": [],
-            "maximum": 35.05,
-            "minimum": 35.05,
-            "mean": 35.05,
-            "deltaX": 35.05,
-            "stdDev": 35.05,
-            "default_value": 26.41052715
+            "maximum": 0.215,
+            "minimum": 0.215,
+            "mean": 0.215,
+            "deltaX": 0.215,
+            "stdDev": 0.215,
+            "default_value": 0.215
           },
-          "$$hashKey": "object:5295"
+          "$$hashKey": "object:3003"
         },
         {
-          "name": "zone7B_r_value",
-          "display_name": "NECB Zone7B Insulation R-value (ft^2*h*R/Btu).",
+          "name": "zone7B_u_value",
+          "display_name": "NECB Zone7B Insulation U-value (W/m^2 K).",
           "description": "",
           "type": "Double",
           "required": true,
           "model_dependent": false,
-          "default_value": 39.99,
-          "display_name_short": "zone7B_r_value",
+          "default_value": 0.19,
+          "display_name_short": "zone7B_u_value",
           "inputs": {
             "relationship": null,
             "choiceDisplayNames": [],
             "variableSetting": "Argument",
             "distribution": "Uniform",
             "discreteVariables": [],
-            "maximum": 39.99,
-            "minimum": 39.99,
-            "mean": 39.99,
-            "deltaX": 39.99,
-            "stdDev": 39.99,
-            "default_value": 29.88559651
+            "maximum": 0.19,
+            "minimum": 0.19,
+            "mean": 0.19,
+            "deltaX": 0.19,
+            "stdDev": 0.19,
+            "default_value": 0.19
           },
-          "$$hashKey": "object:5296"
+          "$$hashKey": "object:3004"
         },
         {
-          "name": "zone8_r_value",
-          "display_name": "NECB Zone8 Insulation R-value (ft^2*h*R/Btu).",
+          "name": "zone8_u_value",
+          "display_name": "NECB Zone8 Insulation U-value (W/m^2 K).",
           "description": "",
           "type": "Double",
           "required": true,
           "model_dependent": false,
-          "default_value": 47.32,
-          "display_name_short": "zone8_r_value",
+          "default_value": 0.165,
+          "display_name_short": "zone8_u_value",
           "inputs": {
             "relationship": null,
             "choiceDisplayNames": [],
             "variableSetting": "Argument",
             "distribution": "Uniform",
             "discreteVariables": [],
-            "maximum": 47.32,
-            "minimum": 47.32,
-            "mean": 47.32,
-            "deltaX": 47.32,
-            "stdDev": 47.32,
-            "default_value": 34.41371719
+            "maximum": 0.165,
+            "minimum": 0.165,
+            "mean": 0.165,
+            "deltaX": 0.165,
+            "stdDev": 0.165,
+            "default_value": 0.165
           },
-          "$$hashKey": "object:5297"
+          "$$hashKey": "object:3005"
         }
       ],
       "edit": "",
@@ -840,27 +874,27 @@
       "bcl_update": false,
       "location": "my",
       "add": "",
-      "open": true,
+      "open": false,
       "addedToProject": true,
-      "date": "1/24/2019",
+      "date": "2/14/2019",
       "author": "",
       "type": "ModelMeasure",
       "seed": "dummy.osm",
       "workflow_index": 1,
       "options": [],
-      "instanceId": 0.47754789970866485,
+      "instanceId": 0.4627102854924441,
       "skip": false,
-      "$$hashKey": "object:5242"
+      "$$hashKey": "object:2773"
     },
     {
-      "measure_dir": "C:\\b\\btap-nrc_207\\pat_projects\\Uvalue_PCF\\measures\\btap_set_envelope_conductance_by_necb_climate_zone",
+      "measure_dir": "C:\\Users\\vuonge\\Documents\\Code Document\\TG- BE\\PCF-UValue\\Uval-PCF\\measures\\btap_set_envelope_conductance_by_necb_climate_zone",
       "name": "btap_set_envelope_conductance_by_necb_climate_zone_2",
-      "directory": "C:\\b\\btap-nrc_207\\pat_projects\\Uvalue_PCF\\measures\\btap_set_envelope_conductance_by_necb_climate_zone",
+      "directory": "C:/Users/vuonge/Documents/Code Document/measure/btap_set_envelope_conductance_by_necb_climate_zone",
       "uid": "36fd01e8-5fcf-4fec-9117-90bf8d4071fc",
       "uuid": "{36fd01e8-5fcf-4fec-9117-90bf8d4071fc}",
-      "version_id": "8f771480-80c7-4628-8a84-66b01d27262e",
-      "version_uuid": "{8f771480-80c7-4628-8a84-66b01d27262e}",
-      "version_modified": "20190124T173231Z",
+      "version_id": "640ec217-f62b-42fb-ab95-8ed4a5972bba",
+      "version_uuid": "{640ec217-f62b-42fb-ab95-8ed4a5972bba}",
+      "version_modified": "20190214T214035Z",
       "xml_checksum": "A51D361F",
       "display_name": "BTAPSetEnvelopeConductanceByNecbClimateZone 2",
       "class_name": "BtapSetEnvelopeConductanceByNecbClimateZone",
@@ -927,7 +961,7 @@
             "stdDev": "NECB2015",
             "default_value": "NECB2017"
           },
-          "$$hashKey": "object:5602"
+          "$$hashKey": "object:3310"
         },
         {
           "name": "surface_type",
@@ -936,15 +970,17 @@
           "type": "Choice",
           "required": true,
           "model_dependent": false,
-          "default_value": "Walls",
+          "default_value": "Glazing",
           "choice_values": [
             "Walls",
             "Roofs",
+            "Floors",
             "Glazing"
           ],
           "choice_display_names": [
             "Walls",
             "Roofs",
+            "Floors",
             "Glazing"
           ],
           "display_name_short": "surface_type",
@@ -953,163 +989,164 @@
             "choiceDisplayNames": [
               "Walls",
               "Roofs",
+              "Floors",
               "Glazing"
             ],
             "variableSetting": "Argument",
             "distribution": "Uniform",
             "discreteVariables": [],
-            "maximum": "Walls",
-            "minimum": "Walls",
-            "mean": "Walls",
-            "deltaX": "Walls",
-            "stdDev": "Walls",
+            "maximum": "Glazing",
+            "minimum": "Glazing",
+            "mean": "Glazing",
+            "deltaX": "Glazing",
+            "stdDev": "Glazing",
             "default_value": "Roofs"
           },
-          "$$hashKey": "object:5603"
+          "$$hashKey": "object:3311"
         },
         {
-          "name": "zone4_r_value",
-          "display_name": "NECB Zone4 Insulation R-value (ft^2*h*R/Btu).",
+          "name": "zone4_u_value",
+          "display_name": "NECB Zone4 Insulation U-value (W/m^2 K).",
           "description": "",
           "type": "Double",
           "required": true,
           "model_dependent": false,
-          "default_value": 31.03,
-          "display_name_short": "zone4_r_value",
+          "default_value": 0.59,
+          "display_name_short": "zone4_u_value",
           "inputs": {
             "relationship": null,
             "choiceDisplayNames": [],
             "variableSetting": "Argument",
             "distribution": "Uniform",
             "discreteVariables": [],
-            "maximum": 31.03,
-            "minimum": 31.03,
-            "mean": 31.03,
-            "deltaX": 31.03,
-            "stdDev": 31.03,
-            "default_value": 34.62355693
+            "maximum": 0.59,
+            "minimum": 0.59,
+            "mean": 0.59,
+            "deltaX": 0.59,
+            "stdDev": 0.59,
+            "default_value": 0.164
           },
-          "$$hashKey": "object:5604"
+          "$$hashKey": "object:3312"
         },
         {
-          "name": "zone5_r_value",
-          "display_name": "NECB Zone5 Insulation R-value (ft^2*h*R/Btu).",
+          "name": "zone5_u_value",
+          "display_name": "NECB Zone5 Insulation U-value (W/m^2 K).",
           "description": "",
           "type": "Double",
           "required": true,
           "model_dependent": false,
-          "default_value": 31.03,
-          "display_name_short": "zone5_r_value",
+          "default_value": 0.265,
+          "display_name_short": "zone5_u_value",
           "inputs": {
             "relationship": null,
             "choiceDisplayNames": [],
             "variableSetting": "Argument",
             "distribution": "Uniform",
             "discreteVariables": [],
-            "maximum": 31.03,
-            "minimum": 31.03,
-            "mean": 31.03,
-            "deltaX": 31.03,
-            "stdDev": 31.03,
-            "default_value": 36.39912396
+            "maximum": 0.265,
+            "minimum": 0.265,
+            "mean": 0.265,
+            "deltaX": 0.265,
+            "stdDev": 0.265,
+            "default_value": 0.156
           },
-          "$$hashKey": "object:5605"
+          "$$hashKey": "object:3313"
         },
         {
-          "name": "zone6_r_value",
-          "display_name": "NECB Zone6 Insulation R-value (ft^2*h*R/Btu).",
+          "name": "zone6_u_value",
+          "display_name": "NECB Zone6 Insulation U-value (W/m^2 K).",
           "description": "",
           "type": "Double",
           "required": true,
           "model_dependent": false,
-          "default_value": 35.05,
-          "display_name_short": "zone6_r_value",
+          "default_value": 0.24,
+          "display_name_short": "zone6_u_value",
           "inputs": {
             "relationship": null,
             "choiceDisplayNames": [],
             "variableSetting": "Argument",
             "distribution": "Uniform",
             "discreteVariables": [],
-            "maximum": 35.05,
-            "minimum": 35.05,
-            "mean": 35.05,
-            "deltaX": 35.05,
-            "stdDev": 35.05,
-            "default_value": 41.14683578
+            "maximum": 0.24,
+            "minimum": 0.24,
+            "mean": 0.24,
+            "deltaX": 0.24,
+            "stdDev": 0.24,
+            "default_value": 0.138
           },
-          "$$hashKey": "object:5606"
+          "$$hashKey": "object:3314"
         },
         {
-          "name": "zone7A_r_value",
-          "display_name": "NECB Zone7A Insulation R-value (ft^2*h*R/Btu).",
+          "name": "zone7A_u_value",
+          "display_name": "NECB Zone7A Insulation U-value (W/m^2 K).",
           "description": "",
           "type": "Double",
           "required": true,
           "model_dependent": false,
-          "default_value": 35.05,
-          "display_name_short": "zone7A_r_value",
+          "default_value": 0.215,
+          "display_name_short": "zone7A_u_value",
           "inputs": {
             "relationship": null,
             "choiceDisplayNames": [],
             "variableSetting": "Argument",
             "distribution": "Uniform",
             "discreteVariables": [],
-            "maximum": 35.05,
-            "minimum": 35.05,
-            "mean": 35.05,
-            "deltaX": 35.05,
-            "stdDev": 35.05,
-            "default_value": 46.92779617
+            "maximum": 0.215,
+            "minimum": 0.215,
+            "mean": 0.215,
+            "deltaX": 0.215,
+            "stdDev": 0.215,
+            "default_value": 0.121
           },
-          "$$hashKey": "object:5607"
+          "$$hashKey": "object:3315"
         },
         {
-          "name": "zone7B_r_value",
-          "display_name": "NECB Zone7B Insulation R-value (ft^2*h*R/Btu).",
+          "name": "zone7B_u_value",
+          "display_name": "NECB Zone7B Insulation U-value (W/m^2 K).",
           "description": "",
           "type": "Double",
           "required": true,
           "model_dependent": false,
-          "default_value": 39.99,
-          "display_name_short": "zone7B_r_value",
+          "default_value": 0.19,
+          "display_name_short": "zone7B_u_value",
           "inputs": {
             "relationship": null,
             "choiceDisplayNames": [],
             "variableSetting": "Argument",
             "distribution": "Uniform",
             "discreteVariables": [],
-            "maximum": 39.99,
-            "minimum": 39.99,
-            "mean": 39.99,
-            "deltaX": 39.99,
-            "stdDev": 39.99,
-            "default_value": 48.53216527
+            "maximum": 0.19,
+            "minimum": 0.19,
+            "mean": 0.19,
+            "deltaX": 0.19,
+            "stdDev": 0.19,
+            "default_value": 0.117
           },
-          "$$hashKey": "object:5608"
+          "$$hashKey": "object:3316"
         },
         {
-          "name": "zone8_r_value",
-          "display_name": "NECB Zone8 Insulation R-value (ft^2*h*R/Btu).",
+          "name": "zone8_u_value",
+          "display_name": "NECB Zone8 Insulation U-value (W/m^2 K).",
           "description": "",
           "type": "Double",
           "required": true,
           "model_dependent": false,
-          "default_value": 47.32,
-          "display_name_short": "zone8_r_value",
+          "default_value": 0.165,
+          "display_name_short": "zone8_u_value",
           "inputs": {
             "relationship": null,
             "choiceDisplayNames": [],
             "variableSetting": "Argument",
             "distribution": "Uniform",
             "discreteVariables": [],
-            "maximum": 47.32,
-            "minimum": 47.32,
-            "mean": 47.32,
-            "deltaX": 47.32,
-            "stdDev": 47.32,
-            "default_value": 51.62057579
+            "maximum": 0.165,
+            "minimum": 0.165,
+            "mean": 0.165,
+            "deltaX": 0.165,
+            "stdDev": 0.165,
+            "default_value": 0.11
           },
-          "$$hashKey": "object:5609"
+          "$$hashKey": "object:3317"
         }
       ],
       "edit": "",
@@ -1117,27 +1154,27 @@
       "bcl_update": false,
       "location": "my",
       "add": "",
-      "open": true,
+      "open": false,
       "addedToProject": true,
-      "date": "1/24/2019",
+      "date": "2/14/2019",
       "author": "",
       "type": "ModelMeasure",
       "seed": "dummy.osm",
       "workflow_index": 2,
       "options": [],
-      "instanceId": 0.5047294131762547,
+      "instanceId": 0.7673448466194217,
       "skip": false,
-      "$$hashKey": "object:5559"
+      "$$hashKey": "object:3267"
     },
     {
-      "measure_dir": "C:\\b\\btap-nrc_207\\pat_projects\\Uvalue_PCF\\measures\\btap_set_envelope_conductance_by_necb_climate_zone",
+      "measure_dir": "C:\\Users\\vuonge\\Documents\\Code Document\\TG- BE\\PCF-UValue\\Uval-PCF\\measures\\btap_set_envelope_conductance_by_necb_climate_zone",
       "name": "btap_set_envelope_conductance_by_necb_climate_zone_2_2",
-      "directory": "C:\\b\\btap-nrc_207\\pat_projects\\Uvalue_PCF\\measures\\btap_set_envelope_conductance_by_necb_climate_zone",
+      "directory": "C:/Users/vuonge/Documents/Code Document/measure/btap_set_envelope_conductance_by_necb_climate_zone",
       "uid": "36fd01e8-5fcf-4fec-9117-90bf8d4071fc",
       "uuid": "{36fd01e8-5fcf-4fec-9117-90bf8d4071fc}",
-      "version_id": "8f771480-80c7-4628-8a84-66b01d27262e",
-      "version_uuid": "{8f771480-80c7-4628-8a84-66b01d27262e}",
-      "version_modified": "20190124T173231Z",
+      "version_id": "640ec217-f62b-42fb-ab95-8ed4a5972bba",
+      "version_uuid": "{640ec217-f62b-42fb-ab95-8ed4a5972bba}",
+      "version_modified": "20190214T214035Z",
       "xml_checksum": "A51D361F",
       "display_name": "BTAPSetEnvelopeConductanceByNecbClimateZone 2 2",
       "class_name": "BtapSetEnvelopeConductanceByNecbClimateZone",
@@ -1204,7 +1241,7 @@
             "stdDev": "NECB2015",
             "default_value": "NECB2017"
           },
-          "$$hashKey": "object:5921"
+          "$$hashKey": "object:3629"
         },
         {
           "name": "surface_type",
@@ -1213,15 +1250,17 @@
           "type": "Choice",
           "required": true,
           "model_dependent": false,
-          "default_value": "Walls",
+          "default_value": "Glazing",
           "choice_values": [
             "Walls",
             "Roofs",
+            "Floors",
             "Glazing"
           ],
           "choice_display_names": [
             "Walls",
             "Roofs",
+            "Floors",
             "Glazing"
           ],
           "display_name_short": "surface_type",
@@ -1230,163 +1269,164 @@
             "choiceDisplayNames": [
               "Walls",
               "Roofs",
+              "Floors",
               "Glazing"
             ],
             "variableSetting": "Argument",
             "distribution": "Uniform",
             "discreteVariables": [],
-            "maximum": "Walls",
-            "minimum": "Walls",
-            "mean": "Walls",
-            "deltaX": "Walls",
-            "stdDev": "Walls",
-            "default_value": "Glazing"
+            "maximum": "Glazing",
+            "minimum": "Glazing",
+            "mean": "Glazing",
+            "deltaX": "Glazing",
+            "stdDev": "Glazing",
+            "default_value": "Floors"
           },
-          "$$hashKey": "object:5922"
+          "$$hashKey": "object:3630"
         },
         {
-          "name": "zone4_r_value",
-          "display_name": "NECB Zone4 Insulation R-value (ft^2*h*R/Btu).",
+          "name": "zone4_u_value",
+          "display_name": "NECB Zone4 Insulation U-value (W/m^2 K).",
           "description": "",
           "type": "Double",
           "required": true,
           "model_dependent": false,
-          "default_value": 31.03,
-          "display_name_short": "zone4_r_value",
+          "default_value": 0.59,
+          "display_name_short": "zone4_u_value",
           "inputs": {
             "relationship": null,
             "choiceDisplayNames": [],
             "variableSetting": "Argument",
             "distribution": "Uniform",
             "discreteVariables": [],
-            "maximum": 31.03,
-            "minimum": 31.03,
-            "mean": 31.03,
-            "deltaX": 31.03,
-            "stdDev": 31.03,
-            "default_value": 2.988559651
+            "maximum": 0.59,
+            "minimum": 0.59,
+            "mean": 0.59,
+            "deltaX": 0.59,
+            "stdDev": 0.59,
+            "default_value": 0.193
           },
-          "$$hashKey": "object:5923"
+          "$$hashKey": "object:3631"
         },
         {
-          "name": "zone5_r_value",
-          "display_name": "NECB Zone5 Insulation R-value (ft^2*h*R/Btu).",
+          "name": "zone5_u_value",
+          "display_name": "NECB Zone5 Insulation U-value (W/m^2 K).",
           "description": "",
           "type": "Double",
           "required": true,
           "model_dependent": false,
-          "default_value": 31.03,
-          "display_name_short": "zone5_r_value",
+          "default_value": 0.265,
+          "display_name_short": "zone5_u_value",
           "inputs": {
             "relationship": null,
             "choiceDisplayNames": [],
             "variableSetting": "Argument",
             "distribution": "Uniform",
             "discreteVariables": [],
-            "maximum": 31.03,
-            "minimum": 31.03,
-            "mean": 31.03,
-            "deltaX": 31.03,
-            "stdDev": 31.03,
-            "default_value": 3.154590743
+            "maximum": 0.265,
+            "minimum": 0.265,
+            "mean": 0.265,
+            "deltaX": 0.265,
+            "stdDev": 0.265,
+            "default_value": 0.175
           },
-          "$$hashKey": "object:5924"
+          "$$hashKey": "object:3632"
         },
         {
-          "name": "zone6_r_value",
-          "display_name": "NECB Zone6 Insulation R-value (ft^2*h*R/Btu).",
+          "name": "zone6_u_value",
+          "display_name": "NECB Zone6 Insulation U-value (W/m^2 K).",
           "description": "",
           "type": "Double",
           "required": true,
           "model_dependent": false,
-          "default_value": 35.05,
-          "display_name_short": "zone6_r_value",
+          "default_value": 0.24,
+          "display_name_short": "zone6_u_value",
           "inputs": {
             "relationship": null,
             "choiceDisplayNames": [],
             "variableSetting": "Argument",
             "distribution": "Uniform",
             "discreteVariables": [],
-            "maximum": 35.05,
-            "minimum": 35.05,
-            "mean": 35.05,
-            "deltaX": 35.05,
-            "stdDev": 35.05,
-            "default_value": 3.340154904
+            "maximum": 0.24,
+            "minimum": 0.24,
+            "mean": 0.24,
+            "deltaX": 0.24,
+            "stdDev": 0.24,
+            "default_value": 0.156
           },
-          "$$hashKey": "object:5925"
+          "$$hashKey": "object:3633"
         },
         {
-          "name": "zone7A_r_value",
-          "display_name": "NECB Zone7A Insulation R-value (ft^2*h*R/Btu).",
+          "name": "zone7A_u_value",
+          "display_name": "NECB Zone7A Insulation U-value (W/m^2 K).",
           "description": "",
           "type": "Double",
           "required": true,
           "model_dependent": false,
-          "default_value": 35.05,
-          "display_name_short": "zone7A_r_value",
+          "default_value": 0.215,
+          "display_name_short": "zone7A_u_value",
           "inputs": {
             "relationship": null,
             "choiceDisplayNames": [],
             "variableSetting": "Argument",
             "distribution": "Uniform",
             "discreteVariables": [],
-            "maximum": 35.05,
-            "minimum": 35.05,
-            "mean": 35.05,
-            "deltaX": 35.05,
-            "stdDev": 35.05,
-            "default_value": 3.785508891
+            "maximum": 0.215,
+            "minimum": 0.215,
+            "mean": 0.215,
+            "deltaX": 0.215,
+            "stdDev": 0.215,
+            "default_value": 0.138
           },
-          "$$hashKey": "object:5926"
+          "$$hashKey": "object:3634"
         },
         {
-          "name": "zone7B_r_value",
-          "display_name": "NECB Zone7B Insulation R-value (ft^2*h*R/Btu).",
+          "name": "zone7B_u_value",
+          "display_name": "NECB Zone7B Insulation U-value (W/m^2 K).",
           "description": "",
           "type": "Double",
           "required": true,
           "model_dependent": false,
-          "default_value": 39.99,
-          "display_name_short": "zone7B_r_value",
+          "default_value": 0.19,
+          "display_name_short": "zone7B_u_value",
           "inputs": {
             "relationship": null,
             "choiceDisplayNames": [],
             "variableSetting": "Argument",
             "distribution": "Uniform",
             "discreteVariables": [],
-            "maximum": 39.99,
-            "minimum": 39.99,
-            "mean": 39.99,
-            "deltaX": 39.99,
-            "stdDev": 39.99,
-            "default_value": 4.055902384
+            "maximum": 0.19,
+            "minimum": 0.19,
+            "mean": 0.19,
+            "deltaX": 0.19,
+            "stdDev": 0.19,
+            "default_value": 0.121
           },
-          "$$hashKey": "object:5927"
+          "$$hashKey": "object:3635"
         },
         {
-          "name": "zone8_r_value",
-          "display_name": "NECB Zone8 Insulation R-value (ft^2*h*R/Btu).",
+          "name": "zone8_u_value",
+          "display_name": "NECB Zone8 Insulation U-value (W/m^2 K).",
           "description": "",
           "type": "Double",
           "required": true,
           "model_dependent": false,
-          "default_value": 47.32,
-          "display_name_short": "zone8_r_value",
+          "default_value": 0.165,
+          "display_name_short": "zone8_u_value",
           "inputs": {
             "relationship": null,
             "choiceDisplayNames": [],
             "variableSetting": "Argument",
             "distribution": "Uniform",
             "discreteVariables": [],
-            "maximum": 47.32,
-            "minimum": 47.32,
-            "mean": 47.32,
-            "deltaX": 47.32,
-            "stdDev": 47.32,
-            "default_value": 4.367894875
+            "maximum": 0.165,
+            "minimum": 0.165,
+            "mean": 0.165,
+            "deltaX": 0.165,
+            "stdDev": 0.165,
+            "default_value": 0.117
           },
-          "$$hashKey": "object:5928"
+          "$$hashKey": "object:3636"
         }
       ],
       "edit": "",
@@ -1394,22 +1434,302 @@
       "bcl_update": false,
       "location": "my",
       "add": "",
-      "open": true,
+      "open": false,
       "addedToProject": true,
-      "date": "1/24/2019",
+      "date": "2/14/2019",
       "author": "",
       "type": "ModelMeasure",
       "seed": "dummy.osm",
       "workflow_index": 3,
       "options": [],
-      "instanceId": 0.7901940612378937,
+      "instanceId": 0.6245662930176423,
       "skip": false,
-      "$$hashKey": "object:5878"
+      "$$hashKey": "object:3586"
     },
     {
-      "measure_dir": "C:\\b\\btap-nrc_207\\pat_projects\\Uvalue_PCF\\measures\\btap_results",
+      "measure_dir": "C:\\Users\\vuonge\\Documents\\Code Document\\TG- BE\\PCF-UValue\\Uval-PCF\\measures\\btap_set_envelope_conductance_by_necb_climate_zone",
+      "name": "btap_set_envelope_conductance_by_necb_climate_zone_2_2_2",
+      "directory": "C:/Users/vuonge/Documents/Code Document/measure/btap_set_envelope_conductance_by_necb_climate_zone",
+      "uid": "36fd01e8-5fcf-4fec-9117-90bf8d4071fc",
+      "uuid": "{36fd01e8-5fcf-4fec-9117-90bf8d4071fc}",
+      "version_id": "640ec217-f62b-42fb-ab95-8ed4a5972bba",
+      "version_uuid": "{640ec217-f62b-42fb-ab95-8ed4a5972bba}",
+      "version_modified": "20190214T214035Z",
+      "xml_checksum": "A51D361F",
+      "display_name": "BTAPSetEnvelopeConductanceByNecbClimateZone 2 2 2",
+      "class_name": "BtapSetEnvelopeConductanceByNecbClimateZone",
+      "description": "Modifies walls, roofs, and windows conductance by climate zone.",
+      "modeler_description": "Modifies walls, roofs, and windows conductances by NECB climate zone. OpenStudio 2.6.0 (October 2018)",
+      "tags": "Envelope.Opaque",
+      "outputs": [],
+      "attributes": [
+        {
+          "name": "Measure Function",
+          "display_name": "Measure Function",
+          "value": "Measure"
+        },
+        {
+          "name": "Requires EnergyPlus Results",
+          "display_name": "Requires EnergyPlus Results",
+          "value": false
+        },
+        {
+          "name": "Uses SketchUp API",
+          "display_name": "Uses SketchUp API",
+          "value": false
+        },
+        {
+          "name": "Measure Type",
+          "display_name": "Measure Type",
+          "value": "ModelMeasure"
+        }
+      ],
+      "arguments": [
+        {
+          "name": "necb_template",
+          "display_name": "Template",
+          "description": "",
+          "type": "Choice",
+          "required": true,
+          "model_dependent": false,
+          "default_value": "NECB2015",
+          "choice_values": [
+            "NECB2011",
+            "NECB2015",
+            "NECB2017"
+          ],
+          "choice_display_names": [
+            "NECB2011",
+            "NECB2015",
+            "NECB2017"
+          ],
+          "display_name_short": "necb_template",
+          "inputs": {
+            "relationship": null,
+            "choiceDisplayNames": [
+              "NECB2011",
+              "NECB2015",
+              "NECB2017"
+            ],
+            "variableSetting": "Argument",
+            "distribution": "Uniform",
+            "discreteVariables": [],
+            "maximum": "NECB2015",
+            "minimum": "NECB2015",
+            "mean": "NECB2015",
+            "deltaX": "NECB2015",
+            "stdDev": "NECB2015",
+            "default_value": "NECB2017"
+          },
+          "$$hashKey": "object:3948"
+        },
+        {
+          "name": "surface_type",
+          "display_name": "Surface Type",
+          "description": "",
+          "type": "Choice",
+          "required": true,
+          "model_dependent": false,
+          "default_value": "Glazing",
+          "choice_values": [
+            "Walls",
+            "Roofs",
+            "Floors",
+            "Glazing"
+          ],
+          "choice_display_names": [
+            "Walls",
+            "Roofs",
+            "Floors",
+            "Glazing"
+          ],
+          "display_name_short": "surface_type",
+          "inputs": {
+            "relationship": null,
+            "choiceDisplayNames": [
+              "Walls",
+              "Roofs",
+              "Floors",
+              "Glazing"
+            ],
+            "variableSetting": "Argument",
+            "distribution": "Uniform",
+            "discreteVariables": [],
+            "maximum": "Glazing",
+            "minimum": "Glazing",
+            "mean": "Glazing",
+            "deltaX": "Glazing",
+            "stdDev": "Glazing",
+            "default_value": "Glazing"
+          },
+          "$$hashKey": "object:3949"
+        },
+        {
+          "name": "zone4_u_value",
+          "display_name": "NECB Zone4 Insulation U-value (W/m^2 K).",
+          "description": "",
+          "type": "Double",
+          "required": true,
+          "model_dependent": false,
+          "default_value": 0.59,
+          "display_name_short": "zone4_u_value",
+          "inputs": {
+            "relationship": null,
+            "choiceDisplayNames": [],
+            "variableSetting": "Argument",
+            "distribution": "Uniform",
+            "discreteVariables": [],
+            "maximum": 0.59,
+            "minimum": 0.59,
+            "mean": 0.59,
+            "deltaX": 0.59,
+            "stdDev": 0.59,
+            "default_value": 1.9
+          },
+          "$$hashKey": "object:3950"
+        },
+        {
+          "name": "zone5_u_value",
+          "display_name": "NECB Zone5 Insulation U-value (W/m^2 K).",
+          "description": "",
+          "type": "Double",
+          "required": true,
+          "model_dependent": false,
+          "default_value": 0.265,
+          "display_name_short": "zone5_u_value",
+          "inputs": {
+            "relationship": null,
+            "choiceDisplayNames": [],
+            "variableSetting": "Argument",
+            "distribution": "Uniform",
+            "discreteVariables": [],
+            "maximum": 0.265,
+            "minimum": 0.265,
+            "mean": 0.265,
+            "deltaX": 0.265,
+            "stdDev": 0.265,
+            "default_value": 1.8
+          },
+          "$$hashKey": "object:3951"
+        },
+        {
+          "name": "zone6_u_value",
+          "display_name": "NECB Zone6 Insulation U-value (W/m^2 K).",
+          "description": "",
+          "type": "Double",
+          "required": true,
+          "model_dependent": false,
+          "default_value": 0.24,
+          "display_name_short": "zone6_u_value",
+          "inputs": {
+            "relationship": null,
+            "choiceDisplayNames": [],
+            "variableSetting": "Argument",
+            "distribution": "Uniform",
+            "discreteVariables": [],
+            "maximum": 0.24,
+            "minimum": 0.24,
+            "mean": 0.24,
+            "deltaX": 0.24,
+            "stdDev": 0.24,
+            "default_value": 1.7
+          },
+          "$$hashKey": "object:3952"
+        },
+        {
+          "name": "zone7A_u_value",
+          "display_name": "NECB Zone7A Insulation U-value (W/m^2 K).",
+          "description": "",
+          "type": "Double",
+          "required": true,
+          "model_dependent": false,
+          "default_value": 0.215,
+          "display_name_short": "zone7A_u_value",
+          "inputs": {
+            "relationship": null,
+            "choiceDisplayNames": [],
+            "variableSetting": "Argument",
+            "distribution": "Uniform",
+            "discreteVariables": [],
+            "maximum": 0.215,
+            "minimum": 0.215,
+            "mean": 0.215,
+            "deltaX": 0.215,
+            "stdDev": 0.215,
+            "default_value": 1.5
+          },
+          "$$hashKey": "object:3953"
+        },
+        {
+          "name": "zone7B_u_value",
+          "display_name": "NECB Zone7B Insulation U-value (W/m^2 K).",
+          "description": "",
+          "type": "Double",
+          "required": true,
+          "model_dependent": false,
+          "default_value": 0.19,
+          "display_name_short": "zone7B_u_value",
+          "inputs": {
+            "relationship": null,
+            "choiceDisplayNames": [],
+            "variableSetting": "Argument",
+            "distribution": "Uniform",
+            "discreteVariables": [],
+            "maximum": 0.19,
+            "minimum": 0.19,
+            "mean": 0.19,
+            "deltaX": 0.19,
+            "stdDev": 0.19,
+            "default_value": 1.4
+          },
+          "$$hashKey": "object:3954"
+        },
+        {
+          "name": "zone8_u_value",
+          "display_name": "NECB Zone8 Insulation U-value (W/m^2 K).",
+          "description": "",
+          "type": "Double",
+          "required": true,
+          "model_dependent": false,
+          "default_value": 0.165,
+          "display_name_short": "zone8_u_value",
+          "inputs": {
+            "relationship": null,
+            "choiceDisplayNames": [],
+            "variableSetting": "Argument",
+            "distribution": "Uniform",
+            "discreteVariables": [],
+            "maximum": 0.165,
+            "minimum": 0.165,
+            "mean": 0.165,
+            "deltaX": 0.165,
+            "stdDev": 0.165,
+            "default_value": 1.3
+          },
+          "$$hashKey": "object:3955"
+        }
+      ],
+      "edit": "",
+      "status": "",
+      "bcl_update": false,
+      "location": "my",
+      "add": "",
+      "open": false,
+      "addedToProject": true,
+      "date": "2/14/2019",
+      "author": "",
+      "type": "ModelMeasure",
+      "seed": "dummy.osm",
+      "workflow_index": 4,
+      "options": [],
+      "instanceId": 0.6137556973024354,
+      "skip": false,
+      "$$hashKey": "object:3905"
+    },
+    {
+      "measure_dir": "C:\\Users\\vuonge\\Documents\\Code Document\\TG- BE\\PCF-UValue\\Uval-PCF\\measures\\btap_results",
       "name": "btap_results",
-      "directory": "C:\\b\\btap-nrc_207\\pat_projects\\Uvalue_PCF\\measures\\btap_results",
+      "directory": "C:\\Users\\vuonge\\Documents\\Code Document\\TG- BE\\PCF-UValue\\Uval-PCF\\measures\\btap_results",
       "uid": "bf37e1c6-de70-457b-a3ac-21aa57b7bc58",
       "uuid": "{bf37e1c6-de70-457b-a3ac-21aa57b7bc58}",
       "version_id": "86fb174b-6040-4a41-8cbe-ab3d1551296a",
@@ -1452,7 +1772,7 @@
             "stdDev": "false",
             "default_value": "false"
           },
-          "$$hashKey": "object:2984"
+          "$$hashKey": "object:3406"
         },
         {
           "name": "output_diet",
@@ -1476,7 +1796,7 @@
             "stdDev": false,
             "default_value": false
           },
-          "$$hashKey": "object:2985"
+          "$$hashKey": "object:3407"
         }
       ],
       "edit": "",
@@ -1484,17 +1804,17 @@
       "bcl_update": false,
       "location": "my",
       "add": "",
-      "open": true,
+      "open": false,
       "addedToProject": true,
       "date": "12/19/2018",
       "author": "",
       "type": "ReportingMeasure",
       "seed": "dummy.osm",
-      "workflow_index": 4,
+      "workflow_index": 5,
       "options": [],
-      "instanceId": 0.7465698769129652,
+      "instanceId": 0.49178200911812264,
       "skip": false,
-      "$$hashKey": "object:2944"
+      "$$hashKey": "object:3366"
     }
   ],
   "filesToInclude": [],
