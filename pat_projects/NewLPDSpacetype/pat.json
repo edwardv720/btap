@@ -1,0 +1,4274 @@
+{
+  "projectName": "NewLPDSpacetype",
+  "projectDir": "C:\\Users\\vuonge\\Documents\\Code Document\\TG - L&EP\\002 TG-L&EP Updated LPD values\\2017v2\\NewLPDSpacetype",
+  "seed": "dummy.osm",
+  "weatherFile": "dummy.epw",
+  "analysis_type": "Algorithmic",
+  "remoteSettings": {
+    "open": true,
+    "remoteType": "Existing Remote Server",
+    "remoteServerURL": "http://nrc-022051.ds.nrc.ca:8080",
+    "aws": {},
+    "credentials": {
+      "yamlFilename": null,
+      "accessKey": null,
+      "region": "us-east-1"
+    }
+  },
+  "samplingMethod": {
+    "id": "doe",
+    "name": "analysis.type.doe",
+    "link": "https://cran.r-project.org/web/packages/DoE.base/DoE.base.pdf"
+  },
+  "algorithmSettings": [
+    {
+      "name": "experiment_type",
+      "displayName": "Experiment Type",
+      "description": "Options: full_factorial",
+      "defaultValue": "full_factorial",
+      "type": "string",
+      "value": "full_factorial",
+      "$$hashKey": "object:203"
+    },
+    {
+      "name": "number_of_samples",
+      "displayName": "Number of Samples",
+      "description": "Positive integer (this discretizes a continous variable)",
+      "defaultValue": 2,
+      "type": "number",
+      "value": 2,
+      "$$hashKey": "object:204"
+    },
+    {
+      "name": "seed",
+      "displayName": "Seed",
+      "description": "Integer seed for random number generator",
+      "defaultValue": null,
+      "type": "number",
+      "value": null,
+      "$$hashKey": "object:138"
+    },
+    {
+      "name": "failed_f_value",
+      "displayName": "Failed F Value",
+      "description": "Return Value for F(x) if F fails",
+      "defaultValue": 1000000000000000000,
+      "type": "number",
+      "value": 1000000000000000000,
+      "$$hashKey": "object:205"
+    },
+    {
+      "name": "debug_messages",
+      "displayName": "Debug Messages",
+      "description": "Options: 1 or 0 (True or False)",
+      "defaultValue": 0,
+      "type": "number",
+      "value": 0,
+      "$$hashKey": "object:206"
+    }
+  ],
+  "rubyMD5": "",
+  "mongoMD5": "",
+  "openstudioServerMD5": "",
+  "openstudioCLIMD5": "",
+  "openstudioMD5": "",
+  "measures": [
+    {
+      "measure_dir": "C:\\Users\\vuonge\\Documents\\Code Document\\TG - L&EP\\002 TG-L&EP Updated LPD values\\2017v2\\NewLPDSpacetype\\measures\\btap_create_necb_prototype_building",
+      "name": "btap_create_necb_prototype_building",
+      "directory": "C:/Users/vuonge/Documents/Code Document/measure/btap_create_necb_prototype_building",
+      "uid": "3e9acd53-8602-4749-a655-7cbbe48e8b30",
+      "uuid": "{3e9acd53-8602-4749-a655-7cbbe48e8b30}",
+      "version_id": "2c997186-1e0c-4f64-80ca-4972aec97836",
+      "version_uuid": "{2c997186-1e0c-4f64-80ca-4972aec97836}",
+      "version_modified": "20190212T141217Z",
+      "xml_checksum": "2C38F48B",
+      "display_name": "BTAPCreateNECBPrototypeBuilding",
+      "class_name": "BTAPCreateNECBPrototypeBuilding",
+      "description": "This measure creates an NECB prototype building from scratch and uses it as the base for an analysis.",
+      "modeler_description": "This will replaced the model object with a brand new model. It effectively ignores the seed model.",
+      "tags": "Whole Building.Space Types",
+      "outputs": [],
+      "attributes": [
+        {
+          "name": "Measure Type",
+          "display_name": "Measure Type",
+          "value": "ModelMeasure"
+        }
+      ],
+      "arguments": [
+        {
+          "name": "building_type",
+          "display_name": "Building Type.",
+          "description": "",
+          "type": "Choice",
+          "required": true,
+          "model_dependent": false,
+          "default_value": "SmallOffice",
+          "choice_values": [
+            "SecondarySchool",
+            "PrimarySchool",
+            "SmallOffice",
+            "MediumOffice",
+            "LargeOffice",
+            "SmallHotel",
+            "LargeHotel",
+            "Warehouse",
+            "RetailStandalone",
+            "RetailStripmall",
+            "QuickServiceRestaurant",
+            "FullServiceRestaurant",
+            "MidriseApartment",
+            "HighriseApartment",
+            "Hospital",
+            "Outpatient"
+          ],
+          "choice_display_names": [
+            "SecondarySchool",
+            "PrimarySchool",
+            "SmallOffice",
+            "MediumOffice",
+            "LargeOffice",
+            "SmallHotel",
+            "LargeHotel",
+            "Warehouse",
+            "RetailStandalone",
+            "RetailStripmall",
+            "QuickServiceRestaurant",
+            "FullServiceRestaurant",
+            "MidriseApartment",
+            "HighriseApartment",
+            "Hospital",
+            "Outpatient"
+          ],
+          "display_name_short": "building_type",
+          "inputs": {
+            "relationship": null,
+            "choiceDisplayNames": [
+              "SecondarySchool",
+              "PrimarySchool",
+              "SmallOffice",
+              "MediumOffice",
+              "LargeOffice",
+              "SmallHotel",
+              "LargeHotel",
+              "Warehouse",
+              "RetailStandalone",
+              "RetailStripmall",
+              "QuickServiceRestaurant",
+              "FullServiceRestaurant",
+              "MidriseApartment",
+              "HighriseApartment",
+              "Hospital",
+              "Outpatient"
+            ],
+            "variableSetting": "Discrete",
+            "distribution": "Uniform",
+            "discreteVariables": [
+              {
+                "value": "SecondarySchool",
+                "weight": "",
+                "$$hashKey": "object:2732"
+              },
+              {
+                "value": "PrimarySchool",
+                "weight": "",
+                "$$hashKey": "object:2743"
+              },
+              {
+                "value": "SmallOffice",
+                "weight": "",
+                "$$hashKey": "object:2753"
+              },
+              {
+                "value": "MediumOffice",
+                "weight": "",
+                "$$hashKey": "object:2763"
+              },
+              {
+                "value": "LargeOffice",
+                "weight": "",
+                "$$hashKey": "object:2773"
+              },
+              {
+                "value": "SmallHotel",
+                "weight": "",
+                "$$hashKey": "object:2783"
+              },
+              {
+                "value": "LargeHotel",
+                "weight": "",
+                "$$hashKey": "object:2793"
+              },
+              {
+                "value": "Warehouse",
+                "weight": "",
+                "$$hashKey": "object:2803"
+              },
+              {
+                "value": "RetailStandalone",
+                "weight": "",
+                "$$hashKey": "object:2813"
+              },
+              {
+                "value": "RetailStripmall",
+                "weight": "",
+                "$$hashKey": "object:2823"
+              },
+              {
+                "value": "QuickServiceRestaurant",
+                "weight": "",
+                "$$hashKey": "object:2833"
+              },
+              {
+                "value": "FullServiceRestaurant",
+                "weight": "",
+                "$$hashKey": "object:2843"
+              },
+              {
+                "value": "MidriseApartment",
+                "weight": "",
+                "$$hashKey": "object:2853"
+              },
+              {
+                "value": "HighriseApartment",
+                "weight": "",
+                "$$hashKey": "object:2863"
+              },
+              {
+                "value": "Hospital",
+                "weight": "",
+                "$$hashKey": "object:2873"
+              },
+              {
+                "value": "Outpatient",
+                "weight": "",
+                "$$hashKey": "object:2883"
+              }
+            ],
+            "maximum": "SmallOffice",
+            "minimum": "SmallOffice",
+            "mean": "SmallOffice",
+            "deltaX": "SmallOffice",
+            "stdDev": "SmallOffice",
+            "default_value": "SmallOffice",
+            "showWarningIcon": false
+          },
+          "$$hashKey": "object:1642"
+        },
+        {
+          "name": "template",
+          "display_name": "Template.",
+          "description": "",
+          "type": "Choice",
+          "required": true,
+          "model_dependent": false,
+          "default_value": "NECB2011",
+          "choice_values": [
+            "NECB2011",
+            "NECB2015",
+            "NECB2017"
+          ],
+          "choice_display_names": [
+            "NECB2011",
+            "NECB2015",
+            "NECB2017"
+          ],
+          "display_name_short": "template",
+          "inputs": {
+            "relationship": null,
+            "choiceDisplayNames": [
+              "NECB2011",
+              "NECB2015",
+              "NECB2017"
+            ],
+            "variableSetting": "Argument",
+            "distribution": "Uniform",
+            "discreteVariables": [],
+            "maximum": "NECB2011",
+            "minimum": "NECB2011",
+            "mean": "NECB2011",
+            "deltaX": "NECB2011",
+            "stdDev": "NECB2011",
+            "default_value": "NECB2017"
+          },
+          "$$hashKey": "object:1643"
+        },
+        {
+          "name": "epw_file",
+          "display_name": "Climate File",
+          "description": "",
+          "type": "Choice",
+          "required": true,
+          "model_dependent": false,
+          "default_value": "CAN_AB_Banff.CS.711220_CWEC2016.epw",
+          "choice_values": [
+            "CAN_AB_Banff.CS.711220_CWEC2016.epw",
+            "CAN_AB_Calgary.Intl.AP.718770_CWEC2016.epw",
+            "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw",
+            "CAN_AB_Edmonton.Stony.Plain.AP.711270_CWEC2016.epw",
+            "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw",
+            "CAN_AB_Grande.Prairie.AP.719400_CWEC2016.epw",
+            "CAN_AB_Lethbridge.AP.712430_CWEC2016.epw",
+            "CAN_AB_Medicine.Hat.AP.710260_CWEC2016.epw",
+            "CAN_BC_Abbotsford.Intl.AP.711080_CWEC2016.epw",
+            "CAN_BC_Comox.Valley.AP.718930_CWEC2016.epw",
+            "CAN_BC_Crankbrook-Canadian.Rockies.Intl.AP.718800_CWEC2016.epw",
+            "CAN_BC_Fort.St.John-North.Peace.Rgnl.AP.719430_CWEC2016.epw",
+            "CAN_BC_Hope.Rgnl.Airpark.711870_CWEC2016.epw",
+            "CAN_BC_Kamloops.AP.718870_CWEC2016.epw",
+            "CAN_BC_Port.Hardy.AP.711090_CWEC2016.epw",
+            "CAN_BC_Prince.George.Intl.AP.718960_CWEC2016.epw",
+            "CAN_BC_Smithers.Rgnl.AP.719500_CWEC2016.epw",
+            "CAN_BC_Summerland.717680_CWEC2016.epw",
+            "CAN_BC_Vancouver.Intl.AP.718920_CWEC2016.epw",
+            "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw",
+            "CAN_MB_Brandon.Muni.AP.711400_CWEC2016.epw",
+            "CAN_MB_The.Pas.AP.718670_CWEC2016.epw",
+            "CAN_MB_Winnipeg-Richardson.Intl.AP.718520_CWEC2016.epw",
+            "CAN_NB_Fredericton.Intl.AP.717000_CWEC2016.epw",
+            "CAN_NB_Miramichi.AP.717440_CWEC2016.epw",
+            "CAN_NB_Saint.John.AP.716090_CWEC2016.epw",
+            "CAN_NL_Gander.Intl.AP-CFB.Gander.718030_CWEC2016.epw",
+            "CAN_NL_Goose.Bay.AP-CFB.Goose.Bay.718160_CWEC2016.epw",
+            "CAN_NL_St.Johns.Intl.AP.718010_CWEC2016.epw",
+            "CAN_NL_Stephenville.Intl.AP.718150_CWEC2016.epw",
+            "CAN_NS_CFB.Greenwood.713970_CWEC2016.epw",
+            "CAN_NS_CFB.Shearwater.716010_CWEC2016.epw",
+            "CAN_NS_Sable.Island.Natl.Park.716000_CWEC2016.epw",
+            "CAN_NT_Inuvik-Zubko.AP.719570_CWEC2016.epw",
+            "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw",
+            "CAN_ON_Armstrong.AP.718410_CWEC2016.epw",
+            "CAN_ON_CFB.Trenton.716210_CWEC2016.epw",
+            "CAN_ON_Dryden.Rgnl.AP.715270_CWEC2016.epw",
+            "CAN_ON_London.Intl.AP.716230_CWEC2016.epw",
+            "CAN_ON_Moosonee.AP.713980_CWEC2016.epw",
+            "CAN_ON_Mount.Forest.716310_CWEC2016.epw",
+            "CAN_ON_North.Bay-Garland.AP.717310_CWEC2016.epw",
+            "CAN_ON_Ottawa-Macdonald-Cartier.Intl.AP.716280_CWEC2016.epw",
+            "CAN_ON_Sault.Ste.Marie.AP.712600_CWEC2016.epw",
+            "CAN_ON_Timmins.Power.AP.717390_CWEC2016.epw",
+            "CAN_ON_Toronto.Pearson.Intl.AP.716240_CWEC2016.epw",
+            "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw",
+            "CAN_PE_Charlottetown.AP.717060_CWEC2016.epw",
+            "CAN_QC_Kuujjuaq.AP.719060_CWEC2016.epw",
+            "CAN_QC_Kuujuarapik.AP.719050_CWEC2016.epw",
+            "CAN_QC_Lac.Eon.AP.714210_CWEC2016.epw",
+            "CAN_QC_Mont-Joli.AP.717180_CWEC2016.epw",
+            "CAN_QC_Montreal-Mirabel.Intl.AP.719050_CWEC2016.epw",
+            "CAN_QC_Montreal-St-Hubert.Longueuil.AP.713710_CWEC2016.epw",
+            "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw",
+            "CAN_QC_Quebec-Lesage.Intl.AP.717140_CWEC2016.epw",
+            "CAN_QC_Riviere-du-Loup.717150_CWEC2016.epw",
+            "CAN_QC_Roberval.AP.717280_CWEC2016.epw",
+            "CAN_QC_Saguenay-Bagotville.AP-CFB.Bagotville.717270_CWEC2016.epw",
+            "CAN_QC_Schefferville.AP.718280_CWEC2016.epw",
+            "CAN_QC_Sept-Iles.AP.718110_CWEC2016.epw",
+            "CAN_QC_Val-d-Or.Rgnl.AP.717250_CWEC2016.epw",
+            "CAN_SK_Estevan.Rgnl.AP.718620_CWEC2016.epw",
+            "CAN_SK_North.Battleford.AP.718760_CWEC2016.epw",
+            "CAN_SK_Saskatoon.Intl.AP.718660_CWEC2016.epw",
+            "CAN_YT_Whitehorse.Intl.AP.719640_CWEC2016.epw"
+          ],
+          "choice_display_names": [
+            "CAN_AB_Banff.CS.711220_CWEC2016.epw",
+            "CAN_AB_Calgary.Intl.AP.718770_CWEC2016.epw",
+            "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw",
+            "CAN_AB_Edmonton.Stony.Plain.AP.711270_CWEC2016.epw",
+            "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw",
+            "CAN_AB_Grande.Prairie.AP.719400_CWEC2016.epw",
+            "CAN_AB_Lethbridge.AP.712430_CWEC2016.epw",
+            "CAN_AB_Medicine.Hat.AP.710260_CWEC2016.epw",
+            "CAN_BC_Abbotsford.Intl.AP.711080_CWEC2016.epw",
+            "CAN_BC_Comox.Valley.AP.718930_CWEC2016.epw",
+            "CAN_BC_Crankbrook-Canadian.Rockies.Intl.AP.718800_CWEC2016.epw",
+            "CAN_BC_Fort.St.John-North.Peace.Rgnl.AP.719430_CWEC2016.epw",
+            "CAN_BC_Hope.Rgnl.Airpark.711870_CWEC2016.epw",
+            "CAN_BC_Kamloops.AP.718870_CWEC2016.epw",
+            "CAN_BC_Port.Hardy.AP.711090_CWEC2016.epw",
+            "CAN_BC_Prince.George.Intl.AP.718960_CWEC2016.epw",
+            "CAN_BC_Smithers.Rgnl.AP.719500_CWEC2016.epw",
+            "CAN_BC_Summerland.717680_CWEC2016.epw",
+            "CAN_BC_Vancouver.Intl.AP.718920_CWEC2016.epw",
+            "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw",
+            "CAN_MB_Brandon.Muni.AP.711400_CWEC2016.epw",
+            "CAN_MB_The.Pas.AP.718670_CWEC2016.epw",
+            "CAN_MB_Winnipeg-Richardson.Intl.AP.718520_CWEC2016.epw",
+            "CAN_NB_Fredericton.Intl.AP.717000_CWEC2016.epw",
+            "CAN_NB_Miramichi.AP.717440_CWEC2016.epw",
+            "CAN_NB_Saint.John.AP.716090_CWEC2016.epw",
+            "CAN_NL_Gander.Intl.AP-CFB.Gander.718030_CWEC2016.epw",
+            "CAN_NL_Goose.Bay.AP-CFB.Goose.Bay.718160_CWEC2016.epw",
+            "CAN_NL_St.Johns.Intl.AP.718010_CWEC2016.epw",
+            "CAN_NL_Stephenville.Intl.AP.718150_CWEC2016.epw",
+            "CAN_NS_CFB.Greenwood.713970_CWEC2016.epw",
+            "CAN_NS_CFB.Shearwater.716010_CWEC2016.epw",
+            "CAN_NS_Sable.Island.Natl.Park.716000_CWEC2016.epw",
+            "CAN_NT_Inuvik-Zubko.AP.719570_CWEC2016.epw",
+            "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw",
+            "CAN_ON_Armstrong.AP.718410_CWEC2016.epw",
+            "CAN_ON_CFB.Trenton.716210_CWEC2016.epw",
+            "CAN_ON_Dryden.Rgnl.AP.715270_CWEC2016.epw",
+            "CAN_ON_London.Intl.AP.716230_CWEC2016.epw",
+            "CAN_ON_Moosonee.AP.713980_CWEC2016.epw",
+            "CAN_ON_Mount.Forest.716310_CWEC2016.epw",
+            "CAN_ON_North.Bay-Garland.AP.717310_CWEC2016.epw",
+            "CAN_ON_Ottawa-Macdonald-Cartier.Intl.AP.716280_CWEC2016.epw",
+            "CAN_ON_Sault.Ste.Marie.AP.712600_CWEC2016.epw",
+            "CAN_ON_Timmins.Power.AP.717390_CWEC2016.epw",
+            "CAN_ON_Toronto.Pearson.Intl.AP.716240_CWEC2016.epw",
+            "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw",
+            "CAN_PE_Charlottetown.AP.717060_CWEC2016.epw",
+            "CAN_QC_Kuujjuaq.AP.719060_CWEC2016.epw",
+            "CAN_QC_Kuujuarapik.AP.719050_CWEC2016.epw",
+            "CAN_QC_Lac.Eon.AP.714210_CWEC2016.epw",
+            "CAN_QC_Mont-Joli.AP.717180_CWEC2016.epw",
+            "CAN_QC_Montreal-Mirabel.Intl.AP.719050_CWEC2016.epw",
+            "CAN_QC_Montreal-St-Hubert.Longueuil.AP.713710_CWEC2016.epw",
+            "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw",
+            "CAN_QC_Quebec-Lesage.Intl.AP.717140_CWEC2016.epw",
+            "CAN_QC_Riviere-du-Loup.717150_CWEC2016.epw",
+            "CAN_QC_Roberval.AP.717280_CWEC2016.epw",
+            "CAN_QC_Saguenay-Bagotville.AP-CFB.Bagotville.717270_CWEC2016.epw",
+            "CAN_QC_Schefferville.AP.718280_CWEC2016.epw",
+            "CAN_QC_Sept-Iles.AP.718110_CWEC2016.epw",
+            "CAN_QC_Val-d-Or.Rgnl.AP.717250_CWEC2016.epw",
+            "CAN_SK_Estevan.Rgnl.AP.718620_CWEC2016.epw",
+            "CAN_SK_North.Battleford.AP.718760_CWEC2016.epw",
+            "CAN_SK_Saskatoon.Intl.AP.718660_CWEC2016.epw",
+            "CAN_YT_Whitehorse.Intl.AP.719640_CWEC2016.epw"
+          ],
+          "display_name_short": "epw_file",
+          "inputs": {
+            "relationship": null,
+            "choiceDisplayNames": [
+              "CAN_AB_Banff.CS.711220_CWEC2016.epw",
+              "CAN_AB_Calgary.Intl.AP.718770_CWEC2016.epw",
+              "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw",
+              "CAN_AB_Edmonton.Stony.Plain.AP.711270_CWEC2016.epw",
+              "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw",
+              "CAN_AB_Grande.Prairie.AP.719400_CWEC2016.epw",
+              "CAN_AB_Lethbridge.AP.712430_CWEC2016.epw",
+              "CAN_AB_Medicine.Hat.AP.710260_CWEC2016.epw",
+              "CAN_BC_Abbotsford.Intl.AP.711080_CWEC2016.epw",
+              "CAN_BC_Comox.Valley.AP.718930_CWEC2016.epw",
+              "CAN_BC_Crankbrook-Canadian.Rockies.Intl.AP.718800_CWEC2016.epw",
+              "CAN_BC_Fort.St.John-North.Peace.Rgnl.AP.719430_CWEC2016.epw",
+              "CAN_BC_Hope.Rgnl.Airpark.711870_CWEC2016.epw",
+              "CAN_BC_Kamloops.AP.718870_CWEC2016.epw",
+              "CAN_BC_Port.Hardy.AP.711090_CWEC2016.epw",
+              "CAN_BC_Prince.George.Intl.AP.718960_CWEC2016.epw",
+              "CAN_BC_Smithers.Rgnl.AP.719500_CWEC2016.epw",
+              "CAN_BC_Summerland.717680_CWEC2016.epw",
+              "CAN_BC_Vancouver.Intl.AP.718920_CWEC2016.epw",
+              "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw",
+              "CAN_MB_Brandon.Muni.AP.711400_CWEC2016.epw",
+              "CAN_MB_The.Pas.AP.718670_CWEC2016.epw",
+              "CAN_MB_Winnipeg-Richardson.Intl.AP.718520_CWEC2016.epw",
+              "CAN_NB_Fredericton.Intl.AP.717000_CWEC2016.epw",
+              "CAN_NB_Miramichi.AP.717440_CWEC2016.epw",
+              "CAN_NB_Saint.John.AP.716090_CWEC2016.epw",
+              "CAN_NL_Gander.Intl.AP-CFB.Gander.718030_CWEC2016.epw",
+              "CAN_NL_Goose.Bay.AP-CFB.Goose.Bay.718160_CWEC2016.epw",
+              "CAN_NL_St.Johns.Intl.AP.718010_CWEC2016.epw",
+              "CAN_NL_Stephenville.Intl.AP.718150_CWEC2016.epw",
+              "CAN_NS_CFB.Greenwood.713970_CWEC2016.epw",
+              "CAN_NS_CFB.Shearwater.716010_CWEC2016.epw",
+              "CAN_NS_Sable.Island.Natl.Park.716000_CWEC2016.epw",
+              "CAN_NT_Inuvik-Zubko.AP.719570_CWEC2016.epw",
+              "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw",
+              "CAN_ON_Armstrong.AP.718410_CWEC2016.epw",
+              "CAN_ON_CFB.Trenton.716210_CWEC2016.epw",
+              "CAN_ON_Dryden.Rgnl.AP.715270_CWEC2016.epw",
+              "CAN_ON_London.Intl.AP.716230_CWEC2016.epw",
+              "CAN_ON_Moosonee.AP.713980_CWEC2016.epw",
+              "CAN_ON_Mount.Forest.716310_CWEC2016.epw",
+              "CAN_ON_North.Bay-Garland.AP.717310_CWEC2016.epw",
+              "CAN_ON_Ottawa-Macdonald-Cartier.Intl.AP.716280_CWEC2016.epw",
+              "CAN_ON_Sault.Ste.Marie.AP.712600_CWEC2016.epw",
+              "CAN_ON_Timmins.Power.AP.717390_CWEC2016.epw",
+              "CAN_ON_Toronto.Pearson.Intl.AP.716240_CWEC2016.epw",
+              "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw",
+              "CAN_PE_Charlottetown.AP.717060_CWEC2016.epw",
+              "CAN_QC_Kuujjuaq.AP.719060_CWEC2016.epw",
+              "CAN_QC_Kuujuarapik.AP.719050_CWEC2016.epw",
+              "CAN_QC_Lac.Eon.AP.714210_CWEC2016.epw",
+              "CAN_QC_Mont-Joli.AP.717180_CWEC2016.epw",
+              "CAN_QC_Montreal-Mirabel.Intl.AP.719050_CWEC2016.epw",
+              "CAN_QC_Montreal-St-Hubert.Longueuil.AP.713710_CWEC2016.epw",
+              "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw",
+              "CAN_QC_Quebec-Lesage.Intl.AP.717140_CWEC2016.epw",
+              "CAN_QC_Riviere-du-Loup.717150_CWEC2016.epw",
+              "CAN_QC_Roberval.AP.717280_CWEC2016.epw",
+              "CAN_QC_Saguenay-Bagotville.AP-CFB.Bagotville.717270_CWEC2016.epw",
+              "CAN_QC_Schefferville.AP.718280_CWEC2016.epw",
+              "CAN_QC_Sept-Iles.AP.718110_CWEC2016.epw",
+              "CAN_QC_Val-d-Or.Rgnl.AP.717250_CWEC2016.epw",
+              "CAN_SK_Estevan.Rgnl.AP.718620_CWEC2016.epw",
+              "CAN_SK_North.Battleford.AP.718760_CWEC2016.epw",
+              "CAN_SK_Saskatoon.Intl.AP.718660_CWEC2016.epw",
+              "CAN_YT_Whitehorse.Intl.AP.719640_CWEC2016.epw"
+            ],
+            "variableSetting": "Discrete",
+            "distribution": "Uniform",
+            "discreteVariables": [
+              {
+                "value": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw",
+                "weight": "",
+                "$$hashKey": "object:2897"
+              },
+              {
+                "value": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw",
+                "weight": "",
+                "$$hashKey": "object:2908"
+              },
+              {
+                "value": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw",
+                "weight": "",
+                "$$hashKey": "object:2918"
+              },
+              {
+                "value": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw",
+                "weight": "",
+                "$$hashKey": "object:2928"
+              },
+              {
+                "value": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw",
+                "weight": "",
+                "$$hashKey": "object:2938"
+              },
+              {
+                "value": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw",
+                "weight": "",
+                "$$hashKey": "object:2948"
+              }
+            ],
+            "maximum": "CAN_AB_Banff.CS.711220_CWEC2016.epw",
+            "minimum": "CAN_AB_Banff.CS.711220_CWEC2016.epw",
+            "mean": "CAN_AB_Banff.CS.711220_CWEC2016.epw",
+            "deltaX": "CAN_AB_Banff.CS.711220_CWEC2016.epw",
+            "stdDev": "CAN_AB_Banff.CS.711220_CWEC2016.epw",
+            "default_value": "CAN_AB_Banff.CS.711220_CWEC2016.epw",
+            "showWarningIcon": false
+          },
+          "$$hashKey": "object:1644"
+        },
+        {
+          "name": "new_auto_zoner",
+          "display_name": "Use New Autozone method?",
+          "description": "",
+          "type": "Boolean",
+          "required": true,
+          "model_dependent": false,
+          "default_value": false,
+          "display_name_short": "new_auto_zoner",
+          "inputs": {
+            "relationship": null,
+            "choiceDisplayNames": [],
+            "variableSetting": "Argument",
+            "distribution": "Uniform",
+            "discreteVariables": [],
+            "maximum": false,
+            "minimum": false,
+            "mean": false,
+            "deltaX": false,
+            "stdDev": false,
+            "default_value": false
+          },
+          "$$hashKey": "object:1645"
+        }
+      ],
+      "edit": "",
+      "status": "",
+      "bcl_update": false,
+      "location": "my",
+      "add": "",
+      "open": true,
+      "addedToProject": true,
+      "date": "2/12/2019",
+      "author": "",
+      "type": "ModelMeasure",
+      "seed": "dummy.osm",
+      "workflow_index": 0,
+      "options": [],
+      "instanceId": 0.7922831258756247,
+      "skip": false,
+      "$$hashKey": "object:1571",
+      "showWarningText": false
+    },
+    {
+      "measure_dir": "C:\\Users\\vuonge\\Documents\\Code Document\\TG - L&EP\\002 TG-L&EP Updated LPD values\\2017v2\\NewLPDSpacetype\\measures\\BTAPNewSpacetypeLPDList",
+      "name": "btap_new_spacetype_lpd_list",
+      "directory": "C:/Users/vuonge/Documents/Code Document/measure/BTAPNewSpacetypeLPDList",
+      "uid": "fe83dee3-2233-4744-abb1-3cbb1777fbae",
+      "uuid": "{fe83dee3-2233-4744-abb1-3cbb1777fbae}",
+      "version_id": "8e3e449c-f6e1-45ab-8f27-623e0ff11091",
+      "version_uuid": "{8e3e449c-f6e1-45ab-8f27-623e0ff11091}",
+      "version_modified": "20190218T195335Z",
+      "xml_checksum": "2609226D",
+      "display_name": "BTAPNewSpacetypeLPDList",
+      "class_name": "BTAPNewSpacetypeLPDList",
+      "description": "This  measure changes space type LPD based on associated json file in the resource folder.",
+      "modeler_description": "Reads the spacetypes in the model and replaces the model LPD with the LPD specified in the json file.",
+      "tags": "Envelope.Opaque",
+      "outputs": [],
+      "attributes": [
+        {
+          "name": "Measure Type",
+          "display_name": "Measure Type",
+          "value": "ModelMeasure"
+        },
+        {
+          "name": "Intended Software Tool",
+          "display_name": "Intended Software Tool",
+          "value": "Apply Measure Now"
+        },
+        {
+          "name": "Intended Software Tool",
+          "display_name": "Intended Software Tool",
+          "value": "OpenStudio Application"
+        },
+        {
+          "name": "Intended Software Tool",
+          "display_name": "Intended Software Tool",
+          "value": "Parametric Analysis Tool"
+        }
+      ],
+      "arguments": [
+        {
+          "name": "skipspacetype",
+          "display_name": "Spacetypes to skip",
+          "description": "",
+          "type": "String",
+          "required": false,
+          "model_dependent": false,
+          "default_value": "None",
+          "display_name_short": "skipspacetype",
+          "inputs": {
+            "relationship": null,
+            "choiceDisplayNames": [],
+            "variableSetting": "Argument",
+            "distribution": "Uniform",
+            "discreteVariables": [],
+            "maximum": "None",
+            "minimum": "None",
+            "mean": "None",
+            "deltaX": "None",
+            "stdDev": "None",
+            "default_value": "None"
+          },
+          "$$hashKey": "object:1804"
+        },
+        {
+          "name": "fracchange",
+          "display_name": "Fractional change",
+          "description": "",
+          "type": "Double",
+          "required": false,
+          "model_dependent": false,
+          "default_value": 1,
+          "display_name_short": "fracchange",
+          "inputs": {
+            "relationship": null,
+            "choiceDisplayNames": [],
+            "variableSetting": "Argument",
+            "distribution": "Uniform",
+            "discreteVariables": [],
+            "maximum": 1,
+            "minimum": 1,
+            "mean": 1,
+            "deltaX": 1,
+            "stdDev": 1,
+            "default_value": 1
+          },
+          "$$hashKey": "object:1805"
+        }
+      ],
+      "edit": "",
+      "status": "",
+      "bcl_update": false,
+      "location": "my",
+      "add": "",
+      "open": false,
+      "addedToProject": true,
+      "date": "2/18/2019",
+      "author": "",
+      "type": "ModelMeasure",
+      "seed": "dummy.osm",
+      "workflow_index": 1,
+      "options": [],
+      "instanceId": 0.8592547376946513,
+      "skip": false,
+      "$$hashKey": "object:1572"
+    },
+    {
+      "measure_dir": "C:\\Users\\vuonge\\Documents\\Code Document\\TG - L&EP\\002 TG-L&EP Updated LPD values\\2017v2\\NewLPDSpacetype\\measures\\btap_results",
+      "name": "btap_results",
+      "directory": "C:/Users/vuonge/Documents/Code Document/measure/btap_results",
+      "uid": "bf37e1c6-de70-457b-a3ac-21aa57b7bc58",
+      "uuid": "{bf37e1c6-de70-457b-a3ac-21aa57b7bc58}",
+      "version_id": "86fb174b-6040-4a41-8cbe-ab3d1551296a",
+      "version_uuid": "{86fb174b-6040-4a41-8cbe-ab3d1551296a}",
+      "version_modified": "20181219T170133Z",
+      "xml_checksum": "15BF4E57",
+      "display_name": "BTAP Results",
+      "class_name": "BTAPResults",
+      "description": "This measure creates BTAP result values used for NRCan analyses.",
+      "modeler_description": "Grabs data from OS model and sql database and keeps them in the ",
+      "tags": "Reporting.QAQC",
+      "outputs": [],
+      "attributes": [
+        {
+          "name": "Measure Type",
+          "display_name": "Measure Type",
+          "value": "ReportingMeasure"
+        }
+      ],
+      "arguments": [
+        {
+          "name": "generate_hourly_report",
+          "display_name": "Generate Hourly Report.",
+          "description": "",
+          "type": "String",
+          "required": false,
+          "model_dependent": false,
+          "default_value": "false",
+          "display_name_short": "generate_hourly_report",
+          "inputs": {
+            "relationship": null,
+            "choiceDisplayNames": [],
+            "variableSetting": "Argument",
+            "distribution": "Uniform",
+            "discreteVariables": [],
+            "maximum": "false",
+            "minimum": "false",
+            "mean": "false",
+            "deltaX": "false",
+            "stdDev": "false",
+            "default_value": "false"
+          },
+          "$$hashKey": "object:2639"
+        },
+        {
+          "name": "output_diet",
+          "display_name": "Reduce outputs.",
+          "description": "",
+          "type": "Boolean",
+          "required": true,
+          "model_dependent": false,
+          "default_value": false,
+          "display_name_short": "output_diet",
+          "inputs": {
+            "relationship": null,
+            "choiceDisplayNames": [],
+            "variableSetting": "Argument",
+            "distribution": "Uniform",
+            "discreteVariables": [],
+            "maximum": false,
+            "minimum": false,
+            "mean": false,
+            "deltaX": false,
+            "stdDev": false,
+            "default_value": false
+          },
+          "$$hashKey": "object:2640"
+        }
+      ],
+      "edit": "",
+      "status": "",
+      "bcl_update": false,
+      "location": "my",
+      "add": "",
+      "open": false,
+      "addedToProject": true,
+      "date": "12/19/2018",
+      "author": "",
+      "type": "ReportingMeasure",
+      "seed": "dummy.osm",
+      "workflow_index": 2,
+      "options": [],
+      "instanceId": 0.009957051362990077,
+      "skip": false,
+      "$$hashKey": "object:2599"
+    }
+  ],
+  "filesToInclude": [],
+  "serverScripts": {
+    "server_initialization": {
+      "file": null,
+      "arguments": []
+    },
+    "server_finalization": {
+      "file": null,
+      "arguments": []
+    },
+    "worker_initialization": {
+      "file": null,
+      "arguments": []
+    },
+    "worker_finalization": {
+      "file": null,
+      "arguments": []
+    }
+  },
+  "designAlternatives": [],
+  "analysisID": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832\r",
+  "datapoints": [
+    {
+      "_id": "5e17ce04-dc75-4c49-ba6e-cb80254b83e6",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.156Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "5e17ce04-dc75-4c49-ba6e-cb80254b83e6",
+      "name": "DOE Autogenerated 22",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "SmallHotel",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.343Z",
+      "uuid": "5e17ce04-dc75-4c49-ba6e-cb80254b83e6",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "SmallHotel",
+        "btap_create_necb_prototype_building.epw_file": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "SmallHotel",
+        "Climate File": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "id": "5e17ce04-dc75-4c49-ba6e-cb80254b83e6"
+    },
+    {
+      "_id": "45dbd745-ee66-4d2c-a4b2-f0cf588a83a6",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.167Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "45dbd745-ee66-4d2c-a4b2-f0cf588a83a6",
+      "name": "DOE Autogenerated 23",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "LargeHotel",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.354Z",
+      "uuid": "45dbd745-ee66-4d2c-a4b2-f0cf588a83a6",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "LargeHotel",
+        "btap_create_necb_prototype_building.epw_file": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "LargeHotel",
+        "Climate File": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "id": "45dbd745-ee66-4d2c-a4b2-f0cf588a83a6"
+    },
+    {
+      "_id": "2c2d0405-3837-46ac-8e3b-959d2109cef1",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.177Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "2c2d0405-3837-46ac-8e3b-959d2109cef1",
+      "name": "DOE Autogenerated 24",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "Warehouse",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.364Z",
+      "uuid": "2c2d0405-3837-46ac-8e3b-959d2109cef1",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "Warehouse",
+        "btap_create_necb_prototype_building.epw_file": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "Warehouse",
+        "Climate File": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "id": "2c2d0405-3837-46ac-8e3b-959d2109cef1"
+    },
+    {
+      "_id": "7b9f234a-6864-47b4-a0c4-027601ddd197",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.187Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "7b9f234a-6864-47b4-a0c4-027601ddd197",
+      "name": "DOE Autogenerated 25",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "RetailStandalone",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.374Z",
+      "uuid": "7b9f234a-6864-47b4-a0c4-027601ddd197",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "RetailStandalone",
+        "btap_create_necb_prototype_building.epw_file": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "RetailStandalone",
+        "Climate File": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "id": "7b9f234a-6864-47b4-a0c4-027601ddd197"
+    },
+    {
+      "_id": "81e79678-eca3-4ab4-9070-5dfc6ce735fa",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.197Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "81e79678-eca3-4ab4-9070-5dfc6ce735fa",
+      "name": "DOE Autogenerated 26",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "RetailStripmall",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.385Z",
+      "uuid": "81e79678-eca3-4ab4-9070-5dfc6ce735fa",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "RetailStripmall",
+        "btap_create_necb_prototype_building.epw_file": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "RetailStripmall",
+        "Climate File": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "id": "81e79678-eca3-4ab4-9070-5dfc6ce735fa"
+    },
+    {
+      "_id": "16b22d4e-5d6d-4ab5-912f-cf44c2f6c71c",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.207Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "16b22d4e-5d6d-4ab5-912f-cf44c2f6c71c",
+      "name": "DOE Autogenerated 27",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "QuickServiceRestaurant",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.397Z",
+      "uuid": "16b22d4e-5d6d-4ab5-912f-cf44c2f6c71c",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "QuickServiceRestaurant",
+        "btap_create_necb_prototype_building.epw_file": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "QuickServiceRestaurant",
+        "Climate File": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "id": "16b22d4e-5d6d-4ab5-912f-cf44c2f6c71c"
+    },
+    {
+      "_id": "7a878eee-82ea-4d85-8878-c1fcaa1329df",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.217Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "7a878eee-82ea-4d85-8878-c1fcaa1329df",
+      "name": "DOE Autogenerated 28",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "FullServiceRestaurant",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.407Z",
+      "uuid": "7a878eee-82ea-4d85-8878-c1fcaa1329df",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "FullServiceRestaurant",
+        "btap_create_necb_prototype_building.epw_file": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "FullServiceRestaurant",
+        "Climate File": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "id": "7a878eee-82ea-4d85-8878-c1fcaa1329df"
+    },
+    {
+      "_id": "bd3b2acf-4ee0-4b7f-8aa0-d5c5bc1ae72e",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.227Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "bd3b2acf-4ee0-4b7f-8aa0-d5c5bc1ae72e",
+      "name": "DOE Autogenerated 29",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "MidriseApartment",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.417Z",
+      "uuid": "bd3b2acf-4ee0-4b7f-8aa0-d5c5bc1ae72e",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "MidriseApartment",
+        "btap_create_necb_prototype_building.epw_file": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "MidriseApartment",
+        "Climate File": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "id": "bd3b2acf-4ee0-4b7f-8aa0-d5c5bc1ae72e"
+    },
+    {
+      "_id": "6794a27c-7934-4e63-a4b0-d115fc828ee5",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.237Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "6794a27c-7934-4e63-a4b0-d115fc828ee5",
+      "name": "DOE Autogenerated 30",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "HighriseApartment",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.428Z",
+      "uuid": "6794a27c-7934-4e63-a4b0-d115fc828ee5",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "HighriseApartment",
+        "btap_create_necb_prototype_building.epw_file": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "HighriseApartment",
+        "Climate File": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "id": "6794a27c-7934-4e63-a4b0-d115fc828ee5"
+    },
+    {
+      "_id": "e2c8f97a-a3ac-4fc5-a19f-41ff21edc5fc",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.247Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "e2c8f97a-a3ac-4fc5-a19f-41ff21edc5fc",
+      "name": "DOE Autogenerated 31",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "Hospital",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.439Z",
+      "uuid": "e2c8f97a-a3ac-4fc5-a19f-41ff21edc5fc",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "Hospital",
+        "btap_create_necb_prototype_building.epw_file": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "Hospital",
+        "Climate File": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "id": "e2c8f97a-a3ac-4fc5-a19f-41ff21edc5fc"
+    },
+    {
+      "_id": "0e51fc1d-925e-4af3-9b40-4460da91e09d",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.257Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "0e51fc1d-925e-4af3-9b40-4460da91e09d",
+      "name": "DOE Autogenerated 32",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "Outpatient",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.448Z",
+      "uuid": "0e51fc1d-925e-4af3-9b40-4460da91e09d",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "Outpatient",
+        "btap_create_necb_prototype_building.epw_file": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "Outpatient",
+        "Climate File": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "id": "0e51fc1d-925e-4af3-9b40-4460da91e09d"
+    },
+    {
+      "_id": "89371def-1d4d-4128-b301-1f9ddc7eba75",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.267Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "89371def-1d4d-4128-b301-1f9ddc7eba75",
+      "name": "DOE Autogenerated 33",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "SecondarySchool",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.458Z",
+      "uuid": "89371def-1d4d-4128-b301-1f9ddc7eba75",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "SecondarySchool",
+        "btap_create_necb_prototype_building.epw_file": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "SecondarySchool",
+        "Climate File": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "id": "89371def-1d4d-4128-b301-1f9ddc7eba75"
+    },
+    {
+      "_id": "82baf660-a80e-4a00-bfc9-79db43089280",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.277Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "82baf660-a80e-4a00-bfc9-79db43089280",
+      "name": "DOE Autogenerated 34",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "PrimarySchool",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.468Z",
+      "uuid": "82baf660-a80e-4a00-bfc9-79db43089280",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "PrimarySchool",
+        "btap_create_necb_prototype_building.epw_file": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "PrimarySchool",
+        "Climate File": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "id": "82baf660-a80e-4a00-bfc9-79db43089280"
+    },
+    {
+      "_id": "05eae69c-7ee2-486c-9678-0774108a25bb",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.288Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "05eae69c-7ee2-486c-9678-0774108a25bb",
+      "name": "DOE Autogenerated 35",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "SmallOffice",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.478Z",
+      "uuid": "05eae69c-7ee2-486c-9678-0774108a25bb",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "SmallOffice",
+        "btap_create_necb_prototype_building.epw_file": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "SmallOffice",
+        "Climate File": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "id": "05eae69c-7ee2-486c-9678-0774108a25bb"
+    },
+    {
+      "_id": "abb90d97-5e51-40b0-953d-164660bb7798",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.299Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "abb90d97-5e51-40b0-953d-164660bb7798",
+      "name": "DOE Autogenerated 36",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "MediumOffice",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.488Z",
+      "uuid": "abb90d97-5e51-40b0-953d-164660bb7798",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "MediumOffice",
+        "btap_create_necb_prototype_building.epw_file": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "MediumOffice",
+        "Climate File": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "id": "abb90d97-5e51-40b0-953d-164660bb7798"
+    },
+    {
+      "_id": "0ca79f45-14d6-4741-9953-bc2ee750f50a",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.310Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "0ca79f45-14d6-4741-9953-bc2ee750f50a",
+      "name": "DOE Autogenerated 37",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "LargeOffice",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.498Z",
+      "uuid": "0ca79f45-14d6-4741-9953-bc2ee750f50a",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "LargeOffice",
+        "btap_create_necb_prototype_building.epw_file": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "LargeOffice",
+        "Climate File": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "id": "0ca79f45-14d6-4741-9953-bc2ee750f50a"
+    },
+    {
+      "_id": "0d70cb4c-2774-4266-87c9-072b96a318d6",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.321Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "0d70cb4c-2774-4266-87c9-072b96a318d6",
+      "name": "DOE Autogenerated 38",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "SmallHotel",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.508Z",
+      "uuid": "0d70cb4c-2774-4266-87c9-072b96a318d6",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "SmallHotel",
+        "btap_create_necb_prototype_building.epw_file": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "SmallHotel",
+        "Climate File": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "id": "0d70cb4c-2774-4266-87c9-072b96a318d6"
+    },
+    {
+      "_id": "7e748462-2e68-435b-85b5-04f0b58bb27f",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.331Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "7e748462-2e68-435b-85b5-04f0b58bb27f",
+      "name": "DOE Autogenerated 39",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "LargeHotel",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.518Z",
+      "uuid": "7e748462-2e68-435b-85b5-04f0b58bb27f",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "LargeHotel",
+        "btap_create_necb_prototype_building.epw_file": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "LargeHotel",
+        "Climate File": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "id": "7e748462-2e68-435b-85b5-04f0b58bb27f"
+    },
+    {
+      "_id": "e42b7a1a-6b3f-45e7-a42e-c44b39fb81f2",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.341Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "e42b7a1a-6b3f-45e7-a42e-c44b39fb81f2",
+      "name": "DOE Autogenerated 40",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "Warehouse",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.528Z",
+      "uuid": "e42b7a1a-6b3f-45e7-a42e-c44b39fb81f2",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "Warehouse",
+        "btap_create_necb_prototype_building.epw_file": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "Warehouse",
+        "Climate File": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "id": "e42b7a1a-6b3f-45e7-a42e-c44b39fb81f2"
+    },
+    {
+      "_id": "411b1d0c-62bc-4438-a6df-07843b43b236",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.353Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "411b1d0c-62bc-4438-a6df-07843b43b236",
+      "name": "DOE Autogenerated 41",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "RetailStandalone",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.538Z",
+      "uuid": "411b1d0c-62bc-4438-a6df-07843b43b236",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "RetailStandalone",
+        "btap_create_necb_prototype_building.epw_file": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "RetailStandalone",
+        "Climate File": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "id": "411b1d0c-62bc-4438-a6df-07843b43b236"
+    },
+    {
+      "_id": "5ec5b743-b7bf-4c5b-ab36-c12b7641d0b1",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.365Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "5ec5b743-b7bf-4c5b-ab36-c12b7641d0b1",
+      "name": "DOE Autogenerated 42",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "RetailStripmall",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.548Z",
+      "uuid": "5ec5b743-b7bf-4c5b-ab36-c12b7641d0b1",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "RetailStripmall",
+        "btap_create_necb_prototype_building.epw_file": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "RetailStripmall",
+        "Climate File": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "id": "5ec5b743-b7bf-4c5b-ab36-c12b7641d0b1"
+    },
+    {
+      "_id": "520ce47c-8522-4001-9d71-d972de00680b",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.376Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "520ce47c-8522-4001-9d71-d972de00680b",
+      "name": "DOE Autogenerated 43",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "QuickServiceRestaurant",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.559Z",
+      "uuid": "520ce47c-8522-4001-9d71-d972de00680b",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "QuickServiceRestaurant",
+        "btap_create_necb_prototype_building.epw_file": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "QuickServiceRestaurant",
+        "Climate File": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "id": "520ce47c-8522-4001-9d71-d972de00680b"
+    },
+    {
+      "_id": "3611064e-e6a2-47b6-bd75-a4c501de1739",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.387Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "3611064e-e6a2-47b6-bd75-a4c501de1739",
+      "name": "DOE Autogenerated 44",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "FullServiceRestaurant",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.569Z",
+      "uuid": "3611064e-e6a2-47b6-bd75-a4c501de1739",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "FullServiceRestaurant",
+        "btap_create_necb_prototype_building.epw_file": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "FullServiceRestaurant",
+        "Climate File": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "id": "3611064e-e6a2-47b6-bd75-a4c501de1739"
+    },
+    {
+      "_id": "8870cdf4-48b2-4e33-bc85-5c7a9e2e55af",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.397Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "8870cdf4-48b2-4e33-bc85-5c7a9e2e55af",
+      "name": "DOE Autogenerated 45",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "MidriseApartment",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.578Z",
+      "uuid": "8870cdf4-48b2-4e33-bc85-5c7a9e2e55af",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "MidriseApartment",
+        "btap_create_necb_prototype_building.epw_file": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "MidriseApartment",
+        "Climate File": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "id": "8870cdf4-48b2-4e33-bc85-5c7a9e2e55af"
+    },
+    {
+      "_id": "d2172d26-0329-44bb-bbdc-dd3545b194a7",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.407Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "d2172d26-0329-44bb-bbdc-dd3545b194a7",
+      "name": "DOE Autogenerated 46",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "HighriseApartment",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.588Z",
+      "uuid": "d2172d26-0329-44bb-bbdc-dd3545b194a7",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "HighriseApartment",
+        "btap_create_necb_prototype_building.epw_file": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "HighriseApartment",
+        "Climate File": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "id": "d2172d26-0329-44bb-bbdc-dd3545b194a7"
+    },
+    {
+      "_id": "ef382ad6-243e-438c-a3e2-48d1fc264cb0",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.418Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "ef382ad6-243e-438c-a3e2-48d1fc264cb0",
+      "name": "DOE Autogenerated 47",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "Hospital",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.598Z",
+      "uuid": "ef382ad6-243e-438c-a3e2-48d1fc264cb0",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "Hospital",
+        "btap_create_necb_prototype_building.epw_file": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "Hospital",
+        "Climate File": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "id": "ef382ad6-243e-438c-a3e2-48d1fc264cb0"
+    },
+    {
+      "_id": "c26d78e3-3f15-440f-be30-c3697b125c65",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.430Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "c26d78e3-3f15-440f-be30-c3697b125c65",
+      "name": "DOE Autogenerated 48",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "Outpatient",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.608Z",
+      "uuid": "c26d78e3-3f15-440f-be30-c3697b125c65",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "Outpatient",
+        "btap_create_necb_prototype_building.epw_file": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "Outpatient",
+        "Climate File": "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw"
+      },
+      "id": "c26d78e3-3f15-440f-be30-c3697b125c65"
+    },
+    {
+      "_id": "5c88f303-14aa-40f6-a217-8f459e75149b",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.440Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "5c88f303-14aa-40f6-a217-8f459e75149b",
+      "name": "DOE Autogenerated 49",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "SecondarySchool",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.618Z",
+      "uuid": "5c88f303-14aa-40f6-a217-8f459e75149b",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "SecondarySchool",
+        "btap_create_necb_prototype_building.epw_file": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "SecondarySchool",
+        "Climate File": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "id": "5c88f303-14aa-40f6-a217-8f459e75149b"
+    },
+    {
+      "_id": "b0417ce7-7740-4695-bdd3-66310c0e293d",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.450Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "b0417ce7-7740-4695-bdd3-66310c0e293d",
+      "name": "DOE Autogenerated 50",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "PrimarySchool",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.629Z",
+      "uuid": "b0417ce7-7740-4695-bdd3-66310c0e293d",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "PrimarySchool",
+        "btap_create_necb_prototype_building.epw_file": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "PrimarySchool",
+        "Climate File": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "id": "b0417ce7-7740-4695-bdd3-66310c0e293d"
+    },
+    {
+      "_id": "e762ad88-0dbc-4628-a38d-a1fc2484e43e",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.460Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "e762ad88-0dbc-4628-a38d-a1fc2484e43e",
+      "name": "DOE Autogenerated 51",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "SmallOffice",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.639Z",
+      "uuid": "e762ad88-0dbc-4628-a38d-a1fc2484e43e",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "SmallOffice",
+        "btap_create_necb_prototype_building.epw_file": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "SmallOffice",
+        "Climate File": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "id": "e762ad88-0dbc-4628-a38d-a1fc2484e43e"
+    },
+    {
+      "_id": "ab0bcd49-b10b-4ee6-8faa-f9c533be85e8",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.472Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "ab0bcd49-b10b-4ee6-8faa-f9c533be85e8",
+      "name": "DOE Autogenerated 52",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "MediumOffice",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.649Z",
+      "uuid": "ab0bcd49-b10b-4ee6-8faa-f9c533be85e8",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "MediumOffice",
+        "btap_create_necb_prototype_building.epw_file": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "MediumOffice",
+        "Climate File": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "id": "ab0bcd49-b10b-4ee6-8faa-f9c533be85e8"
+    },
+    {
+      "_id": "9405ab80-a2a5-4392-980f-89f3acd23864",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.483Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "9405ab80-a2a5-4392-980f-89f3acd23864",
+      "name": "DOE Autogenerated 53",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "LargeOffice",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.659Z",
+      "uuid": "9405ab80-a2a5-4392-980f-89f3acd23864",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "LargeOffice",
+        "btap_create_necb_prototype_building.epw_file": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "LargeOffice",
+        "Climate File": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "id": "9405ab80-a2a5-4392-980f-89f3acd23864"
+    },
+    {
+      "_id": "d3645f6f-2021-4d53-b57c-9fc033a46c35",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.493Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "d3645f6f-2021-4d53-b57c-9fc033a46c35",
+      "name": "DOE Autogenerated 54",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "SmallHotel",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.669Z",
+      "uuid": "d3645f6f-2021-4d53-b57c-9fc033a46c35",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "SmallHotel",
+        "btap_create_necb_prototype_building.epw_file": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "SmallHotel",
+        "Climate File": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "id": "d3645f6f-2021-4d53-b57c-9fc033a46c35"
+    },
+    {
+      "_id": "1ae582b5-cc45-4b99-913d-546455203a72",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.504Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "1ae582b5-cc45-4b99-913d-546455203a72",
+      "name": "DOE Autogenerated 55",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "LargeHotel",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.680Z",
+      "uuid": "1ae582b5-cc45-4b99-913d-546455203a72",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "LargeHotel",
+        "btap_create_necb_prototype_building.epw_file": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "LargeHotel",
+        "Climate File": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "id": "1ae582b5-cc45-4b99-913d-546455203a72"
+    },
+    {
+      "_id": "239cca63-3051-4096-9c4e-826460c975b9",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.515Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "239cca63-3051-4096-9c4e-826460c975b9",
+      "name": "DOE Autogenerated 56",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "Warehouse",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.690Z",
+      "uuid": "239cca63-3051-4096-9c4e-826460c975b9",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "Warehouse",
+        "btap_create_necb_prototype_building.epw_file": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "Warehouse",
+        "Climate File": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "id": "239cca63-3051-4096-9c4e-826460c975b9"
+    },
+    {
+      "_id": "e2fe4d73-1ccb-439d-8aa6-0d67b4d80123",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.526Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "e2fe4d73-1ccb-439d-8aa6-0d67b4d80123",
+      "name": "DOE Autogenerated 57",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "RetailStandalone",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.700Z",
+      "uuid": "e2fe4d73-1ccb-439d-8aa6-0d67b4d80123",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "RetailStandalone",
+        "btap_create_necb_prototype_building.epw_file": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "RetailStandalone",
+        "Climate File": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "id": "e2fe4d73-1ccb-439d-8aa6-0d67b4d80123"
+    },
+    {
+      "_id": "9342e291-8886-4b0c-a1f7-2555df837cab",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.536Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "9342e291-8886-4b0c-a1f7-2555df837cab",
+      "name": "DOE Autogenerated 58",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "RetailStripmall",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.710Z",
+      "uuid": "9342e291-8886-4b0c-a1f7-2555df837cab",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "RetailStripmall",
+        "btap_create_necb_prototype_building.epw_file": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "RetailStripmall",
+        "Climate File": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "id": "9342e291-8886-4b0c-a1f7-2555df837cab"
+    },
+    {
+      "_id": "2b0beee7-3aa8-44e7-ac7c-ce8e24e54e07",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.547Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "2b0beee7-3aa8-44e7-ac7c-ce8e24e54e07",
+      "name": "DOE Autogenerated 59",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "QuickServiceRestaurant",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.721Z",
+      "uuid": "2b0beee7-3aa8-44e7-ac7c-ce8e24e54e07",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "QuickServiceRestaurant",
+        "btap_create_necb_prototype_building.epw_file": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "QuickServiceRestaurant",
+        "Climate File": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "id": "2b0beee7-3aa8-44e7-ac7c-ce8e24e54e07"
+    },
+    {
+      "_id": "ab3ca4e7-3061-4212-bdbb-e7d83ac4aed1",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.557Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "ab3ca4e7-3061-4212-bdbb-e7d83ac4aed1",
+      "name": "DOE Autogenerated 60",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "FullServiceRestaurant",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.730Z",
+      "uuid": "ab3ca4e7-3061-4212-bdbb-e7d83ac4aed1",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "FullServiceRestaurant",
+        "btap_create_necb_prototype_building.epw_file": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "FullServiceRestaurant",
+        "Climate File": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "id": "ab3ca4e7-3061-4212-bdbb-e7d83ac4aed1"
+    },
+    {
+      "_id": "bdc33c44-5506-4724-8955-77e94b2ddb10",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.568Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "bdc33c44-5506-4724-8955-77e94b2ddb10",
+      "name": "DOE Autogenerated 61",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "MidriseApartment",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.740Z",
+      "uuid": "bdc33c44-5506-4724-8955-77e94b2ddb10",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "MidriseApartment",
+        "btap_create_necb_prototype_building.epw_file": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "MidriseApartment",
+        "Climate File": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "id": "bdc33c44-5506-4724-8955-77e94b2ddb10"
+    },
+    {
+      "_id": "39d005d3-75a1-483f-8e44-7be8a6dfddfc",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.578Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "39d005d3-75a1-483f-8e44-7be8a6dfddfc",
+      "name": "DOE Autogenerated 62",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "HighriseApartment",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.750Z",
+      "uuid": "39d005d3-75a1-483f-8e44-7be8a6dfddfc",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "HighriseApartment",
+        "btap_create_necb_prototype_building.epw_file": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "HighriseApartment",
+        "Climate File": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "id": "39d005d3-75a1-483f-8e44-7be8a6dfddfc"
+    },
+    {
+      "_id": "970a9f32-7ed8-418b-bbb8-2de5d7bc77ff",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.588Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "970a9f32-7ed8-418b-bbb8-2de5d7bc77ff",
+      "name": "DOE Autogenerated 63",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "Hospital",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.761Z",
+      "uuid": "970a9f32-7ed8-418b-bbb8-2de5d7bc77ff",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "Hospital",
+        "btap_create_necb_prototype_building.epw_file": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "Hospital",
+        "Climate File": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "id": "970a9f32-7ed8-418b-bbb8-2de5d7bc77ff"
+    },
+    {
+      "_id": "a2b46bdf-47d4-4568-b1f7-a53f0c5ec106",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.598Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "a2b46bdf-47d4-4568-b1f7-a53f0c5ec106",
+      "name": "DOE Autogenerated 64",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "Outpatient",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.771Z",
+      "uuid": "a2b46bdf-47d4-4568-b1f7-a53f0c5ec106",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "Outpatient",
+        "btap_create_necb_prototype_building.epw_file": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "Outpatient",
+        "Climate File": "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw"
+      },
+      "id": "a2b46bdf-47d4-4568-b1f7-a53f0c5ec106"
+    },
+    {
+      "_id": "20da2202-de19-49f8-aa3e-49c5a05e4c16",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.609Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "20da2202-de19-49f8-aa3e-49c5a05e4c16",
+      "name": "DOE Autogenerated 65",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "SecondarySchool",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.781Z",
+      "uuid": "20da2202-de19-49f8-aa3e-49c5a05e4c16",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "SecondarySchool",
+        "btap_create_necb_prototype_building.epw_file": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "SecondarySchool",
+        "Climate File": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "id": "20da2202-de19-49f8-aa3e-49c5a05e4c16"
+    },
+    {
+      "_id": "cbb0464d-190c-48f6-ab85-dada97fe388c",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.619Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "cbb0464d-190c-48f6-ab85-dada97fe388c",
+      "name": "DOE Autogenerated 66",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "PrimarySchool",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.791Z",
+      "uuid": "cbb0464d-190c-48f6-ab85-dada97fe388c",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "PrimarySchool",
+        "btap_create_necb_prototype_building.epw_file": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "PrimarySchool",
+        "Climate File": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "id": "cbb0464d-190c-48f6-ab85-dada97fe388c"
+    },
+    {
+      "_id": "14020097-4ce7-4eea-b7fe-44f914e612dc",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.629Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "14020097-4ce7-4eea-b7fe-44f914e612dc",
+      "name": "DOE Autogenerated 67",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "SmallOffice",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.801Z",
+      "uuid": "14020097-4ce7-4eea-b7fe-44f914e612dc",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "SmallOffice",
+        "btap_create_necb_prototype_building.epw_file": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "SmallOffice",
+        "Climate File": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "id": "14020097-4ce7-4eea-b7fe-44f914e612dc"
+    },
+    {
+      "_id": "159e751f-b852-4942-bec2-2c78179f584c",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.639Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "159e751f-b852-4942-bec2-2c78179f584c",
+      "name": "DOE Autogenerated 68",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "MediumOffice",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.811Z",
+      "uuid": "159e751f-b852-4942-bec2-2c78179f584c",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "MediumOffice",
+        "btap_create_necb_prototype_building.epw_file": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "MediumOffice",
+        "Climate File": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "id": "159e751f-b852-4942-bec2-2c78179f584c"
+    },
+    {
+      "_id": "b3561f2e-7684-4aba-9ff1-8d68f4011816",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.649Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "b3561f2e-7684-4aba-9ff1-8d68f4011816",
+      "name": "DOE Autogenerated 69",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "LargeOffice",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.821Z",
+      "uuid": "b3561f2e-7684-4aba-9ff1-8d68f4011816",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "LargeOffice",
+        "btap_create_necb_prototype_building.epw_file": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "LargeOffice",
+        "Climate File": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "id": "b3561f2e-7684-4aba-9ff1-8d68f4011816"
+    },
+    {
+      "_id": "6d237342-8f8c-4b60-98e3-686190730989",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.660Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "6d237342-8f8c-4b60-98e3-686190730989",
+      "name": "DOE Autogenerated 70",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "SmallHotel",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.830Z",
+      "uuid": "6d237342-8f8c-4b60-98e3-686190730989",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "SmallHotel",
+        "btap_create_necb_prototype_building.epw_file": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "SmallHotel",
+        "Climate File": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "id": "6d237342-8f8c-4b60-98e3-686190730989"
+    },
+    {
+      "_id": "08630b1d-c1ab-46b4-a506-0609fef59124",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.670Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "08630b1d-c1ab-46b4-a506-0609fef59124",
+      "name": "DOE Autogenerated 71",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "LargeHotel",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.841Z",
+      "uuid": "08630b1d-c1ab-46b4-a506-0609fef59124",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "LargeHotel",
+        "btap_create_necb_prototype_building.epw_file": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "LargeHotel",
+        "Climate File": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "id": "08630b1d-c1ab-46b4-a506-0609fef59124"
+    },
+    {
+      "_id": "2c2e3ac8-2e60-4730-a1c1-b1b58cad2aa7",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.680Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "2c2e3ac8-2e60-4730-a1c1-b1b58cad2aa7",
+      "name": "DOE Autogenerated 72",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "Warehouse",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.851Z",
+      "uuid": "2c2e3ac8-2e60-4730-a1c1-b1b58cad2aa7",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "Warehouse",
+        "btap_create_necb_prototype_building.epw_file": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "Warehouse",
+        "Climate File": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "id": "2c2e3ac8-2e60-4730-a1c1-b1b58cad2aa7"
+    },
+    {
+      "_id": "3bcc7cbf-39f1-4aad-92c5-9e6520b83762",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.689Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "3bcc7cbf-39f1-4aad-92c5-9e6520b83762",
+      "name": "DOE Autogenerated 73",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "RetailStandalone",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.861Z",
+      "uuid": "3bcc7cbf-39f1-4aad-92c5-9e6520b83762",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "RetailStandalone",
+        "btap_create_necb_prototype_building.epw_file": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "RetailStandalone",
+        "Climate File": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "id": "3bcc7cbf-39f1-4aad-92c5-9e6520b83762"
+    },
+    {
+      "_id": "5e2cde33-f124-4086-8fd0-35fbb82b6a76",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.699Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "5e2cde33-f124-4086-8fd0-35fbb82b6a76",
+      "name": "DOE Autogenerated 74",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "RetailStripmall",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.871Z",
+      "uuid": "5e2cde33-f124-4086-8fd0-35fbb82b6a76",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "RetailStripmall",
+        "btap_create_necb_prototype_building.epw_file": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "RetailStripmall",
+        "Climate File": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "id": "5e2cde33-f124-4086-8fd0-35fbb82b6a76"
+    },
+    {
+      "_id": "10ade909-28b9-4543-9efa-c1bad6da872b",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.708Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "10ade909-28b9-4543-9efa-c1bad6da872b",
+      "name": "DOE Autogenerated 75",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "QuickServiceRestaurant",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.881Z",
+      "uuid": "10ade909-28b9-4543-9efa-c1bad6da872b",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "QuickServiceRestaurant",
+        "btap_create_necb_prototype_building.epw_file": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "QuickServiceRestaurant",
+        "Climate File": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "id": "10ade909-28b9-4543-9efa-c1bad6da872b"
+    },
+    {
+      "_id": "679beba3-e18e-4e86-a4d1-93758ba6e25d",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.718Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "679beba3-e18e-4e86-a4d1-93758ba6e25d",
+      "name": "DOE Autogenerated 76",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "FullServiceRestaurant",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.890Z",
+      "uuid": "679beba3-e18e-4e86-a4d1-93758ba6e25d",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "FullServiceRestaurant",
+        "btap_create_necb_prototype_building.epw_file": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "FullServiceRestaurant",
+        "Climate File": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "id": "679beba3-e18e-4e86-a4d1-93758ba6e25d"
+    },
+    {
+      "_id": "8a643e3e-e154-4b4c-92c4-e66e151f8af9",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.728Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "8a643e3e-e154-4b4c-92c4-e66e151f8af9",
+      "name": "DOE Autogenerated 77",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "MidriseApartment",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.900Z",
+      "uuid": "8a643e3e-e154-4b4c-92c4-e66e151f8af9",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "MidriseApartment",
+        "btap_create_necb_prototype_building.epw_file": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "MidriseApartment",
+        "Climate File": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "id": "8a643e3e-e154-4b4c-92c4-e66e151f8af9"
+    },
+    {
+      "_id": "5e0dc11c-4802-4fc9-a573-34f5bd1e2d9c",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.738Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "5e0dc11c-4802-4fc9-a573-34f5bd1e2d9c",
+      "name": "DOE Autogenerated 78",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "HighriseApartment",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.910Z",
+      "uuid": "5e0dc11c-4802-4fc9-a573-34f5bd1e2d9c",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "HighriseApartment",
+        "btap_create_necb_prototype_building.epw_file": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "HighriseApartment",
+        "Climate File": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "id": "5e0dc11c-4802-4fc9-a573-34f5bd1e2d9c"
+    },
+    {
+      "_id": "3b1b224c-411f-47ff-8b96-d72c4fcc918c",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.747Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "3b1b224c-411f-47ff-8b96-d72c4fcc918c",
+      "name": "DOE Autogenerated 79",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "Hospital",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.919Z",
+      "uuid": "3b1b224c-411f-47ff-8b96-d72c4fcc918c",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "Hospital",
+        "btap_create_necb_prototype_building.epw_file": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "Hospital",
+        "Climate File": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "id": "3b1b224c-411f-47ff-8b96-d72c4fcc918c"
+    },
+    {
+      "_id": "91bea5ee-a718-423d-b0e6-2635d49058c7",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.757Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "91bea5ee-a718-423d-b0e6-2635d49058c7",
+      "name": "DOE Autogenerated 80",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "Outpatient",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.928Z",
+      "uuid": "91bea5ee-a718-423d-b0e6-2635d49058c7",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "Outpatient",
+        "btap_create_necb_prototype_building.epw_file": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "Outpatient",
+        "Climate File": "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw"
+      },
+      "id": "91bea5ee-a718-423d-b0e6-2635d49058c7"
+    },
+    {
+      "_id": "e7a2b474-a312-4f58-809a-520982b2a9d9",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.766Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "e7a2b474-a312-4f58-809a-520982b2a9d9",
+      "name": "DOE Autogenerated 81",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "SecondarySchool",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.937Z",
+      "uuid": "e7a2b474-a312-4f58-809a-520982b2a9d9",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "SecondarySchool",
+        "btap_create_necb_prototype_building.epw_file": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "SecondarySchool",
+        "Climate File": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "id": "e7a2b474-a312-4f58-809a-520982b2a9d9"
+    },
+    {
+      "_id": "d388604a-0c86-405c-89cf-ba9c2bad6f67",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.776Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "d388604a-0c86-405c-89cf-ba9c2bad6f67",
+      "name": "DOE Autogenerated 82",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "PrimarySchool",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.946Z",
+      "uuid": "d388604a-0c86-405c-89cf-ba9c2bad6f67",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "PrimarySchool",
+        "btap_create_necb_prototype_building.epw_file": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "PrimarySchool",
+        "Climate File": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "id": "d388604a-0c86-405c-89cf-ba9c2bad6f67"
+    },
+    {
+      "_id": "7864d0c5-dd02-46a0-ba7f-3884906a8890",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.785Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "7864d0c5-dd02-46a0-ba7f-3884906a8890",
+      "name": "DOE Autogenerated 83",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "SmallOffice",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.955Z",
+      "uuid": "7864d0c5-dd02-46a0-ba7f-3884906a8890",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "SmallOffice",
+        "btap_create_necb_prototype_building.epw_file": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "SmallOffice",
+        "Climate File": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "id": "7864d0c5-dd02-46a0-ba7f-3884906a8890"
+    },
+    {
+      "_id": "5077d82c-03ab-4417-abf0-d315dafbffa4",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.794Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "5077d82c-03ab-4417-abf0-d315dafbffa4",
+      "name": "DOE Autogenerated 84",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "MediumOffice",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.964Z",
+      "uuid": "5077d82c-03ab-4417-abf0-d315dafbffa4",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "MediumOffice",
+        "btap_create_necb_prototype_building.epw_file": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "MediumOffice",
+        "Climate File": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "id": "5077d82c-03ab-4417-abf0-d315dafbffa4"
+    },
+    {
+      "_id": "a57e8f91-6152-4ee8-973a-fedbb48bff7a",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.804Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "a57e8f91-6152-4ee8-973a-fedbb48bff7a",
+      "name": "DOE Autogenerated 85",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "LargeOffice",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.974Z",
+      "uuid": "a57e8f91-6152-4ee8-973a-fedbb48bff7a",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "LargeOffice",
+        "btap_create_necb_prototype_building.epw_file": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "LargeOffice",
+        "Climate File": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "id": "a57e8f91-6152-4ee8-973a-fedbb48bff7a"
+    },
+    {
+      "_id": "c8880b69-74a3-4c8d-b023-d4baa9ec0ff5",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.813Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "c8880b69-74a3-4c8d-b023-d4baa9ec0ff5",
+      "name": "DOE Autogenerated 86",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "SmallHotel",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.983Z",
+      "uuid": "c8880b69-74a3-4c8d-b023-d4baa9ec0ff5",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "SmallHotel",
+        "btap_create_necb_prototype_building.epw_file": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "SmallHotel",
+        "Climate File": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "id": "c8880b69-74a3-4c8d-b023-d4baa9ec0ff5"
+    },
+    {
+      "_id": "911a7dbf-c541-40ca-a890-feb8ceb3493a",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.822Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "911a7dbf-c541-40ca-a890-feb8ceb3493a",
+      "name": "DOE Autogenerated 87",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "LargeHotel",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.992Z",
+      "uuid": "911a7dbf-c541-40ca-a890-feb8ceb3493a",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "LargeHotel",
+        "btap_create_necb_prototype_building.epw_file": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "LargeHotel",
+        "Climate File": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "id": "911a7dbf-c541-40ca-a890-feb8ceb3493a"
+    },
+    {
+      "_id": "f0dfd647-d824-4e6e-9417-a456f6845507",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.832Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "f0dfd647-d824-4e6e-9417-a456f6845507",
+      "name": "DOE Autogenerated 88",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "Warehouse",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:21.001Z",
+      "uuid": "f0dfd647-d824-4e6e-9417-a456f6845507",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "Warehouse",
+        "btap_create_necb_prototype_building.epw_file": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "Warehouse",
+        "Climate File": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "id": "f0dfd647-d824-4e6e-9417-a456f6845507"
+    },
+    {
+      "_id": "ad1996f0-5382-4ac4-9eff-14eea94aa9ff",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.841Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "ad1996f0-5382-4ac4-9eff-14eea94aa9ff",
+      "name": "DOE Autogenerated 89",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "RetailStandalone",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:21.010Z",
+      "uuid": "ad1996f0-5382-4ac4-9eff-14eea94aa9ff",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "RetailStandalone",
+        "btap_create_necb_prototype_building.epw_file": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "RetailStandalone",
+        "Climate File": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "id": "ad1996f0-5382-4ac4-9eff-14eea94aa9ff"
+    },
+    {
+      "_id": "06636a44-8ffb-4b61-a64e-48717ad493cf",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.852Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "06636a44-8ffb-4b61-a64e-48717ad493cf",
+      "name": "DOE Autogenerated 90",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "RetailStripmall",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:21.019Z",
+      "uuid": "06636a44-8ffb-4b61-a64e-48717ad493cf",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "RetailStripmall",
+        "btap_create_necb_prototype_building.epw_file": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "RetailStripmall",
+        "Climate File": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "id": "06636a44-8ffb-4b61-a64e-48717ad493cf"
+    },
+    {
+      "_id": "666b1677-8e9c-45b5-8eaf-a9e59e97570f",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.861Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "666b1677-8e9c-45b5-8eaf-a9e59e97570f",
+      "name": "DOE Autogenerated 91",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "QuickServiceRestaurant",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:21.029Z",
+      "uuid": "666b1677-8e9c-45b5-8eaf-a9e59e97570f",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "QuickServiceRestaurant",
+        "btap_create_necb_prototype_building.epw_file": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "QuickServiceRestaurant",
+        "Climate File": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "id": "666b1677-8e9c-45b5-8eaf-a9e59e97570f"
+    },
+    {
+      "_id": "1b5774d5-4270-455a-b581-f64f3f5b2fc3",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.871Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "1b5774d5-4270-455a-b581-f64f3f5b2fc3",
+      "name": "DOE Autogenerated 92",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "FullServiceRestaurant",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:21.038Z",
+      "uuid": "1b5774d5-4270-455a-b581-f64f3f5b2fc3",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "FullServiceRestaurant",
+        "btap_create_necb_prototype_building.epw_file": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "FullServiceRestaurant",
+        "Climate File": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "id": "1b5774d5-4270-455a-b581-f64f3f5b2fc3"
+    },
+    {
+      "_id": "06f673a9-cb7d-4b4c-bab7-8d3ce5df0f33",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.881Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "06f673a9-cb7d-4b4c-bab7-8d3ce5df0f33",
+      "name": "DOE Autogenerated 93",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "MidriseApartment",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:21.048Z",
+      "uuid": "06f673a9-cb7d-4b4c-bab7-8d3ce5df0f33",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "MidriseApartment",
+        "btap_create_necb_prototype_building.epw_file": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "MidriseApartment",
+        "Climate File": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "id": "06f673a9-cb7d-4b4c-bab7-8d3ce5df0f33"
+    },
+    {
+      "_id": "3ad857a5-6db6-48fc-940d-e85dc0d41b9f",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.890Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "3ad857a5-6db6-48fc-940d-e85dc0d41b9f",
+      "name": "DOE Autogenerated 94",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "HighriseApartment",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:21.057Z",
+      "uuid": "3ad857a5-6db6-48fc-940d-e85dc0d41b9f",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "HighriseApartment",
+        "btap_create_necb_prototype_building.epw_file": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "HighriseApartment",
+        "Climate File": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "id": "3ad857a5-6db6-48fc-940d-e85dc0d41b9f"
+    },
+    {
+      "_id": "b60e662e-faf8-44cb-92bc-f2cf4d3fb1cb",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.900Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "b60e662e-faf8-44cb-92bc-f2cf4d3fb1cb",
+      "name": "DOE Autogenerated 95",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "Hospital",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:21.066Z",
+      "uuid": "b60e662e-faf8-44cb-92bc-f2cf4d3fb1cb",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "Hospital",
+        "btap_create_necb_prototype_building.epw_file": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "Hospital",
+        "Climate File": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "id": "b60e662e-faf8-44cb-92bc-f2cf4d3fb1cb"
+    },
+    {
+      "_id": "3a009f44-4fc5-42ec-87a0-3202dca43177",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.909Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "3a009f44-4fc5-42ec-87a0-3202dca43177",
+      "name": "DOE Autogenerated 96",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": null,
+      "run_start_time": null,
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "Outpatient",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "status": "na",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:21.075Z",
+      "uuid": "3a009f44-4fc5-42ec-87a0-3202dca43177",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "Outpatient",
+        "btap_create_necb_prototype_building.epw_file": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "Outpatient",
+        "Climate File": "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw"
+      },
+      "id": "3a009f44-4fc5-42ec-87a0-3202dca43177"
+    },
+    {
+      "_id": "249e14e4-bc95-4408-bc1f-8d75713c9762",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:18.937Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "249e14e4-bc95-4408-bc1f-8d75713c9762",
+      "name": "DOE Autogenerated 1",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": "2019-02-19T16:42:20.274+00:00",
+      "run_start_time": "2019-02-19T16:42:20.289+00:00",
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "SecondarySchool",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "status": "started",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:20.310Z",
+      "uuid": "249e14e4-bc95-4408-bc1f-8d75713c9762",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "SecondarySchool",
+        "btap_create_necb_prototype_building.epw_file": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "SecondarySchool",
+        "Climate File": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "id": "249e14e4-bc95-4408-bc1f-8d75713c9762"
+    },
+    {
+      "_id": "b90af4b3-57bd-4c02-8211-5680afe5ac1a",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:18.949Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "b90af4b3-57bd-4c02-8211-5680afe5ac1a",
+      "name": "DOE Autogenerated 2",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": "2019-02-19T16:42:21.666+00:00",
+      "run_start_time": "2019-02-19T16:42:21.682+00:00",
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "PrimarySchool",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "status": "started",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:21.722Z",
+      "uuid": "b90af4b3-57bd-4c02-8211-5680afe5ac1a",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "PrimarySchool",
+        "btap_create_necb_prototype_building.epw_file": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "PrimarySchool",
+        "Climate File": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "id": "b90af4b3-57bd-4c02-8211-5680afe5ac1a"
+    },
+    {
+      "_id": "557965a9-58a4-446b-82f5-fd75fa744931",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:18.960Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "557965a9-58a4-446b-82f5-fd75fa744931",
+      "name": "DOE Autogenerated 3",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": "2019-02-19T16:42:21.747+00:00",
+      "run_start_time": "2019-02-19T16:42:21.764+00:00",
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "SmallOffice",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "status": "started",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:21.787Z",
+      "uuid": "557965a9-58a4-446b-82f5-fd75fa744931",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "SmallOffice",
+        "btap_create_necb_prototype_building.epw_file": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "SmallOffice",
+        "Climate File": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "id": "557965a9-58a4-446b-82f5-fd75fa744931"
+    },
+    {
+      "_id": "d3e812f1-6824-4365-8a9c-8376dd9c4952",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:18.970Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "d3e812f1-6824-4365-8a9c-8376dd9c4952",
+      "name": "DOE Autogenerated 4",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": "2019-02-19T16:42:21.749+00:00",
+      "run_start_time": "2019-02-19T16:42:21.774+00:00",
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "MediumOffice",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "status": "started",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:21.798Z",
+      "uuid": "d3e812f1-6824-4365-8a9c-8376dd9c4952",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "MediumOffice",
+        "btap_create_necb_prototype_building.epw_file": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "MediumOffice",
+        "Climate File": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "id": "d3e812f1-6824-4365-8a9c-8376dd9c4952"
+    },
+    {
+      "_id": "ca8b9c5b-2ba9-44ba-b977-2fb3440aa8c8",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:18.980Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "ca8b9c5b-2ba9-44ba-b977-2fb3440aa8c8",
+      "name": "DOE Autogenerated 5",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": "2019-02-19T16:42:21.788+00:00",
+      "run_start_time": "2019-02-19T16:42:21.805+00:00",
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "LargeOffice",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "status": "started",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:21.827Z",
+      "uuid": "ca8b9c5b-2ba9-44ba-b977-2fb3440aa8c8",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "LargeOffice",
+        "btap_create_necb_prototype_building.epw_file": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "LargeOffice",
+        "Climate File": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "id": "ca8b9c5b-2ba9-44ba-b977-2fb3440aa8c8"
+    },
+    {
+      "_id": "6ab637a4-00fd-4b58-8f47-c0ea0737e68c",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:18.990Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "6ab637a4-00fd-4b58-8f47-c0ea0737e68c",
+      "name": "DOE Autogenerated 6",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": "2019-02-19T16:42:21.871+00:00",
+      "run_start_time": "2019-02-19T16:42:21.886+00:00",
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "SmallHotel",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "status": "started",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:21.907Z",
+      "uuid": "6ab637a4-00fd-4b58-8f47-c0ea0737e68c",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "SmallHotel",
+        "btap_create_necb_prototype_building.epw_file": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "SmallHotel",
+        "Climate File": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "id": "6ab637a4-00fd-4b58-8f47-c0ea0737e68c"
+    },
+    {
+      "_id": "576589de-c8ae-48e5-8774-314d1b7c2064",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.001Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "576589de-c8ae-48e5-8774-314d1b7c2064",
+      "name": "DOE Autogenerated 7",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": "2019-02-19T16:42:22.108+00:00",
+      "run_start_time": "2019-02-19T16:42:22.124+00:00",
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "LargeHotel",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "status": "started",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:22.147Z",
+      "uuid": "576589de-c8ae-48e5-8774-314d1b7c2064",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "LargeHotel",
+        "btap_create_necb_prototype_building.epw_file": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "LargeHotel",
+        "Climate File": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "id": "576589de-c8ae-48e5-8774-314d1b7c2064"
+    },
+    {
+      "_id": "e83c9320-c6a5-413a-ac67-616721f1903a",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.011Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "e83c9320-c6a5-413a-ac67-616721f1903a",
+      "name": "DOE Autogenerated 8",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": "2019-02-19T16:42:22.699+00:00",
+      "run_start_time": "2019-02-19T16:42:22.716+00:00",
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "Warehouse",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "status": "started",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:22.779Z",
+      "uuid": "e83c9320-c6a5-413a-ac67-616721f1903a",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "Warehouse",
+        "btap_create_necb_prototype_building.epw_file": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "Warehouse",
+        "Climate File": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "id": "e83c9320-c6a5-413a-ac67-616721f1903a"
+    },
+    {
+      "_id": "579072ca-6036-4a62-8eb9-67ce1f5f5ad0",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.022Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "579072ca-6036-4a62-8eb9-67ce1f5f5ad0",
+      "name": "DOE Autogenerated 9",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": "2019-02-19T16:42:23.227+00:00",
+      "run_start_time": "2019-02-19T16:42:23.280+00:00",
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "RetailStandalone",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "status": "started",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:23.338Z",
+      "uuid": "579072ca-6036-4a62-8eb9-67ce1f5f5ad0",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "RetailStandalone",
+        "btap_create_necb_prototype_building.epw_file": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "RetailStandalone",
+        "Climate File": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "id": "579072ca-6036-4a62-8eb9-67ce1f5f5ad0"
+    },
+    {
+      "_id": "d03f9e77-c6c7-40a4-a793-681c9ec8023f",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.032Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "d03f9e77-c6c7-40a4-a793-681c9ec8023f",
+      "name": "DOE Autogenerated 10",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": "2019-02-19T16:42:23.605+00:00",
+      "run_start_time": "2019-02-19T16:42:23.697+00:00",
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "RetailStripmall",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "status": "started",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:23.943Z",
+      "uuid": "d03f9e77-c6c7-40a4-a793-681c9ec8023f",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "RetailStripmall",
+        "btap_create_necb_prototype_building.epw_file": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "RetailStripmall",
+        "Climate File": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "id": "d03f9e77-c6c7-40a4-a793-681c9ec8023f"
+    },
+    {
+      "_id": "057f851c-4b08-44d2-9b02-3b103c8c6bb7",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.043Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "057f851c-4b08-44d2-9b02-3b103c8c6bb7",
+      "name": "DOE Autogenerated 11",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": "2019-02-19T16:42:24.483+00:00",
+      "run_start_time": "2019-02-19T16:42:24.773+00:00",
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "QuickServiceRestaurant",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "status": "started",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:25.013Z",
+      "uuid": "057f851c-4b08-44d2-9b02-3b103c8c6bb7",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "QuickServiceRestaurant",
+        "btap_create_necb_prototype_building.epw_file": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "QuickServiceRestaurant",
+        "Climate File": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "id": "057f851c-4b08-44d2-9b02-3b103c8c6bb7"
+    },
+    {
+      "_id": "b979b990-02c0-4c91-8086-d4be0671b31d",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.053Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "b979b990-02c0-4c91-8086-d4be0671b31d",
+      "name": "DOE Autogenerated 12",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": "2019-02-19T16:42:25.109+00:00",
+      "run_start_time": "2019-02-19T16:42:26.112+00:00",
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "FullServiceRestaurant",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "status": "started",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:26.992Z",
+      "uuid": "b979b990-02c0-4c91-8086-d4be0671b31d",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "FullServiceRestaurant",
+        "btap_create_necb_prototype_building.epw_file": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "FullServiceRestaurant",
+        "Climate File": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "id": "b979b990-02c0-4c91-8086-d4be0671b31d"
+    },
+    {
+      "_id": "9ed8e1f2-dfc1-4738-8536-d58c03b148a4",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.064Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "9ed8e1f2-dfc1-4738-8536-d58c03b148a4",
+      "name": "DOE Autogenerated 13",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": "2019-02-19T16:42:24.971+00:00",
+      "run_start_time": "2019-02-19T16:42:26.197+00:00",
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "MidriseApartment",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "status": "started",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:27.221Z",
+      "uuid": "9ed8e1f2-dfc1-4738-8536-d58c03b148a4",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "MidriseApartment",
+        "btap_create_necb_prototype_building.epw_file": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "MidriseApartment",
+        "Climate File": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "id": "9ed8e1f2-dfc1-4738-8536-d58c03b148a4"
+    },
+    {
+      "_id": "cc00dcd4-1968-4207-8554-85bc04ccba62",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.075Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "cc00dcd4-1968-4207-8554-85bc04ccba62",
+      "name": "DOE Autogenerated 14",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": "2019-02-19T16:42:24.581+00:00",
+      "run_start_time": "2019-02-19T16:42:24.912+00:00",
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "HighriseApartment",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "status": "started",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:25.063Z",
+      "uuid": "cc00dcd4-1968-4207-8554-85bc04ccba62",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "HighriseApartment",
+        "btap_create_necb_prototype_building.epw_file": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "HighriseApartment",
+        "Climate File": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "id": "cc00dcd4-1968-4207-8554-85bc04ccba62"
+    },
+    {
+      "_id": "cc2fad0b-508b-4a23-80ff-25e5fe8dc0b1",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.086Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "cc2fad0b-508b-4a23-80ff-25e5fe8dc0b1",
+      "name": "DOE Autogenerated 15",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": "2019-02-19T16:42:24.415+00:00",
+      "run_start_time": "2019-02-19T16:42:24.716+00:00",
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "Hospital",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "status": "started",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:24.911Z",
+      "uuid": "cc2fad0b-508b-4a23-80ff-25e5fe8dc0b1",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "Hospital",
+        "btap_create_necb_prototype_building.epw_file": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "Hospital",
+        "Climate File": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "id": "cc2fad0b-508b-4a23-80ff-25e5fe8dc0b1"
+    },
+    {
+      "_id": "394f4ee5-2da9-418f-8755-39dc7ebf9dbc",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.096Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "394f4ee5-2da9-418f-8755-39dc7ebf9dbc",
+      "name": "DOE Autogenerated 16",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": "2019-02-19T16:42:29.579+00:00",
+      "run_start_time": "2019-02-19T16:42:30.045+00:00",
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "Outpatient",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "status": "started",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:30.474Z",
+      "uuid": "394f4ee5-2da9-418f-8755-39dc7ebf9dbc",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "Outpatient",
+        "btap_create_necb_prototype_building.epw_file": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "Outpatient",
+        "Climate File": "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw"
+      },
+      "id": "394f4ee5-2da9-418f-8755-39dc7ebf9dbc"
+    },
+    {
+      "_id": "45a89342-76f8-4ee8-b16a-3feb55d3c906",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.106Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "45a89342-76f8-4ee8-b16a-3feb55d3c906",
+      "name": "DOE Autogenerated 17",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": "2019-02-19T16:42:29.918+00:00",
+      "run_start_time": "2019-02-19T16:42:30.383+00:00",
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "SecondarySchool",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "status": "started",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:31.054Z",
+      "uuid": "45a89342-76f8-4ee8-b16a-3feb55d3c906",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "SecondarySchool",
+        "btap_create_necb_prototype_building.epw_file": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "SecondarySchool",
+        "Climate File": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "id": "45a89342-76f8-4ee8-b16a-3feb55d3c906"
+    },
+    {
+      "_id": "ec183671-d105-4090-b1b1-96ffb6394a5e",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.117Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "ec183671-d105-4090-b1b1-96ffb6394a5e",
+      "name": "DOE Autogenerated 18",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": "2019-02-19T16:42:27.970+00:00",
+      "run_start_time": "2019-02-19T16:42:29.136+00:00",
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "PrimarySchool",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "status": "started",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:29.582Z",
+      "uuid": "ec183671-d105-4090-b1b1-96ffb6394a5e",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "PrimarySchool",
+        "btap_create_necb_prototype_building.epw_file": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "PrimarySchool",
+        "Climate File": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "id": "ec183671-d105-4090-b1b1-96ffb6394a5e"
+    },
+    {
+      "_id": "ac737bdf-5227-454f-ace4-9e5f7f483cb6",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.126Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "ac737bdf-5227-454f-ace4-9e5f7f483cb6",
+      "name": "DOE Autogenerated 19",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": "2019-02-19T16:42:31.192+00:00",
+      "run_start_time": "2019-02-19T16:42:31.605+00:00",
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "SmallOffice",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "status": "started",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:31.900Z",
+      "uuid": "ac737bdf-5227-454f-ace4-9e5f7f483cb6",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "SmallOffice",
+        "btap_create_necb_prototype_building.epw_file": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "SmallOffice",
+        "Climate File": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "id": "ac737bdf-5227-454f-ace4-9e5f7f483cb6"
+    },
+    {
+      "_id": "eb4758c3-a035-4288-9f09-84e34bbcbc4c",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.136Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "eb4758c3-a035-4288-9f09-84e34bbcbc4c",
+      "name": "DOE Autogenerated 20",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": "2019-02-19T16:42:28.512+00:00",
+      "run_start_time": "2019-02-19T16:42:32.120+00:00",
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "MediumOffice",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "status": "started",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:32.575Z",
+      "uuid": "eb4758c3-a035-4288-9f09-84e34bbcbc4c",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "MediumOffice",
+        "btap_create_necb_prototype_building.epw_file": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "MediumOffice",
+        "Climate File": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "id": "eb4758c3-a035-4288-9f09-84e34bbcbc4c"
+    },
+    {
+      "_id": "73916a84-3306-49ab-aaa5-f9d6c7ca0cd3",
+      "analysis_id": "aaac8fd6-dc1d-48dd-90bc-30034e6a0832",
+      "created_at": "2019-02-19T16:42:19.146Z",
+      "da_descriptions": [],
+      "description": "",
+      "internal_ip_address": null,
+      "ip_address": null,
+      "job_id": "73916a84-3306-49ab-aaa5-f9d6c7ca0cd3",
+      "name": "DOE Autogenerated 21",
+      "results": {},
+      "run_end_time": null,
+      "run_queue_time": "2019-02-19T16:42:29.957+00:00",
+      "run_start_time": "2019-02-19T16:42:30.383+00:00",
+      "sdp_log_file": [],
+      "seed": "",
+      "set_variable_values": {
+        "48325e7e-0e65-4fd5-b131-309cc045f02c": "LargeOffice",
+        "4b20bbca-7c23-4274-8da3-f71e68187036": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "status": "started",
+      "status_message": "",
+      "updated_at": "2019-02-19T16:42:30.730Z",
+      "uuid": "73916a84-3306-49ab-aaa5-f9d6c7ca0cd3",
+      "variable_values": null,
+      "weather_file": "",
+      "set_variable_values_names": {
+        "btap_create_necb_prototype_building.building_type": "LargeOffice",
+        "btap_create_necb_prototype_building.epw_file": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "set_variable_values_display_names": {
+        "Building Type.": "LargeOffice",
+        "Climate File": "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw"
+      },
+      "id": "73916a84-3306-49ab-aaa5-f9d6c7ca0cd3"
+    }
+  ]
+}
