@@ -1,0 +1,366 @@
+{
+  "analysis": {
+    "output_variables": [],
+    "problem": {
+      "workflow": [
+        {
+          "name": "btap_create_necb_prototype_building",
+          "display_name": "BTAPCreateNECBPrototypeBuilding",
+          "measure_type": "RubyMeasure",
+          "measure_definition_class_name": "BTAPCreateNECBPrototypeBuilding",
+          "measure_definition_directory": "./measures/btap_create_necb_prototype_building",
+          "measure_definition_directory_local": "C:\\Users\\vuonge\\Documents\\Code Document\\SC-EE\\PAT\\N2017BaseJun24-19\\measures\\btap_create_necb_prototype_building",
+          "measure_definition_display_name": "BTAPCreateNECBPrototypeBuilding",
+          "measure_definition_name": "btap_create_necb_prototype_building",
+          "measure_definition_name_xml": null,
+          "measure_definition_uuid": "3e9acd53-8602-4749-a655-7cbbe48e8b30",
+          "measure_definition_version_uuid": "922a9030-878b-47ff-8776-18fbe47bdb12",
+          "uuid": "3e9acd53-8602-4749-a655-7cbbe48e8b30",
+          "version_uuid": "922a9030-878b-47ff-8776-18fbe47bdb12",
+          "description": "This measure creates an NECB prototype building from scratch and uses it as the base for an analysis.",
+          "taxonomy": "Whole Building.Space Types",
+          "arguments": [
+            {
+              "display_name": "Template.",
+              "display_name_short": "template",
+              "name": "template",
+              "value_type": "string",
+              "default_value": "NECB2011",
+              "value": "NECB2017"
+            },
+            {
+              "display_name": "Use New Autozone method?",
+              "display_name_short": "new_auto_zoner",
+              "name": "new_auto_zoner",
+              "value_type": "boolean",
+              "default_value": false,
+              "value": true
+            },
+            {
+              "display_name": "Fenestration and Door to Wall Ratio (set a value between 0 and 1, or set to 1.1 or ignore to use NECB maximum).",
+              "display_name_short": "fdwr",
+              "name": "fdwr",
+              "value_type": "double",
+              "default_value": 1.1,
+              "value": 1.1
+            },
+            {
+              "display_name": "Skylight to Roof Ratio (set a value between 0 and 1, or set to 1.1 or ignore to use NECB maximum).",
+              "display_name_short": "srr",
+              "name": "srr",
+              "value_type": "double",
+              "default_value": 1.1,
+              "value": 1.1
+            }
+          ],
+          "variables": [
+            {
+              "argument": {
+                "display_name": "Building Type.",
+                "display_name_short": "building_type",
+                "name": "building_type",
+                "value_type": "string",
+                "default_value": "SmallOffice",
+                "value": "SmallOffice",
+                "choice_display_names": [
+                  "SecondarySchool",
+                  "PrimarySchool",
+                  "SmallOffice",
+                  "MediumOffice",
+                  "LargeOffice",
+                  "SmallHotel",
+                  "LargeHotel",
+                  "Warehouse",
+                  "RetailStandalone",
+                  "RetailStripmall",
+                  "QuickServiceRestaurant",
+                  "FullServiceRestaurant",
+                  "MidriseApartment",
+                  "HighriseApartment",
+                  "Hospital",
+                  "Outpatient"
+                ]
+              },
+              "display_name": "Building Type.",
+              "display_name_short": "building_type",
+              "variable_type": "variable",
+              "minimum": "SmallOffice",
+              "maximum": "SmallOffice",
+              "static_value": "SmallOffice",
+              "uuid": "",
+              "version_uuid": "",
+              "variable": true,
+              "uncertainty_description": {
+                "type": "discrete",
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": [
+                      {
+                        "value": "SecondarySchool",
+                        "weight": 0.06666666666666667
+                      },
+                      {
+                        "value": "PrimarySchool",
+                        "weight": 0.06666666666666667
+                      },
+                      {
+                        "value": "SmallOffice",
+                        "weight": 0.06666666666666667
+                      },
+                      {
+                        "value": "MediumOffice",
+                        "weight": 0.06666666666666667
+                      },
+                      {
+                        "value": "LargeOffice",
+                        "weight": 0.06666666666666667
+                      },
+                      {
+                        "value": "SmallHotel",
+                        "weight": 0.06666666666666667
+                      },
+                      {
+                        "value": "LargeHotel",
+                        "weight": 0.06666666666666667
+                      },
+                      {
+                        "value": "Warehouse",
+                        "weight": 0.06666666666666667
+                      },
+                      {
+                        "value": "RetailStandalone",
+                        "weight": 0.06666666666666667
+                      },
+                      {
+                        "value": "RetailStripmall",
+                        "weight": 0.06666666666666667
+                      },
+                      {
+                        "value": "QuickServiceRestaurant",
+                        "weight": 0.06666666666666667
+                      },
+                      {
+                        "value": "FullServiceRestaurant",
+                        "weight": 0.06666666666666667
+                      },
+                      {
+                        "value": "MidriseApartment",
+                        "weight": 0.06666666666666667
+                      },
+                      {
+                        "value": "HighriseApartment",
+                        "weight": 0.06666666666666667
+                      },
+                      {
+                        "value": "Hospital",
+                        "weight": 0.06666666666666667
+                      }
+                    ]
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": "SmallOffice"
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": "SmallOffice"
+                  },
+                  {
+                    "name": "modes",
+                    "value": "SmallOffice"
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": "SmallOffice"
+                  },
+                  {
+                    "name": "stddev",
+                    "value": "SmallOffice"
+                  }
+                ]
+              },
+              "workflow_index": 0
+            },
+            {
+              "argument": {
+                "display_name": "Climate File",
+                "display_name_short": "epw_file",
+                "name": "epw_file",
+                "value_type": "string",
+                "default_value": "CAN_AB_Banff.CS.711220_CWEC2016.epw",
+                "value": "CAN_AB_Banff.CS.711220_CWEC2016.epw",
+                "choice_display_names": [
+                  "CAN_AB_Banff.CS.711220_CWEC2016.epw",
+                  "CAN_AB_Calgary.Intl.AP.718770_CWEC2016.epw",
+                  "CAN_AB_Edmonton.Intl.AP.711230_CWEC2016.epw",
+                  "CAN_AB_Edmonton.Stony.Plain.AP.711270_CWEC2016.epw",
+                  "CAN_AB_Fort.McMurray.AP.716890_CWEC2016.epw",
+                  "CAN_AB_Grande.Prairie.AP.719400_CWEC2016.epw",
+                  "CAN_AB_Lethbridge.AP.712430_CWEC2016.epw",
+                  "CAN_AB_Medicine.Hat.AP.710260_CWEC2016.epw",
+                  "CAN_BC_Abbotsford.Intl.AP.711080_CWEC2016.epw",
+                  "CAN_BC_Comox.Valley.AP.718930_CWEC2016.epw",
+                  "CAN_BC_Crankbrook-Canadian.Rockies.Intl.AP.718800_CWEC2016.epw",
+                  "CAN_BC_Fort.St.John-North.Peace.Rgnl.AP.719430_CWEC2016.epw",
+                  "CAN_BC_Hope.Rgnl.Airpark.711870_CWEC2016.epw",
+                  "CAN_BC_Kamloops.AP.718870_CWEC2016.epw",
+                  "CAN_BC_Port.Hardy.AP.711090_CWEC2016.epw",
+                  "CAN_BC_Prince.George.Intl.AP.718960_CWEC2016.epw",
+                  "CAN_BC_Smithers.Rgnl.AP.719500_CWEC2016.epw",
+                  "CAN_BC_Summerland.717680_CWEC2016.epw",
+                  "CAN_BC_Vancouver.Intl.AP.718920_CWEC2016.epw",
+                  "CAN_BC_Victoria.Intl.AP.717990_CWEC2016.epw",
+                  "CAN_MB_Brandon.Muni.AP.711400_CWEC2016.epw",
+                  "CAN_MB_The.Pas.AP.718670_CWEC2016.epw",
+                  "CAN_MB_Winnipeg-Richardson.Intl.AP.718520_CWEC2016.epw",
+                  "CAN_NB_Fredericton.Intl.AP.717000_CWEC2016.epw",
+                  "CAN_NB_Miramichi.AP.717440_CWEC2016.epw",
+                  "CAN_NB_Saint.John.AP.716090_CWEC2016.epw",
+                  "CAN_NL_Gander.Intl.AP-CFB.Gander.718030_CWEC2016.epw",
+                  "CAN_NL_Goose.Bay.AP-CFB.Goose.Bay.718160_CWEC2016.epw",
+                  "CAN_NL_St.Johns.Intl.AP.718010_CWEC2016.epw",
+                  "CAN_NL_Stephenville.Intl.AP.718150_CWEC2016.epw",
+                  "CAN_NS_CFB.Greenwood.713970_CWEC2016.epw",
+                  "CAN_NS_CFB.Shearwater.716010_CWEC2016.epw",
+                  "CAN_NS_Sable.Island.Natl.Park.716000_CWEC2016.epw",
+                  "CAN_NS_Sydney-McCurdy.AP.717070_8205701_CWEC2016.epw",
+                  "CAN_NS_Truro.713980_CWEC.epw",
+                  "CAN_NT_Inuvik-Zubko.AP.719570_CWEC2016.epw",
+                  "CAN_NT_Yellowknife.AP.719360_CWEC2016.epw",
+                  "CAN_ON_Armstrong.AP.718410_CWEC2016.epw",
+                  "CAN_ON_CFB.Trenton.716210_CWEC2016.epw",
+                  "CAN_ON_Dryden.Rgnl.AP.715270_CWEC2016.epw",
+                  "CAN_ON_London.Intl.AP.716230_CWEC2016.epw",
+                  "CAN_ON_Moosonee.AP.713980_CWEC2016.epw",
+                  "CAN_ON_Mount.Forest.716310_CWEC2016.epw",
+                  "CAN_ON_North.Bay-Garland.AP.717310_CWEC2016.epw",
+                  "CAN_ON_Ottawa-Macdonald-Cartier.Intl.AP.716280_CWEC2016.epw",
+                  "CAN_ON_Sault.Ste.Marie.AP.712600_CWEC2016.epw",
+                  "CAN_ON_Timmins.Power.AP.717390_CWEC2016.epw",
+                  "CAN_ON_Toronto.Pearson.Intl.AP.716240_CWEC2016.epw",
+                  "CAN_ON_Windsor.Intl.AP.715380_CWEC2016.epw",
+                  "CAN_PE_Charlottetown.AP.717060_CWEC2016.epw",
+                  "CAN_QC_Kuujjuaq.AP.719060_CWEC2016.epw",
+                  "CAN_QC_Kuujuarapik.AP.719050_CWEC2016.epw",
+                  "CAN_QC_Lac.Eon.AP.714210_CWEC2016.epw",
+                  "CAN_QC_Mont-Joli.AP.717180_CWEC2016.epw",
+                  "CAN_QC_Montreal-Mirabel.Intl.AP.719050_CWEC2016.epw",
+                  "CAN_QC_Montreal-St-Hubert.Longueuil.AP.713710_CWEC2016.epw",
+                  "CAN_QC_Montreal-Trudeau.Intl.AP.716270_CWEC2016.epw",
+                  "CAN_QC_Quebec-Lesage.Intl.AP.717140_CWEC2016.epw",
+                  "CAN_QC_Riviere-du-Loup.717150_CWEC2016.epw",
+                  "CAN_QC_Roberval.AP.717280_CWEC2016.epw",
+                  "CAN_QC_Saguenay-Bagotville.AP-CFB.Bagotville.717270_CWEC2016.epw",
+                  "CAN_QC_Schefferville.AP.718280_CWEC2016.epw",
+                  "CAN_QC_Sept-Iles.AP.718110_CWEC2016.epw",
+                  "CAN_QC_Val-d-Or.Rgnl.AP.717250_CWEC2016.epw",
+                  "CAN_SK_Estevan.Rgnl.AP.718620_CWEC2016.epw",
+                  "CAN_SK_North.Battleford.AP.718760_CWEC2016.epw",
+                  "CAN_SK_Saskatoon.Intl.AP.718660_CWEC2016.epw",
+                  "CAN_YT_Whitehorse.Intl.AP.719640_CWEC2016.epw"
+                ]
+              },
+              "display_name": "Climate File",
+              "display_name_short": "epw_file",
+              "variable_type": "variable",
+              "minimum": "CAN_AB_Banff.CS.711220_CWEC2016.epw",
+              "maximum": "CAN_AB_Banff.CS.711220_CWEC2016.epw",
+              "static_value": "CAN_AB_Banff.CS.711220_CWEC2016.epw",
+              "uuid": "",
+              "version_uuid": "",
+              "variable": true,
+              "uncertainty_description": {
+                "type": "discrete",
+                "attributes": [
+                  {
+                    "name": "discrete",
+                    "values_and_weights": []
+                  },
+                  {
+                    "name": "lower_bounds",
+                    "value": "CAN_AB_Banff.CS.711220_CWEC2016.epw"
+                  },
+                  {
+                    "name": "upper_bounds",
+                    "value": "CAN_AB_Banff.CS.711220_CWEC2016.epw"
+                  },
+                  {
+                    "name": "modes",
+                    "value": "CAN_AB_Banff.CS.711220_CWEC2016.epw"
+                  },
+                  {
+                    "name": "delta_x",
+                    "value": "CAN_AB_Banff.CS.711220_CWEC2016.epw"
+                  },
+                  {
+                    "name": "stddev",
+                    "value": "CAN_AB_Banff.CS.711220_CWEC2016.epw"
+                  }
+                ]
+              },
+              "workflow_index": 1
+            }
+          ],
+          "workflow_index": 0
+        },
+        {
+          "name": "btap_results",
+          "display_name": "BTAP Results",
+          "measure_type": "ReportingMeasure",
+          "measure_definition_class_name": "BTAPResults",
+          "measure_definition_directory": "./measures/btap_results",
+          "measure_definition_directory_local": "C:\\Users\\vuonge\\Documents\\Code Document\\SC-EE\\PAT\\N2017BaseJun24-19\\measures\\btap_results",
+          "measure_definition_display_name": "BTAP Results",
+          "measure_definition_name": "btap_results",
+          "measure_definition_name_xml": null,
+          "measure_definition_uuid": "bf37e1c6-de70-457b-a3ac-21aa57b7bc58",
+          "measure_definition_version_uuid": "86fb174b-6040-4a41-8cbe-ab3d1551296a",
+          "uuid": "bf37e1c6-de70-457b-a3ac-21aa57b7bc58",
+          "version_uuid": "86fb174b-6040-4a41-8cbe-ab3d1551296a",
+          "description": "This measure creates BTAP result values used for NRCan analyses.",
+          "taxonomy": "Reporting.QAQC",
+          "arguments": [
+            {
+              "display_name": "Generate Hourly Report.",
+              "display_name_short": "generate_hourly_report",
+              "name": "generate_hourly_report",
+              "value_type": "string",
+              "default_value": "false",
+              "value": "false"
+            },
+            {
+              "display_name": "Reduce outputs.",
+              "display_name_short": "output_diet",
+              "name": "output_diet",
+              "value_type": "boolean",
+              "default_value": false,
+              "value": false
+            }
+          ],
+          "variables": [],
+          "workflow_index": 1
+        }
+      ],
+      "algorithm": {
+        "experiment_type": "full_factorial",
+        "number_of_samples": 2,
+        "seed": null,
+        "failed_f_value": 1000000000000000000,
+        "debug_messages": 0,
+        "objective_functions": []
+      },
+      "analysis_type": "doe"
+    },
+    "seed": {
+      "file_type": "OSM",
+      "path": "./seeds/dummy.osm"
+    },
+    "weather_file": {
+      "file_type": "EPW",
+      "path": "./weather/dummy.epw"
+    },
+    "file_format_version": 1,
+    "server_scripts": {}
+  }
+}
